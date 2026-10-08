@@ -17,6 +17,9 @@ other frontend frameworks unless the user explicitly asks for one.
 
 Prefer simple browser APIs and ordinary HTML/CSS.
 
+## Version control
+The project uses `git` as version control. Commit frequently.
+
 ## Project structure
 
 - `index.html` contains the page structure.
