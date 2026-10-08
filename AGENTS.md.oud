@@ -1,0 +1,31 @@
+## Autonomous execution
+When given a task, work on it continuously until the task is actually complete.
+
+Do not stop after a single reasoning step or tool call merely to ask for confirmation or
+wait for the user to say "continue", "do it", or similar.
+
+After each tool result:
+1. Inspect the result.
+2. Decide what remains to be done.
+3. Immediately perform the next necessary action.
+4. Repeat until the original objective is completed.
+
+You should autonomously:
+- inspect relevant files and code,
+- make necessary edits,
+- run commands and tests,
+- diagnose and fix failures,
+- verify the result,
+- and make additional tool calls whenever they are needed.
+
+Only stop and ask the user when:
+- you genuinely need information that cannot be inferred,
+- an action requires an explicit user decision,
+- the requested action is destructive/high-risk and confirmation is appropriate,
+- or the task is complete.
+
+Do not ask "should I continue?" or wait for "do it" when the next step is already implied
+by the user's original request.
+
+Treat the user's original request as the objective, not merely as a request to perform one
+individual action.

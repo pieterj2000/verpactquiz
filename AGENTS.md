@@ -1,0 +1,2 @@
+## Writing files
+Before writing a file, verify that you have not already written it. Do not repeat the exact content back to the user, unless explicitely asked for, and even then, consider using `cat` from the command line.
