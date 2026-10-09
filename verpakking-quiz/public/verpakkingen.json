@@ -5,10 +5,9 @@
     "title": "Snackbox, frietzak",
     "url": "/nl/verpakkingencatalogus/snackbox-frietzak",
     "description": "Snackbox, frietzak",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/365:nl",
@@ -16,10 +15,9 @@
     "title": "Vleeswarenbakje",
     "url": "/nl/verpakkingencatalogus/vleeswarenbakje",
     "description": "Vleeswarenbakje",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/198:nl",
@@ -27,10 +25,9 @@
     "title": "Bag in Box",
     "url": "/nl/verpakkingencatalogus/bag-box",
     "description": "Bag in Box",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/223:nl",
@@ -38,10 +35,9 @@
     "title": "Doos of zak met aluminium binnenlaag",
     "url": "/nl/verpakkingencatalogus/doos-zak-met-aluminium-binnenlaag",
     "description": "Doos of zak met aluminium binnenlaag",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/266:nl",
@@ -49,10 +45,9 @@
     "title": "Kadoverpakking",
     "url": "/nl/verpakkingencatalogus/kadoverpakking",
     "description": "Kadoverpakking",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/316:nl",
@@ -60,10 +55,9 @@
     "title": "Paprikaseal",
     "url": "/nl/verpakkingencatalogus/paprikaseal",
     "description": "Paprikaseal",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/324:nl",
@@ -71,10 +65,9 @@
     "title": "Popcornbeker",
     "url": "/nl/verpakkingencatalogus/popcornbeker",
     "description": "Popcornbeker",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/325:nl",
@@ -82,10 +75,9 @@
     "title": "Pot voor broodbeleg",
     "url": "/nl/verpakkingencatalogus/pot-voor-broodbeleg",
     "description": "Pot voor broodbeleg",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/314:nl",
@@ -93,10 +85,9 @@
     "title": "Papier op rol",
     "url": "/nl/verpakkingencatalogus/papier-op-rol",
     "description": "Papier op rol",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/370:nl",
@@ -104,10 +95,9 @@
     "title": "Wegwerpservies (verkooppunt)",
     "url": "/nl/verpakkingencatalogus/wegwerpservies-verkooppunt",
     "description": "Wegwerpservies (verkooppunt)",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/464078:nl",
@@ -115,21 +105,22 @@
     "title": "Foliezakjes met thee of koffie",
     "url": "/nl/verpakkingencatalogus/foliezakjes-met-thee-koffie",
     "description": "Foliezakjes met thee of koffie",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/353:nl",
     "nid": 353,
     "title": "Stretchfolie",
     "url": "/nl/verpakkingencatalogus/stretchfolie",
-    "description": "Stretchfolie",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "description": "Strechfolie, kunststoffolie, krimpfolie, wikkelfolie, vaak toegepast voor het omwikkelen van pallets.",
+    "paragraphs": [
+      "Strechfolie, kunststoffolie, krimpfolie, wikkelfolie, vaak toegepast voor het omwikkelen van pallets.",
+      "Strechfolie, kunststoffolie, krimpfolie, wikkelfolie, vaak toegepast voor het omwikkelen van pallets."
+    ],
+    "properties": {},
+    "rawText": "Stretchfolie\n\n \n\n \n\nPlastic\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\n\nStrechfolie, kunststoffolie, krimpfolie, wikkelfolie, vaak toegepast voor het omwikkelen van pallets.\n\n "
   },
   {
     "id": "entity:node/292:nl",
@@ -137,10 +128,13 @@
     "title": "Markeringsstift",
     "url": "/nl/verpakkingencatalogus/markeringsstift",
     "description": "Een viltstift bedoeld om teksten te markeren of voorwerpen herkenbaar te labelen.Zie ook: Schrijfstift en Niet-navulbare pen",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof"],
-    "feeLiable": false
+    "paragraphs": [
+      "Een viltstift bedoeld om teksten te markeren of voorwerpen herkenbaar te labelen.Zie ook: Schrijfstift en Niet-navulbare pen",
+      "Een viltstift bedoeld om teksten te markeren of voorwerpen herkenbaar te labelen.",
+      "Zie ook: Schrijfstift en Niet-navulbare pen"
+    ],
+    "properties": {},
+    "rawText": "Markeringsstift\nMarker, Markeerstift, Highlighter, Stift\nPlastic\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\n\nEen viltstift bedoeld om teksten te markeren of voorwerpen herkenbaar te labelen.\n\nZie ook: Schrijfstift en Niet-navulbare pen"
   },
   {
     "id": "entity:node/203:nl",
@@ -148,10 +142,11 @@
     "title": "Bandenplakset",
     "url": "/nl/verpakkingencatalogus/bandenplakset",
     "description": "Een setje met hierin alle benodigde gereedschap om een band te plakken.",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof"],
-    "feeLiable": false
+    "paragraphs": [
+      "Een setje met hierin alle benodigde gereedschap om een band te plakken."
+    ],
+    "properties": {},
+    "rawText": "Bandenplakset\nBandenreparatieset\nPlasticOverige metalen\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\nEen setje met hierin alle benodigde gereedschap om een band te plakken."
   },
   {
     "id": "entity:node/300:nl",
@@ -159,10 +154,9 @@
     "title": "Naaldendoosje",
     "url": "/nl/verpakkingencatalogus/naaldendoosje",
     "description": "Naaldendoosje",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/297:nl",
@@ -170,10 +164,9 @@
     "title": "Mierendoosje",
     "url": "/nl/verpakkingencatalogus/mierendoosje",
     "description": "Mierendoosje",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/262:nl",
@@ -181,10 +174,13 @@
     "title": "Inpakpapier los",
     "url": "/nl/verpakkingencatalogus/inpakpapier-los",
     "description": "Inpakpapier of folie apart verkocht. Let op verschillende soorten staan op de lijst verkooppuntverpakking.Zie ook: Vispapier",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof", "Papier/Karton"],
-    "feeLiable": false
+    "paragraphs": [
+      "Inpakpapier of folie apart verkocht. Let op verschillende soorten staan op de lijst verkooppuntverpakking.Zie ook: Vispapier",
+      "Inpakpapier of folie apart verkocht. Let op verschillende soorten staan op de lijst verkooppuntverpakking.",
+      "Zie ook: Vispapier"
+    ],
+    "properties": {},
+    "rawText": "Inpakpapier los\nCadeaupapier, Pakpapier\nPlasticPapier en Karton\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\n\nInpakpapier of folie apart verkocht. Let op verschillende soorten staan op de lijst verkooppuntverpakking.\n\nZie ook: Vispapier"
   },
   {
     "id": "entity:node/342:nl",
@@ -192,10 +188,13 @@
     "title": "Sieradendoos",
     "url": "/nl/verpakkingencatalogus/sieradendoos",
     "description": "Sieradendozen zijn zeer praktische voorwerpen om oorbellen, kettingen, ringen, armbanden en overige sieraden in te bewaren.Zie ook: Ringendoos en Oorbellendoos",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof", "Papier/Karton"],
-    "feeLiable": false
+    "paragraphs": [
+      "Sieradendozen zijn zeer praktische voorwerpen om oorbellen, kettingen, ringen, armbanden en overige sieraden in te bewaren.Zie ook: Ringendoos en Oorbellendoos",
+      "Sieradendozen zijn zeer praktische voorwerpen om oorbellen, kettingen, ringen, armbanden en overige sieraden in te bewaren.",
+      "Zie ook: Ringendoos en Oorbellendoos"
+    ],
+    "properties": {},
+    "rawText": "Sieradendoos\nJuwelendoos\nPlasticPapier en Karton\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\n\nSieradendozen zijn zeer praktische voorwerpen om oorbellen, kettingen, ringen, armbanden en overige sieraden in te bewaren.\n\nZie ook: Ringendoos en Oorbellendoos"
   },
   {
     "id": "entity:node/347:nl",
@@ -203,10 +202,9 @@
     "title": "Speld",
     "url": "/nl/verpakkingencatalogus/speld",
     "description": "Spelden aan een overhemd",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof"],
-    "feeLiable": false
+    "paragraphs": ["Spelden aan een overhemd"],
+    "properties": {},
+    "rawText": "Speld\nKledingspeld, Overhemdspeld\nPlasticOverige metalen\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\nSpelden aan een overhemd"
   },
   {
     "id": "entity:node/306:nl",
@@ -214,10 +212,9 @@
     "title": "Oog- of neusdruppelaar",
     "url": "/nl/verpakkingencatalogus/oog-neusdruppelaar",
     "description": "Oog- of neusdruppelaar",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/274:nl",
@@ -225,10 +222,9 @@
     "title": "Koelelement",
     "url": "/nl/verpakkingencatalogus/koelelement",
     "description": "Koelelementen (voor bijvoorbeeld een koelbox)",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof"],
-    "feeLiable": false
+    "paragraphs": ["Koelelementen (voor bijvoorbeeld een koelbox)"],
+    "properties": {},
+    "rawText": "Koelelement\nKoelpack, Ice pack\nPlastic\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\nKoelelementen (voor bijvoorbeeld een koelbox)"
   },
   {
     "id": "entity:node/194:nl",
@@ -236,10 +232,13 @@
     "title": "Aansteker",
     "url": "/nl/verpakkingencatalogus/aansteker",
     "description": "Gas, aansteekvloeistof.Zie ook: Luciferdoosje",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof"],
-    "feeLiable": false
+    "paragraphs": [
+      "Gas, aansteekvloeistof.Zie ook: Luciferdoosje",
+      "Gas, aansteekvloeistof.",
+      "Zie ook: Luciferdoosje"
+    ],
+    "properties": {},
+    "rawText": "Aansteker\nPlasticOverige metalen\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\n\nGas, aansteekvloeistof.\n\nZie ook: Luciferdoosje"
   },
   {
     "id": "entity:node/280:nl",
@@ -247,10 +246,9 @@
     "title": "Krat vanaf 8 liter",
     "url": "/nl/verpakkingencatalogus/krat-vanaf-8-liter",
     "description": "Kratten met een inhoud vanaf 8 liter",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof", "Papier/Karton", "Hout"],
-    "feeLiable": false
+    "paragraphs": ["Kratten met een inhoud vanaf 8 liter"],
+    "properties": {},
+    "rawText": "Krat vanaf 8 liter\nKrat\nPlasticPapier en KartonHout\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\nKratten met een inhoud vanaf 8 liter"
   },
   {
     "id": "entity:node/231:nl",
@@ -258,10 +256,13 @@
     "title": "Doseerdop fles",
     "url": "/nl/verpakkingencatalogus/doseerdop-fles",
     "description": "Doseerdop of bol bevestigd aan het product, in functie. Dient als versteviging van dop.Zie ook: Doseerdop en Doseerdop los",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof"],
-    "feeLiable": false
+    "paragraphs": [
+      "Doseerdop of bol bevestigd aan het product, in functie. Dient als versteviging van dop.Zie ook: Doseerdop en Doseerdop los",
+      "Doseerdop of bol bevestigd aan het product, in functie. Dient als versteviging van dop.",
+      "Zie ook: Doseerdop en Doseerdop los"
+    ],
+    "properties": {},
+    "rawText": "Doseerdop fles\nPlastic\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\n\nDoseerdop of bol bevestigd aan het product, in functie. Dient als versteviging van dop.\n\nZie ook: Doseerdop en Doseerdop los"
   },
   {
     "id": "entity:node/265:nl",
@@ -269,10 +270,11 @@
     "title": "Tie-wrap",
     "url": "/nl/verpakkingencatalogus/tie-wrap",
     "description": "Kabelbinders (samenbinden van bedrading elektronisch product).",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof"],
-    "feeLiable": false
+    "paragraphs": [
+      "Kabelbinders (samenbinden van bedrading elektronisch product)."
+    ],
+    "properties": {},
+    "rawText": "Tie-wrap\nKabelbinder, Tyrap, Ty-wrap, Tiewraps\nPlastic\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\nKabelbinders (samenbinden van bedrading elektronisch product)."
   },
   {
     "id": "entity:node/368:nl",
@@ -280,10 +282,9 @@
     "title": "Waxinecup",
     "url": "/nl/verpakkingencatalogus/waxinecup",
     "description": "Waxinelichtjes cups en lonthouder",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Metaal"],
-    "feeLiable": false
+    "paragraphs": ["Waxinelichtjes cups en lonthouder"],
+    "properties": {},
+    "rawText": "Waxinecup\nTheelichthouder, Waxinelichthouder\nAluminium\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\nWaxinelichtjes cups en lonthouder"
   },
   {
     "id": "entity:node/284:nl",
@@ -291,10 +292,13 @@
     "title": "Kunststoffolie op rol",
     "url": "/nl/verpakkingencatalogus/kunststoffolie-op-rol",
     "description": "Kunststoffolie, krimpfolie, wikkelfolie, vaak toegepast voor het omwikkelen van pallets. Op rol is alleen de rol een verpakking, De folie is pas een verpakking als deze iets verpakt, zoals bij StretchfolieZie ook Kunststoffolie om product",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof"],
-    "feeLiable": false
+    "paragraphs": [
+      "Kunststoffolie, krimpfolie, wikkelfolie, vaak toegepast voor het omwikkelen van pallets. Op rol is alleen de rol een verpakking, De folie is pas een verpakking als deze iets verpakt, zoals bij StretchfolieZie ook Kunststoffolie om product",
+      "Kunststoffolie, krimpfolie, wikkelfolie, vaak toegepast voor het omwikkelen van pallets. Op rol is alleen de rol een verpakking, De folie is pas een verpakking als deze iets verpakt, zoals bij Stretchfolie",
+      "Zie ook Kunststoffolie om product"
+    ],
+    "properties": {},
+    "rawText": "Kunststoffolie op rol\nKrimpfolie op rol, Wikkelfolie op rol\nPlastic\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\n\nKunststoffolie, krimpfolie, wikkelfolie, vaak toegepast voor het omwikkelen van pallets. Op rol is alleen de rol een verpakking, De folie is pas een verpakking als deze iets verpakt, zoals bij Stretchfolie\n\nZie ook Kunststoffolie om product"
   },
   {
     "id": "entity:node/367:nl",
@@ -302,10 +306,9 @@
     "title": "Vogelvoer",
     "url": "/nl/verpakkingencatalogus/vogelvoer",
     "description": "Vogelvoer",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/350:nl",
@@ -313,10 +316,9 @@
     "title": "Stektray",
     "url": "/nl/verpakkingencatalogus/stektray",
     "description": "Stektray",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/296:nl",
@@ -324,10 +326,9 @@
     "title": "Mechanische molen niet navulbaar",
     "url": "/nl/verpakkingencatalogus/mechanische-molen-niet-navulbaar",
     "description": "Mechanische molen niet navulbaar",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/232:nl",
@@ -335,10 +336,13 @@
     "title": "Doseerdop los",
     "url": "/nl/verpakkingencatalogus/doseerdop-los",
     "description": "Doseerdop of bol los bij het product geleverd, niet in functie van verpakking.Zie ook: Doseerdop en Doseerdop fles",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof"],
-    "feeLiable": false
+    "paragraphs": [
+      "Doseerdop of bol los bij het product geleverd, niet in functie van verpakking.Zie ook: Doseerdop en Doseerdop fles",
+      "Doseerdop of bol los bij het product geleverd, niet in functie van verpakking.",
+      "Zie ook: Doseerdop en Doseerdop fles"
+    ],
+    "properties": {},
+    "rawText": "Doseerdop los\nWasbol, Doseerbol\nPlastic\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\n\nDoseerdop of bol los bij het product geleverd, niet in functie van verpakking.\n\nZie ook: Doseerdop en Doseerdop fles"
   },
   {
     "id": "entity:node/322:nl",
@@ -346,10 +350,9 @@
     "title": "Plastic folie",
     "url": "/nl/verpakkingencatalogus/plastic-folie",
     "description": "Plastic folie",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/257:nl",
@@ -357,10 +360,9 @@
     "title": "IJslepeltje",
     "url": "/nl/verpakkingencatalogus/ijslepeltje",
     "description": "IJslepeltje",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/361:nl",
@@ -368,10 +370,9 @@
     "title": "Verfblik",
     "url": "/nl/verpakkingencatalogus/verfblik",
     "description": "Blik met hierin verf",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof", "Metaal"],
-    "feeLiable": false
+    "paragraphs": ["Blik met hierin verf"],
+    "properties": {},
+    "rawText": "Verfblik\nPlasticOverige metalen\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\nBlik met hierin verf"
   },
   {
     "id": "entity:node/330:nl",
@@ -379,10 +380,9 @@
     "title": "Rietje",
     "url": "/nl/verpakkingencatalogus/rietje",
     "description": "Rietje",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/359:nl",
@@ -390,10 +390,9 @@
     "title": "Vat voor thuistap",
     "url": "/nl/verpakkingencatalogus/vat-voor-thuistap",
     "description": "Vat voor thuistap",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/234:nl",
@@ -401,10 +400,9 @@
     "title": "Draagtas",
     "url": "/nl/verpakkingencatalogus/draagtas",
     "description": "Draagtas",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/339:nl",
@@ -412,10 +410,9 @@
     "title": "Schrijfblok",
     "url": "/nl/verpakkingencatalogus/schrijfblok",
     "description": "Schrijfblok",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/196:nl",
@@ -423,10 +420,9 @@
     "title": "Adventskalender",
     "url": "/nl/verpakkingencatalogus/adventskalender",
     "description": "Adventskalender",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/264:nl",
@@ -434,10 +430,9 @@
     "title": "Kaaskorst",
     "url": "/nl/verpakkingencatalogus/kaaskorst",
     "description": "Waslagen om kaas.",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof"],
-    "feeLiable": false
+    "paragraphs": ["Waslagen om kaas."],
+    "properties": {},
+    "rawText": "Kaaskorst\nKaaswax, Waxlaag kaas\nPlastic\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\nWaslagen om kaas."
   },
   {
     "id": "entity:node/235:nl",
@@ -445,10 +440,9 @@
     "title": "EHBO doos",
     "url": "/nl/verpakkingencatalogus/ehbo-doos",
     "description": "EHBO of verband doos met inhoud",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof"],
-    "feeLiable": false
+    "paragraphs": ["EHBO of verband doos met inhoud"],
+    "properties": {},
+    "rawText": "EHBO doos\nEerstehulpdoos, Verbanddoos\nPlastic\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\nEHBO of verband doos met inhoud"
   },
   {
     "id": "entity:node/288:nl",
@@ -456,10 +450,12 @@
     "title": "Lippenstifthouder",
     "url": "/nl/verpakkingencatalogus/lippenstifthouder",
     "description": "Zie ook: Mascaraborstel aan dop en Make-up kwast",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof"],
-    "feeLiable": false
+    "paragraphs": [
+      "Zie ook: Mascaraborstel aan dop en Make-up kwast",
+      "Zie ook: Mascaraborstel aan dop en Make-up kwast"
+    ],
+    "properties": {},
+    "rawText": "Lippenstifthouder\nPlasticOverige metalen\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\n\nZie ook: Mascaraborstel aan dop en Make-up kwast"
   },
   {
     "id": "entity:node/273:nl",
@@ -467,10 +463,13 @@
     "title": "Koekjestrommel leeg",
     "url": "/nl/verpakkingencatalogus/koekjestrommel-leeg",
     "description": "Koekjestrommel leeg verkocht.Zie ook: Koekjestrommel gevuld",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Diversen"],
-    "feeLiable": false
+    "paragraphs": [
+      "Koekjestrommel leeg verkocht.Zie ook: Koekjestrommel gevuld",
+      "Koekjestrommel leeg verkocht.",
+      "Zie ook: Koekjestrommel gevuld"
+    ],
+    "properties": {},
+    "rawText": "Koekjestrommel leeg\nOverige metalen\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\n\nKoekjestrommel leeg verkocht.\n\nZie ook: Koekjestrommel gevuld"
   },
   {
     "id": "entity:node/351:nl",
@@ -478,10 +477,11 @@
     "title": "Steriel barrieresysteem",
     "url": "/nl/verpakkingencatalogus/steriel-barrieresysteem",
     "description": "Steriele barrieresystemen (zakjes, schaaltjes en materialen die nodig zijn om een product steriel te houden)",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof", "Papier/Karton"],
-    "feeLiable": false
+    "paragraphs": [
+      "Steriele barrieresystemen (zakjes, schaaltjes en materialen die nodig zijn om een product steriel te houden)"
+    ],
+    "properties": {},
+    "rawText": "Steriel barrieresysteem\nPlasticPapier en Karton\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\nSteriele barrieresystemen (zakjes, schaaltjes en materialen die nodig zijn om een product steriel te houden)"
   },
   {
     "id": "entity:node/199:nl",
@@ -489,10 +489,13 @@
     "title": "Bakvorm gevuld",
     "url": "/nl/verpakkingencatalogus/bakvorm-gevuld",
     "description": "Papieren bakvormen voor cakes en andere voedingsmiddelen verkocht met inhoud. Denk aan muffinvorm of bakvorm op foto.Zie ook: Bakvorm leeg",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Papier/Karton"],
-    "feeLiable": false
+    "paragraphs": [
+      "Papieren bakvormen voor cakes en andere voedingsmiddelen verkocht met inhoud. Denk aan muffinvorm of bakvorm op foto.Zie ook: Bakvorm leeg",
+      "Papieren bakvormen voor cakes en andere voedingsmiddelen verkocht met inhoud. Denk aan muffinvorm of bakvorm op foto.",
+      "Zie ook: Bakvorm leeg"
+    ],
+    "properties": {},
+    "rawText": "Bakvorm gevuld\nPapier en Karton\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\n\nPapieren bakvormen voor cakes en andere voedingsmiddelen verkocht met inhoud. Denk aan muffinvorm of bakvorm op foto.\n\nZie ook: Bakvorm leeg"
   },
   {
     "id": "entity:node/352:nl",
@@ -500,10 +503,9 @@
     "title": "Sticker op fruit",
     "url": "/nl/verpakkingencatalogus/sticker-op-fruit",
     "description": "Sticker op fruit",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/213:nl",
@@ -511,10 +513,13 @@
     "title": "Brillendoos met bril",
     "url": "/nl/verpakkingencatalogus/brillendoos-met-bril",
     "description": "Doosje met inhoud van een bril.Zie ook: Brillendoos leeg",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof"],
-    "feeLiable": false
+    "paragraphs": [
+      "Doosje met inhoud van een bril.Zie ook: Brillendoos leeg",
+      "Doosje met inhoud van een bril.",
+      "Zie ook: Brillendoos leeg"
+    ],
+    "properties": {},
+    "rawText": "Brillendoos met bril\nBrillenkoker\nPlastic\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\n\nDoosje met inhoud van een bril.\n\nZie ook: Brillendoos leeg"
   },
   {
     "id": "entity:node/218:nl",
@@ -522,10 +527,13 @@
     "title": "CD Spindel met CD",
     "url": "/nl/verpakkingencatalogus/cd-spindel-met-cd",
     "description": "Verkocht met cd’s, niet bestemd voor opslag.Zie ook: CD Spindel leeg",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof"],
-    "feeLiable": false
+    "paragraphs": [
+      "Verkocht met cd’s, niet bestemd voor opslag.Zie ook: CD Spindel leeg",
+      "Verkocht met cd’s, niet bestemd voor opslag.",
+      "Zie ook: CD Spindel leeg"
+    ],
+    "properties": {},
+    "rawText": "CD Spindel met CD\nPlastic\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\n\nVerkocht met cd’s, niet bestemd voor opslag.\n\nZie ook: CD Spindel leeg"
   },
   {
     "id": "entity:node/207:nl",
@@ -533,10 +541,9 @@
     "title": "Blister",
     "url": "/nl/verpakkingencatalogus/blister",
     "description": "Blister",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/310:nl",
@@ -544,10 +551,9 @@
     "title": "Opvulmateriaal",
     "url": "/nl/verpakkingencatalogus/opvulmateriaal",
     "description": "Opvulmateriaal",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/376:nl",
@@ -555,10 +561,9 @@
     "title": "Big Shopper",
     "url": "/nl/verpakkingencatalogus/big-shopper",
     "description": "Big Shopper",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/315:nl",
@@ -566,10 +571,11 @@
     "title": "Papieren zak",
     "url": "/nl/verpakkingencatalogus/papieren-zak",
     "description": "Verpakking indien ontworpen en bedoeld om op het verkooppunt te worden gevuld zoals papieren zak of papieren draagtas kleiner of gelijk aan 30 x 50 cm. Let op komt in varianten voor op lijst verkooppuntverpakkingen.",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof", "Papier/Karton"],
-    "feeLiable": false
+    "paragraphs": [
+      "Verpakking indien ontworpen en bedoeld om op het verkooppunt te worden gevuld zoals papieren zak of papieren draagtas kleiner of gelijk aan 30 x 50 cm. Let op komt in varianten voor op lijst verkooppuntverpakkingen."
+    ],
+    "properties": {},
+    "rawText": "Papieren zak\nPapieren tas\nPlasticPapier en Karton\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\nVerpakking indien ontworpen en bedoeld om op het verkooppunt te worden gevuld zoals papieren zak of papieren draagtas kleiner of gelijk aan 30 x 50 cm. Let op komt in varianten voor op lijst verkooppuntverpakkingen."
   },
   {
     "id": "entity:node/318:nl",
@@ -577,10 +583,11 @@
     "title": "Pizzadoos",
     "url": "/nl/verpakkingencatalogus/pizzadoos",
     "description": "Verpakking indien ontworpen en bedoeld om op het verkooppunt te worden gevuld zoals pizzadozen",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Papier/Karton"],
-    "feeLiable": false
+    "paragraphs": [
+      "Verpakking indien ontworpen en bedoeld om op het verkooppunt te worden gevuld zoals pizzadozen"
+    ],
+    "properties": {},
+    "rawText": "Pizzadoos\nPapier en Karton\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\nVerpakking indien ontworpen en bedoeld om op het verkooppunt te worden gevuld zoals pizzadozen"
   },
   {
     "id": "entity:node/208:nl",
@@ -588,10 +595,9 @@
     "title": "Bloempot voor buitenplant",
     "url": "/nl/verpakkingencatalogus/bloempot-voor-buitenplant",
     "description": "Bloempot voor buitenplant",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/302:nl",
@@ -599,10 +605,12 @@
     "title": "Niet-navulbare pen",
     "url": "/nl/verpakkingencatalogus/niet-navulbare-pen",
     "description": "Zie ook: Schrijfstift en Markeringsstift",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof"],
-    "feeLiable": false
+    "paragraphs": [
+      "Zie ook: Schrijfstift en Markeringsstift",
+      "Zie ook: Schrijfstift en Markeringsstift"
+    ],
+    "properties": {},
+    "rawText": "Niet-navulbare pen\nBalpen\nPlasticOverige metalen\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\n\nZie ook: Schrijfstift en Markeringsstift"
   },
   {
     "id": "entity:node/260:nl",
@@ -610,10 +618,13 @@
     "title": "Injectiespuit",
     "url": "/nl/verpakkingencatalogus/injectiespuit",
     "description": "is een medisch instrument dat bestaat uit een kunststof of glazen cilinder met aan de ene kant de conus, dit is de tip waarop een injectienaald wordt bevestigd en aan de andere zijde een goed aansluitende plunjer, ook wel stamper of zuiger genoemd.Zie ook: Fles voor injectievloeistof",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof"],
-    "feeLiable": false
+    "paragraphs": [
+      "is een medisch instrument dat bestaat uit een kunststof of glazen cilinder met aan de ene kant de conus, dit is de tip waarop een injectienaald wordt bevestigd en aan de andere zijde een goed aansluitende plunjer, ook wel stamper of zuiger genoemd.Zie ook: Fles voor injectievloeistof",
+      "is een medisch instrument dat bestaat uit een kunststof of glazen cilinder met aan de ene kant de conus, dit is de tip waarop een injectienaald wordt bevestigd en aan de andere zijde een goed aansluitende plunjer, ook wel stamper of zuiger genoemd.",
+      "Zie ook: Fles voor injectievloeistof"
+    ],
+    "properties": {},
+    "rawText": "Injectiespuit\nSpuit\nPlastic\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\n\nis een medisch instrument dat bestaat uit een kunststof of glazen cilinder met aan de ene kant de conus, dit is de tip waarop een injectienaald wordt bevestigd en aan de andere zijde een goed aansluitende plunjer, ook wel stamper of zuiger genoemd.\n\nZie ook: Fles voor injectievloeistof"
   },
   {
     "id": "entity:node/338:nl",
@@ -621,10 +632,9 @@
     "title": "Schoenveterdoosje",
     "url": "/nl/verpakkingencatalogus/schoenveterdoosje",
     "description": "Schoenveterdoosje",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/269:nl",
@@ -632,10 +642,13 @@
     "title": "Kleerhanger bij kledingstuk",
     "url": "/nl/verpakkingencatalogus/kleerhanger-bij-kledingstuk",
     "description": "Kleerhangers verkocht met een kledingstuk.Zie ook: Kleerhanger los",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof", "Hout"],
-    "feeLiable": false
+    "paragraphs": [
+      "Kleerhangers verkocht met een kledingstuk.Zie ook: Kleerhanger los",
+      "Kleerhangers verkocht met een kledingstuk.",
+      "Zie ook: Kleerhanger los"
+    ],
+    "properties": {},
+    "rawText": "Kleerhanger bij kledingstuk\nKledinghanger, Hanger\nPlasticHoutOverige metalen\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\n\nKleerhangers verkocht met een kledingstuk.\n\nZie ook: Kleerhanger los"
   },
   {
     "id": "entity:node/354:nl",
@@ -643,10 +656,9 @@
     "title": "Tandflosdoosje",
     "url": "/nl/verpakkingencatalogus/tandflosdoosje",
     "description": "Tandflosdoosje",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/319:nl",
@@ -654,10 +666,9 @@
     "title": "Plakbandroller met plakband",
     "url": "/nl/verpakkingencatalogus/plakbandroller-met-plakband",
     "description": "Plakbandroller verkocht met plakband",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof"],
-    "feeLiable": false
+    "paragraphs": ["Plakbandroller verkocht met plakband"],
+    "properties": {},
+    "rawText": "Plakbandroller met plakband\nPLakbandhouder\nPlastic\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\nPlakbandroller verkocht met plakband"
   },
   {
     "id": "entity:node/270:nl",
@@ -665,10 +676,13 @@
     "title": "Kleerhanger los",
     "url": "/nl/verpakkingencatalogus/kleerhanger-los",
     "description": "Kleerhangers apart verkocht (zonder kledingstuk).Zie ook: Kleerhanger bij kledingstuk",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof", "Hout"],
-    "feeLiable": false
+    "paragraphs": [
+      "Kleerhangers apart verkocht (zonder kledingstuk).Zie ook: Kleerhanger bij kledingstuk",
+      "Kleerhangers apart verkocht (zonder kledingstuk).",
+      "Zie ook: Kleerhanger bij kledingstuk"
+    ],
+    "properties": {},
+    "rawText": "Kleerhanger los\nKledinghanger, Hanger\nPlasticHoutOverige metalen\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\n\nKleerhangers apart verkocht (zonder kledingstuk).\n\nZie ook: Kleerhanger bij kledingstuk"
   },
   {
     "id": "entity:node/369:nl",
@@ -676,10 +690,9 @@
     "title": "Wegwerpbestek",
     "url": "/nl/verpakkingencatalogus/wegwerpbestek",
     "description": "Wegwerpbestek",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/331:nl",
@@ -687,10 +700,9 @@
     "title": "Rijstbuidel",
     "url": "/nl/verpakkingencatalogus/rijstbuidel",
     "description": "Rijstbuidel",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/253:nl",
@@ -698,10 +710,9 @@
     "title": "Horlogedoos",
     "url": "/nl/verpakkingencatalogus/horlogedoos",
     "description": "Doosje met horloge.",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof", "Papier/Karton"],
-    "feeLiable": false
+    "paragraphs": ["Doosje met horloge."],
+    "properties": {},
+    "rawText": "Horlogedoos\nPlasticPapier en Karton\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\nDoosje met horloge."
   },
   {
     "id": "entity:node/247:nl",
@@ -709,10 +720,13 @@
     "title": "Gereedschapsdoos",
     "url": "/nl/verpakkingencatalogus/gereedschapsdoos",
     "description": "Gereedschapsdoos met bijvoorbeeld boormachine.Zie ook: Doosje met bitjes en Schroevendoosje",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof"],
-    "feeLiable": false
+    "paragraphs": [
+      "Gereedschapsdoos met bijvoorbeeld boormachine.Zie ook: Doosje met bitjes en Schroevendoosje",
+      "Gereedschapsdoos met bijvoorbeeld boormachine.",
+      "Zie ook: Doosje met bitjes en Schroevendoosje"
+    ],
+    "properties": {},
+    "rawText": "Gereedschapsdoos\nGereedschapskist, Gereedschapskoffer\nPlasticOverige metalen\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\n\nGereedschapsdoos met bijvoorbeeld boormachine.\n\nZie ook: Doosje met bitjes en Schroevendoosje"
   },
   {
     "id": "entity:node/356:nl",
@@ -720,10 +734,9 @@
     "title": "Toilettasje gevuld",
     "url": "/nl/verpakkingencatalogus/toilettasje-gevuld",
     "description": "Toilettasje gevuld",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/305:nl",
@@ -731,10 +744,9 @@
     "title": "Octabin",
     "url": "/nl/verpakkingencatalogus/octabin",
     "description": "Octabin",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/358:nl",
@@ -742,10 +754,9 @@
     "title": "Tussenplaat",
     "url": "/nl/verpakkingencatalogus/tussenplaat",
     "description": "Tussenplaat",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/237:nl",
@@ -753,10 +764,9 @@
     "title": "Emmer (vanaf 20 liter)",
     "url": "/nl/verpakkingencatalogus/emmer-vanaf-20-liter",
     "description": "Emmers met deksel met een inhoud vanaf 20 liter",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof"],
-    "feeLiable": false
+    "paragraphs": ["Emmers met deksel met een inhoud vanaf 20 liter"],
+    "properties": {},
+    "rawText": "Emmer (vanaf 20 liter)\nPlastic\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\nEmmers met deksel met een inhoud vanaf 20 liter"
   },
   {
     "id": "entity:node/344:nl",
@@ -764,10 +774,9 @@
     "title": "Snackbakje",
     "url": "/nl/verpakkingencatalogus/snackbakje",
     "description": "Snackbakje",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/216:nl",
@@ -775,10 +784,9 @@
     "title": "Capsules voor dranksysteem",
     "url": "/nl/verpakkingencatalogus/capsules-voor-dranksysteem",
     "description": "Capsules voor dranksysteem",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/336:nl",
@@ -786,10 +794,9 @@
     "title": "Satestokje, IJsstokje",
     "url": "/nl/verpakkingencatalogus/satestokje-ijsstokje",
     "description": "Satestokje, IJsstokje",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/337:nl",
@@ -797,10 +804,9 @@
     "title": "Schenktuit",
     "url": "/nl/verpakkingencatalogus/schenktuit",
     "description": "Schenktuit",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/239:nl",
@@ -808,10 +814,9 @@
     "title": "Enveloppen geadresseerd",
     "url": "/nl/verpakkingencatalogus/enveloppen-geadresseerd",
     "description": "Enveloppen geadresseerd",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/321:nl",
@@ -819,10 +824,11 @@
     "title": "Plantensubstraat",
     "url": "/nl/verpakkingencatalogus/plantensubstraat",
     "description": "Zak gevuld met substraat voor planten bedoeld en geschikt om planten in te plaatsen",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof"],
-    "feeLiable": false
+    "paragraphs": [
+      "Zak gevuld met substraat voor planten bedoeld en geschikt om planten in te plaatsen"
+    ],
+    "properties": {},
+    "rawText": "Plantensubstraat\nGroeimedium, Substraat, Potgrond, Compostzak\nPlastic\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\nZak gevuld met substraat voor planten bedoeld en geschikt om planten in te plaatsen"
   },
   {
     "id": "entity:node/464029:nl",
@@ -830,10 +836,9 @@
     "title": "Wegwerpservies (thuis)",
     "url": "/nl/verpakkingencatalogus/wegwerpservies-thuis",
     "description": "Wegwerpservies (thuis)",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/275:nl",
@@ -841,10 +846,14 @@
     "title": "Koffiepad",
     "url": "/nl/verpakkingencatalogus/koffiepad",
     "description": "Koffiepads van filterpapier die samen met het gebruikte koffieproduct worden weggegooid.Tot en met 11 augustus 2026 valt een koffiepad niet onder de definitie van verpakking. Vanaf 12 augustus 2026 verandert dit: door de inwerkingtreding van de PPWR wordt een koffiepad wel als verpakking beschouwd.Zie ook: Koffiecapsule",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Papier/Karton"],
-    "feeLiable": false
+    "paragraphs": [
+      "Koffiepads van filterpapier die samen met het gebruikte koffieproduct worden weggegooid.Tot en met 11 augustus 2026 valt een koffiepad niet onder de definitie van verpakking. Vanaf 12 augustus 2026 verandert dit: door de inwerkingtreding van de PPWR wordt een koffiepad wel als verpakking beschouwd.Zie ook: Koffiecapsule",
+      "Koffiepads van filterpapier die samen met het gebruikte koffieproduct worden weggegooid.",
+      "Tot en met 11 augustus 2026 valt een koffiepad niet onder de definitie van verpakking. Vanaf 12 augustus 2026 verandert dit: door de inwerkingtreding van de PPWR wordt een koffiepad wel als verpakking beschouwd.",
+      "Zie ook: Koffiecapsule"
+    ],
+    "properties": {},
+    "rawText": "Koffiepad\nPapier en Karton\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\n\nKoffiepads van filterpapier die samen met het gebruikte koffieproduct worden weggegooid.\n\nTot en met 11 augustus 2026 valt een koffiepad niet onder de definitie van verpakking. Vanaf 12 augustus 2026 verandert dit: door de inwerkingtreding van de PPWR wordt een koffiepad wel als verpakking beschouwd.\n\nZie ook: Koffiecapsule"
   },
   {
     "id": "entity:node/293:nl",
@@ -852,10 +861,13 @@
     "title": "Mascaraborstel aan dop",
     "url": "/nl/verpakkingencatalogus/mascaraborstel-aan-dop",
     "description": "Mascaraborstel die deel uitmaakt van de dop van een mascarahouder. Zie ook: Make-up kwast en  Lippenstifthouder",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof"],
-    "feeLiable": false
+    "paragraphs": [
+      "Mascaraborstel die deel uitmaakt van de dop van een mascarahouder. Zie ook: Make-up kwast en  Lippenstifthouder",
+      "Mascaraborstel die deel uitmaakt van de dop van een mascarahouder.",
+      "Zie ook: Make-up kwast en  Lippenstifthouder"
+    ],
+    "properties": {},
+    "rawText": "Mascaraborstel aan dop\nPlasticOverige metalen\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\n\nMascaraborstel die deel uitmaakt van de dop van een mascarahouder. \n\nZie ook: Make-up kwast en  Lippenstifthouder"
   },
   {
     "id": "entity:node/201:nl",
@@ -863,10 +875,11 @@
     "title": "Bananendoos",
     "url": "/nl/verpakkingencatalogus/bananendoos",
     "description": "Doos van stevig karton voor het transport van bananen. De bananendoos heeft een opening aan de onder- en bovenkant, die afgeschermd wordt met een stuk dun karton.",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Papier/Karton"],
-    "feeLiable": false
+    "paragraphs": [
+      "Doos van stevig karton voor het transport van bananen. De bananendoos heeft een opening aan de onder- en bovenkant, die afgeschermd wordt met een stuk dun karton."
+    ],
+    "properties": {},
+    "rawText": "Bananendoos\nPapier en Karton\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\nDoos van stevig karton voor het transport van bananen. De bananendoos heeft een opening aan de onder- en bovenkant, die afgeschermd wordt met een stuk dun karton."
   },
   {
     "id": "entity:node/245:nl",
@@ -874,10 +887,13 @@
     "title": "Gasfles (vanaf 20 liter)",
     "url": "/nl/verpakkingencatalogus/gasfles-vanaf-20-liter",
     "description": "Gasflessen met een inhoud vanaf 20 liter.Zie ook: NNavulbare stalen gasfles en Campinggas",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof"],
-    "feeLiable": false
+    "paragraphs": [
+      "Gasflessen met een inhoud vanaf 20 liter.Zie ook: NNavulbare stalen gasfles en Campinggas",
+      "Gasflessen met een inhoud vanaf 20 liter.",
+      "Zie ook: NNavulbare stalen gasfles en Campinggas"
+    ],
+    "properties": {},
+    "rawText": "Gasfles (vanaf 20 liter)\nGastank\nPlasticOverige metalen\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\n\nGasflessen met een inhoud vanaf 20 liter.\n\nZie ook: NNavulbare stalen gasfles en Campinggas"
   },
   {
     "id": "entity:node/244:nl",
@@ -885,10 +901,9 @@
     "title": "Garenklosje",
     "url": "/nl/verpakkingencatalogus/garenklosje",
     "description": "Garenklosje",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/290:nl",
@@ -896,10 +911,9 @@
     "title": "Luciferdoosje",
     "url": "/nl/verpakkingencatalogus/luciferdoosje",
     "description": "Zie ook: Aansteker",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Papier/Karton", "Hout"],
-    "feeLiable": false
+    "paragraphs": ["Zie ook: Aansteker", "Zie ook: Aansteker"],
+    "properties": {},
+    "rawText": "Luciferdoosje\nLucifers\nPapier en KartonHout\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\n\nZie ook: Aansteker"
   },
   {
     "id": "entity:node/256:nl",
@@ -907,10 +921,9 @@
     "title": "Intermediate Bulk Container (IBC)",
     "url": "/nl/verpakkingencatalogus/intermediate-bulk-container-ibc",
     "description": "Intermediate Bulk Container (IBC)",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/241:nl",
@@ -918,10 +931,9 @@
     "title": "Fles voor injectievloeistof",
     "url": "/nl/verpakkingencatalogus/fles-voor-injectievloeistof",
     "description": "Fles voor injectievloeistof",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/289:nl",
@@ -929,10 +941,9 @@
     "title": "Luchtverfrisser",
     "url": "/nl/verpakkingencatalogus/luchtverfrisser",
     "description": "Luchtverfrisser",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/217:nl",
@@ -940,10 +951,13 @@
     "title": "CD Spindel leeg",
     "url": "/nl/verpakkingencatalogus/cd-spindel-leeg",
     "description": "Verkocht zonder cd’s, bestemd voor de opslag. Zie ook: CD Spindel met CD",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof"],
-    "feeLiable": false
+    "paragraphs": [
+      "Verkocht zonder cd’s, bestemd voor de opslag. Zie ook: CD Spindel met CD",
+      "Verkocht zonder cd’s, bestemd voor de opslag.",
+      "Zie ook: CD Spindel met CD"
+    ],
+    "properties": {},
+    "rawText": "CD Spindel leeg\nPlastic\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\n\nVerkocht zonder cd’s, bestemd voor de opslag. \n\nZie ook: CD Spindel met CD"
   },
   {
     "id": "entity:node/371:nl",
@@ -951,10 +965,9 @@
     "title": "Wijndoos",
     "url": "/nl/verpakkingencatalogus/wijndoos",
     "description": "Wijndoos",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/312:nl",
@@ -962,10 +975,9 @@
     "title": "Pallet",
     "url": "/nl/verpakkingencatalogus/pallet",
     "description": "Pallet om goederen te vervoeren",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof", "Papier/Karton", "Hout"],
-    "feeLiable": false
+    "paragraphs": ["Pallet om goederen te vervoeren"],
+    "properties": {},
+    "rawText": "Pallet\nPlasticPapier en KartonHout\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\nPallet om goederen te vervoeren"
   },
   {
     "id": "entity:node/377:nl",
@@ -973,10 +985,9 @@
     "title": "Tray",
     "url": "/nl/verpakkingencatalogus/tray",
     "description": "Tray",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/197:nl",
@@ -984,10 +995,12 @@
     "title": "Aluminiumfolie (met inhoud)",
     "url": "/nl/verpakkingencatalogus/aluminiumfolie-met-inhoud",
     "description": "Zie ook Aluminiumfolie op rol",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Metaal"],
-    "feeLiable": false
+    "paragraphs": [
+      "Zie ook Aluminiumfolie op rol",
+      "Zie ook Aluminiumfolie op rol"
+    ],
+    "properties": {},
+    "rawText": "Aluminiumfolie (met inhoud)\n\n \n\n \n\nAluminium\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\n\nZie ook Aluminiumfolie op rol"
   },
   {
     "id": "entity:node/222:nl",
@@ -995,10 +1008,9 @@
     "title": "Display (als omdoos)",
     "url": "/nl/verpakkingencatalogus/display-als-omdoos",
     "description": "Display die als omdoos wordt geleverd met producten.",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof", "Papier/Karton"],
-    "feeLiable": false
+    "paragraphs": ["Display die als omdoos wordt geleverd met producten."],
+    "properties": {},
+    "rawText": "Display (als omdoos)\nVerkooprekje\nPlasticPapier en KartonOverige metalen\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\nDisplay die als omdoos wordt geleverd met producten."
   },
   {
     "id": "entity:node/317:nl",
@@ -1006,10 +1018,9 @@
     "title": "Petrischaal",
     "url": "/nl/verpakkingencatalogus/petrischaal",
     "description": "Petrischaaltje met inhoud",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof", "Glas"],
-    "feeLiable": false
+    "paragraphs": ["Petrischaaltje met inhoud"],
+    "properties": {},
+    "rawText": "Petrischaal\nKweekschaal, Kweekbodem\nPlasticGlas\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\nPetrischaaltje met inhoud"
   },
   {
     "id": "entity:node/464085:nl",
@@ -1017,10 +1028,13 @@
     "title": "Kunststoffolie om product",
     "url": "/nl/verpakkingencatalogus/kunststoffolie-om-product",
     "description": "Folie dat om een product gewikkeld zit als je het koopt, zoals om een broccoli of een broodje bij het tankstation.Zie ook Kunststoffolie op rol",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof"],
-    "feeLiable": false
+    "paragraphs": [
+      "Folie dat om een product gewikkeld zit als je het koopt, zoals om een broccoli of een broodje bij het tankstation.Zie ook Kunststoffolie op rol",
+      "Folie dat om een product gewikkeld zit als je het koopt, zoals om een broccoli of een broodje bij het tankstation.",
+      "Zie ook Kunststoffolie op rol"
+    ],
+    "properties": {},
+    "rawText": "Kunststoffolie om product\nWikkelfolie om product, Krimpfolie om product\nPlastic\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\n\nFolie dat om een product gewikkeld zit als je het koopt, zoals om een broccoli of een broodje bij het tankstation.\n\nZie ook Kunststoffolie op rol"
   },
   {
     "id": "entity:node/209:nl",
@@ -1028,10 +1042,9 @@
     "title": "Bloempot voor binnenplant",
     "url": "/nl/verpakkingencatalogus/bloempot-voor-binnenplant",
     "description": "Bloempot voor binnenplant",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/464082:nl",
@@ -1039,10 +1052,9 @@
     "title": "Pleister liners",
     "url": "/nl/verpakkingencatalogus/pleister-liners",
     "description": "Pleister liners",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/348:nl",
@@ -1050,10 +1062,9 @@
     "title": "Spellendoos",
     "url": "/nl/verpakkingencatalogus/spellendoos",
     "description": "Spellendoos",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/215:nl",
@@ -1061,10 +1072,13 @@
     "title": "Campinggas",
     "url": "/nl/verpakkingencatalogus/campinggas",
     "description": "Campinggasflessen (inhoud minder dan 20 liter).Zie ook: Navulbare stalen gasfles en Gasfles (vanaf 20 liter)",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Diversen"],
-    "feeLiable": false
+    "paragraphs": [
+      "Campinggasflessen (inhoud minder dan 20 liter).Zie ook: Navulbare stalen gasfles en Gasfles (vanaf 20 liter)",
+      "Campinggasflessen (inhoud minder dan 20 liter).",
+      "Zie ook: Navulbare stalen gasfles en Gasfles (vanaf 20 liter)"
+    ],
+    "properties": {},
+    "rawText": "Campinggas\nKampeergas\nOverige metalen\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\n\nCampinggasflessen (inhoud minder dan 20 liter).\n\nZie ook: Navulbare stalen gasfles en Gasfles (vanaf 20 liter)"
   },
   {
     "id": "entity:node/464079:nl",
@@ -1072,10 +1086,9 @@
     "title": "Worstvel",
     "url": "/nl/verpakkingencatalogus/worstvel",
     "description": "Worstvel",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/373:nl",
@@ -1083,10 +1096,9 @@
     "title": "Zwangerschapstest",
     "url": "/nl/verpakkingencatalogus/zwangerschapstest",
     "description": "Zwangerschapstest",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/212:nl",
@@ -1094,10 +1106,13 @@
     "title": "Brillendoos leeg",
     "url": "/nl/verpakkingencatalogus/brillendoos-leeg",
     "description": "Doosje apart geleverd of gekocht bij een bril (opbergfunctie).Zie ook: Brillendoos met bril",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof", "Papier/Karton"],
-    "feeLiable": false
+    "paragraphs": [
+      "Doosje apart geleverd of gekocht bij een bril (opbergfunctie).Zie ook: Brillendoos met bril",
+      "Doosje apart geleverd of gekocht bij een bril (opbergfunctie).",
+      "Zie ook: Brillendoos met bril"
+    ],
+    "properties": {},
+    "rawText": "Brillendoos leeg\nBrillenkoker\nPlasticPapier en Karton\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\n\nDoosje apart geleverd of gekocht bij een bril (opbergfunctie).\n\nZie ook: Brillendoos met bril"
   },
   {
     "id": "entity:node/205:nl",
@@ -1105,10 +1120,9 @@
     "title": "Beschermkapje scheermes",
     "url": "/nl/verpakkingencatalogus/beschermkapje-scheermes",
     "description": "Schermkapje scheermesjes",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof"],
-    "feeLiable": false
+    "paragraphs": ["Schermkapje scheermesjes"],
+    "properties": {},
+    "rawText": "Beschermkapje scheermes\nPlastic\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\nSchermkapje scheermesjes"
   },
   {
     "id": "entity:node/230:nl",
@@ -1116,10 +1130,9 @@
     "title": "Doseerdop",
     "url": "/nl/verpakkingencatalogus/doseerdop",
     "description": "Doseerdop",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/303:nl",
@@ -1127,10 +1140,9 @@
     "title": "Nietjes in een verpakking",
     "url": "/nl/verpakkingencatalogus/nietjes-een-verpakking",
     "description": "Nietjes in een verpakking",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/291:nl",
@@ -1138,10 +1150,9 @@
     "title": "Map voor briefpapier",
     "url": "/nl/verpakkingencatalogus/map-voor-briefpapier",
     "description": "Map voor briefpapier",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof", "Papier/Karton"],
-    "feeLiable": false
+    "paragraphs": ["Map voor briefpapier"],
+    "properties": {},
+    "rawText": "Map voor briefpapier\nPlasticPapier en Karton\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\nMap voor briefpapier"
   },
   {
     "id": "entity:node/464030:nl",
@@ -1149,10 +1160,9 @@
     "title": "Koffiecapsule",
     "url": "/nl/verpakkingencatalogus/koffiecapsule",
     "description": "Koffiecapsule",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/362:nl",
@@ -1160,10 +1170,9 @@
     "title": "Verfpalet",
     "url": "/nl/verpakkingencatalogus/verfpalet",
     "description": "Verfpalet",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/333:nl",
@@ -1171,10 +1180,9 @@
     "title": "Roerstaaf",
     "url": "/nl/verpakkingencatalogus/roerstaaf",
     "description": "Roerstaaf",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/268:nl",
@@ -1182,10 +1190,11 @@
     "title": "Kleefetiketten",
     "url": "/nl/verpakkingencatalogus/kleefetiketten",
     "description": "Kleefetiketten die op een ander verpakkingsartikel bevestigd zijn.",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof", "Papier/Karton"],
-    "feeLiable": false
+    "paragraphs": [
+      "Kleefetiketten die op een ander verpakkingsartikel bevestigd zijn."
+    ],
+    "properties": {},
+    "rawText": "Kleefetiketten\nPlasticPapier en Karton\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\nKleefetiketten die op een ander verpakkingsartikel bevestigd zijn."
   },
   {
     "id": "entity:node/249:nl",
@@ -1193,10 +1202,11 @@
     "title": "Glasbok",
     "url": "/nl/verpakkingencatalogus/glasbok",
     "description": "Op een glasbok worden glasplaten opgeslagen en vervoerd. Een glasblok bestaat vaak uit een houten of metalen frame waartegen het glas er schuin op wordt gezet. De onderkant van het glas leunt op een vlak of balkje, die vaak met rubber zijn bekleed.",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof", "Papier/Karton", "Glas", "Hout"],
-    "feeLiable": false
+    "paragraphs": [
+      "Op een glasbok worden glasplaten opgeslagen en vervoerd. Een glasblok bestaat vaak uit een houten of metalen frame waartegen het glas er schuin op wordt gezet. De onderkant van het glas leunt op een vlak of balkje, die vaak met rubber zijn bekleed."
+    ],
+    "properties": {},
+    "rawText": "Glasbok\nTransportbok\nPlasticPapier en KartonHoutOverige metalen\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\nOp een glasbok worden glasplaten opgeslagen en vervoerd. Een glasblok bestaat vaak uit een houten of metalen frame waartegen het glas er schuin op wordt gezet. De onderkant van het glas leunt op een vlak of balkje, die vaak met rubber zijn bekleed."
   },
   {
     "id": "entity:node/343:nl",
@@ -1204,10 +1214,9 @@
     "title": "Sinaasappelnetje",
     "url": "/nl/verpakkingencatalogus/sinaasappelnetje",
     "description": "Sinaasappelnetje",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/366:nl",
@@ -1215,10 +1224,9 @@
     "title": "Vleeswarenseal",
     "url": "/nl/verpakkingencatalogus/vleeswarenseal",
     "description": "Vleeswarenseal",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/240:nl",
@@ -1226,10 +1234,9 @@
     "title": "Enveloppen klein",
     "url": "/nl/verpakkingencatalogus/enveloppen-klein",
     "description": "Enveloppen klein",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/238:nl",
@@ -1237,10 +1244,9 @@
     "title": "Enveloppen algemene verzending ",
     "url": "/nl/verpakkingencatalogus/enveloppen-algemene-verzending",
     "description": "Enveloppen algemene verzending ",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/360:nl",
@@ -1248,10 +1254,9 @@
     "title": "Vaten (vanaf 20 liter)",
     "url": "/nl/verpakkingencatalogus/vaten-vanaf-20-liter",
     "description": "Vaten (vanaf 20 liter)",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/195:nl",
@@ -1259,10 +1264,9 @@
     "title": "Aanmaakzak",
     "url": "/nl/verpakkingencatalogus/aanmaakzak",
     "description": "Aanmaakzak",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/250:nl",
@@ -1270,10 +1274,9 @@
     "title": "Graflicht",
     "url": "/nl/verpakkingencatalogus/graflicht",
     "description": "Graflichten (recipienten voor kaarsen).",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof", "Glas"],
-    "feeLiable": false
+    "paragraphs": ["Graflichten (recipienten voor kaarsen)."],
+    "properties": {},
+    "rawText": "Graflicht\nPlasticGlasOverige metalen\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\nGraflichten (recipienten voor kaarsen)."
   },
   {
     "id": "entity:node/329:nl",
@@ -1281,10 +1284,9 @@
     "title": "RFID",
     "url": "/nl/verpakkingencatalogus/rfid",
     "description": "RFID",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/254:nl",
@@ -1292,10 +1294,9 @@
     "title": "Houten wijnkist",
     "url": "/nl/verpakkingencatalogus/houten-wijnkist",
     "description": "Houten wijnkist",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/251:nl",
@@ -1303,10 +1304,9 @@
     "title": "Krat (kleiner dan 8 liter)",
     "url": "/nl/verpakkingencatalogus/krat-kleiner-dan-8-liter",
     "description": "Krat (kleiner dan 8 liter)",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof", "Papier/Karton", "Hout"],
-    "feeLiable": false
+    "paragraphs": [],
+    "properties": {},
+    "rawText": "Krat (kleiner dan 8 liter)\nKrat\nPlasticPapier en KartonHout\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot"
   },
   {
     "id": "entity:node/327:nl",
@@ -1314,10 +1314,9 @@
     "title": "Printercartridge",
     "url": "/nl/verpakkingencatalogus/printercartridge",
     "description": "Printercartridge",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/309:nl",
@@ -1325,10 +1324,9 @@
     "title": "Pods",
     "url": "/nl/verpakkingencatalogus/pods",
     "description": "Pods",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/220:nl",
@@ -1336,10 +1334,11 @@
     "title": "Correctieroller",
     "url": "/nl/verpakkingencatalogus/correctieroller",
     "description": "Een roller die het mogelijk maakt om correcties aan te brengen in handgeschreven, getypte, gedrukte of gefotokopieerde teksten of tekeningen op papier, karton, of een andere drager",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof", "Papier/Karton"],
-    "feeLiable": false
+    "paragraphs": [
+      "Een roller die het mogelijk maakt om correcties aan te brengen in handgeschreven, getypte, gedrukte of gefotokopieerde teksten of tekeningen op papier, karton, of een andere drager"
+    ],
+    "properties": {},
+    "rawText": "Correctieroller\nTypex\nPlastic\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\nEen roller die het mogelijk maakt om correcties aan te brengen in handgeschreven, getypte, gedrukte of gefotokopieerde teksten of tekeningen op papier, karton, of een andere drager"
   },
   {
     "id": "entity:node/221:nl",
@@ -1347,10 +1346,11 @@
     "title": "Deodorantroller",
     "url": "/nl/verpakkingencatalogus/deodorantroller",
     "description": "Dit is een cosmetisch product dat op de huid aangebracht wordt om zweten tegen te gaan of de geur van zweet te verdoezelen.",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof", "Glas"],
-    "feeLiable": false
+    "paragraphs": [
+      "Dit is een cosmetisch product dat op de huid aangebracht wordt om zweten tegen te gaan of de geur van zweet te verdoezelen."
+    ],
+    "properties": {},
+    "rawText": "Deodorantroller\nDeoroller\nPlasticGlasOverige metalen\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\nDit is een cosmetisch product dat op de huid aangebracht wordt om zweten tegen te gaan of de geur van zweet te verdoezelen."
   },
   {
     "id": "entity:node/328:nl",
@@ -1358,10 +1358,9 @@
     "title": "Printerpatronen",
     "url": "/nl/verpakkingencatalogus/printerpatronen",
     "description": "Printerpatronen",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/261:nl",
@@ -1369,10 +1368,13 @@
     "title": "Vispapier",
     "url": "/nl/verpakkingencatalogus/vispapier",
     "description": "Verpakking indien ontworpen en bedoeld om op het verkooppunt te worden gevuld zoals papiervellen kleiner dan 75 x 75 cm. Let op er staan wel rollen op de lijst verkooppuntverpakking.Zie ook: Inpakpapier los",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Papier/Karton"],
-    "feeLiable": false
+    "paragraphs": [
+      "Verpakking indien ontworpen en bedoeld om op het verkooppunt te worden gevuld zoals papiervellen kleiner dan 75 x 75 cm. Let op er staan wel rollen op de lijst verkooppuntverpakking.Zie ook: Inpakpapier los",
+      "Verpakking indien ontworpen en bedoeld om op het verkooppunt te worden gevuld zoals papiervellen kleiner dan 75 x 75 cm. Let op er staan wel rollen op de lijst verkooppuntverpakking.",
+      "Zie ook: Inpakpapier los"
+    ],
+    "properties": {},
+    "rawText": "Vispapier\nKaaspapier, Krantpapier, Inpakpapier (verkooppunt)\nPapier en Karton\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\n\nVerpakking indien ontworpen en bedoeld om op het verkooppunt te worden gevuld zoals papiervellen kleiner dan 75 x 75 cm. Let op er staan wel rollen op de lijst verkooppuntverpakking.\n\nZie ook: Inpakpapier los"
   },
   {
     "id": "entity:node/340:nl",
@@ -1380,10 +1382,9 @@
     "title": "Schrijfstift",
     "url": "/nl/verpakkingencatalogus/schrijfstift",
     "description": "Schrijfstift",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/258:nl",
@@ -1391,10 +1392,9 @@
     "title": "Inbrenghuls",
     "url": "/nl/verpakkingencatalogus/inbrenghuls",
     "description": "Inbrenghuls",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/332:nl",
@@ -1402,10 +1402,9 @@
     "title": "Ringendoos",
     "url": "/nl/verpakkingencatalogus/ringendoos",
     "description": "Ringendoos",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/246:nl",
@@ -1413,10 +1412,11 @@
     "title": "Gebruiksaanwijzing",
     "url": "/nl/verpakkingencatalogus/gebruiksaanwijzing",
     "description": "een schriftelijke instructie die met een product meegeleverd wordt.",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Papier/Karton"],
-    "feeLiable": false
+    "paragraphs": [
+      "een schriftelijke instructie die met een product meegeleverd wordt."
+    ],
+    "properties": {},
+    "rawText": "Gebruiksaanwijzing\nHandleiding, Instructieboekje\nPapier en Karton\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\neen schriftelijke instructie die met een product meegeleverd wordt."
   },
   {
     "id": "entity:node/255:nl",
@@ -1424,10 +1424,9 @@
     "title": "Houtwol",
     "url": "/nl/verpakkingencatalogus/houtwol",
     "description": "Houtwol gebruikt ter bescherming van goederen.",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Hout"],
-    "feeLiable": false
+    "paragraphs": ["Houtwol gebruikt ter bescherming van goederen."],
+    "properties": {},
+    "rawText": "Houtwol\nHoutsnippers, Houtenkrullen\nHout\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\nHoutwol gebruikt ter bescherming van goederen."
   },
   {
     "id": "entity:node/281:nl",
@@ -1435,10 +1434,9 @@
     "title": "Krijtpapier",
     "url": "/nl/verpakkingencatalogus/krijtpapier",
     "description": "Papier om (biljart)krijtje",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Papier/Karton"],
-    "feeLiable": false
+    "paragraphs": ["Papier om (biljart)krijtje"],
+    "properties": {},
+    "rawText": "Krijtpapier\nPapier en Karton\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\nPapier om (biljart)krijtje"
   },
   {
     "id": "entity:node/202:nl",
@@ -1446,10 +1444,9 @@
     "title": "Band/Strap",
     "url": "/nl/verpakkingencatalogus/bandstrap",
     "description": "Straps, banden, riemen, touw om een verpakking",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof"],
-    "feeLiable": false
+    "paragraphs": ["Straps, banden, riemen, touw om een verpakking"],
+    "properties": {},
+    "rawText": "Band/Strap\nRiem, Touw, Binder\nPlasticOverige metalen\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\nStraps, banden, riemen, touw om een verpakking"
   },
   {
     "id": "entity:node/326:nl",
@@ -1457,10 +1454,9 @@
     "title": "Potlodendoosje",
     "url": "/nl/verpakkingencatalogus/potlodendoosje",
     "description": "Potlodendoosje",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/355:nl",
@@ -1468,10 +1464,9 @@
     "title": "Theezakje ",
     "url": "/nl/verpakkingencatalogus/theezakje",
     "description": "Theezakje ",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/276:nl",
@@ -1479,10 +1474,11 @@
     "title": "Koker tot 50 cm voor rol folie of papier",
     "url": "/nl/verpakkingencatalogus/koker-tot-50-cm-voor-rol-folie-papier",
     "description": "Rollen, kokers en cylinders waar omheen flexibel materiaal is gewikkeld (bijvoorbeeld kunststoffolie, aluminium, papier)",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof", "Papier/Karton", "Metaal", "Hout"],
-    "feeLiable": false
+    "paragraphs": [
+      "Rollen, kokers en cylinders waar omheen flexibel materiaal is gewikkeld (bijvoorbeeld kunststoffolie, aluminium, papier)"
+    ],
+    "properties": {},
+    "rawText": "Koker tot 50 cm voor rol folie of papier\nPlasticPapier en KartonHoutOverige materiaalsoorten\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\nRollen, kokers en cylinders waar omheen flexibel materiaal is gewikkeld (bijvoorbeeld kunststoffolie, aluminium, papier)"
   },
   {
     "id": "entity:node/298:nl",
@@ -1490,10 +1486,9 @@
     "title": "Monster parfum",
     "url": "/nl/verpakkingencatalogus/monster-parfum",
     "description": "Monster parfum",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/259:nl",
@@ -1501,10 +1496,9 @@
     "title": "Infuuszak",
     "url": "/nl/verpakkingencatalogus/infuuszak",
     "description": "Infuuszak",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/294:nl",
@@ -1512,10 +1506,12 @@
     "title": "Make-up kwast",
     "url": "/nl/verpakkingencatalogus/make-kwast",
     "description": "Zie ook: Lippenstifthouder en Mascaraborstel aan dop",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof"],
-    "feeLiable": false
+    "paragraphs": [
+      "Zie ook: Lippenstifthouder en Mascaraborstel aan dop",
+      "Zie ook: Lippenstifthouder en Mascaraborstel aan dop"
+    ],
+    "properties": {},
+    "rawText": "Make-up kwast\nPlastic\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\n\nZie ook: Lippenstifthouder en Mascaraborstel aan dop"
   },
   {
     "id": "entity:node/308:nl",
@@ -1523,10 +1519,9 @@
     "title": "Oordopdoosje",
     "url": "/nl/verpakkingencatalogus/oordopdoosje",
     "description": "Oordopdoosje",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/227:nl",
@@ -1534,10 +1529,9 @@
     "title": "Doosje met vishaken",
     "url": "/nl/verpakkingencatalogus/doosje-met-vishaken",
     "description": "Doosje met vishaken",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/341:nl",
@@ -1545,10 +1539,13 @@
     "title": "Schroevendoosje",
     "url": "/nl/verpakkingencatalogus/schroevendoosje",
     "description": "Dozen voor schroeven.Zie ook: Gereedschapsdoos & Doosje met bitjes",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof"],
-    "feeLiable": false
+    "paragraphs": [
+      "Dozen voor schroeven.Zie ook: Gereedschapsdoos & Doosje met bitjes",
+      "Dozen voor schroeven.",
+      "Zie ook: Gereedschapsdoos & Doosje met bitjes"
+    ],
+    "properties": {},
+    "rawText": "Schroevendoosje\nPlastic\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\n\nDozen voor schroeven.\n\nZie ook: Gereedschapsdoos & Doosje met bitjes"
   },
   {
     "id": "entity:node/357:nl",
@@ -1556,10 +1553,9 @@
     "title": "Tube met inhoud",
     "url": "/nl/verpakkingencatalogus/tube-met-inhoud",
     "description": "Tubes met inhoud (tandpasta, verf, etc.)",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof"],
-    "feeLiable": false
+    "paragraphs": ["Tubes met inhoud (tandpasta, verf, etc.)"],
+    "properties": {},
+    "rawText": "Tube met inhoud\nPlasticOverige metalen\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\nTubes met inhoud (tandpasta, verf, etc.)"
   },
   {
     "id": "entity:node/210:nl",
@@ -1567,10 +1563,9 @@
     "title": "Bonbondoos",
     "url": "/nl/verpakkingencatalogus/bonbondoos",
     "description": "Een doos waarin bonbons verpakt zijn.",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof", "Papier/Karton"],
-    "feeLiable": false
+    "paragraphs": ["Een doos waarin bonbons verpakt zijn."],
+    "properties": {},
+    "rawText": "Bonbondoos\nZeebanket\nPlasticPapier en Karton\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\nEen doos waarin bonbons verpakt zijn."
   },
   {
     "id": "entity:node/206:nl",
@@ -1578,10 +1573,9 @@
     "title": "Big Bag",
     "url": "/nl/verpakkingencatalogus/big-bag",
     "description": "Big Bags met een inhoud vanaf 250 liter.",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof"],
-    "feeLiable": false
+    "paragraphs": ["Big Bags met een inhoud vanaf 250 liter."],
+    "properties": {},
+    "rawText": "Big Bag\nBulkzak, Bigbag\nPlastic\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\nBig Bags met een inhoud vanaf 250 liter."
   },
   {
     "id": "entity:node/313:nl",
@@ -1589,10 +1583,9 @@
     "title": "Palletbox",
     "url": "/nl/verpakkingencatalogus/palletbox",
     "description": "Palletbox om goederen te vervoeren",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof", "Hout"],
-    "feeLiable": false
+    "paragraphs": ["Palletbox om goederen te vervoeren"],
+    "properties": {},
+    "rawText": "Palletbox\nPlasticHoutOverige metalen\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\nPalletbox om goederen te vervoeren"
   },
   {
     "id": "entity:node/346:nl",
@@ -1600,10 +1593,9 @@
     "title": "Sneeuwketting",
     "url": "/nl/verpakkingencatalogus/sneeuwketting",
     "description": "Sneeuwketting",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/283:nl",
@@ -1611,10 +1603,9 @@
     "title": "Krimphoezen voor transport",
     "url": "/nl/verpakkingencatalogus/krimphoezen-voor-transport",
     "description": "Krimphoezen om een pallet stenen",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof"],
-    "feeLiable": false
+    "paragraphs": ["Krimphoezen om een pallet stenen"],
+    "properties": {},
+    "rawText": "Krimphoezen voor transport\nPlastic\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\nKrimphoezen om een pallet stenen"
   },
   {
     "id": "entity:node/320:nl",
@@ -1622,10 +1613,9 @@
     "title": "Plaktape",
     "url": "/nl/verpakkingencatalogus/plaktape",
     "description": "Plaktapes op verpakkingen",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof"],
-    "feeLiable": false
+    "paragraphs": ["Plaktapes op verpakkingen"],
+    "properties": {},
+    "rawText": "Plaktape\nVerpakkingstape\nPlastic\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\nPlaktapes op verpakkingen"
   },
   {
     "id": "entity:node/214:nl",
@@ -1633,10 +1623,9 @@
     "title": "Broodzakje",
     "url": "/nl/verpakkingencatalogus/broodzakje",
     "description": "Broodzakje",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/233:nl",
@@ -1644,10 +1633,9 @@
     "title": "Draaghulp",
     "url": "/nl/verpakkingencatalogus/draaghulp",
     "description": "Draaghulp",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/242:nl",
@@ -1655,10 +1643,9 @@
     "title": "Flessen",
     "url": "/nl/verpakkingencatalogus/flessen",
     "description": "Flessen",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/271:nl",
@@ -1666,10 +1653,9 @@
     "title": "Koekjesdoos",
     "url": "/nl/verpakkingencatalogus/koekjesdoos",
     "description": "Koekjesdoos",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/278:nl",
@@ -1677,10 +1663,9 @@
     "title": "Kokers met inhoud",
     "url": "/nl/verpakkingencatalogus/kokers-met-inhoud",
     "description": "Kokers met inhoud",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/279:nl",
@@ -1688,10 +1673,9 @@
     "title": "Kratje (kleiner dan 8 liter) voor vervoer flessen",
     "url": "/nl/verpakkingencatalogus/kratje-kleiner-dan-8-liter-voor-vervoer-flessen",
     "description": "Kratje (kleiner dan 8 liter) voor vervoer flessen",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/363:nl",
@@ -1699,10 +1683,9 @@
     "title": "Verrassingsei",
     "url": "/nl/verpakkingencatalogus/verrassingsei",
     "description": "Verrassingsei",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/372:nl",
@@ -1710,10 +1693,9 @@
     "title": "Zuigvlies",
     "url": "/nl/verpakkingencatalogus/zuigvlies",
     "description": "Zuigvlies",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/282:nl",
@@ -1721,10 +1703,9 @@
     "title": "Krimpfolie",
     "url": "/nl/verpakkingencatalogus/krimpfolie",
     "description": "Krimpfolie",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/272:nl",
@@ -1732,10 +1713,13 @@
     "title": "Koekjestrommel gevuld",
     "url": "/nl/verpakkingencatalogus/koekjestrommel-gevuld",
     "description": "Koekjestrommel verkocht met inhoud.Zie ook: Koekjestrommel leeg",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof"],
-    "feeLiable": false
+    "paragraphs": [
+      "Koekjestrommel verkocht met inhoud.Zie ook: Koekjestrommel leeg",
+      "Koekjestrommel verkocht met inhoud.",
+      "Zie ook: Koekjestrommel leeg"
+    ],
+    "properties": {},
+    "rawText": "Koekjestrommel gevuld\nPlasticOverige metalen\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\n\nKoekjestrommel verkocht met inhoud.\n\nZie ook: Koekjestrommel leeg"
   },
   {
     "id": "entity:node/211:nl",
@@ -1743,10 +1727,9 @@
     "title": "Brandpastakuipje",
     "url": "/nl/verpakkingencatalogus/brandpastakuipje",
     "description": "Een warmhoud kuipje voor gerechten.",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof", "Metaal"],
-    "feeLiable": false
+    "paragraphs": ["Een warmhoud kuipje voor gerechten."],
+    "properties": {},
+    "rawText": "Brandpastakuipje\nPlasticAluminium\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\nEen warmhoud kuipje voor gerechten."
   },
   {
     "id": "entity:node/263:nl",
@@ -1754,10 +1737,9 @@
     "title": "Jerrycan (vanaf 20 liter)",
     "url": "/nl/verpakkingencatalogus/jerrycan-vanaf-20-liter",
     "description": "Jerrycan (vanaf 20 liter)",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/236:nl",
@@ -1765,10 +1747,11 @@
     "title": "Eierdoos",
     "url": "/nl/verpakkingencatalogus/eierdoos",
     "description": "Een doos bedoeld om verse eieren te transporteren en in de winkel op de schappen te plaatsen. De doos is zo gevormd dat de eieren tijdens transport niet met elkaar in aanraking kunnen komen.",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof", "Papier/Karton"],
-    "feeLiable": false
+    "paragraphs": [
+      "Een doos bedoeld om verse eieren te transporteren en in de winkel op de schappen te plaatsen. De doos is zo gevormd dat de eieren tijdens transport niet met elkaar in aanraking kunnen komen."
+    ],
+    "properties": {},
+    "rawText": "Eierdoos\nPlasticPapier en Karton\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\nEen doos bedoeld om verse eieren te transporteren en in de winkel op de schappen te plaatsen. De doos is zo gevormd dat de eieren tijdens transport niet met elkaar in aanraking kunnen komen."
   },
   {
     "id": "entity:node/224:nl",
@@ -1776,10 +1759,9 @@
     "title": "Doos vanaf 1m3 inhoudsmaat",
     "url": "/nl/verpakkingencatalogus/doos-vanaf-1m3-inhoudsmaat",
     "description": "Doos vanaf 1m3 inhoudsmaat",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/285:nl",
@@ -1787,10 +1769,9 @@
     "title": "Label",
     "url": "/nl/verpakkingencatalogus/label",
     "description": "Labels die aan het product hangen of eraan bevestigd zijn",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof", "Papier/Karton"],
-    "feeLiable": false
+    "paragraphs": ["Labels die aan het product hangen of eraan bevestigd zijn"],
+    "properties": {},
+    "rawText": "Label\nKaartje, Etiket\nPlasticPapier en Karton\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\nLabels die aan het product hangen of eraan bevestigd zijn"
   },
   {
     "id": "entity:node/219:nl",
@@ -1798,10 +1779,11 @@
     "title": "Champignonbakje",
     "url": "/nl/verpakkingencatalogus/champignonbakje",
     "description": "Een kunststof bakje om diverse groente in te bewaren zoals champignons.",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof"],
-    "feeLiable": false
+    "paragraphs": [
+      "Een kunststof bakje om diverse groente in te bewaren zoals champignons."
+    ],
+    "properties": {},
+    "rawText": "Champignonbakje\nChampignondoosje\nPlastic\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\nEen kunststof bakje om diverse groente in te bewaren zoals champignons."
   },
   {
     "id": "entity:node/299:nl",
@@ -1809,10 +1791,9 @@
     "title": "Mosterdglas",
     "url": "/nl/verpakkingencatalogus/mosterdglas",
     "description": "Mosterdglas",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/464028:nl",
@@ -1820,10 +1801,13 @@
     "title": "Aluminiumfolie op rol",
     "url": "/nl/verpakkingencatalogus/aluminiumfolie-op-rol",
     "description": "De rol en het doosje zijn verpakkingen. De folie is pas een verpakking als er iets in verpakt wordt.Zie ook Aluminiumfolie (met inhoud)",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Papier/Karton", "Metaal"],
-    "feeLiable": false
+    "paragraphs": [
+      "De rol en het doosje zijn verpakkingen. De folie is pas een verpakking als er iets in verpakt wordt.Zie ook Aluminiumfolie (met inhoud)",
+      "De rol en het doosje zijn verpakkingen. De folie is pas een verpakking als er iets in verpakt wordt.",
+      "Zie ook Aluminiumfolie (met inhoud)"
+    ],
+    "properties": {},
+    "rawText": "Aluminiumfolie op rol\n\n \n\n \n\nPapier en KartonAluminium\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\n\nDe rol en het doosje zijn verpakkingen. De folie is pas een verpakking als er iets in verpakt wordt.\n\nZie ook Aluminiumfolie (met inhoud)"
   },
   {
     "id": "entity:node/374:nl",
@@ -1831,10 +1815,9 @@
     "title": "Geurstokjes",
     "url": "/nl/verpakkingencatalogus/geurstokjes",
     "description": "Geurstokjes",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/248:nl",
@@ -1842,10 +1825,13 @@
     "title": "Geurolieflesje",
     "url": "/nl/verpakkingencatalogus/geurolieflesje",
     "description": "Een fles om geurolie in te bewaren.Zie ook: Geurstokjes",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof", "Glas"],
-    "feeLiable": false
+    "paragraphs": [
+      "Een fles om geurolie in te bewaren.Zie ook: Geurstokjes",
+      "Een fles om geurolie in te bewaren.",
+      "Zie ook: Geurstokjes"
+    ],
+    "properties": {},
+    "rawText": "Geurolieflesje\nGeurflesje\nPlasticGlas\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\n\nEen fles om geurolie in te bewaren.\n\nZie ook: Geurstokjes"
   },
   {
     "id": "entity:node/286:nl",
@@ -1853,10 +1839,9 @@
     "title": "Lenzendoosje",
     "url": "/nl/verpakkingencatalogus/lenzendoosje",
     "description": "Lenzendoosje/kokertje geleverd zonder lenzen",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof"],
-    "feeLiable": false
+    "paragraphs": ["Lenzendoosje/kokertje geleverd zonder lenzen"],
+    "properties": {},
+    "rawText": "Lenzendoosje\nLensdoosje\nPlastic\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\nLenzendoosje/kokertje geleverd zonder lenzen"
   },
   {
     "id": "entity:node/304:nl",
@@ -1864,10 +1849,9 @@
     "title": "Noppenfolie om een product",
     "url": "/nl/verpakkingencatalogus/noppenfolie-om-een-product",
     "description": "Noppenfolie om een product",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/267:nl",
@@ -1875,10 +1859,11 @@
     "title": "Kledinghoes (stomerij)",
     "url": "/nl/verpakkingencatalogus/kledinghoes-stomerij",
     "description": "Verpakking indien ontworpen en bedoeld om op het verkooppunt te worden gevuld zoals Kunststof folie ter bescherming van gereinigde kleding in wasserijen",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof", "Hout"],
-    "feeLiable": false
+    "paragraphs": [
+      "Verpakking indien ontworpen en bedoeld om op het verkooppunt te worden gevuld zoals Kunststof folie ter bescherming van gereinigde kleding in wasserijen"
+    ],
+    "properties": {},
+    "rawText": "Kledinghoes (stomerij)\nStomerijhoes\nPlasticHoutOverige metalen\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\nVerpakking indien ontworpen en bedoeld om op het verkooppunt te worden gevuld zoals Kunststof folie ter bescherming van gereinigde kleding in wasserijen"
   },
   {
     "id": "entity:node/204:nl",
@@ -1886,10 +1871,11 @@
     "title": "Bellenblaassetje",
     "url": "/nl/verpakkingencatalogus/bellenblaassetje",
     "description": "Speelgoed om bellen te maken door te blazen in een pijpje met zeepsop.",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof"],
-    "feeLiable": false
+    "paragraphs": [
+      "Speelgoed om bellen te maken door te blazen in een pijpje met zeepsop."
+    ],
+    "properties": {},
+    "rawText": "Bellenblaassetje\nPlastic\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\nSpeelgoed om bellen te maken door te blazen in een pijpje met zeepsop."
   },
   {
     "id": "entity:node/243:nl",
@@ -1897,10 +1883,9 @@
     "title": "Fotorolletje",
     "url": "/nl/verpakkingencatalogus/fotorolletje",
     "description": "Film of fotorolletje",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof"],
-    "feeLiable": false
+    "paragraphs": ["Film of fotorolletje"],
+    "properties": {},
+    "rawText": "Fotorolletje\nCamerarolletje\nPlastic\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\nFilm of fotorolletje"
   },
   {
     "id": "entity:node/228:nl",
@@ -1908,10 +1893,9 @@
     "title": "Doosje nietjes",
     "url": "/nl/verpakkingencatalogus/doosje-nietjes",
     "description": "Doosje met nieten voor gebruik in een nietmachine",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Papier/Karton"],
-    "feeLiable": false
+    "paragraphs": ["Doosje met nieten voor gebruik in een nietmachine"],
+    "properties": {},
+    "rawText": "Doosje nietjes\nPapier en Karton\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\nDoosje met nieten voor gebruik in een nietmachine"
   },
   {
     "id": "entity:node/335:nl",
@@ -1919,10 +1903,9 @@
     "title": "Rolmaat",
     "url": "/nl/verpakkingencatalogus/rolmaat",
     "description": "Rolmaat",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/295:nl",
@@ -1930,10 +1913,13 @@
     "title": "Mechanische molen navulbaar",
     "url": "/nl/verpakkingencatalogus/mechanische-molen-navulbaar",
     "description": "Mechanische molen (geintegreerd in een navulbaar recipient bijvoorbeeld navulbare pepermolen).Zie ook: Mechanische molen niet navulbaar",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof", "Glas"],
-    "feeLiable": false
+    "paragraphs": [
+      "Mechanische molen (geintegreerd in een navulbaar recipient bijvoorbeeld navulbare pepermolen).Zie ook: Mechanische molen niet navulbaar",
+      "Mechanische molen (geintegreerd in een navulbaar recipient bijvoorbeeld navulbare pepermolen).",
+      "Zie ook: Mechanische molen niet navulbaar"
+    ],
+    "properties": {},
+    "rawText": "Mechanische molen navulbaar\nPepermolen, Zoutmolen\nPlasticGlasOverige metalen\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\n\nMechanische molen (geintegreerd in een navulbaar recipient bijvoorbeeld navulbare pepermolen).\n\nZie ook: Mechanische molen niet navulbaar"
   },
   {
     "id": "entity:node/301:nl",
@@ -1941,10 +1927,9 @@
     "title": "Navulbare stalen gasfles",
     "url": "/nl/verpakkingencatalogus/navulbare-stalen-gasfles",
     "description": "Navulbare stalen gasfles",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/464084:nl",
@@ -1952,10 +1937,9 @@
     "title": "Etiket op rol",
     "url": "/nl/verpakkingencatalogus/etiket-op-rol",
     "description": "Etiket op rol",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/287:nl",
@@ -1963,10 +1947,9 @@
     "title": "Lijmstift",
     "url": "/nl/verpakkingencatalogus/lijmstift",
     "description": "Lijmstift",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/364:nl",
@@ -1974,10 +1957,9 @@
     "title": "Verzendzakjes voor catalogi en tijdschriften ",
     "url": "/nl/verpakkingencatalogus/verzendzakjes-voor-catalogi-en-tijdschriften",
     "description": "Verzendzakjes voor catalogi en tijdschriften ",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/464081:nl",
@@ -1985,10 +1967,9 @@
     "title": "Tandpastadoos",
     "url": "/nl/verpakkingencatalogus/tandpastadoos",
     "description": "Tandpastadoos",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/225:nl",
@@ -1996,10 +1977,9 @@
     "title": "Doos voor computerspel",
     "url": "/nl/verpakkingencatalogus/doos-voor-computerspel",
     "description": "Doosje om een cd, computerspel et cetera in op te bergen",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof", "Papier/Karton"],
-    "feeLiable": false
+    "paragraphs": ["Doosje om een cd, computerspel et cetera in op te bergen"],
+    "properties": {},
+    "rawText": "Doos voor computerspel\nDoos voor dvd, Doos voor film, CD doosje\nPlasticPapier en Karton\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\nDoosje om een cd, computerspel et cetera in op te bergen"
   },
   {
     "id": "entity:node/307:nl",
@@ -2007,10 +1987,9 @@
     "title": "Oorbellendoos",
     "url": "/nl/verpakkingencatalogus/oorbellendoos",
     "description": "Oorbellendoos",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/464008:nl",
@@ -2018,10 +1997,14 @@
     "title": "Theezakje met touwtje en label",
     "url": "/nl/verpakkingencatalogus/theezakje-met-touwtje-en-label",
     "description": "Touwtje, label en envelopje zijn verpakking. Tot en met 11 augustus 2026 valt een theezakje zelf niet onder de definitie van verpakking. Vanaf 12 augustus 2026 verandert dit: door de inwerkingtreding van de PPWR wordt ook het theezakje als verpakking beschouwd.Zie ook Theezakje",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof", "Papier/Karton"],
-    "feeLiable": false
+    "paragraphs": [
+      "Touwtje, label en envelopje zijn verpakking. Tot en met 11 augustus 2026 valt een theezakje zelf niet onder de definitie van verpakking. Vanaf 12 augustus 2026 verandert dit: door de inwerkingtreding van de PPWR wordt ook het theezakje als verpakking beschouwd.Zie ook Theezakje",
+      "Touwtje, label en envelopje zijn verpakking.",
+      "Tot en met 11 augustus 2026 valt een theezakje zelf niet onder de definitie van verpakking. Vanaf 12 augustus 2026 verandert dit: door de inwerkingtreding van de PPWR wordt ook het theezakje als verpakking beschouwd.",
+      "Zie ook Theezakje"
+    ],
+    "properties": {},
+    "rawText": "Theezakje met touwtje en label\nPlasticPapier en Karton\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\n\nTouwtje, label en envelopje zijn verpakking. \n\nTot en met 11 augustus 2026 valt een theezakje zelf niet onder de definitie van verpakking. Vanaf 12 augustus 2026 verandert dit: door de inwerkingtreding van de PPWR wordt ook het theezakje als verpakking beschouwd.\n\nZie ook Theezakje"
   },
   {
     "id": "entity:node/226:nl",
@@ -2029,10 +2012,9 @@
     "title": "Doosje met bitjes",
     "url": "/nl/verpakkingencatalogus/doosje-met-bitjes",
     "description": "Doosje met bitjes",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/349:nl",
@@ -2040,10 +2022,9 @@
     "title": "Spuitmond spuitbus",
     "url": "/nl/verpakkingencatalogus/spuitmond-spuitbus",
     "description": "Spuitmond spuitbus",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/200:nl",
@@ -2051,10 +2032,13 @@
     "title": "Bakvorm leeg",
     "url": "/nl/verpakkingencatalogus/bakvorm-leeg",
     "description": "Papieren bakvormen voor muffins of andere cakes, verkocht zonder inhoud.Zie ook: Bakvorm gevuld",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Papier/Karton"],
-    "feeLiable": false
+    "paragraphs": [
+      "Papieren bakvormen voor muffins of andere cakes, verkocht zonder inhoud.Zie ook: Bakvorm gevuld",
+      "Papieren bakvormen voor muffins of andere cakes, verkocht zonder inhoud.",
+      "Zie ook: Bakvorm gevuld"
+    ],
+    "properties": {},
+    "rawText": "Bakvorm leeg\nCupcake vorm\nPapier en Karton\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\n\nPapieren bakvormen voor muffins of andere cakes, verkocht zonder inhoud.\n\nZie ook: Bakvorm gevuld"
   },
   {
     "id": "entity:node/375:nl",
@@ -2062,10 +2046,9 @@
     "title": "Dekbed tas",
     "url": "/nl/verpakkingencatalogus/dekbed-tas",
     "description": "Dekbed tas",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/229:nl",
@@ -2073,10 +2056,9 @@
     "title": "Doosje voor fotolensfilter",
     "url": "/nl/verpakkingencatalogus/doosje-voor-fotolensfilter",
     "description": "Doosje voor fotolensfilter",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/323:nl",
@@ -2084,10 +2066,9 @@
     "title": "Platenhoes",
     "url": "/nl/verpakkingencatalogus/platenhoes",
     "description": "Platenhoes",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/252:nl",
@@ -2095,10 +2076,9 @@
     "title": "Hoeklatten",
     "url": "/nl/verpakkingencatalogus/hoeklatten",
     "description": "Hoeklatten om de kratten.",
-    "isPackaging": true,
-    "category": "Logistiek hulpmiddel",
-    "materials": ["Kunststof", "Papier/Karton", "Hout"],
-    "feeLiable": false
+    "paragraphs": ["Hoeklatten om de kratten."],
+    "properties": {},
+    "rawText": "Hoeklatten\nBeschermlat, Hoeksteun\nPlasticPapier en KartonHout\nProductinformatie\nVerpakking\nBijdrageplichtig\nVerkooppuntverpakking\nPotentiële meermalige verpakking\nLogistiek hulpmiddel\nVerpakt product\nExoot\nToelichting\nHoeklatten om de kratten."
   },
   {
     "id": "entity:node/311:nl",
@@ -2106,10 +2086,9 @@
     "title": "Opzetrand",
     "url": "/nl/verpakkingencatalogus/opzetrand",
     "description": "Opzetrand",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   },
   {
     "id": "entity:node/334:nl",
@@ -2117,9 +2096,8 @@
     "title": "Rolcontainer",
     "url": "/nl/verpakkingencatalogus/rolcontainer",
     "description": "Rolcontainer",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "materials": ["Diversen"],
-    "feeLiable": true
+    "paragraphs": [],
+    "properties": {},
+    "rawText": ""
   }
 ]

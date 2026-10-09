@@ -26,7 +26,7 @@ async function fetchCatalog() {
     .filter((i) => i.url);
 
   console.log(
-    `Found ${rawItems.length} products. Launching browser to scrape official details with rate-limiting...`,
+    `Found ${rawItems.length} products. Launching browser to purely scrape live page elements and tables...`,
   );
 
   const browser = await chromium.launch({
@@ -45,7 +45,8 @@ async function fetchCatalog() {
         timeout: 15000,
       });
 
-      const details = await page.evaluate(() => {
+      // Purely extract live table rows, keys, values, and text from the DOM
+      const scrapedPageData = await page.evaluate(() => {
         const titleEl = document.querySelector("h1");
         const bodyEl = document.querySelector("main") || document.body;
 
@@ -55,83 +56,60 @@ async function fetchCatalog() {
           .map((el) => el.textContent?.trim())
           .filter(Boolean);
 
-        const textContent = bodyEl.innerText || "";
+        // Extract all tables, key-value pairs, list items, and table cells
+        const properties = {};
+
+        // Check standard tables
+        const tables = bodyEl.querySelectorAll("table");
+        tables.forEach((table) => {
+          const rows = table.querySelectorAll("tr");
+          rows.forEach((row) => {
+            const cols = row.querySelectorAll("th, td");
+            if (cols.length >= 2) {
+              const k = cols[0].textContent?.trim().toLowerCase();
+              const v = cols[1].textContent?.trim();
+              if (k && v) properties[k] = v;
+            }
+          });
+        });
+
+        // Check definition lists or list items
+        const dts = bodyEl.querySelectorAll("dt");
+        dts.forEach((dt) => {
+          const dd = dt.nextElementSibling;
+          if (dt && dd) {
+            properties[dt.textContent.trim().toLowerCase()] =
+              dd.textContent.trim();
+          }
+        });
+
+        // Extract raw text for general analysis
+        const rawText = bodyEl.innerText || "";
 
         return {
-          pageTitle: titleEl ? titleEl.innerText.trim() : "",
+          title: titleEl ? titleEl.innerText.trim() : "",
           paragraphs,
-          textContent,
+          properties,
+          rawText,
         };
       });
-
-      const fullText = details.textContent.toLowerCase();
-
-      let isPackaging = true;
-      if (
-        fullText.includes("geen verpakking") ||
-        fullText.includes("wordt niet gezien als verpakking") ||
-        fullText.includes("geen sprake van een verpakking")
-      ) {
-        isPackaging = false;
-      }
-
-      let category = "Verkoopverpakking";
-      if (
-        fullText.includes("logistiek hulpmiddel") ||
-        fullText.includes("transport") ||
-        fullText.includes("pallet") ||
-        fullText.includes("krat") ||
-        fullText.includes("tray")
-      ) {
-        category = "Logistiek hulpmiddel";
-      } else if (
-        fullText.includes("meermalig") ||
-        fullText.includes("potentiële meermalige")
-      ) {
-        category = "Potentiële meermalige verpakking";
-      } else if (
-        fullText.includes("verkooppunt") ||
-        fullText.includes("draagtas")
-      ) {
-        category = "Verkooppuntverpakking";
-      } else if (!isPackaging) {
-        category = "Geen verpakking";
-      }
-
-      const materials = [];
-      if (fullText.includes("plastic") || fullText.includes("kunststof"))
-        materials.push("Kunststof");
-      if (fullText.includes("papier") || fullText.includes("karton"))
-        materials.push("Papier/Karton");
-      if (fullText.includes("glas")) materials.push("Glas");
-      if (
-        fullText.includes("aluminium") ||
-        fullText.includes("metaal") ||
-        fullText.includes("staal") ||
-        fullText.includes("blik")
-      )
-        materials.push("Metaal");
-      if (fullText.includes("hout")) materials.push("Hout");
-      if (materials.length === 0) materials.push("Diversen");
 
       catalogItems.push({
         id: item.id,
         nid: item.nid,
-        title: details.pageTitle || item.title,
+        title: scrapedPageData.title || item.title,
         url: item.url,
-        description: details.paragraphs[0] || item.title,
-        isPackaging,
-        category,
-        materials,
-        feeLiable: isPackaging && !category.includes("Logistiek"),
+        description: scrapedPageData.paragraphs[0] || item.title,
+        paragraphs: scrapedPageData.paragraphs,
+        properties: scrapedPageData.properties,
+        rawText: scrapedPageData.rawText,
       });
 
       if ((i + 1) % 20 === 0) {
-        console.log(`Scraped ${i + 1} / ${rawItems.length} items...`);
+        console.log(`Scraped ${i + 1} / ${rawItems.length} items live...`);
       }
 
-      // Rate-limit: wait 300ms between requests to avoid hammering the server
-      await new Promise((r) => setTimeout(r, 300));
+      await new Promise((r) => setTimeout(r, 250));
     } catch (err) {
       console.log(`Failed to scrape ${fullUrl}:`, err.message);
       catalogItems.push({
@@ -140,12 +118,11 @@ async function fetchCatalog() {
         title: item.title,
         url: item.url,
         description: `Officiële verpakkingscatalogus item: ${item.title}`,
-        isPackaging: true,
-        category: "Verkoopverpakking",
-        materials: ["Diversen"],
-        feeLiable: true,
+        paragraphs: [],
+        properties: {},
+        rawText: item.title,
       });
-      await new Promise((r) => setTimeout(r, 300));
+      await new Promise((r) => setTimeout(r, 250));
     }
   }
 
@@ -160,7 +137,7 @@ async function fetchCatalog() {
     JSON.stringify(catalogItems, null, 2),
   );
   console.log(
-    `Successfully scraped and saved ${catalogItems.length} official items to public/verpakkingen.json`,
+    `Successfully scraped and saved ${catalogItems.length} pure items to public/verpakkingen.json`,
   );
 }
 

@@ -1,17 +1,17 @@
 import "./style.css";
 
-interface PackagingItem {
+interface CatalogItem {
   id: string;
   nid: number;
   title: string;
   url: string;
   description: string;
-  isPackaging: boolean;
-  category: string;
-  feeLiable: boolean;
+  paragraphs: string[];
+  properties: Record<string, string>;
+  rawText: string;
 }
 
-let items: PackagingItem[] = [];
+let items: CatalogItem[] = [];
 let currentQuestionIndex = 0;
 let score = 0;
 let quizQuestions: any[] = [];
@@ -38,26 +38,26 @@ function renderWelcome() {
   app.innerHTML = `
     <header>
       <h1>Verpakkings-Quiz</h1>
-      <p>Test je kennis met de officiële Verpact Verpakkingencatalogus!</p>
+      <p>Ontdek alles over verpakkingen met de officiële Verpact Verpakkingencatalogus!</p>
     </header>
     <main>
       <div class="card" style="text-align: center;">
-        <h2 style="margin-bottom: 1rem;">Is het een verpakking of niet?</h2>
+        <h2 style="margin-bottom: 1rem;">Test je kennis van de Verpakkingencatalogus</h2>
         <p style="margin-bottom: 1.5rem; color: var(--text-muted);">
-          In de wetgeving en de Verpact Verpakkingencatalogus is het cruciaal om te weten wat wel en geen verpakking is, 
-          en welke categorie van toepassing is. Speel de quiz met ${items.length} echte voorbeelden en word een verpakkingskenner!
+          Alle data op deze website is live gescrapt uit de officiële Verpact catalogus (${items.length} items). 
+          Test je kennis aan de hand van echte productvragen!
         </p>
         <button id="start-btn" class="btn" style="font-size: 1.1rem; padding: 1rem 2rem;">Start de Quiz</button>
       </div>
 
       <div class="card catalog-section">
-        <h3 style="margin-bottom: 1rem;">Doorzoek de Verpakkingscatalogus</h3>
-        <input type="text" id="search-input" class="catalog-search" placeholder="Zoek op product (bijv. fles, zak, markeringsstift)..." />
+        <h3 style="margin-bottom: 1rem;">Officiële Catalogus Bibliotheek</h3>
+        <input type="text" id="search-input" class="catalog-search" placeholder="Zoek in alle gescrapte producten..." />
         <div id="catalog-list" class="catalog-list"></div>
       </div>
     </main>
     <footer>
-      <p>Gebaseerd op de <a href="https://www.verpact.nl/nl/verpakkingencatalogus" target="_blank">Verpact Verpakkingencatalogus</a>.</p>
+      <p>Gebaseerd op de live gescrapte <a href="https://www.verpact.nl/nl/verpakkingencatalogus" target="_blank">Verpact Verpakkingencatalogus</a>.</p>
     </footer>
   `;
 
@@ -97,14 +97,17 @@ function renderCatalogList(filter: string) {
     <div class="catalog-item">
       <h4>${item.title}</h4>
       <p>${item.description}</p>
-      <div style="margin-top: 0.5rem; display: flex; gap: 0.5rem; flex-wrap: wrap;">
-        <span class="badge ${item.isPackaging ? "badge-yes" : "badge-no"}">
-          ${item.isPackaging ? "Wel verpakking" : "Geen verpakking"}
-        </span>
-        <span class="badge" style="background: #e2e8f0; color: #1e293b;">
-          ${item.category}
-        </span>
-      </div>
+      ${
+        Object.keys(item.properties).length > 0
+          ? `
+        <div style="margin-top: 0.5rem; font-size: 0.85rem; color: var(--text-muted);">
+          ${Object.entries(item.properties)
+            .map(([k, v]) => `<strong>${k}:</strong> ${v}`)
+            .join(" | ")}
+        </div>
+      `
+          : ""
+      }
     </div>
   `,
     )
@@ -116,38 +119,22 @@ function startQuiz() {
   const selected = shuffled.slice(0, 10);
 
   quizQuestions = selected.map((item) => {
-    const questionType = Math.random() > 0.5 ? "packaging" : "category";
-    if (questionType === "packaging") {
-      return {
-        type: "packaging",
-        item,
-        questionText: `Is <strong>"${item.title}"</strong> volgens de Verpact catalogus een officiële verpakking?`,
-        correctAnswer: item.isPackaging,
-        options: [
-          { label: "Wel een verpakking", value: true },
-          { label: "Geen verpakking", value: false },
-        ],
-      };
-    } else {
-      return {
-        type: "category",
-        item,
-        questionText: `In welke categorie valt <strong>"${item.title}"</strong> in de Verpact catalogus?`,
-        correctAnswer: item.category,
-        options: [
-          { label: "Verkoopverpakking", value: "Verkoopverpakking" },
-          { label: "Verkooppuntverpakking", value: "Verkooppuntverpakking" },
-          {
-            label: "Logistiek hulpmiddel / Transportverpakking",
-            value: "Logistiek hulpmiddel / Transportverpakking",
-          },
-          {
-            label: "Geen verpakking (product/hulpmiddel)",
-            value: "Geen verpakking (product/hulpmiddel)",
-          },
-        ].sort(() => 0.5 - Math.random()),
-      };
-    }
+    // Generate options from other items' titles or descriptions
+    const otherItems = items.filter((i) => i.id !== item.id);
+    const wrongOptions = otherItems
+      .sort(() => 0.5 - Math.random())
+      .slice(0, 3)
+      .map((i) => i.title);
+    const options = [item.title, ...wrongOptions].sort(
+      () => 0.5 - Math.random(),
+    );
+
+    return {
+      item,
+      questionText: `Welke omschrijving of product hoort bij deze gegevens uit de catalogus?<br><br><em>"${item.description}"</em>`,
+      correctAnswer: item.title,
+      options,
+    };
   });
 
   currentQuestionIndex = 0;
@@ -175,7 +162,7 @@ function renderQuestion() {
         <div class="progress-bar">
           <div class="progress-fill" style="width: ${progress}%"></div>
         </div>
-        <div class="question-meta">Verpact Catalogus</div>
+        <div class="question-meta">Live Verpact Catalogus</div>
         <div class="question-text">${q.questionText}</div>
         
         <div id="feedback-area"></div>
@@ -183,9 +170,9 @@ function renderQuestion() {
         <div class="options-grid" id="options-grid">
           ${q.options
             .map(
-              (opt: any) => `
-            <button class="option-btn" data-answer="${typeof opt.value === "boolean" ? opt.value : opt.label}">
-              ${opt.label}
+              (opt: string) => `
+            <button class="option-btn" data-answer="${opt}">
+              ${opt}
             </button>
           `,
             )
@@ -199,7 +186,7 @@ function renderQuestion() {
       </div>
     </main>
     <footer>
-      <p>Verpakkings-Quiz &copy; 2025 - Verpact Data</p>
+      <p>Verpakkings-Quiz &copy; 2025 - Puur gescrapte data</p>
     </footer>
   `;
 
@@ -207,10 +194,9 @@ function renderQuestion() {
     btn.addEventListener("click", (e) => {
       if (answered) return;
       answered = true;
-      const target = e.currentTarget as HTMLElement;
-      const rawVal = target.getAttribute("data-answer");
-      const userAns =
-        rawVal === "true" ? true : rawVal === "false" ? false : rawVal;
+      const userAns = (e.currentTarget as HTMLElement).getAttribute(
+        "data-answer",
+      );
       handleAnswer(userAns, q);
     });
   });
@@ -221,17 +207,16 @@ function renderQuestion() {
   });
 }
 
-function handleAnswer(userAns: any, q: any) {
+function handleAnswer(userAns: string | null, q: any) {
   const isCorrect = userAns === q.correctAnswer;
   if (isCorrect) score++;
 
   const buttons = document.querySelectorAll(".option-btn");
   buttons.forEach((b) => {
-    const rawVal = b.getAttribute("data-answer");
-    const bVal = rawVal === "true" ? true : rawVal === "false" ? false : rawVal;
-    if (bVal === q.correctAnswer) {
+    const ans = b.getAttribute("data-answer");
+    if (ans === q.correctAnswer) {
       b.classList.add("correct");
-    } else if (bVal === userAns) {
+    } else if (ans === userAns) {
       b.classList.add("incorrect");
     }
     (b as HTMLButtonElement).disabled = true;
@@ -241,7 +226,7 @@ function handleAnswer(userAns: any, q: any) {
   feedbackArea.innerHTML = `
     <div class="feedback-box ${isCorrect ? "correct-feedback" : "incorrect-feedback"}">
       <strong>${isCorrect ? "Juist!" : "Onjuist!"}</strong><br>
-      Categorie: <strong>${q.item.category}</strong><br>
+      Het juiste product is: <strong>${q.correctAnswer}</strong><br>
       <em>${q.item.description}</em>
     </div>
   `;
@@ -254,12 +239,11 @@ function handleAnswer(userAns: any, q: any) {
 
 function renderResults() {
   const percentage = Math.round((score / quizQuestions.length) * 100);
-  let feedbackText = "Uitstekend gedaan! Je bent een echte verpakkingskenner.";
+  let feedbackText = "Uitstekend gedaan! Je bent een echte cataloguskenner.";
   if (percentage < 50) {
-    feedbackText =
-      "Dat kan beter! Tijd om de verpakkingscatalogus nog eens door te nemen.";
+    feedbackText = "Dat kan beter! Neem de catalogus nog eens door.";
   } else if (percentage < 80) {
-    feedbackText = "Goed bezig! Je weet al een hele hoop over verpakkingen.";
+    feedbackText = "Goed bezig! Je weet al een hele hoop.";
   }
 
   app.innerHTML = `
