@@ -1,0 +1,1546 @@
+[
+  {
+    "id": "entity:node/345:nl",
+    "nid": 345,
+    "title": "Snackbox, frietzak",
+    "url": "/nl/verpakkingencatalogus/snackbox-frietzak",
+    "description": "Verpakking indien ontworpen en bedoeld om op het verkooppunt te worden gevuld zoals schuimbox voor hamburgers",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/365:nl",
+    "nid": 365,
+    "title": "Vleeswarenbakje",
+    "url": "/nl/verpakkingencatalogus/vleeswarenbakje",
+    "description": "Vleeswarenbakje waarin vleeswaren zijn verpakt",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/198:nl",
+    "nid": 198,
+    "title": "Bag in Box",
+    "url": "/nl/verpakkingencatalogus/bag-box",
+    "description": "Bag in BoxBag in Box",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/223:nl",
+    "nid": 223,
+    "title": "Doos of zak met aluminium binnenlaag",
+    "url": "/nl/verpakkingencatalogus/doos-zak-met-aluminium-binnenlaag",
+    "description": "Dozen of zakken met een aluminium binnenlaag",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/266:nl",
+    "nid": 266,
+    "title": "Kadoverpakking",
+    "url": "/nl/verpakkingencatalogus/kadoverpakking",
+    "description": "Geschenkverpakking (bijvoorbeeld voor wijn, drank, etc.)",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/316:nl",
+    "nid": 316,
+    "title": "Paprikaseal",
+    "url": "/nl/verpakkingencatalogus/paprikaseal",
+    "description": "Plastic beschermfolie om groente zoals een paprika of komkommer",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/324:nl",
+    "nid": 324,
+    "title": "Popcornbeker",
+    "url": "/nl/verpakkingencatalogus/popcornbeker",
+    "description": "Popcornbekers",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/325:nl",
+    "nid": 325,
+    "title": "Pot voor broodbeleg",
+    "url": "/nl/verpakkingencatalogus/pot-voor-broodbeleg",
+    "description": "Pot met pindakaas of jam",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/314:nl",
+    "nid": 314,
+    "title": "Papier op rol",
+    "url": "/nl/verpakkingencatalogus/papier-op-rol",
+    "description": "Papier op rol minder dan 500 meter",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/370:nl",
+    "nid": 370,
+    "title": "Wegwerpservies (verkooppunt)",
+    "url": "/nl/verpakkingencatalogus/wegwerpservies-verkooppunt",
+    "description": "Wegwerpservies (verkooppunt)",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/464078:nl",
+    "nid": 464078,
+    "title": "Foliezakjes met thee of koffie",
+    "url": "/nl/verpakkingencatalogus/foliezakjes-met-thee-koffie",
+    "description": "Foliezakjes met thee of koffie",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/353:nl",
+    "nid": 353,
+    "title": "Stretchfolie",
+    "url": "/nl/verpakkingencatalogus/stretchfolie",
+    "description": "&nbsp;\r\n\r\n&nbsp;",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/292:nl",
+    "nid": 292,
+    "title": "Markeringsstift",
+    "url": "/nl/verpakkingencatalogus/markeringsstift",
+    "description": "Markeringsstift",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/203:nl",
+    "nid": 203,
+    "title": "Bandenplakset",
+    "url": "/nl/verpakkingencatalogus/bandenplakset",
+    "description": "Bandenplakset",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/300:nl",
+    "nid": 300,
+    "title": "Naaldendoosje",
+    "url": "/nl/verpakkingencatalogus/naaldendoosje",
+    "description": "Naaldendoosje",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/297:nl",
+    "nid": 297,
+    "title": "Mierendoosje",
+    "url": "/nl/verpakkingencatalogus/mierendoosje",
+    "description": "Mierendoosje",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/262:nl",
+    "nid": 262,
+    "title": "Inpakpapier los",
+    "url": "/nl/verpakkingencatalogus/inpakpapier-los",
+    "description": "Inpakpapier los",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/342:nl",
+    "nid": 342,
+    "title": "Sieradendoos",
+    "url": "/nl/verpakkingencatalogus/sieradendoos",
+    "description": "Sieradendoos",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/347:nl",
+    "nid": 347,
+    "title": "Speld",
+    "url": "/nl/verpakkingencatalogus/speld",
+    "description": "Speld",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/306:nl",
+    "nid": 306,
+    "title": "Oog- of neusdruppelaar",
+    "url": "/nl/verpakkingencatalogus/oog-neusdruppelaar",
+    "description": "Oog- of neusdruppelaar",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/274:nl",
+    "nid": 274,
+    "title": "Koelelement",
+    "url": "/nl/verpakkingencatalogus/koelelement",
+    "description": "Koelelement",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/194:nl",
+    "nid": 194,
+    "title": "Aansteker",
+    "url": "/nl/verpakkingencatalogus/aansteker",
+    "description": "Aansteker",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/280:nl",
+    "nid": 280,
+    "title": "Krat vanaf 8 liter",
+    "url": "/nl/verpakkingencatalogus/krat-vanaf-8-liter",
+    "description": "Krat vanaf 8 liter",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/231:nl",
+    "nid": 231,
+    "title": "Doseerdop fles",
+    "url": "/nl/verpakkingencatalogus/doseerdop-fles",
+    "description": "Doseerdop fles",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/265:nl",
+    "nid": 265,
+    "title": "Tie-wrap ",
+    "url": "/nl/verpakkingencatalogus/tie-wrap",
+    "description": "Tie-wrap ",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/368:nl",
+    "nid": 368,
+    "title": "Waxinecup",
+    "url": "/nl/verpakkingencatalogus/waxinecup",
+    "description": "Waxinecup",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/284:nl",
+    "nid": 284,
+    "title": "Kunststoffolie op rol",
+    "url": "/nl/verpakkingencatalogus/kunststoffolie-op-rol",
+    "description": "Kunststoffolie op rol",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/367:nl",
+    "nid": 367,
+    "title": "Vogelvoer",
+    "url": "/nl/verpakkingencatalogus/vogelvoer",
+    "description": "Vogelvoer",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/350:nl",
+    "nid": 350,
+    "title": "Stektray",
+    "url": "/nl/verpakkingencatalogus/stektray",
+    "description": "Stektray",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/296:nl",
+    "nid": 296,
+    "title": "Mechanische molen niet navulbaar",
+    "url": "/nl/verpakkingencatalogus/mechanische-molen-niet-navulbaar",
+    "description": "Mechanische molen niet navulbaar",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/232:nl",
+    "nid": 232,
+    "title": "Doseerdop los",
+    "url": "/nl/verpakkingencatalogus/doseerdop-los",
+    "description": "Doseerdop los",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/322:nl",
+    "nid": 322,
+    "title": "Plastic folie",
+    "url": "/nl/verpakkingencatalogus/plastic-folie",
+    "description": "Plastic folie",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/257:nl",
+    "nid": 257,
+    "title": "IJslepeltje",
+    "url": "/nl/verpakkingencatalogus/ijslepeltje",
+    "description": "IJslepeltje",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/361:nl",
+    "nid": 361,
+    "title": "Verfblik",
+    "url": "/nl/verpakkingencatalogus/verfblik",
+    "description": "Verfblik",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/330:nl",
+    "nid": 330,
+    "title": "Rietje",
+    "url": "/nl/verpakkingencatalogus/rietje",
+    "description": "Rietje",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/359:nl",
+    "nid": 359,
+    "title": "Vat voor thuistap",
+    "url": "/nl/verpakkingencatalogus/vat-voor-thuistap",
+    "description": "Vat voor thuistap",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/234:nl",
+    "nid": 234,
+    "title": "Draagtas",
+    "url": "/nl/verpakkingencatalogus/draagtas",
+    "description": "Verpakking indien ontworpen en bedoeld om op het verkooppunt te worden gevuld zoals draagtassen van papier of Kunststof",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/339:nl",
+    "nid": 339,
+    "title": "Schrijfblok",
+    "url": "/nl/verpakkingencatalogus/schrijfblok",
+    "description": "Kartonnen achterkant en voorblad schrijfblok",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/196:nl",
+    "nid": 196,
+    "title": "Adventskalender",
+    "url": "/nl/verpakkingencatalogus/adventskalender",
+    "description": "Adventskalender",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/264:nl",
+    "nid": 264,
+    "title": "Kaaskorst",
+    "url": "/nl/verpakkingencatalogus/kaaskorst",
+    "description": "Kaaskorst",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/235:nl",
+    "nid": 235,
+    "title": "EHBO doos",
+    "url": "/nl/verpakkingencatalogus/ehbo-doos",
+    "description": "EHBO doos",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/288:nl",
+    "nid": 288,
+    "title": "Lippenstifthouder",
+    "url": "/nl/verpakkingencatalogus/lippenstifthouder",
+    "description": "Lippenstifthouder",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/273:nl",
+    "nid": 273,
+    "title": "Koekjestrommel leeg",
+    "url": "/nl/verpakkingencatalogus/koekjestrommel-leeg",
+    "description": "Koekjestrommel leeg",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/351:nl",
+    "nid": 351,
+    "title": "Steriel barrieresysteem",
+    "url": "/nl/verpakkingencatalogus/steriel-barrieresysteem",
+    "description": "Steriel barrieresysteem",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/199:nl",
+    "nid": 199,
+    "title": "Bakvorm gevuld",
+    "url": "/nl/verpakkingencatalogus/bakvorm-gevuld",
+    "description": "Bakvorm gevuld",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/352:nl",
+    "nid": 352,
+    "title": "Sticker op fruit",
+    "url": "/nl/verpakkingencatalogus/sticker-op-fruit",
+    "description": "Sticker op fruit",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/213:nl",
+    "nid": 213,
+    "title": "Brillendoos met bril",
+    "url": "/nl/verpakkingencatalogus/brillendoos-met-bril",
+    "description": "Brillendoos met bril",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/218:nl",
+    "nid": 218,
+    "title": "CD Spindel met CD",
+    "url": "/nl/verpakkingencatalogus/cd-spindel-met-cd",
+    "description": "CD Spindel met CD",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/207:nl",
+    "nid": 207,
+    "title": "Blister",
+    "url": "/nl/verpakkingencatalogus/blister",
+    "description": "Blister",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/310:nl",
+    "nid": 310,
+    "title": "Opvulmateriaal",
+    "url": "/nl/verpakkingencatalogus/opvulmateriaal",
+    "description": "Opvulmateriaal",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/376:nl",
+    "nid": 376,
+    "title": "Big Shopper",
+    "url": "/nl/verpakkingencatalogus/big-shopper",
+    "description": "Big Shopper",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/315:nl",
+    "nid": 315,
+    "title": "Papieren zak",
+    "url": "/nl/verpakkingencatalogus/papieren-zak",
+    "description": "Papieren zak",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/318:nl",
+    "nid": 318,
+    "title": "Pizzadoos",
+    "url": "/nl/verpakkingencatalogus/pizzadoos",
+    "description": "Pizzadoos",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/208:nl",
+    "nid": 208,
+    "title": "Bloempot voor buitenplant",
+    "url": "/nl/verpakkingencatalogus/bloempot-voor-buitenplant",
+    "description": "Bloempot voor buitenplant",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/302:nl",
+    "nid": 302,
+    "title": "Niet-navulbare pen",
+    "url": "/nl/verpakkingencatalogus/niet-navulbare-pen",
+    "description": "Niet-navulbare pen",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/260:nl",
+    "nid": 260,
+    "title": "Injectiespuit",
+    "url": "/nl/verpakkingencatalogus/injectiespuit",
+    "description": "Injectiespuit",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/338:nl",
+    "nid": 338,
+    "title": "Schoenveterdoosje",
+    "url": "/nl/verpakkingencatalogus/schoenveterdoosje",
+    "description": "Schoenveterdoosje",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/269:nl",
+    "nid": 269,
+    "title": "Kleerhanger bij kledingstuk",
+    "url": "/nl/verpakkingencatalogus/kleerhanger-bij-kledingstuk",
+    "description": "Kleerhanger bij kledingstuk",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/354:nl",
+    "nid": 354,
+    "title": "Tandflosdoosje",
+    "url": "/nl/verpakkingencatalogus/tandflosdoosje",
+    "description": "Tandflosdoosje",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/319:nl",
+    "nid": 319,
+    "title": "Plakbandroller met plakband",
+    "url": "/nl/verpakkingencatalogus/plakbandroller-met-plakband",
+    "description": "Plakbandroller met plakband",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/270:nl",
+    "nid": 270,
+    "title": "Kleerhanger los",
+    "url": "/nl/verpakkingencatalogus/kleerhanger-los",
+    "description": "Kleerhanger los",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/369:nl",
+    "nid": 369,
+    "title": "Wegwerpbestek",
+    "url": "/nl/verpakkingencatalogus/wegwerpbestek",
+    "description": "Wegwerpbestek",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/331:nl",
+    "nid": 331,
+    "title": "Rijstbuidel",
+    "url": "/nl/verpakkingencatalogus/rijstbuidel",
+    "description": "Rijstbuidel",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/253:nl",
+    "nid": 253,
+    "title": "Horlogedoos",
+    "url": "/nl/verpakkingencatalogus/horlogedoos",
+    "description": "Horlogedoos",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/247:nl",
+    "nid": 247,
+    "title": "Gereedschapsdoos",
+    "url": "/nl/verpakkingencatalogus/gereedschapsdoos",
+    "description": "Gereedschapsdoos",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/356:nl",
+    "nid": 356,
+    "title": "Toilettasje gevuld",
+    "url": "/nl/verpakkingencatalogus/toilettasje-gevuld",
+    "description": "Toilettasje gevuld",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/305:nl",
+    "nid": 305,
+    "title": "Octabin",
+    "url": "/nl/verpakkingencatalogus/octabin",
+    "description": "Octabin",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/358:nl",
+    "nid": 358,
+    "title": "Tussenplaat",
+    "url": "/nl/verpakkingencatalogus/tussenplaat",
+    "description": "Tussenplaat",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/237:nl",
+    "nid": 237,
+    "title": "Emmer (vanaf 20 liter)",
+    "url": "/nl/verpakkingencatalogus/emmer-vanaf-20-liter",
+    "description": "Emmer (vanaf 20 liter)",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/344:nl",
+    "nid": 344,
+    "title": "Snackbakje",
+    "url": "/nl/verpakkingencatalogus/snackbakje",
+    "description": "Verpakking indien ontworpen en bedoeld om op het verkooppunt te worden gevuld zoals bakjes voor frites, frikandel, kibbeling, kroket, enz.",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/216:nl",
+    "nid": 216,
+    "title": "Capsules voor dranksysteem",
+    "url": "/nl/verpakkingencatalogus/capsules-voor-dranksysteem",
+    "description": "Capsules voor dranksystemen/apparaten (koffie, cacao, melk) die na gebruik leeg achterblijven",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/336:nl",
+    "nid": 336,
+    "title": "Satestokje, IJsstokje",
+    "url": "/nl/verpakkingencatalogus/satestokje-ijsstokje",
+    "description": "Satestokje, IJsstokje",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/337:nl",
+    "nid": 337,
+    "title": "Schenktuit",
+    "url": "/nl/verpakkingencatalogus/schenktuit",
+    "description": "Schenktuit in drankkarton, pak hagelslag",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/239:nl",
+    "nid": 239,
+    "title": "Enveloppen geadresseerd",
+    "url": "/nl/verpakkingencatalogus/enveloppen-geadresseerd",
+    "description": "Enveloppen geadresseerd",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/321:nl",
+    "nid": 321,
+    "title": "Plantensubstraat",
+    "url": "/nl/verpakkingencatalogus/plantensubstraat",
+    "description": "Plantensubstraat",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/464029:nl",
+    "nid": 464029,
+    "title": "Wegwerpservies (thuis)",
+    "url": "/nl/verpakkingencatalogus/wegwerpservies-thuis",
+    "description": "Wegwerpservies (thuis)",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/275:nl",
+    "nid": 275,
+    "title": "Koffiepad",
+    "url": "/nl/verpakkingencatalogus/koffiepad",
+    "description": "Koffiepad",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/293:nl",
+    "nid": 293,
+    "title": "Mascaraborstel aan dop",
+    "url": "/nl/verpakkingencatalogus/mascaraborstel-aan-dop",
+    "description": "Mascaraborstel aan dop",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/201:nl",
+    "nid": 201,
+    "title": "Bananendoos",
+    "url": "/nl/verpakkingencatalogus/bananendoos",
+    "description": "Bananendoos",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/245:nl",
+    "nid": 245,
+    "title": "Gasfles (vanaf 20 liter)",
+    "url": "/nl/verpakkingencatalogus/gasfles-vanaf-20-liter",
+    "description": "Gasfles (vanaf 20 liter)",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/244:nl",
+    "nid": 244,
+    "title": "Garenklosje",
+    "url": "/nl/verpakkingencatalogus/garenklosje",
+    "description": "Garenklosje",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/290:nl",
+    "nid": 290,
+    "title": "Luciferdoosje",
+    "url": "/nl/verpakkingencatalogus/luciferdoosje",
+    "description": "Luciferdoosje",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/256:nl",
+    "nid": 256,
+    "title": "Intermediate Bulk Container (IBC)",
+    "url": "/nl/verpakkingencatalogus/intermediate-bulk-container-ibc",
+    "description": "Intermediate Bulk Container (IBC)",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/241:nl",
+    "nid": 241,
+    "title": "Fles voor injectievloeistof",
+    "url": "/nl/verpakkingencatalogus/fles-voor-injectievloeistof",
+    "description": "Fles voor injectievloeistof",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/289:nl",
+    "nid": 289,
+    "title": "Luchtverfrisser",
+    "url": "/nl/verpakkingencatalogus/luchtverfrisser",
+    "description": "Luchtverfrisser",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/217:nl",
+    "nid": 217,
+    "title": "CD Spindel leeg",
+    "url": "/nl/verpakkingencatalogus/cd-spindel-leeg",
+    "description": "CD Spindel leeg",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/371:nl",
+    "nid": 371,
+    "title": "Wijndoos",
+    "url": "/nl/verpakkingencatalogus/wijndoos",
+    "description": "Wijndoos",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/312:nl",
+    "nid": 312,
+    "title": "Pallet",
+    "url": "/nl/verpakkingencatalogus/pallet",
+    "description": "Pallet",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/377:nl",
+    "nid": 377,
+    "title": "Tray",
+    "url": "/nl/verpakkingencatalogus/tray",
+    "description": "Tray",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/197:nl",
+    "nid": 197,
+    "title": "Aluminiumfolie (met inhoud)",
+    "url": "/nl/verpakkingencatalogus/aluminiumfolie-met-inhoud",
+    "description": "&nbsp;\r\n\r\n&nbsp;",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/222:nl",
+    "nid": 222,
+    "title": "Display (als omdoos)",
+    "url": "/nl/verpakkingencatalogus/display-als-omdoos",
+    "description": "Display (als omdoos)",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/317:nl",
+    "nid": 317,
+    "title": "Petrischaal",
+    "url": "/nl/verpakkingencatalogus/petrischaal",
+    "description": "Petrischaal",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/464085:nl",
+    "nid": 464085,
+    "title": "Kunststoffolie om product",
+    "url": "/nl/verpakkingencatalogus/kunststoffolie-om-product",
+    "description": "Kunststoffolie om product",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/209:nl",
+    "nid": 209,
+    "title": "Bloempot voor binnenplant",
+    "url": "/nl/verpakkingencatalogus/bloempot-voor-binnenplant",
+    "description": "Bloempot voor binnenplant",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/464082:nl",
+    "nid": 464082,
+    "title": "Pleister liners",
+    "url": "/nl/verpakkingencatalogus/pleister-liners",
+    "description": "Pleister liners",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/348:nl",
+    "nid": 348,
+    "title": "Spellendoos",
+    "url": "/nl/verpakkingencatalogus/spellendoos",
+    "description": "Spellendoos",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/215:nl",
+    "nid": 215,
+    "title": "Campinggas",
+    "url": "/nl/verpakkingencatalogus/campinggas",
+    "description": "Campinggas",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/464079:nl",
+    "nid": 464079,
+    "title": "Worstvel",
+    "url": "/nl/verpakkingencatalogus/worstvel",
+    "description": "Worstvel",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/373:nl",
+    "nid": 373,
+    "title": "Zwangerschapstest",
+    "url": "/nl/verpakkingencatalogus/zwangerschapstest",
+    "description": "Zwangerschapstest",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/212:nl",
+    "nid": 212,
+    "title": "Brillendoos leeg",
+    "url": "/nl/verpakkingencatalogus/brillendoos-leeg",
+    "description": "Brillendoos leeg",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/205:nl",
+    "nid": 205,
+    "title": "Beschermkapje scheermes",
+    "url": "/nl/verpakkingencatalogus/beschermkapje-scheermes",
+    "description": "Beschermkapje scheermes",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/230:nl",
+    "nid": 230,
+    "title": "Doseerdop",
+    "url": "/nl/verpakkingencatalogus/doseerdop",
+    "description": "Doseerdop",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/303:nl",
+    "nid": 303,
+    "title": "Nietjes in een verpakking",
+    "url": "/nl/verpakkingencatalogus/nietjes-een-verpakking",
+    "description": "Nietjes in een verpakking",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/291:nl",
+    "nid": 291,
+    "title": "Map voor briefpapier",
+    "url": "/nl/verpakkingencatalogus/map-voor-briefpapier",
+    "description": "Map voor briefpapier",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/464030:nl",
+    "nid": 464030,
+    "title": "Koffiecapsule",
+    "url": "/nl/verpakkingencatalogus/koffiecapsule",
+    "description": "Koffiecapsule",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/362:nl",
+    "nid": 362,
+    "title": "Verfpalet",
+    "url": "/nl/verpakkingencatalogus/verfpalet",
+    "description": "Verfpalet",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/333:nl",
+    "nid": 333,
+    "title": "Roerstaaf",
+    "url": "/nl/verpakkingencatalogus/roerstaaf",
+    "description": "Roerstaaf",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/268:nl",
+    "nid": 268,
+    "title": "Kleefetiketten",
+    "url": "/nl/verpakkingencatalogus/kleefetiketten",
+    "description": "Kleefetiketten",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/249:nl",
+    "nid": 249,
+    "title": "Glasbok",
+    "url": "/nl/verpakkingencatalogus/glasbok",
+    "description": "Glasbok",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/343:nl",
+    "nid": 343,
+    "title": "Sinaasappelnetje",
+    "url": "/nl/verpakkingencatalogus/sinaasappelnetje",
+    "description": "Sinaasappelnetje",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/366:nl",
+    "nid": 366,
+    "title": "Vleeswarenseal",
+    "url": "/nl/verpakkingencatalogus/vleeswarenseal",
+    "description": "Vleeswarenseal waarin vleeswaren zijn verpakt",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/240:nl",
+    "nid": 240,
+    "title": "Enveloppen klein",
+    "url": "/nl/verpakkingencatalogus/enveloppen-klein",
+    "description": "Enveloppen klein",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/238:nl",
+    "nid": 238,
+    "title": "Enveloppen algemene verzending ",
+    "url": "/nl/verpakkingencatalogus/enveloppen-algemene-verzending",
+    "description": "Enveloppen algemene verzending ",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/360:nl",
+    "nid": 360,
+    "title": "Vaten (vanaf 20 liter)",
+    "url": "/nl/verpakkingencatalogus/vaten-vanaf-20-liter",
+    "description": "Vaten (vanaf 20 liter)",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/195:nl",
+    "nid": 195,
+    "title": "Aanmaakzak",
+    "url": "/nl/verpakkingencatalogus/aanmaakzak",
+    "description": "Aanmaakzak",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/250:nl",
+    "nid": 250,
+    "title": "Graflicht",
+    "url": "/nl/verpakkingencatalogus/graflicht",
+    "description": "Graflicht",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/329:nl",
+    "nid": 329,
+    "title": "RFID",
+    "url": "/nl/verpakkingencatalogus/rfid",
+    "description": "RFID",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/254:nl",
+    "nid": 254,
+    "title": "Houten wijnkist",
+    "url": "/nl/verpakkingencatalogus/houten-wijnkist",
+    "description": "Houten wijnkist",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/251:nl",
+    "nid": 251,
+    "title": "Krat (kleiner dan 8 liter)",
+    "url": "/nl/verpakkingencatalogus/krat-kleiner-dan-8-liter",
+    "description": "Krat (kleiner dan 8 liter)",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/327:nl",
+    "nid": 327,
+    "title": "Printercartridge",
+    "url": "/nl/verpakkingencatalogus/printercartridge",
+    "description": "Printercartridge",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/309:nl",
+    "nid": 309,
+    "title": "Pods",
+    "url": "/nl/verpakkingencatalogus/pods",
+    "description": "Pods",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/220:nl",
+    "nid": 220,
+    "title": "Correctieroller",
+    "url": "/nl/verpakkingencatalogus/correctieroller",
+    "description": "Correctieroller",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/221:nl",
+    "nid": 221,
+    "title": "Deodorantroller",
+    "url": "/nl/verpakkingencatalogus/deodorantroller",
+    "description": "Deodorantroller",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/328:nl",
+    "nid": 328,
+    "title": "Printerpatronen",
+    "url": "/nl/verpakkingencatalogus/printerpatronen",
+    "description": "Printerpatronen",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/261:nl",
+    "nid": 261,
+    "title": "Vispapier",
+    "url": "/nl/verpakkingencatalogus/vispapier",
+    "description": "Vispapier",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/340:nl",
+    "nid": 340,
+    "title": "Schrijfstift",
+    "url": "/nl/verpakkingencatalogus/schrijfstift",
+    "description": "Schrijfstift",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/258:nl",
+    "nid": 258,
+    "title": "Inbrenghuls",
+    "url": "/nl/verpakkingencatalogus/inbrenghuls",
+    "description": "Inbrenghuls",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/332:nl",
+    "nid": 332,
+    "title": "Ringendoos",
+    "url": "/nl/verpakkingencatalogus/ringendoos",
+    "description": "Ringendoos",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/246:nl",
+    "nid": 246,
+    "title": "Gebruiksaanwijzing",
+    "url": "/nl/verpakkingencatalogus/gebruiksaanwijzing",
+    "description": "Gebruiksaanwijzing",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/255:nl",
+    "nid": 255,
+    "title": "Houtwol",
+    "url": "/nl/verpakkingencatalogus/houtwol",
+    "description": "Houtwol",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/281:nl",
+    "nid": 281,
+    "title": "Krijtpapier",
+    "url": "/nl/verpakkingencatalogus/krijtpapier",
+    "description": "Krijtpapier",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/202:nl",
+    "nid": 202,
+    "title": "Band/Strap",
+    "url": "/nl/verpakkingencatalogus/bandstrap",
+    "description": "Band/Strap",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/326:nl",
+    "nid": 326,
+    "title": "Potlodendoosje",
+    "url": "/nl/verpakkingencatalogus/potlodendoosje",
+    "description": "Potlodendoosje",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/355:nl",
+    "nid": 355,
+    "title": "Theezakje ",
+    "url": "/nl/verpakkingencatalogus/theezakje",
+    "description": "Theezakje ",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/276:nl",
+    "nid": 276,
+    "title": "Koker tot 50 cm voor rol folie of papier",
+    "url": "/nl/verpakkingencatalogus/koker-tot-50-cm-voor-rol-folie-papier",
+    "description": "Koker tot 50 cm voor rol folie of papier",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/298:nl",
+    "nid": 298,
+    "title": "Monster parfum",
+    "url": "/nl/verpakkingencatalogus/monster-parfum",
+    "description": "Monster parfum",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/259:nl",
+    "nid": 259,
+    "title": "Infuuszak",
+    "url": "/nl/verpakkingencatalogus/infuuszak",
+    "description": "Infuuszak",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/294:nl",
+    "nid": 294,
+    "title": "Make-up kwast",
+    "url": "/nl/verpakkingencatalogus/make-kwast",
+    "description": "Make-up kwast",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/308:nl",
+    "nid": 308,
+    "title": "Oordopdoosje",
+    "url": "/nl/verpakkingencatalogus/oordopdoosje",
+    "description": "Oordopdoosje",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/227:nl",
+    "nid": 227,
+    "title": "Doosje met vishaken",
+    "url": "/nl/verpakkingencatalogus/doosje-met-vishaken",
+    "description": "Doosje met vishaken",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/341:nl",
+    "nid": 341,
+    "title": "Schroevendoosje",
+    "url": "/nl/verpakkingencatalogus/schroevendoosje",
+    "description": "Schroevendoosje",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/357:nl",
+    "nid": 357,
+    "title": "Tube met inhoud",
+    "url": "/nl/verpakkingencatalogus/tube-met-inhoud",
+    "description": "Tube met inhoud",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/210:nl",
+    "nid": 210,
+    "title": "Bonbondoos",
+    "url": "/nl/verpakkingencatalogus/bonbondoos",
+    "description": "Bonbondoos",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/206:nl",
+    "nid": 206,
+    "title": "Big Bag",
+    "url": "/nl/verpakkingencatalogus/big-bag",
+    "description": "Big Bag",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/313:nl",
+    "nid": 313,
+    "title": "Palletbox",
+    "url": "/nl/verpakkingencatalogus/palletbox",
+    "description": "Palletbox",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/346:nl",
+    "nid": 346,
+    "title": "Sneeuwketting",
+    "url": "/nl/verpakkingencatalogus/sneeuwketting",
+    "description": "Sneeuwketting",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/283:nl",
+    "nid": 283,
+    "title": "Krimphoezen voor transport",
+    "url": "/nl/verpakkingencatalogus/krimphoezen-voor-transport",
+    "description": "Krimphoezen voor transport",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/320:nl",
+    "nid": 320,
+    "title": "Plaktape",
+    "url": "/nl/verpakkingencatalogus/plaktape",
+    "description": "Plaktape",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/214:nl",
+    "nid": 214,
+    "title": "Broodzakje",
+    "url": "/nl/verpakkingencatalogus/broodzakje",
+    "description": "Verpakking indien ontworpen en bedoeld om op het verkooppunt te worden gevuld zoals broodzakjes",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/233:nl",
+    "nid": 233,
+    "title": "Draaghulp",
+    "url": "/nl/verpakkingencatalogus/draaghulp",
+    "description": "Draaghulp (aan bijvoorbeeld doos met wasmiddel)",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/242:nl",
+    "nid": 242,
+    "title": "Flessen",
+    "url": "/nl/verpakkingencatalogus/flessen",
+    "description": "Flessen met drank of verzorgingsproducten of schoonmaakspullen",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/271:nl",
+    "nid": 271,
+    "title": "Koekjesdoos",
+    "url": "/nl/verpakkingencatalogus/koekjesdoos",
+    "description": "Houdbaarheidsdoosje om koekjes",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/278:nl",
+    "nid": 278,
+    "title": "Kokers met inhoud",
+    "url": "/nl/verpakkingencatalogus/kokers-met-inhoud",
+    "description": "Kokers met inhoud (worden niet gezien als kernen)",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/279:nl",
+    "nid": 279,
+    "title": "Kratje (kleiner dan 8 liter) voor vervoer flessen",
+    "url": "/nl/verpakkingencatalogus/kratje-kleiner-dan-8-liter-voor-vervoer-flessen",
+    "description": "Kratje met een inhoudsmaat tot 8 liter met bijv. frisdrank",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/363:nl",
+    "nid": 363,
+    "title": "Verrassingsei",
+    "url": "/nl/verpakkingencatalogus/verrassingsei",
+    "description": "Verrassingsei dat bijvoorbeeld een speelgoedje bevat",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/372:nl",
+    "nid": 372,
+    "title": "Zuigvlies",
+    "url": "/nl/verpakkingencatalogus/zuigvlies",
+    "description": "Zuigvlies in bijvoorbeeld vleesverpakking",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/282:nl",
+    "nid": 282,
+    "title": "Krimpfolie",
+    "url": "/nl/verpakkingencatalogus/krimpfolie",
+    "description": "Krimpfolie",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/272:nl",
+    "nid": 272,
+    "title": "Koekjestrommel gevuld",
+    "url": "/nl/verpakkingencatalogus/koekjestrommel-gevuld",
+    "description": "Koekjestrommel gevuld",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/211:nl",
+    "nid": 211,
+    "title": "Brandpastakuipje",
+    "url": "/nl/verpakkingencatalogus/brandpastakuipje",
+    "description": "Brandpastakuipje",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/263:nl",
+    "nid": 263,
+    "title": "Jerrycan (vanaf 20 liter)",
+    "url": "/nl/verpakkingencatalogus/jerrycan-vanaf-20-liter",
+    "description": "Jerrycan (vanaf 20 liter)",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/236:nl",
+    "nid": 236,
+    "title": "Eierdoos",
+    "url": "/nl/verpakkingencatalogus/eierdoos",
+    "description": "Eierdoos",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/224:nl",
+    "nid": 224,
+    "title": "Doos vanaf 1m3 inhoudsmaat",
+    "url": "/nl/verpakkingencatalogus/doos-vanaf-1m3-inhoudsmaat",
+    "description": "Doos vanaf 1m3 inhoudsmaat",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/285:nl",
+    "nid": 285,
+    "title": "Label",
+    "url": "/nl/verpakkingencatalogus/label",
+    "description": "Label",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/219:nl",
+    "nid": 219,
+    "title": "Champignonbakje",
+    "url": "/nl/verpakkingencatalogus/champignonbakje",
+    "description": "Champignonbakje",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/299:nl",
+    "nid": 299,
+    "title": "Mosterdglas",
+    "url": "/nl/verpakkingencatalogus/mosterdglas",
+    "description": "Mosterdglas",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/464028:nl",
+    "nid": 464028,
+    "title": "Aluminiumfolie op rol",
+    "url": "/nl/verpakkingencatalogus/aluminiumfolie-op-rol",
+    "description": "&nbsp;\r\n\r\n&nbsp;",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/374:nl",
+    "nid": 374,
+    "title": "Geurstokjes",
+    "url": "/nl/verpakkingencatalogus/geurstokjes",
+    "description": "Geurstokjes",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/248:nl",
+    "nid": 248,
+    "title": "Geurolieflesje",
+    "url": "/nl/verpakkingencatalogus/geurolieflesje",
+    "description": "Geurolieflesje",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/286:nl",
+    "nid": 286,
+    "title": "Lenzendoosje",
+    "url": "/nl/verpakkingencatalogus/lenzendoosje",
+    "description": "Lenzendoosje",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/304:nl",
+    "nid": 304,
+    "title": "Noppenfolie om een product",
+    "url": "/nl/verpakkingencatalogus/noppenfolie-om-een-product",
+    "description": "Noppenfolie om een product",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/267:nl",
+    "nid": 267,
+    "title": "Kledinghoes (stomerij)",
+    "url": "/nl/verpakkingencatalogus/kledinghoes-stomerij",
+    "description": "Kledinghoes (stomerij)",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/204:nl",
+    "nid": 204,
+    "title": "Bellenblaassetje",
+    "url": "/nl/verpakkingencatalogus/bellenblaassetje",
+    "description": "Bellenblaassetje",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/243:nl",
+    "nid": 243,
+    "title": "Fotorolletje",
+    "url": "/nl/verpakkingencatalogus/fotorolletje",
+    "description": "Fotorolletje",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/228:nl",
+    "nid": 228,
+    "title": "Doosje nietjes",
+    "url": "/nl/verpakkingencatalogus/doosje-nietjes",
+    "description": "Doosje nietjes",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/335:nl",
+    "nid": 335,
+    "title": "Rolmaat",
+    "url": "/nl/verpakkingencatalogus/rolmaat",
+    "description": "Rolmaat",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/295:nl",
+    "nid": 295,
+    "title": "Mechanische molen navulbaar",
+    "url": "/nl/verpakkingencatalogus/mechanische-molen-navulbaar",
+    "description": "Mechanische molen navulbaar",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/301:nl",
+    "nid": 301,
+    "title": "Navulbare stalen gasfles",
+    "url": "/nl/verpakkingencatalogus/navulbare-stalen-gasfles",
+    "description": "Navulbare stalen gasfles",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/464084:nl",
+    "nid": 464084,
+    "title": "Etiket op rol",
+    "url": "/nl/verpakkingencatalogus/etiket-op-rol",
+    "description": "Etiket op rol",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/287:nl",
+    "nid": 287,
+    "title": "Lijmstift",
+    "url": "/nl/verpakkingencatalogus/lijmstift",
+    "description": "Lijmstift",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/364:nl",
+    "nid": 364,
+    "title": "Verzendzakjes voor catalogi en tijdschriften ",
+    "url": "/nl/verpakkingencatalogus/verzendzakjes-voor-catalogi-en-tijdschriften",
+    "description": "Verzendzakjes voor catalogi en tijdschriften ",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/464081:nl",
+    "nid": 464081,
+    "title": "Tandpastadoos",
+    "url": "/nl/verpakkingencatalogus/tandpastadoos",
+    "description": "Tandpastadoos",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/225:nl",
+    "nid": 225,
+    "title": "Doos voor computerspel",
+    "url": "/nl/verpakkingencatalogus/doos-voor-computerspel",
+    "description": "Doos voor computerspel",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/307:nl",
+    "nid": 307,
+    "title": "Oorbellendoos",
+    "url": "/nl/verpakkingencatalogus/oorbellendoos",
+    "description": "Oorbellendoos",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/464008:nl",
+    "nid": 464008,
+    "title": "Theezakje met touwtje en label",
+    "url": "/nl/verpakkingencatalogus/theezakje-met-touwtje-en-label",
+    "description": "Theezakje met touwtje en label",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/226:nl",
+    "nid": 226,
+    "title": "Doosje met bitjes",
+    "url": "/nl/verpakkingencatalogus/doosje-met-bitjes",
+    "description": "Doosje met bitjes",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/349:nl",
+    "nid": 349,
+    "title": "Spuitmond spuitbus",
+    "url": "/nl/verpakkingencatalogus/spuitmond-spuitbus",
+    "description": "Spuitmond spuitbus",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/200:nl",
+    "nid": 200,
+    "title": "Bakvorm leeg",
+    "url": "/nl/verpakkingencatalogus/bakvorm-leeg",
+    "description": "Bakvorm leeg",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/375:nl",
+    "nid": 375,
+    "title": "Dekbed tas",
+    "url": "/nl/verpakkingencatalogus/dekbed-tas",
+    "description": "Dekbed tas",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/229:nl",
+    "nid": 229,
+    "title": "Doosje voor fotolensfilter",
+    "url": "/nl/verpakkingencatalogus/doosje-voor-fotolensfilter",
+    "description": "Doosje voor fotolensfilter",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/323:nl",
+    "nid": 323,
+    "title": "Platenhoes",
+    "url": "/nl/verpakkingencatalogus/platenhoes",
+    "description": "Platenhoes",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/252:nl",
+    "nid": 252,
+    "title": "Hoeklatten",
+    "url": "/nl/verpakkingencatalogus/hoeklatten",
+    "description": "Hoeklatten",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/311:nl",
+    "nid": 311,
+    "title": "Opzetrand",
+    "url": "/nl/verpakkingencatalogus/opzetrand",
+    "description": "Opzetrand",
+    "isPackaging": true
+  },
+  {
+    "id": "entity:node/334:nl",
+    "nid": 334,
+    "title": "Rolcontainer",
+    "url": "/nl/verpakkingencatalogus/rolcontainer",
+    "description": "Rolcontainer",
+    "isPackaging": true
+  }
+]
