@@ -109,6 +109,12 @@ If a check fails, fix the problem and run the check again.
 
 Do not simply report that a check failed.
 
+
+### Fixing validation
+If any linting or testing fails, fix the code rather than editing the linter configuration or tests.
+Additionally, don't exclude file from linting or testing with some ignore file or some configuration comment, unless stated by the user
+
+
 ## Browser testing
 
 When changing interactive behavior, add or update a Playwright test.
