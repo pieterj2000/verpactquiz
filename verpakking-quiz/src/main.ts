@@ -7,12 +7,14 @@ interface PackagingItem {
   url: string;
   description: string;
   isPackaging: boolean;
+  category: string;
+  feeLiable: boolean;
 }
 
 let items: PackagingItem[] = [];
 let currentQuestionIndex = 0;
 let score = 0;
-let quizQuestions: PackagingItem[] = [];
+let quizQuestions: any[] = [];
 let answered = false;
 
 const app = document.querySelector<HTMLDivElement>("#app")!;
@@ -42,15 +44,15 @@ function renderWelcome() {
       <div class="card" style="text-align: center;">
         <h2 style="margin-bottom: 1rem;">Is het een verpakking of niet?</h2>
         <p style="margin-bottom: 1.5rem; color: var(--text-muted);">
-          In de Nederlandse wetgeving en bij de Afvalbeheersbijdrage Verpakkingen is het soms lastig te bepalen of een product als verpakking telt. 
-          Speel de quiz met ${items.length} voorbeelden uit de officiële Verpact catalogus en ontdek of jij een echte verpakkingskenner bent!
+          In de wetgeving en de Verpact Verpakkingencatalogus is het cruciaal om te weten wat wel en geen verpakking is, 
+          en welke categorie van toepassing is. Speel de quiz met ${items.length} echte voorbeelden en word een verpakkingskenner!
         </p>
         <button id="start-btn" class="btn" style="font-size: 1.1rem; padding: 1rem 2rem;">Start de Quiz</button>
       </div>
 
       <div class="card catalog-section">
         <h3 style="margin-bottom: 1rem;">Doorzoek de Verpakkingscatalogus</h3>
-        <input type="text" id="search-input" class="catalog-search" placeholder="Zoek op product (bijv. fles, zak, kadoverpakking)..." />
+        <input type="text" id="search-input" class="catalog-search" placeholder="Zoek op product (bijv. fles, zak, markeringsstift)..." />
         <div id="catalog-list" class="catalog-list"></div>
       </div>
     </main>
@@ -95,9 +97,14 @@ function renderCatalogList(filter: string) {
     <div class="catalog-item">
       <h4>${item.title}</h4>
       <p>${item.description}</p>
-      <span class="badge ${item.isPackaging ? "badge-yes" : "badge-no"}">
-        ${item.isPackaging ? "Wel verpakking" : "Geen verpakking"}
-      </span>
+      <div style="margin-top: 0.5rem; display: flex; gap: 0.5rem; flex-wrap: wrap;">
+        <span class="badge ${item.isPackaging ? "badge-yes" : "badge-no"}">
+          ${item.isPackaging ? "Wel verpakking" : "Geen verpakking"}
+        </span>
+        <span class="badge" style="background: #e2e8f0; color: #1e293b;">
+          ${item.category}
+        </span>
+      </div>
     </div>
   `,
     )
@@ -105,9 +112,44 @@ function renderCatalogList(filter: string) {
 }
 
 function startQuiz() {
-  // Select 10 random questions
   const shuffled = [...items].sort(() => 0.5 - Math.random());
-  quizQuestions = shuffled.slice(0, 10);
+  const selected = shuffled.slice(0, 10);
+
+  quizQuestions = selected.map((item) => {
+    const questionType = Math.random() > 0.5 ? "packaging" : "category";
+    if (questionType === "packaging") {
+      return {
+        type: "packaging",
+        item,
+        questionText: `Is <strong>"${item.title}"</strong> volgens de Verpact catalogus een officiële verpakking?`,
+        correctAnswer: item.isPackaging,
+        options: [
+          { label: "Wel een verpakking", value: true },
+          { label: "Geen verpakking", value: false },
+        ],
+      };
+    } else {
+      return {
+        type: "category",
+        item,
+        questionText: `In welke categorie valt <strong>"${item.title}"</strong> in de Verpact catalogus?`,
+        correctAnswer: item.category,
+        options: [
+          { label: "Verkoopverpakking", value: "Verkoopverpakking" },
+          { label: "Verkooppuntverpakking", value: "Verkooppuntverpakking" },
+          {
+            label: "Logistiek hulpmiddel / Transportverpakking",
+            value: "Logistiek hulpmiddel / Transportverpakking",
+          },
+          {
+            label: "Geen verpakking (product/hulpmiddel)",
+            value: "Geen verpakking (product/hulpmiddel)",
+          },
+        ].sort(() => 0.5 - Math.random()),
+      };
+    }
+  });
+
   currentQuestionIndex = 0;
   score = 0;
   renderQuestion();
@@ -134,13 +176,20 @@ function renderQuestion() {
           <div class="progress-fill" style="width: ${progress}%"></div>
         </div>
         <div class="question-meta">Verpact Catalogus</div>
-        <div class="question-text">Is <strong>"${q.title}"</strong> volgens de Verpact catalogus een officiële verpakking?</div>
+        <div class="question-text">${q.questionText}</div>
         
         <div id="feedback-area"></div>
 
         <div class="options-grid" id="options-grid">
-          <button class="option-btn" data-answer="true">Wel een verpakking</button>
-          <button class="option-btn" data-answer="false">Geen verpakking</button>
+          ${q.options
+            .map(
+              (opt: any) => `
+            <button class="option-btn" data-answer="${typeof opt.value === "boolean" ? opt.value : opt.label}">
+              ${opt.label}
+            </button>
+          `,
+            )
+            .join("")}
         </div>
 
         <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem;">
@@ -158,8 +207,10 @@ function renderQuestion() {
     btn.addEventListener("click", (e) => {
       if (answered) return;
       answered = true;
+      const target = e.currentTarget as HTMLElement;
+      const rawVal = target.getAttribute("data-answer");
       const userAns =
-        (e.currentTarget as HTMLElement).getAttribute("data-answer") === "true";
+        rawVal === "true" ? true : rawVal === "false" ? false : rawVal;
       handleAnswer(userAns, q);
     });
   });
@@ -170,16 +221,17 @@ function renderQuestion() {
   });
 }
 
-function handleAnswer(userAns: boolean, q: PackagingItem) {
-  const isCorrect = userAns === q.isPackaging;
+function handleAnswer(userAns: any, q: any) {
+  const isCorrect = userAns === q.correctAnswer;
   if (isCorrect) score++;
 
   const buttons = document.querySelectorAll(".option-btn");
   buttons.forEach((b) => {
-    const ans = b.getAttribute("data-answer") === "true";
-    if (ans === q.isPackaging) {
+    const rawVal = b.getAttribute("data-answer");
+    const bVal = rawVal === "true" ? true : rawVal === "false" ? false : rawVal;
+    if (bVal === q.correctAnswer) {
       b.classList.add("correct");
-    } else if (ans === userAns) {
+    } else if (bVal === userAns) {
       b.classList.add("incorrect");
     }
     (b as HTMLButtonElement).disabled = true;
@@ -189,8 +241,8 @@ function handleAnswer(userAns: boolean, q: PackagingItem) {
   feedbackArea.innerHTML = `
     <div class="feedback-box ${isCorrect ? "correct-feedback" : "incorrect-feedback"}">
       <strong>${isCorrect ? "Juist!" : "Onjuist!"}</strong><br>
-      ${q.title} is <strong>${q.isPackaging ? "wel" : "geen"}</strong> verpakking.<br>
-      <em>${q.description}</em>
+      Categorie: <strong>${q.item.category}</strong><br>
+      <em>${q.item.description}</em>
     </div>
   `;
 
