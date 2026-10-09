@@ -106,7 +106,7 @@
     "url": "/nl/verpakkingencatalogus/foliezakjes-met-thee-koffie",
     "description": "Officiële vermelding in de Verpact catalogus voor Foliezakjes met thee of koffie.",
     "isPackaging": true,
-    "category": "Verkoopverpakking",
+    "category": "Verkooppuntverpakking",
     "feeLiable": true
   },
   {
@@ -135,9 +135,9 @@
     "title": "Bandenplakset",
     "url": "/nl/verpakkingencatalogus/bandenplakset",
     "description": "Officiële vermelding in de Verpact catalogus voor Bandenplakset.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/300:nl",
@@ -145,9 +145,9 @@
     "title": "Naaldendoosje",
     "url": "/nl/verpakkingencatalogus/naaldendoosje",
     "description": "Officiële vermelding in de Verpact catalogus voor Naaldendoosje.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/297:nl",
@@ -155,9 +155,9 @@
     "title": "Mierendoosje",
     "url": "/nl/verpakkingencatalogus/mierendoosje",
     "description": "Officiële vermelding in de Verpact catalogus voor Mierendoosje.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/262:nl",
@@ -165,9 +165,9 @@
     "title": "Inpakpapier los",
     "url": "/nl/verpakkingencatalogus/inpakpapier-los",
     "description": "Officiële vermelding in de Verpact catalogus voor Inpakpapier los.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/342:nl",
@@ -175,9 +175,9 @@
     "title": "Sieradendoos",
     "url": "/nl/verpakkingencatalogus/sieradendoos",
     "description": "Officiële vermelding in de Verpact catalogus voor Sieradendoos.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/347:nl",
@@ -185,9 +185,9 @@
     "title": "Speld",
     "url": "/nl/verpakkingencatalogus/speld",
     "description": "Officiële vermelding in de Verpact catalogus voor Speld.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/306:nl",
@@ -195,9 +195,9 @@
     "title": "Oog- of neusdruppelaar",
     "url": "/nl/verpakkingencatalogus/oog-neusdruppelaar",
     "description": "Officiële vermelding in de Verpact catalogus voor Oog- of neusdruppelaar.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/274:nl",
@@ -205,9 +205,9 @@
     "title": "Koelelement",
     "url": "/nl/verpakkingencatalogus/koelelement",
     "description": "Officiële vermelding in de Verpact catalogus voor Koelelement.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/194:nl",
@@ -215,9 +215,9 @@
     "title": "Aansteker",
     "url": "/nl/verpakkingencatalogus/aansteker",
     "description": "Officiële vermelding in de Verpact catalogus voor Aansteker.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/280:nl",
@@ -235,9 +235,9 @@
     "title": "Doseerdop fles",
     "url": "/nl/verpakkingencatalogus/doseerdop-fles",
     "description": "Officiële vermelding in de Verpact catalogus voor Doseerdop fles.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/265:nl",
@@ -245,9 +245,9 @@
     "title": "Tie-wrap ",
     "url": "/nl/verpakkingencatalogus/tie-wrap",
     "description": "Officiële vermelding in de Verpact catalogus voor Tie-wrap .",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/368:nl",
@@ -255,9 +255,9 @@
     "title": "Waxinecup",
     "url": "/nl/verpakkingencatalogus/waxinecup",
     "description": "Officiële vermelding in de Verpact catalogus voor Waxinecup.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/284:nl",
@@ -275,9 +275,9 @@
     "title": "Vogelvoer",
     "url": "/nl/verpakkingencatalogus/vogelvoer",
     "description": "Officiële vermelding in de Verpact catalogus voor Vogelvoer.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/350:nl",
@@ -285,8 +285,8 @@
     "title": "Stektray",
     "url": "/nl/verpakkingencatalogus/stektray",
     "description": "Officiële vermelding in de Verpact catalogus voor Stektray.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
+    "isPackaging": true,
+    "category": "Logistiek hulpmiddel / Transportverpakking",
     "feeLiable": false
   },
   {
@@ -295,9 +295,9 @@
     "title": "Mechanische molen niet navulbaar",
     "url": "/nl/verpakkingencatalogus/mechanische-molen-niet-navulbaar",
     "description": "Officiële vermelding in de Verpact catalogus voor Mechanische molen niet navulbaar.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/232:nl",
@@ -325,9 +325,9 @@
     "title": "IJslepeltje",
     "url": "/nl/verpakkingencatalogus/ijslepeltje",
     "description": "Officiële vermelding in de Verpact catalogus voor IJslepeltje.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/361:nl",
@@ -335,9 +335,9 @@
     "title": "Verfblik",
     "url": "/nl/verpakkingencatalogus/verfblik",
     "description": "Officiële vermelding in de Verpact catalogus voor Verfblik.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/330:nl",
@@ -345,9 +345,9 @@
     "title": "Rietje",
     "url": "/nl/verpakkingencatalogus/rietje",
     "description": "Officiële vermelding in de Verpact catalogus voor Rietje.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/359:nl",
@@ -355,8 +355,8 @@
     "title": "Vat voor thuistap",
     "url": "/nl/verpakkingencatalogus/vat-voor-thuistap",
     "description": "Officiële vermelding in de Verpact catalogus voor Vat voor thuistap.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
+    "isPackaging": true,
+    "category": "Logistiek hulpmiddel / Transportverpakking",
     "feeLiable": false
   },
   {
@@ -385,9 +385,9 @@
     "title": "Adventskalender",
     "url": "/nl/verpakkingencatalogus/adventskalender",
     "description": "Officiële vermelding in de Verpact catalogus voor Adventskalender.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/264:nl",
@@ -395,9 +395,9 @@
     "title": "Kaaskorst",
     "url": "/nl/verpakkingencatalogus/kaaskorst",
     "description": "Officiële vermelding in de Verpact catalogus voor Kaaskorst.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/235:nl",
@@ -405,9 +405,9 @@
     "title": "EHBO doos",
     "url": "/nl/verpakkingencatalogus/ehbo-doos",
     "description": "Officiële vermelding in de Verpact catalogus voor EHBO doos.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/288:nl",
@@ -425,9 +425,9 @@
     "title": "Koekjestrommel leeg",
     "url": "/nl/verpakkingencatalogus/koekjestrommel-leeg",
     "description": "Officiële vermelding in de Verpact catalogus voor Koekjestrommel leeg.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/351:nl",
@@ -435,9 +435,9 @@
     "title": "Steriel barrieresysteem",
     "url": "/nl/verpakkingencatalogus/steriel-barrieresysteem",
     "description": "Officiële vermelding in de Verpact catalogus voor Steriel barrieresysteem.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/199:nl",
@@ -445,9 +445,9 @@
     "title": "Bakvorm gevuld",
     "url": "/nl/verpakkingencatalogus/bakvorm-gevuld",
     "description": "Officiële vermelding in de Verpact catalogus voor Bakvorm gevuld.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/352:nl",
@@ -455,9 +455,9 @@
     "title": "Sticker op fruit",
     "url": "/nl/verpakkingencatalogus/sticker-op-fruit",
     "description": "Officiële vermelding in de Verpact catalogus voor Sticker op fruit.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/213:nl",
@@ -485,9 +485,9 @@
     "title": "Blister",
     "url": "/nl/verpakkingencatalogus/blister",
     "description": "Officiële vermelding in de Verpact catalogus voor Blister.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/310:nl",
@@ -495,9 +495,9 @@
     "title": "Opvulmateriaal",
     "url": "/nl/verpakkingencatalogus/opvulmateriaal",
     "description": "Officiële vermelding in de Verpact catalogus voor Opvulmateriaal.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/376:nl",
@@ -535,9 +535,9 @@
     "title": "Bloempot voor buitenplant",
     "url": "/nl/verpakkingencatalogus/bloempot-voor-buitenplant",
     "description": "Officiële vermelding in de Verpact catalogus voor Bloempot voor buitenplant.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/302:nl",
@@ -555,9 +555,9 @@
     "title": "Injectiespuit",
     "url": "/nl/verpakkingencatalogus/injectiespuit",
     "description": "Officiële vermelding in de Verpact catalogus voor Injectiespuit.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/338:nl",
@@ -565,9 +565,9 @@
     "title": "Schoenveterdoosje",
     "url": "/nl/verpakkingencatalogus/schoenveterdoosje",
     "description": "Officiële vermelding in de Verpact catalogus voor Schoenveterdoosje.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/269:nl",
@@ -575,9 +575,9 @@
     "title": "Kleerhanger bij kledingstuk",
     "url": "/nl/verpakkingencatalogus/kleerhanger-bij-kledingstuk",
     "description": "Officiële vermelding in de Verpact catalogus voor Kleerhanger bij kledingstuk.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/354:nl",
@@ -585,9 +585,9 @@
     "title": "Tandflosdoosje",
     "url": "/nl/verpakkingencatalogus/tandflosdoosje",
     "description": "Officiële vermelding in de Verpact catalogus voor Tandflosdoosje.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/319:nl",
@@ -605,9 +605,9 @@
     "title": "Kleerhanger los",
     "url": "/nl/verpakkingencatalogus/kleerhanger-los",
     "description": "Officiële vermelding in de Verpact catalogus voor Kleerhanger los.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/369:nl",
@@ -615,9 +615,9 @@
     "title": "Wegwerpbestek",
     "url": "/nl/verpakkingencatalogus/wegwerpbestek",
     "description": "Officiële vermelding in de Verpact catalogus voor Wegwerpbestek.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/331:nl",
@@ -625,9 +625,9 @@
     "title": "Rijstbuidel",
     "url": "/nl/verpakkingencatalogus/rijstbuidel",
     "description": "Officiële vermelding in de Verpact catalogus voor Rijstbuidel.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/253:nl",
@@ -635,9 +635,9 @@
     "title": "Horlogedoos",
     "url": "/nl/verpakkingencatalogus/horlogedoos",
     "description": "Officiële vermelding in de Verpact catalogus voor Horlogedoos.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/247:nl",
@@ -645,9 +645,9 @@
     "title": "Gereedschapsdoos",
     "url": "/nl/verpakkingencatalogus/gereedschapsdoos",
     "description": "Officiële vermelding in de Verpact catalogus voor Gereedschapsdoos.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/356:nl",
@@ -655,9 +655,9 @@
     "title": "Toilettasje gevuld",
     "url": "/nl/verpakkingencatalogus/toilettasje-gevuld",
     "description": "Officiële vermelding in de Verpact catalogus voor Toilettasje gevuld.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/305:nl",
@@ -676,8 +676,8 @@
     "url": "/nl/verpakkingencatalogus/tussenplaat",
     "description": "Officiële vermelding in de Verpact catalogus voor Tussenplaat.",
     "isPackaging": true,
-    "category": "Logistiek hulpmiddel / Transportverpakking",
-    "feeLiable": false
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/237:nl",
@@ -696,7 +696,7 @@
     "url": "/nl/verpakkingencatalogus/snackbakje",
     "description": "Verpakking indien ontworpen en bedoeld om op het verkooppunt te worden gevuld zoals bakjes voor frites, frikandel, kibbeling, kroket, enz.",
     "isPackaging": true,
-    "category": "Verkoopverpakking",
+    "category": "Verkooppuntverpakking",
     "feeLiable": true
   },
   {
@@ -745,9 +745,9 @@
     "title": "Plantensubstraat",
     "url": "/nl/verpakkingencatalogus/plantensubstraat",
     "description": "Officiële vermelding in de Verpact catalogus voor Plantensubstraat.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/464029:nl",
@@ -755,9 +755,9 @@
     "title": "Wegwerpservies (thuis)",
     "url": "/nl/verpakkingencatalogus/wegwerpservies-thuis",
     "description": "Officiële vermelding in de Verpact catalogus voor Wegwerpservies (thuis).",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/275:nl",
@@ -765,9 +765,9 @@
     "title": "Koffiepad",
     "url": "/nl/verpakkingencatalogus/koffiepad",
     "description": "Officiële vermelding in de Verpact catalogus voor Koffiepad.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/293:nl",
@@ -775,9 +775,9 @@
     "title": "Mascaraborstel aan dop",
     "url": "/nl/verpakkingencatalogus/mascaraborstel-aan-dop",
     "description": "Officiële vermelding in de Verpact catalogus voor Mascaraborstel aan dop.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/201:nl",
@@ -786,8 +786,8 @@
     "url": "/nl/verpakkingencatalogus/bananendoos",
     "description": "Officiële vermelding in de Verpact catalogus voor Bananendoos.",
     "isPackaging": true,
-    "category": "Logistiek hulpmiddel / Transportverpakking",
-    "feeLiable": false
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/245:nl",
@@ -796,8 +796,8 @@
     "url": "/nl/verpakkingencatalogus/gasfles-vanaf-20-liter",
     "description": "Officiële vermelding in de Verpact catalogus voor Gasfles (vanaf 20 liter).",
     "isPackaging": true,
-    "category": "Logistiek hulpmiddel / Transportverpakking",
-    "feeLiable": false
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/244:nl",
@@ -815,9 +815,9 @@
     "title": "Luciferdoosje",
     "url": "/nl/verpakkingencatalogus/luciferdoosje",
     "description": "Officiële vermelding in de Verpact catalogus voor Luciferdoosje.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/256:nl",
@@ -835,9 +835,9 @@
     "title": "Fles voor injectievloeistof",
     "url": "/nl/verpakkingencatalogus/fles-voor-injectievloeistof",
     "description": "Officiële vermelding in de Verpact catalogus voor Fles voor injectievloeistof.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/289:nl",
@@ -845,9 +845,9 @@
     "title": "Luchtverfrisser",
     "url": "/nl/verpakkingencatalogus/luchtverfrisser",
     "description": "Officiële vermelding in de Verpact catalogus voor Luchtverfrisser.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/217:nl",
@@ -915,9 +915,9 @@
     "title": "Petrischaal",
     "url": "/nl/verpakkingencatalogus/petrischaal",
     "description": "Officiële vermelding in de Verpact catalogus voor Petrischaal.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/464085:nl",
@@ -935,9 +935,9 @@
     "title": "Bloempot voor binnenplant",
     "url": "/nl/verpakkingencatalogus/bloempot-voor-binnenplant",
     "description": "Officiële vermelding in de Verpact catalogus voor Bloempot voor binnenplant.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/464082:nl",
@@ -945,9 +945,9 @@
     "title": "Pleister liners",
     "url": "/nl/verpakkingencatalogus/pleister-liners",
     "description": "Officiële vermelding in de Verpact catalogus voor Pleister liners.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/348:nl",
@@ -955,9 +955,9 @@
     "title": "Spellendoos",
     "url": "/nl/verpakkingencatalogus/spellendoos",
     "description": "Officiële vermelding in de Verpact catalogus voor Spellendoos.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/215:nl",
@@ -965,9 +965,9 @@
     "title": "Campinggas",
     "url": "/nl/verpakkingencatalogus/campinggas",
     "description": "Officiële vermelding in de Verpact catalogus voor Campinggas.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/464079:nl",
@@ -975,9 +975,9 @@
     "title": "Worstvel",
     "url": "/nl/verpakkingencatalogus/worstvel",
     "description": "Officiële vermelding in de Verpact catalogus voor Worstvel.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/373:nl",
@@ -985,9 +985,9 @@
     "title": "Zwangerschapstest",
     "url": "/nl/verpakkingencatalogus/zwangerschapstest",
     "description": "Officiële vermelding in de Verpact catalogus voor Zwangerschapstest.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/212:nl",
@@ -1005,9 +1005,9 @@
     "title": "Beschermkapje scheermes",
     "url": "/nl/verpakkingencatalogus/beschermkapje-scheermes",
     "description": "Officiële vermelding in de Verpact catalogus voor Beschermkapje scheermes.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/230:nl",
@@ -1015,9 +1015,9 @@
     "title": "Doseerdop",
     "url": "/nl/verpakkingencatalogus/doseerdop",
     "description": "Officiële vermelding in de Verpact catalogus voor Doseerdop.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/303:nl",
@@ -1025,9 +1025,9 @@
     "title": "Nietjes in een verpakking",
     "url": "/nl/verpakkingencatalogus/nietjes-een-verpakking",
     "description": "Officiële vermelding in de Verpact catalogus voor Nietjes in een verpakking.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/291:nl",
@@ -1035,9 +1035,9 @@
     "title": "Map voor briefpapier",
     "url": "/nl/verpakkingencatalogus/map-voor-briefpapier",
     "description": "Officiële vermelding in de Verpact catalogus voor Map voor briefpapier.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/464030:nl",
@@ -1045,9 +1045,9 @@
     "title": "Koffiecapsule",
     "url": "/nl/verpakkingencatalogus/koffiecapsule",
     "description": "Officiële vermelding in de Verpact catalogus voor Koffiecapsule.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/362:nl",
@@ -1055,9 +1055,9 @@
     "title": "Verfpalet",
     "url": "/nl/verpakkingencatalogus/verfpalet",
     "description": "Officiële vermelding in de Verpact catalogus voor Verfpalet.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/333:nl",
@@ -1065,9 +1065,9 @@
     "title": "Roerstaaf",
     "url": "/nl/verpakkingencatalogus/roerstaaf",
     "description": "Officiële vermelding in de Verpact catalogus voor Roerstaaf.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/268:nl",
@@ -1145,9 +1145,9 @@
     "title": "Aanmaakzak",
     "url": "/nl/verpakkingencatalogus/aanmaakzak",
     "description": "Officiële vermelding in de Verpact catalogus voor Aanmaakzak.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/250:nl",
@@ -1155,9 +1155,9 @@
     "title": "Graflicht",
     "url": "/nl/verpakkingencatalogus/graflicht",
     "description": "Officiële vermelding in de Verpact catalogus voor Graflicht.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/329:nl",
@@ -1165,9 +1165,9 @@
     "title": "RFID",
     "url": "/nl/verpakkingencatalogus/rfid",
     "description": "Officiële vermelding in de Verpact catalogus voor RFID.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/254:nl",
@@ -1176,8 +1176,8 @@
     "url": "/nl/verpakkingencatalogus/houten-wijnkist",
     "description": "Officiële vermelding in de Verpact catalogus voor Houten wijnkist.",
     "isPackaging": true,
-    "category": "Logistiek hulpmiddel / Transportverpakking",
-    "feeLiable": false
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/251:nl",
@@ -1195,9 +1195,9 @@
     "title": "Printercartridge",
     "url": "/nl/verpakkingencatalogus/printercartridge",
     "description": "Officiële vermelding in de Verpact catalogus voor Printercartridge.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/309:nl",
@@ -1205,9 +1205,9 @@
     "title": "Pods",
     "url": "/nl/verpakkingencatalogus/pods",
     "description": "Officiële vermelding in de Verpact catalogus voor Pods.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/220:nl",
@@ -1215,9 +1215,9 @@
     "title": "Correctieroller",
     "url": "/nl/verpakkingencatalogus/correctieroller",
     "description": "Officiële vermelding in de Verpact catalogus voor Correctieroller.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/221:nl",
@@ -1225,9 +1225,9 @@
     "title": "Deodorantroller",
     "url": "/nl/verpakkingencatalogus/deodorantroller",
     "description": "Officiële vermelding in de Verpact catalogus voor Deodorantroller.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/328:nl",
@@ -1235,9 +1235,9 @@
     "title": "Printerpatronen",
     "url": "/nl/verpakkingencatalogus/printerpatronen",
     "description": "Officiële vermelding in de Verpact catalogus voor Printerpatronen.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/261:nl",
@@ -1245,9 +1245,9 @@
     "title": "Vispapier",
     "url": "/nl/verpakkingencatalogus/vispapier",
     "description": "Officiële vermelding in de Verpact catalogus voor Vispapier.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/340:nl",
@@ -1265,9 +1265,9 @@
     "title": "Inbrenghuls",
     "url": "/nl/verpakkingencatalogus/inbrenghuls",
     "description": "Officiële vermelding in de Verpact catalogus voor Inbrenghuls.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/332:nl",
@@ -1275,9 +1275,9 @@
     "title": "Ringendoos",
     "url": "/nl/verpakkingencatalogus/ringendoos",
     "description": "Officiële vermelding in de Verpact catalogus voor Ringendoos.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/246:nl",
@@ -1295,9 +1295,9 @@
     "title": "Houtwol",
     "url": "/nl/verpakkingencatalogus/houtwol",
     "description": "Officiële vermelding in de Verpact catalogus voor Houtwol.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/281:nl",
@@ -1315,9 +1315,9 @@
     "title": "Band/Strap",
     "url": "/nl/verpakkingencatalogus/bandstrap",
     "description": "Officiële vermelding in de Verpact catalogus voor Band/Strap.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/326:nl",
@@ -1325,9 +1325,9 @@
     "title": "Potlodendoosje",
     "url": "/nl/verpakkingencatalogus/potlodendoosje",
     "description": "Officiële vermelding in de Verpact catalogus voor Potlodendoosje.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/355:nl",
@@ -1335,9 +1335,9 @@
     "title": "Theezakje ",
     "url": "/nl/verpakkingencatalogus/theezakje",
     "description": "Officiële vermelding in de Verpact catalogus voor Theezakje .",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkooppuntverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/276:nl",
@@ -1365,9 +1365,9 @@
     "title": "Infuuszak",
     "url": "/nl/verpakkingencatalogus/infuuszak",
     "description": "Officiële vermelding in de Verpact catalogus voor Infuuszak.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/294:nl",
@@ -1375,9 +1375,9 @@
     "title": "Make-up kwast",
     "url": "/nl/verpakkingencatalogus/make-kwast",
     "description": "Officiële vermelding in de Verpact catalogus voor Make-up kwast.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/308:nl",
@@ -1385,9 +1385,9 @@
     "title": "Oordopdoosje",
     "url": "/nl/verpakkingencatalogus/oordopdoosje",
     "description": "Officiële vermelding in de Verpact catalogus voor Oordopdoosje.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/227:nl",
@@ -1395,9 +1395,9 @@
     "title": "Doosje met vishaken",
     "url": "/nl/verpakkingencatalogus/doosje-met-vishaken",
     "description": "Officiële vermelding in de Verpact catalogus voor Doosje met vishaken.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/341:nl",
@@ -1405,9 +1405,9 @@
     "title": "Schroevendoosje",
     "url": "/nl/verpakkingencatalogus/schroevendoosje",
     "description": "Officiële vermelding in de Verpact catalogus voor Schroevendoosje.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/357:nl",
@@ -1455,9 +1455,9 @@
     "title": "Sneeuwketting",
     "url": "/nl/verpakkingencatalogus/sneeuwketting",
     "description": "Officiële vermelding in de Verpact catalogus voor Sneeuwketting.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/283:nl",
@@ -1475,9 +1475,9 @@
     "title": "Plaktape",
     "url": "/nl/verpakkingencatalogus/plaktape",
     "description": "Officiële vermelding in de Verpact catalogus voor Plaktape.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/214:nl",
@@ -1546,8 +1546,8 @@
     "url": "/nl/verpakkingencatalogus/verrassingsei",
     "description": "Verrassingsei dat bijvoorbeeld een speelgoedje bevat",
     "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "feeLiable": true
+    "category": "Logistiek hulpmiddel / Transportverpakking",
+    "feeLiable": false
   },
   {
     "id": "entity:node/372:nl",
@@ -1565,9 +1565,9 @@
     "title": "Krimpfolie",
     "url": "/nl/verpakkingencatalogus/krimpfolie",
     "description": "Officiële vermelding in de Verpact catalogus voor Krimpfolie.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/272:nl",
@@ -1575,9 +1575,9 @@
     "title": "Koekjestrommel gevuld",
     "url": "/nl/verpakkingencatalogus/koekjestrommel-gevuld",
     "description": "Officiële vermelding in de Verpact catalogus voor Koekjestrommel gevuld.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/211:nl",
@@ -1585,9 +1585,9 @@
     "title": "Brandpastakuipje",
     "url": "/nl/verpakkingencatalogus/brandpastakuipje",
     "description": "Officiële vermelding in de Verpact catalogus voor Brandpastakuipje.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/263:nl",
@@ -1596,8 +1596,8 @@
     "url": "/nl/verpakkingencatalogus/jerrycan-vanaf-20-liter",
     "description": "Officiële vermelding in de Verpact catalogus voor Jerrycan (vanaf 20 liter).",
     "isPackaging": true,
-    "category": "Logistiek hulpmiddel / Transportverpakking",
-    "feeLiable": false
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/236:nl",
@@ -1605,9 +1605,9 @@
     "title": "Eierdoos",
     "url": "/nl/verpakkingencatalogus/eierdoos",
     "description": "Officiële vermelding in de Verpact catalogus voor Eierdoos.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/224:nl",
@@ -1616,8 +1616,8 @@
     "url": "/nl/verpakkingencatalogus/doos-vanaf-1m3-inhoudsmaat",
     "description": "Officiële vermelding in de Verpact catalogus voor Doos vanaf 1m3 inhoudsmaat.",
     "isPackaging": true,
-    "category": "Logistiek hulpmiddel / Transportverpakking",
-    "feeLiable": false
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/285:nl",
@@ -1635,9 +1635,9 @@
     "title": "Champignonbakje",
     "url": "/nl/verpakkingencatalogus/champignonbakje",
     "description": "Officiële vermelding in de Verpact catalogus voor Champignonbakje.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/299:nl",
@@ -1645,9 +1645,9 @@
     "title": "Mosterdglas",
     "url": "/nl/verpakkingencatalogus/mosterdglas",
     "description": "Officiële vermelding in de Verpact catalogus voor Mosterdglas.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/464028:nl",
@@ -1665,9 +1665,9 @@
     "title": "Geurstokjes",
     "url": "/nl/verpakkingencatalogus/geurstokjes",
     "description": "Officiële vermelding in de Verpact catalogus voor Geurstokjes.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/248:nl",
@@ -1675,9 +1675,9 @@
     "title": "Geurolieflesje",
     "url": "/nl/verpakkingencatalogus/geurolieflesje",
     "description": "Officiële vermelding in de Verpact catalogus voor Geurolieflesje.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/286:nl",
@@ -1685,9 +1685,9 @@
     "title": "Lenzendoosje",
     "url": "/nl/verpakkingencatalogus/lenzendoosje",
     "description": "Officiële vermelding in de Verpact catalogus voor Lenzendoosje.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/304:nl",
@@ -1695,9 +1695,9 @@
     "title": "Noppenfolie om een product",
     "url": "/nl/verpakkingencatalogus/noppenfolie-om-een-product",
     "description": "Officiële vermelding in de Verpact catalogus voor Noppenfolie om een product.",
-    "isPackaging": true,
-    "category": "Verkoopverpakking",
-    "feeLiable": true
+    "isPackaging": false,
+    "category": "Geen verpakking (product/hulpmiddel)",
+    "feeLiable": false
   },
   {
     "id": "entity:node/267:nl",
@@ -1715,9 +1715,9 @@
     "title": "Bellenblaassetje",
     "url": "/nl/verpakkingencatalogus/bellenblaassetje",
     "description": "Officiële vermelding in de Verpact catalogus voor Bellenblaassetje.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/243:nl",
@@ -1725,9 +1725,9 @@
     "title": "Fotorolletje",
     "url": "/nl/verpakkingencatalogus/fotorolletje",
     "description": "Officiële vermelding in de Verpact catalogus voor Fotorolletje.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/228:nl",
@@ -1735,9 +1735,9 @@
     "title": "Doosje nietjes",
     "url": "/nl/verpakkingencatalogus/doosje-nietjes",
     "description": "Officiële vermelding in de Verpact catalogus voor Doosje nietjes.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/335:nl",
@@ -1745,9 +1745,9 @@
     "title": "Rolmaat",
     "url": "/nl/verpakkingencatalogus/rolmaat",
     "description": "Officiële vermelding in de Verpact catalogus voor Rolmaat.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/295:nl",
@@ -1755,9 +1755,9 @@
     "title": "Mechanische molen navulbaar",
     "url": "/nl/verpakkingencatalogus/mechanische-molen-navulbaar",
     "description": "Officiële vermelding in de Verpact catalogus voor Mechanische molen navulbaar.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/301:nl",
@@ -1765,9 +1765,9 @@
     "title": "Navulbare stalen gasfles",
     "url": "/nl/verpakkingencatalogus/navulbare-stalen-gasfles",
     "description": "Officiële vermelding in de Verpact catalogus voor Navulbare stalen gasfles.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/464084:nl",
@@ -1796,7 +1796,7 @@
     "url": "/nl/verpakkingencatalogus/verzendzakjes-voor-catalogi-en-tijdschriften",
     "description": "Officiële vermelding in de Verpact catalogus voor Verzendzakjes voor catalogi en tijdschriften .",
     "isPackaging": true,
-    "category": "Verkoopverpakking",
+    "category": "Verkooppuntverpakking",
     "feeLiable": true
   },
   {
@@ -1805,9 +1805,9 @@
     "title": "Tandpastadoos",
     "url": "/nl/verpakkingencatalogus/tandpastadoos",
     "description": "Officiële vermelding in de Verpact catalogus voor Tandpastadoos.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/225:nl",
@@ -1815,9 +1815,9 @@
     "title": "Doos voor computerspel",
     "url": "/nl/verpakkingencatalogus/doos-voor-computerspel",
     "description": "Officiële vermelding in de Verpact catalogus voor Doos voor computerspel.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/307:nl",
@@ -1825,9 +1825,9 @@
     "title": "Oorbellendoos",
     "url": "/nl/verpakkingencatalogus/oorbellendoos",
     "description": "Officiële vermelding in de Verpact catalogus voor Oorbellendoos.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/464008:nl",
@@ -1835,9 +1835,9 @@
     "title": "Theezakje met touwtje en label",
     "url": "/nl/verpakkingencatalogus/theezakje-met-touwtje-en-label",
     "description": "Officiële vermelding in de Verpact catalogus voor Theezakje met touwtje en label.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkooppuntverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/226:nl",
@@ -1845,9 +1845,9 @@
     "title": "Doosje met bitjes",
     "url": "/nl/verpakkingencatalogus/doosje-met-bitjes",
     "description": "Officiële vermelding in de Verpact catalogus voor Doosje met bitjes.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/349:nl",
@@ -1855,9 +1855,9 @@
     "title": "Spuitmond spuitbus",
     "url": "/nl/verpakkingencatalogus/spuitmond-spuitbus",
     "description": "Officiële vermelding in de Verpact catalogus voor Spuitmond spuitbus.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/200:nl",
@@ -1865,9 +1865,9 @@
     "title": "Bakvorm leeg",
     "url": "/nl/verpakkingencatalogus/bakvorm-leeg",
     "description": "Officiële vermelding in de Verpact catalogus voor Bakvorm leeg.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/375:nl",
@@ -1875,9 +1875,9 @@
     "title": "Dekbed tas",
     "url": "/nl/verpakkingencatalogus/dekbed-tas",
     "description": "Officiële vermelding in de Verpact catalogus voor Dekbed tas.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/229:nl",
@@ -1885,9 +1885,9 @@
     "title": "Doosje voor fotolensfilter",
     "url": "/nl/verpakkingencatalogus/doosje-voor-fotolensfilter",
     "description": "Officiële vermelding in de Verpact catalogus voor Doosje voor fotolensfilter.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/323:nl",
@@ -1895,9 +1895,9 @@
     "title": "Platenhoes",
     "url": "/nl/verpakkingencatalogus/platenhoes",
     "description": "Officiële vermelding in de Verpact catalogus voor Platenhoes.",
-    "isPackaging": false,
-    "category": "Geen verpakking (product/hulpmiddel)",
-    "feeLiable": false
+    "isPackaging": true,
+    "category": "Verkoopverpakking",
+    "feeLiable": true
   },
   {
     "id": "entity:node/252:nl",
