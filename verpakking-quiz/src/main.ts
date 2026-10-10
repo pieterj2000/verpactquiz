@@ -77,19 +77,13 @@ function renderWelcomeReady() {
       <p>Ontdek alles over verpakkingen met de officiële Verpact Verpakkingencatalogus!</p>
     </header>
     <main>
-      <div class="card" style="text-align: center;">
+      <div class="card" style="text-align: center; max-width: 600px; margin: 0 auto;">
         <h2 style="margin-bottom: 1rem;">Test je kennis van de Verpakkingscatalogus</h2>
         <p style="margin-bottom: 1.5rem; color: var(--text-muted);">
           Je krijgt telkens een product te zien met afbeelding, omschrijving en materialen. 
-          Jazeker! Aan jou de taak om voor alle 7 eigenschappen uit de tabel te gokken of ze wel of niet van toepassing zijn.
+          Aan jou de taak om voor alle 7 eigenschappen uit de tabel te gokken of ze wel of niet van toepassing zijn.
         </p>
         <button id="start-btn" class="btn" style="font-size: 1.1rem; padding: 1rem 2rem; width: 100%;">Start de Quiz</button>
-      </div>
-
-      <div class="card catalog-section">
-        <h3 style="margin-bottom: 1rem;">Officiële Catalogus Bibliotheek</h3>
-        <input type="text" id="search-input" class="catalog-search" placeholder="Zoek in alle gescrapte producten..." />
-        <div id="catalog-list" class="catalog-list"></div>
       </div>
     </main>
     <footer>
@@ -101,52 +95,6 @@ function renderWelcomeReady() {
     .querySelector("#header-home")
     ?.addEventListener("click", renderWelcomeReady);
   document.querySelector("#start-btn")?.addEventListener("click", startQuiz);
-
-  const searchInput = document.querySelector(
-    "#search-input",
-  ) as HTMLInputElement;
-  searchInput?.addEventListener("input", (e) => {
-    renderCatalogList((e.target as HTMLInputElement).value);
-  });
-
-  renderCatalogList("");
-}
-
-function renderCatalogList(filter: string) {
-  const listEl = document.querySelector("#catalog-list");
-  if (!listEl) return;
-
-  const filtered = items
-    .filter(
-      (i) =>
-        i.title.toLowerCase().includes(filter.toLowerCase()) ||
-        i.description.toLowerCase().includes(filter.toLowerCase()),
-    )
-    .slice(0, 50);
-
-  if (filtered.length === 0) {
-    listEl.innerHTML =
-      '<p style="color: var(--text-muted); text-align: center; padding: 1rem;">Geen producten gevonden.</p>';
-    return;
-  }
-
-  listEl.innerHTML = filtered
-    .map(
-      (item) => `
-    <div class="catalog-item" style="display: flex; gap: 1rem; align-items: center;">
-      ${item.localImageUrl || item.imageUrl ? `<img src="${item.localImageUrl || item.imageUrl}" alt="${item.title}" style="width: 80px; height: 60px; object-fit: contain; background: #f8fafc; border-radius: 6px; border: 1px solid #cbd5e1;" />` : ""}
-      <div style="flex: 1;">
-        <h4>${item.title}</h4>
-        ${item.subtitle ? `<p style="font-style: italic; color: var(--primary-dark);">${item.subtitle}</p>` : ""}
-        <p>${item.description}</p>
-        <div style="margin-top: 0.5rem; font-size: 0.85rem; color: var(--text-muted);">
-          <strong>Materialen:</strong> ${item.materials.join(", ")}
-        </div>
-      </div>
-    </div>
-  `,
-    )
-    .join("");
 }
 
 function startQuiz() {
