@@ -189,12 +189,12 @@ function renderQuestion() {
           ${item.subtitle ? `<p style="font-style: italic; color: var(--text-muted); font-size: 1rem;">${item.subtitle}</p>` : ""}
         </div>
 
-        <!-- Afbeelding over de volledige breedte in z'n geheel getoond (object-fit: contain met 100% breedte) -->
+        <!-- Afbeelding over de volledige breedte zonder padding of randje -->
         ${
           imgSrc
             ? `
-          <div style="margin-bottom: 1.5rem; width: 100%; background: #f8fafc; border-radius: 8px; border: 1px solid #cbd5e1; padding: 0.5rem; text-align: center; overflow: hidden;">
-            <img src="${imgSrc}" alt="${item.title}" style="width: 100%; height: auto; object-fit: contain; border-radius: 4px; display: block;" />
+          <div style="margin-bottom: 1.5rem; width: 100%; background: #f8fafc; border-radius: 8px; border: 1px solid #cbd5e1; padding: 0; text-align: center; overflow: hidden;">
+            <img src="${imgSrc}" alt="${item.title}" style="width: 100%; height: auto; object-fit: contain; display: block; border-radius: 7px;" />
           </div>
         `
             : ""
