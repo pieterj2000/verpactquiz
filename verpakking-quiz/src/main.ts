@@ -6,6 +6,7 @@ interface CatalogItem {
   title: string;
   subtitle: string;
   imageUrl: string;
+  localImageUrl: string;
   description: string;
   materials: string[];
   tableInfo: Record<string, boolean>;
@@ -132,12 +133,15 @@ function renderCatalogList(filter: string) {
   listEl.innerHTML = filtered
     .map(
       (item) => `
-    <div class="catalog-item">
-      <h4>${item.title}</h4>
-      ${item.subtitle ? `<p style="font-style: italic; color: var(--primary-dark);">${item.subtitle}</p>` : ""}
-      <p>${item.description}</p>
-      <div style="margin-top: 0.5rem; font-size: 0.85rem; color: var(--text-muted);">
-        <strong>Materialen:</strong> ${item.materials.join(", ")}
+    <div class="catalog-item" style="display: flex; gap: 1rem; align-items: center;">
+      ${item.localImageUrl || item.imageUrl ? `<img src="${item.localImageUrl || item.imageUrl}" alt="${item.title}" style="width: 80px; height: 60px; object-fit: cover; border-radius: 6px; border: 1px solid #cbd5e1;" />` : ""}
+      <div style="flex: 1;">
+        <h4>${item.title}</h4>
+        ${item.subtitle ? `<p style="font-style: italic; color: var(--primary-dark);">${item.subtitle}</p>` : ""}
+        <p>${item.description}</p>
+        <div style="margin-top: 0.5rem; font-size: 0.85rem; color: var(--text-muted);">
+          <strong>Materialen:</strong> ${item.materials.join(", ")}
+        </div>
       </div>
     </div>
   `,
@@ -162,10 +166,11 @@ function renderQuestion() {
   const item = quizQuestions[currentQuestionIndex];
   userGuesses = {};
   tableProperties.forEach((p) => {
-    userGuesses[p.key] = false; // default false
+    userGuesses[p.key] = false;
   });
 
   const progress = (currentQuestionIndex / quizQuestions.length) * 100;
+  const imgSrc = item.localImageUrl || item.imageUrl;
 
   app.innerHTML = `
     <header style="cursor: pointer;" id="header-home">
@@ -179,7 +184,7 @@ function renderQuestion() {
         </div>
 
         <div style="display: flex; gap: 1.5rem; align-items: flex-start; margin-bottom: 1.5rem; flex-wrap: wrap;">
-          ${item.imageUrl ? `<img src="${item.imageUrl}" alt="${item.title}" style="width: 140px; height: 100px; object-fit: cover; border-radius: 8px; border: 1px solid #cbd5e1;" />` : ""}
+          ${imgSrc ? `<img src="${imgSrc}" alt="${item.title}" style="width: 140px; height: 100px; object-fit: cover; border-radius: 8px; border: 1px solid #cbd5e1;" />` : ""}
           <div style="flex: 1; min-width: 200px;">
             <h2 style="color: var(--primary-dark); margin-bottom: 0.25rem;">${item.title}</h2>
             ${item.subtitle ? `<p style="font-style: italic; color: var(--text-muted); margin-bottom: 0.5rem;">${item.subtitle}</p>` : ""}
@@ -231,7 +236,6 @@ function renderQuestion() {
       const val = target.getAttribute("data-val") === "true";
       userGuesses[prop] = val;
 
-      // Update button styles in this row
       const parentRow = target.parentElement!;
       parentRow.querySelectorAll(".guess-btn").forEach((b) => {
         b.classList.remove("btn-success", "btn-danger");
@@ -269,7 +273,6 @@ function checkAnswers(item: CatalogItem) {
 
   totalScore += roundScore;
 
-  // Disable guess buttons
   document.querySelectorAll(".guess-btn").forEach((b) => {
     (b as HTMLButtonElement).disabled = true;
   });
