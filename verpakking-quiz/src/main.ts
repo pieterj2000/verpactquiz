@@ -177,8 +177,8 @@ function renderQuestion() {
       <h1>${logoSvg}Verpakkings-Quiz</h1>
       <p>Test je kennis van de Verpakkingscatalogus</p>
     </header>
-    <main>
-      <div class="card quiz-container" style="max-width: 1150px; margin: 0 auto;">
+    <main style="max-width: 1250px; width: 100%; margin: 2rem auto; padding: 0 1rem;">
+      <div class="card quiz-container" style="max-width: 100%;">
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem; font-size: 0.9rem; font-weight: 600; color: var(--text-muted);">
           <span>Product ${currentQuestionIndex + 1} van ${quizQuestions.length}</span>
           <span>${Math.round(progress)}% voltooid</span>
@@ -187,7 +187,7 @@ function renderQuestion() {
           <div class="progress-fill" style="width: ${progress}%"></div>
         </div>
 
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); gap: 2rem; align-items: start; margin-top: 1.5rem;">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem; align-items: start; margin-top: 1.5rem;">
           
           <!-- LINKER KOLOM: Product informatie (naam, afbeelding, omschrijving, materialen) -->
           <div style="display: flex; flex-direction: column; gap: 1rem;">
