@@ -6,7 +6,7 @@ Gelukkig is er de **Verpact Verpakkingscatalogus**. Een bron van informatie waar
 
 Met deze quiz test je jouw kennis van de verpakkingscatalogus. Denk je dat je alles weet over verpakkingen? Bewijs het maar. Geen blind vertrouwen, geen klakkeloos aannemen wat er op een website staat — gewoon kritisch kijken, feiten checken en zelf de verbanden leggen.
 
-Wil je nóg dieper graven in het verpakkingscomplex? Raadpleeg dan ook de **Verpact Begrippenlijst** voor alle termen die je eigenlijk al had moeten kennen, én de pagina *Jouw verpakkingen* om je eigen verpakkingssituatie eens kritisch onder de loep te nemen.
+Wil je nóg dieper graven in het verpakkingscomplex? Raadpleeg dan ook de **Verpact Begrippenlijst** voor alle termen die je eigenlijk al had moeten kennen, én de pagina _Jouw verpakkingen_ om je eigen verpakkingssituatie eens kritisch onder de loep te nemen.
 
 Want wie bepaalt eigenlijk wat een verpakking is? Wie trekt de grenzen? En wie profiteert ervan als jij níét weet wat er in de catalogus staat?
 

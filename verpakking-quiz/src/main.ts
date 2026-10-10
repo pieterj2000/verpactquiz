@@ -1,4 +1,5 @@
 import "./style.css";
+import tekstMd from "./tekstje.md?raw";
 
 interface CatalogItem {
   id: string;
@@ -36,6 +37,52 @@ const tableProperties = [
   { key: "exoot", label: "Exoot" },
 ];
 
+function parseMarkdown(md: string): string {
+  const lines = md.split("\n");
+  let html = "";
+  let inParagraph = false;
+
+  for (let line of lines) {
+    line = line.trim();
+    if (!line) {
+      if (inParagraph) {
+        html += "</p>";
+        inParagraph = false;
+      }
+      continue;
+    }
+
+    if (line.startsWith("# ")) {
+      if (inParagraph) {
+        html += "</p>";
+        inParagraph = false;
+      }
+      html += `<h3 style="margin-bottom: 1rem; color: var(--primary-dark);">${line.replace("# ", "")}</h3>`;
+    } else if (line.startsWith("## ")) {
+      if (inParagraph) {
+        html += "</p>";
+        inParagraph = false;
+      }
+      html += `<h4>${line.replace("## ", "")}</h4>`;
+    } else {
+      if (!inParagraph) {
+        html += '<p style="margin-bottom: 1rem; line-height: 1.6;">';
+        inParagraph = true;
+      } else {
+        html += "<br>";
+      }
+      const formatted = line
+        .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")
+        .replace(/_(.*?)_/g, "<em>$1</em>");
+      html += formatted;
+    }
+  }
+  if (inParagraph) {
+    html += "</p>";
+  }
+  return html;
+}
+
 async function loadData() {
   renderWelcomeLoading();
   try {
@@ -64,20 +111,19 @@ function renderWelcomeLoading() {
         <p style="margin-bottom: 1.5rem; color: var(--text-muted);">Even geduld terwijl de officiële Verpact data wordt geladen.</p>
       </div>
     </main>
-    <footer>
-      <p>Verpakkings-Quiz &copy; 2025</p>
-    </footer>
   `;
 }
 
 function renderWelcomeReady() {
+  const parsedTekst = parseMarkdown(tekstMd);
+
   app.innerHTML = `
     <header style="cursor: pointer;" id="header-home">
       <h1>${logoSvg}Verpakkings-Quiz</h1>
       <p>Ontdek alles over verpakkingen met de officiële Verpact Verpakkingencatalogus!</p>
     </header>
-    <main>
-      <div class="card" style="text-align: center; max-width: 600px; margin: 0 auto;">
+    <main style="max-width: 900px; width: 100%; margin: 2rem auto; padding: 0 1rem;">
+      <div class="card" style="text-align: center; margin-bottom: 2rem;">
         <h2 style="margin-bottom: 1rem;">Test je kennis van de Verpakkingscatalogus</h2>
         <p style="margin-bottom: 1.5rem; color: var(--text-muted);">
           Je krijgt telkens een product te zien met afbeelding, omschrijving en materialen. 
@@ -85,10 +131,12 @@ function renderWelcomeReady() {
         </p>
         <button id="start-btn" class="btn" style="font-size: 1.1rem; padding: 1rem 2rem; width: 100%;">Start de Quiz</button>
       </div>
+
+      <!-- Tekstvak met inhoud uit tekstje.md verwerkt tijdens de build -->
+      <div class="card" style="text-align: left; background: #f8fafc; border-left: 5px solid var(--primary-color);">
+        ${parsedTekst}
+      </div>
     </main>
-    <footer>
-      <p>Gebaseerd op de live gescrapte <a href="https://www.verpact.nl/nl/verpakkingencatalogus" target="_blank">Verpact Verpakkingencatalogus</a>.</p>
-    </footer>
   `;
 
   document
@@ -192,9 +240,6 @@ function renderQuestion() {
         </div>
       </div>
     </main>
-    <footer>
-      <p>Verpakkings-Quiz &copy; 2025</p>
-    </footer>
   `;
 
   document
@@ -301,9 +346,6 @@ function renderResults() {
         </div>
       </div>
     </main>
-    <footer>
-      <p>Verpakkings-Quiz &copy; 2025</p>
-    </footer>
   `;
 
   document
