@@ -41,7 +41,7 @@ async function loadData() {
 
 function renderWelcomeLoading() {
   app.innerHTML = `
-    <header>
+    <header style="cursor: pointer;" id="header-home">
       <h1>${logoSvg}Verpakkings-Quiz</h1>
       <p>Ontdek alles over verpakkingen met de officiële Verpact Verpakkingencatalogus!</p>
     </header>
@@ -59,7 +59,7 @@ function renderWelcomeLoading() {
 
 function renderWelcomeReady() {
   app.innerHTML = `
-    <header>
+    <header style="cursor: pointer;" id="header-home">
       <h1>${logoSvg}Verpakkings-Quiz</h1>
       <p>Ontdek alles over verpakkingen met de officiële Verpact Verpakkingencatalogus!</p>
     </header>
@@ -92,6 +92,10 @@ function renderWelcomeReady() {
       <p>Gebaseerd op de live gescrapte <a href="https://www.verpact.nl/nl/verpakkingencatalogus" target="_blank">Verpact Verpakkingencatalogus</a>.</p>
     </footer>
   `;
+
+  document
+    .querySelector("#header-home")
+    ?.addEventListener("click", renderWelcomeReady);
 
   document.querySelectorAll(".quiz-mode-btn").forEach((btn) => {
     btn.addEventListener("click", (e) => {
@@ -259,7 +263,7 @@ function renderQuestion() {
   const progress = (currentQuestionIndex / quizQuestions.length) * 100;
 
   app.innerHTML = `
-    <header>
+    <header style="cursor: pointer;" id="header-home">
       <h1>${logoSvg}Verpakkings-Quiz</h1>
       <p>Vraag ${currentQuestionIndex + 1} van ${quizQuestions.length}</p>
     </header>
@@ -295,6 +299,10 @@ function renderQuestion() {
       <p>Verpakkings-Quiz &copy; 2025 - Gebaseerd op quiz-opzet.md</p>
     </footer>
   `;
+
+  document
+    .querySelector("#header-home")
+    ?.addEventListener("click", renderWelcomeReady);
 
   document.querySelectorAll(".option-btn").forEach((btn) => {
     btn.addEventListener("click", (e) => {
@@ -357,7 +365,7 @@ function renderResults() {
   }
 
   app.innerHTML = `
-    <header>
+    <header style="cursor: pointer;" id="header-home">
       <h1>${logoSvg}Quiz Voltooid!</h1>
       <p>Je eindresultaat</p>
     </header>
@@ -378,6 +386,9 @@ function renderResults() {
     </footer>
   `;
 
+  document
+    .querySelector("#header-home")
+    ?.addEventListener("click", renderWelcomeReady);
   document.querySelector("#restart-btn")?.addEventListener("click", startQuiz);
   document
     .querySelector("#home-btn")
