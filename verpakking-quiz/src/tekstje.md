@@ -1,6 +1,6 @@
-# **🚨 DENK ZELF NA. DOE JE EIGEN ONDERZOEK. CHECK JE VERPAKKINGEN. 🚨**
+# Wat wil _Big Verpakking_ niet dat jij weet? 📦 Doe de quiz. Stel vragen. Wantrouw de doos. 👀
 
-Toeval? Of zit er meer achter die verpakking dan ze ons willen doen geloven? Terwijl _Big Verpakking_ ons dagelijks overspoelt met dozen, folies, potjes en andere mysterieuze constructies, stelt bijna niemand de écht belangrijke vragen. Wat is een verpakking nu eigenlijk? Wie bepaalt wat eronder valt? En waarom zou je dat zomaar aannemen van de gevestigde verpakkingsorde?
+Terwijl [_Big Verpakking_](verpact.nl) ons dagelijks overspoelt met dozen, folies, potjes en andere mysterieuze constructies, stelt bijna niemand de écht belangrijke vragen. Wat is een verpakking nu eigenlijk? [Wie](https://www.verpact.nl/nl/wij-zijn-verpact) bepaalt wat eronder valt? En waarom zou je dat zomaar aannemen van de gevestigde verpakkingsorde?
 
 Gelukkig is er de **Verpact Verpakkingscatalogus**. Een bron van informatie waarmee je zelf op onderzoek kunt gaan. Maar let op: kennis is macht, en macht over verpakkingen is blijkbaar iets waar we met z’n allen veel te weinig over nadenken. 👁️
 
@@ -10,6 +10,14 @@ Wil je nóg dieper graven in het verpakkingscomplex? Raadpleeg dan ook de **Verp
 
 Want wie bepaalt eigenlijk wat een verpakking is? Wie trekt de grenzen? En wie profiteert ervan als jij níét weet wat er in de catalogus staat?
 
-**Doe de quiz. Stel vragen. Wantrouw de doos.**
+**🚨 DENK ZELF NA. DOE JE EIGEN ONDERZOEK. LAAT JE NIET ver-PAKKEN. 🚨**
 
 _Big Verpakking kijkt mee. 📦👀_
+
+🚨 Wat wil Big Verpakking niet dat jij weet? 📦
+
+Denk jij dat je weet wat een verpakking is? Of geloof je gewoon wat ze je vertellen? Test je kennis met deze quiz over de Verpact Verpakkingscatalogus en ontdek hoeveel je écht weet.
+
+Nog niet genoeg wantrouwen? Raadpleeg ook de Verpact Begrippenlijst en de pagina Jouw verpakkingen. Want wie bepaalt eigenlijk wat een verpakking is, en waarom zouden we dat zomaar aannemen?
+
+Doe de quiz. Stel vragen. Wantrouw de doos. 👀

@@ -1,5 +1,5 @@
 import "./style.css";
-import tekstMd from "./tekstje.md?raw";
+import tekstHtml from "./tekstje.md";
 
 interface CatalogItem {
   id: string;
@@ -37,52 +37,6 @@ const tableProperties = [
   { key: "exoot", label: "Exoot" },
 ];
 
-function parseMarkdown(md: string): string {
-  const lines = md.split("\n");
-  let html = "";
-  let inParagraph = false;
-
-  for (let line of lines) {
-    line = line.trim();
-    if (!line) {
-      if (inParagraph) {
-        html += "</p>";
-        inParagraph = false;
-      }
-      continue;
-    }
-
-    if (line.startsWith("# ")) {
-      if (inParagraph) {
-        html += "</p>";
-        inParagraph = false;
-      }
-      html += `<h3 style="margin-bottom: 1rem; color: var(--primary-dark);">${line.replace("# ", "")}</h3>`;
-    } else if (line.startsWith("## ")) {
-      if (inParagraph) {
-        html += "</p>";
-        inParagraph = false;
-      }
-      html += `<h4>${line.replace("## ", "")}</h4>`;
-    } else {
-      if (!inParagraph) {
-        html += '<p style="margin-bottom: 1rem; line-height: 1.6;">';
-        inParagraph = true;
-      } else {
-        html += "<br>";
-      }
-      const formatted = line
-        .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")
-        .replace(/_(.*?)_/g, "<em>$1</em>");
-      html += formatted;
-    }
-  }
-  if (inParagraph) {
-    html += "</p>";
-  }
-  return html;
-}
-
 async function loadData() {
   renderWelcomeLoading();
   try {
@@ -115,8 +69,6 @@ function renderWelcomeLoading() {
 }
 
 function renderWelcomeReady() {
-  const parsedTekst = parseMarkdown(tekstMd);
-
   app.innerHTML = `
     <header style="cursor: pointer;" id="header-home">
       <h1>${logoSvg}Verpakkings-Quiz</h1>
@@ -132,9 +84,9 @@ function renderWelcomeReady() {
         <button id="start-btn" class="btn" style="font-size: 1.1rem; padding: 1rem 2rem; width: 100%;">Start de Quiz</button>
       </div>
 
-      <!-- Tekstvak met inhoud uit tekstje.md verwerkt tijdens de build -->
+      <!-- Tekstvak met inhoud uit tekstje.md gecompileerd tijdens build-time (server-side) door Vite plugin -->
       <div class="card" style="text-align: left; background: #f8fafc; border-left: 5px solid var(--primary-color);">
-        ${parsedTekst}
+        ${tekstHtml}
       </div>
     </main>
   `;
