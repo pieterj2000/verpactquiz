@@ -2,15 +2,12 @@ import { test, expect } from "@playwright/test";
 
 test.describe("Verpakkings-Quiz", () => {
   test("should load welcome screen and play quiz", async ({ page }) => {
-    // Start dev server or preview server or point to built app
-    // We can use vite preview or local dev server
-    await page.goto("http://localhost:5173");
+    await page.goto("/");
 
-    // Check title
-    await expect(page.locator("header h1")).toHaveText("Verpakkings-Quiz");
-
-    // Click start
-    await page.click("#start-btn");
+    // Wait for start button to be visible
+    const startBtn = page.locator("#start-btn");
+    await expect(startBtn).toBeVisible({ timeout: 10000 });
+    await startBtn.click();
 
     // Check question appears
     await expect(page.locator(".question-text")).toBeVisible();

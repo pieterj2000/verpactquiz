@@ -1,12 +1,16 @@
 import { test, expect } from "@playwright/test";
 import fs from "fs";
 import path from "path";
+import { fileURLToPath } from "url";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 test("verify scraped data for Bloempot voor buitenplant", () => {
   const filePath = path.resolve(__dirname, "../public/verpakkingen.json");
 
   if (!fs.existsSync(filePath)) {
-    test.skip();
+    test.fail();
     return;
   }
 
@@ -19,10 +23,14 @@ test("verify scraped data for Bloempot voor buitenplant", () => {
 
   expect(item).toBeDefined();
   expect(item.title).toBe("Bloempot voor buitenplant");
-  expect(item.subtitle).toContain("Kweekpot");
+  expect(item.subtitle).toBe("Kweekpot, Teelpot, Transportpot");
   expect(item.materials).toContain("Plastic");
-  expect(item.imageUrl).toContain("/sites/default/files/");
-  expect(item.description).toContain("Bloempot (buitenplanten)");
+  expect(item.imageUrl).toContain(
+    "/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A2012%20LR.jpg",
+  );
+  expect(item.description).toBe(
+    "Bloempot (buitenplanten) die alleen wordt gebruikt voor de verkoop en het vervoer van planten en niet bedoeld is voor de hele levensduur van de plant. Zie ook: Bloempot voor binnenplant",
+  );
 
   expect(item.tableInfo).toBeDefined();
   expect(item.tableInfo.verpakking).toBe(true);

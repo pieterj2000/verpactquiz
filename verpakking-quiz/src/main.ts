@@ -4,11 +4,12 @@ interface CatalogItem {
   id: string;
   nid: number;
   title: string;
-  url: string;
+  subtitle: string;
+  imageUrl: string;
   description: string;
-  paragraphs: string[];
-  properties: Record<string, string>;
-  rawText: string;
+  materials: string[];
+  tableInfo: Record<string, boolean>;
+  url: string;
 }
 
 let items: CatalogItem[] = [];
@@ -20,10 +21,11 @@ let answered = false;
 const app = document.querySelector<HTMLDivElement>("#app")!;
 
 async function loadData() {
+  renderWelcomeLoading();
   try {
     const res = await fetch("/verpakkingen.json");
     items = await res.json();
-    renderWelcome();
+    renderWelcomeReady();
   } catch {
     app.innerHTML = `
       <div class="card">
@@ -34,7 +36,25 @@ async function loadData() {
   }
 }
 
-function renderWelcome() {
+function renderWelcomeLoading() {
+  app.innerHTML = `
+    <header>
+      <h1>Verpakkings-Quiz</h1>
+      <p>Ontdek alles over verpakkingen met de officiële Verpact Verpakkingencatalogus!</p>
+    </header>
+    <main>
+      <div class="card" style="text-align: center;">
+        <h2 style="margin-bottom: 1rem;">Catalogus laden...</h2>
+        <p style="margin-bottom: 1.5rem; color: var(--text-muted);">Even geduld terwijl de officiële Verpact data wordt geladen.</p>
+      </div>
+    </main>
+    <footer>
+      <p>Verpakkings-Quiz &copy; 2025</p>
+    </footer>
+  `;
+}
+
+function renderWelcomeReady() {
   app.innerHTML = `
     <header>
       <h1>Verpakkings-Quiz</h1>
@@ -96,18 +116,11 @@ function renderCatalogList(filter: string) {
       (item) => `
     <div class="catalog-item">
       <h4>${item.title}</h4>
+      ${item.subtitle ? `<p style="font-style: italic; color: var(--primary-dark);">${item.subtitle}</p>` : ""}
       <p>${item.description}</p>
-      ${
-        Object.keys(item.properties).length > 0
-          ? `
-        <div style="margin-top: 0.5rem; font-size: 0.85rem; color: var(--text-muted);">
-          ${Object.entries(item.properties)
-            .map(([k, v]) => `<strong>${k}:</strong> ${v}`)
-            .join(" | ")}
-        </div>
-      `
-          : ""
-      }
+      <div style="margin-top: 0.5rem; font-size: 0.85rem; color: var(--text-muted);">
+        <strong>Materialen:</strong> ${item.materials.join(", ")}
+      </div>
     </div>
   `,
     )
@@ -119,7 +132,6 @@ function startQuiz() {
   const selected = shuffled.slice(0, 10);
 
   quizQuestions = selected.map((item) => {
-    // Generate options from other items' titles or descriptions
     const otherItems = items.filter((i) => i.id !== item.id);
     const wrongOptions = otherItems
       .sort(() => 0.5 - Math.random())
@@ -269,7 +281,9 @@ function renderResults() {
   `;
 
   document.querySelector("#restart-btn")?.addEventListener("click", startQuiz);
-  document.querySelector("#home-btn")?.addEventListener("click", renderWelcome);
+  document
+    .querySelector("#home-btn")
+    ?.addEventListener("click", renderWelcomeReady);
 }
 
 loadData();
