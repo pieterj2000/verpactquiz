@@ -175,10 +175,14 @@ function renderQuestion() {
   app.innerHTML = `
     <header style="cursor: pointer;" id="header-home">
       <h1>${logoSvg}Verpakkings-Quiz</h1>
-      <p>Product ${currentQuestionIndex + 1} van ${quizQuestions.length}</p>
+      <p>Test je kennis van de Verpakkingscatalogus</p>
     </header>
     <main>
       <div class="card quiz-container">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem; font-size: 0.9rem; font-weight: 600; color: var(--text-muted);">
+          <span>Product ${currentQuestionIndex + 1} van ${quizQuestions.length}</span>
+          <span>${Math.round(progress)}% voltooid</span>
+        </div>
         <div class="progress-bar">
           <div class="progress-fill" style="width: ${progress}%"></div>
         </div>
