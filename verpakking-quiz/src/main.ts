@@ -183,14 +183,27 @@ function renderQuestion() {
           <div class="progress-fill" style="width: ${progress}%"></div>
         </div>
 
-        <div style="display: flex; gap: 1.5rem; align-items: flex-start; margin-bottom: 1.5rem; flex-wrap: wrap;">
-          ${imgSrc ? `<img src="${imgSrc}" alt="${item.title}" style="width: 140px; height: 100px; object-fit: cover; border-radius: 8px; border: 1px solid #cbd5e1;" />` : ""}
-          <div style="flex: 1; min-width: 200px;">
-            <h2 style="color: var(--primary-dark); margin-bottom: 0.25rem;">${item.title}</h2>
-            ${item.subtitle ? `<p style="font-style: italic; color: var(--text-muted); margin-bottom: 0.5rem;">${item.subtitle}</p>` : ""}
-            <p style="font-size: 0.95rem; margin-bottom: 0.5rem;">${item.description}</p>
-            <p style="font-size: 0.85rem; color: var(--text-muted);"><strong>Materialen:</strong> ${item.materials.join(", ")}</p>
+        <!-- Naam en subtitel boven de afbeelding -->
+        <div style="margin-bottom: 1rem; text-align: center;">
+          <h2 style="color: var(--primary-dark); margin-bottom: 0.25rem; font-size: 1.6rem;">${item.title}</h2>
+          ${item.subtitle ? `<p style="font-style: italic; color: var(--text-muted); font-size: 1rem;">${item.subtitle}</p>` : ""}
+        </div>
+
+        <!-- Afbeelding over de hele breedte van het parent-element -->
+        ${
+          imgSrc
+            ? `
+          <div style="margin-bottom: 1.5rem; width: 100%;">
+            <img src="${imgSrc}" alt="${item.title}" style="width: 100%; max-height: 280px; object-fit: cover; border-radius: 8px; border: 1px solid #cbd5e1;" />
           </div>
+        `
+            : ""
+        }
+
+        <!-- Omschrijving en materialen onder de afbeelding -->
+        <div style="margin-bottom: 1.5rem; background: #f8fafc; padding: 1rem; border-radius: 8px; border: 1px solid #e2e8f0;">
+          <p style="font-size: 1rem; margin-bottom: 0.75rem; line-height: 1.5;">${item.description}</p>
+          <p style="font-size: 0.9rem; color: var(--text-muted);"><strong>Materialen:</strong> ${item.materials.join(", ")}</p>
         </div>
 
         <h3 style="font-size: 1.1rem; margin-bottom: 1rem; border-bottom: 2px solid #e2e8f0; padding-bottom: 0.5rem;">Geef aan welke 7 tabel-eigenschappen van toepassing zijn:</h3>
