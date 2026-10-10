@@ -24,7 +24,7 @@ test("verify scraped data for Bloempot voor buitenplant", () => {
   expect(item).toBeDefined();
   expect(item.title).toBe("Bloempot voor buitenplant");
   expect(item.subtitle).toBe("Kweekpot, Teelpot, Transportpot");
-  expect(item.materials).toContain("Plastic");
+  expect(item.materials).toEqual(["Plastic"]);
   expect(item.imageUrl).toContain(
     "/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A2012%20LR.jpg",
   );

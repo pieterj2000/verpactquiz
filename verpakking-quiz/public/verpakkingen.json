@@ -2,10 +2,10 @@
   {
     "id": "entity:node/345:nl",
     "nid": 345,
-    "title": "Snackbox, frietzak",
+    "title": "Je hebt geen toegang tot deze pagina.",
     "subtitle": "",
     "imageUrl": "",
-    "description": "Snackbox, frietzak",
+    "description": "Helaas, deze pagina is niet toegankelijk. We helpen je graag je de juiste bestemming te vinden.",
     "materials": ["Diversen"],
     "tableInfo": {
       "verpakking": false,
@@ -252,8 +252,8 @@
     "title": "Bandenplakset",
     "subtitle": "Bandenreparatieset",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A9520%20LR.jpg?itok=YtghaOxD",
-    "description": "Bandenplakset",
-    "materials": ["PlasticOverige metalen"],
+    "description": "Een setje met hierin alle benodigde gereedschap om een band te plakken.",
+    "materials": ["Plastic", "Overige metalen"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -271,8 +271,8 @@
     "title": "Naaldendoosje",
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A9548%20LR.jpg?itok=-QZPReqp",
-    "description": "Naaldendoosje",
-    "materials": ["PlasticPapier en Karton"],
+    "description": "Doosje met naalden",
+    "materials": ["Plastic", "Papier en Karton"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -290,8 +290,8 @@
     "title": "Mierendoosje",
     "subtitle": "Lokdoosje, Insectendoosje, Mierenlokdoosje",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A9554%20LR.jpg?itok=K9f4E7sV",
-    "description": "Mierendoosje",
-    "materials": ["PlasticOverige metalen"],
+    "description": "Mierendoosje ter bestrijding van mierenoverlast",
+    "materials": ["Plastic", "Overige metalen"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -310,7 +310,7 @@
     "subtitle": "Cadeaupapier, Pakpapier",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A1446%20LR.jpg?itok=QezGbo2b",
     "description": "Inpakpapier of folie apart verkocht. Let op verschillende soorten staan op de lijst verkooppuntverpakking. Zie ook: Vispapier",
-    "materials": ["PlasticPapier en Karton"],
+    "materials": ["Plastic", "Papier en Karton"],
     "tableInfo": {
       "verpakking": false,
       "bijdrageplichtig": false,
@@ -329,7 +329,7 @@
     "subtitle": "Juwelendoos",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A1624%20LR.jpg?itok=07BM_4qm",
     "description": "Sieradendozen zijn zeer praktische voorwerpen om oorbellen, kettingen, ringen, armbanden en overige sieraden in te bewaren. Zie ook: Ringendoos en Oorbellendoos",
-    "materials": ["PlasticPapier en Karton"],
+    "materials": ["Plastic", "Papier en Karton"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -347,8 +347,8 @@
     "title": "Speld",
     "subtitle": "Kledingspeld, Overhemdspeld",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A1671%20LR.jpg?itok=PBM6aAk0",
-    "description": "Speld",
-    "materials": ["PlasticOverige metalen"],
+    "description": "Spelden aan een overhemd",
+    "materials": ["Plastic", "Overige metalen"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -366,8 +366,8 @@
     "title": "Oog- of neusdruppelaar",
     "subtitle": "Druppel pipet, Oogdruppels, Neusdruppels",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A1694%20LR.jpg?itok=hEpkPIJb",
-    "description": "Oog- of neusdruppelaar",
-    "materials": ["PlasticGlas"],
+    "description": "Oog- of neusdruppelaar bevestigd aan afsluitdop",
+    "materials": ["Plastic", "Glas"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -385,7 +385,7 @@
     "title": "Koelelement",
     "subtitle": "Koelpack, Ice pack",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A9970%20LR.jpg?itok=kLwbOe5J",
-    "description": "Koelelement",
+    "description": "Koelelementen (voor bijvoorbeeld een koelbox)",
     "materials": ["Plastic"],
     "tableInfo": {
       "verpakking": false,
@@ -405,7 +405,7 @@
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/aansteker_S0A9348%20LR.jpg?itok=Pbg_Cn8e",
     "description": "Gas, aansteekvloeistof. Zie ook: Luciferdoosje",
-    "materials": ["PlasticOverige metalen"],
+    "materials": ["Plastic", "Overige metalen"],
     "tableInfo": {
       "verpakking": false,
       "bijdrageplichtig": false,
@@ -423,8 +423,8 @@
     "title": "Krat vanaf 8 liter",
     "subtitle": "Krat",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0927%20krat%20vanaf%208l%20LR.jpg?itok=JUr9MalZ",
-    "description": "Krat vanaf 8 liter",
-    "materials": ["PlasticPapier en KartonHout"],
+    "description": "Kratten met een inhoud vanaf 8 liter",
+    "materials": ["Plastic", "Papier en Karton", "Hout"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": false,
@@ -461,7 +461,7 @@
     "title": "Tie-wrap",
     "subtitle": "Kabelbinder, Tyrap, Ty-wrap, Tiewraps",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0540%20LR.jpg?itok=n2uJhZxn",
-    "description": "Tie-wrap ",
+    "description": "Kabelbinders (samenbinden van bedrading elektronisch product).",
     "materials": ["Plastic"],
     "tableInfo": {
       "verpakking": true,
@@ -480,7 +480,7 @@
     "title": "Waxinecup",
     "subtitle": "Theelichthouder, Waxinelichthouder",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0554%20LR.jpg?itok=Dse1kXfw",
-    "description": "Waxinecup",
+    "description": "Waxinelichtjes cups en lonthouder",
     "materials": ["Aluminium"],
     "tableInfo": {
       "verpakking": true,
@@ -518,8 +518,8 @@
     "title": "Vogelvoer",
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A2004%20LR.jpg?itok=DBjPP8Ec",
-    "description": "Vogelvoer",
-    "materials": ["PlasticPapier en KartonOverige metalen"],
+    "description": "Vogelvoer, zoals bollen en voer in een netje.",
+    "materials": ["Plastic", "Papier en Karton", "Overige metalen"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -537,8 +537,8 @@
     "title": "Stektray",
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0927%20stekjes%202%20LR.jpg?itok=QaW3fTGX",
-    "description": "Stektray",
-    "materials": ["PlasticPapier en Karton"],
+    "description": "Stektray voor planten tot 8 liter (gelijk gesteld met een krat)",
+    "materials": ["Plastic", "Papier en Karton"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -557,7 +557,7 @@
     "subtitle": "Pepermolen, Zoutmolen",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0057%20LR.jpg?itok=NP6e5q5r",
     "description": "Mechanische molen geintegreerd in een niet navulbaar recipient, gevuld met een product bijvoorbeeld pepermolen gevuld met peper. Zie ook:Mechanische molen navulbaar",
-    "materials": ["PlasticGlasOverige metalen"],
+    "materials": ["Plastic", "Glas", "Overige metalen"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -594,7 +594,7 @@
     "title": "Plastic folie",
     "subtitle": "Wrap",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0772%20LR.jpg?itok=H57m1yQg",
-    "description": "Plastic folie",
+    "description": "Plasticfolie om bijvoorbeeld een verfdoos.",
     "materials": ["Plastic"],
     "tableInfo": {
       "verpakking": true,
@@ -613,8 +613,8 @@
     "title": "IJslepeltje",
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0933%20LR.jpg?itok=dC9eEGiU",
-    "description": "IJslepeltje",
-    "materials": ["PlasticHout"],
+    "description": "Lepeltje bij roomijs.",
+    "materials": ["Plastic", "Hout"],
     "tableInfo": {
       "verpakking": false,
       "bijdrageplichtig": false,
@@ -632,8 +632,8 @@
     "title": "Verfblik",
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A2080%20LR_0.jpg?itok=oJROTT4f",
-    "description": "Verfblik",
-    "materials": ["PlasticOverige metalen"],
+    "description": "Blik met hierin verf",
+    "materials": ["Plastic", "Overige metalen"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -671,7 +671,7 @@
     "subtitle": "Fust",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-09/_S0A0927%20biervat%20LR.jpg?itok=nWtKSI3B",
     "description": "Biertender met diverse inhoudsmaten in liter. Zie ook: Vaten (vanaf 20 liter)",
-    "materials": ["PlasticPapier en KartonOverige metalen"],
+    "materials": ["Plastic", "Papier en Karton", "Overige metalen"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": false,
@@ -727,8 +727,8 @@
     "title": "Adventskalender",
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0095%20LR.jpg?itok=no4OWHzu",
-    "description": "Adventskalender",
-    "materials": ["PlasticPapier en Karton"],
+    "description": "Adventskalender met bijvoorbeeld chocolade",
+    "materials": ["Plastic", "Papier en Karton"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -746,7 +746,7 @@
     "title": "Kaaskorst",
     "subtitle": "Kaaswax, Waxlaag kaas",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0126%20LR.jpg?itok=8cdKsQuj",
-    "description": "Kaaskorst",
+    "description": "Waslagen om kaas.",
     "materials": ["Plastic"],
     "tableInfo": {
       "verpakking": false,
@@ -765,7 +765,7 @@
     "title": "EHBO doos",
     "subtitle": "Eerstehulpdoos, Verbanddoos",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0927%20EHBO%20LR.jpg?itok=5_zb2CLL",
-    "description": "EHBO doos",
+    "description": "EHBO of verband doos met inhoud",
     "materials": ["Plastic"],
     "tableInfo": {
       "verpakking": true,
@@ -785,7 +785,7 @@
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0037%20LR.jpg?itok=bTKMM832",
     "description": "Zie ook: Mascaraborstel aan dop en Make-up kwast",
-    "materials": ["PlasticOverige metalen"],
+    "materials": ["Plastic", "Overige metalen"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -822,8 +822,8 @@
     "title": "Steriel barrieresysteem",
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A1454%20LR.jpg?itok=L7UZyie4",
-    "description": "Steriel barrieresysteem",
-    "materials": ["PlasticPapier en Karton"],
+    "description": "Steriele barrieresystemen (zakjes, schaaltjes en materialen die nodig zijn om een product steriel te houden)",
+    "materials": ["Plastic", "Papier en Karton"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -861,7 +861,7 @@
     "subtitle": "Fruitsticker",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A1348%20LR.jpg?itok=-GHyNIw_",
     "description": "Sticker op fruit",
-    "materials": ["PlasticPapier en Karton"],
+    "materials": ["Plastic", "Papier en Karton"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -917,8 +917,8 @@
     "title": "Blister",
     "subtitle": "Doordrukstrip, Medicijnstrip, Strip",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A9987%20LR.jpg?itok=ZyIYO4da",
-    "description": "Blister",
-    "materials": ["PlasticOverige metalen"],
+    "description": "Blister voor medicijnen",
+    "materials": ["Plastic", "Overige metalen"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -936,8 +936,8 @@
     "title": "Opvulmateriaal",
     "subtitle": "Buffermateriaal",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A9945%20LR.jpg?itok=3qYVfbPW",
-    "description": "Opvulmateriaal",
-    "materials": ["PlasticPapier en KartonHout"],
+    "description": "Opvulmaterialen bedoeld om product te beschermen bij transport",
+    "materials": ["Plastic", "Papier en Karton", "Hout"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -955,8 +955,8 @@
     "title": "Big Shopper",
     "subtitle": "Shopper, Boodschappentas",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A9950%20LR.jpg?itok=uNQgjY16",
-    "description": "Big Shopper",
-    "materials": ["PlasticOverige materiaalsoorten"],
+    "description": "Tas die meestal gekocht wordt bij kassa. Van stevig, meestal \"woven\" kunststof materiaal.",
+    "materials": ["Plastic", "Overige materiaalsoorten"],
     "tableInfo": {
       "verpakking": false,
       "bijdrageplichtig": false,
@@ -974,8 +974,8 @@
     "title": "Papieren zak",
     "subtitle": "Papieren tas",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0927%20papieren%20zak%20LR.jpg?itok=LfyNqiiN",
-    "description": "Papieren zak",
-    "materials": ["PlasticPapier en Karton"],
+    "description": "Verpakking indien ontworpen en bedoeld om op het verkooppunt te worden gevuld zoals papieren zak of papieren draagtas kleiner of gelijk aan 30 x 50 cm. Let op komt in varianten voor op lijst verkooppuntverpakkingen.",
+    "materials": ["Plastic", "Papier en Karton"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -993,7 +993,7 @@
     "title": "Pizzadoos",
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0927%20pizzadoos%20LR.jpg?itok=XXoHZOWi",
-    "description": "Pizzadoos",
+    "description": "Verpakking indien ontworpen en bedoeld om op het verkooppunt te worden gevuld zoals pizzadozen",
     "materials": ["Papier en Karton"],
     "tableInfo": {
       "verpakking": true,
@@ -1032,7 +1032,7 @@
     "subtitle": "Balpen",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A9535%20LR.jpg?itok=wULDbvyb",
     "description": "Zie ook: Schrijfstift en Markeringsstift",
-    "materials": ["PlasticOverige metalen"],
+    "materials": ["Plastic", "Overige metalen"],
     "tableInfo": {
       "verpakking": false,
       "bijdrageplichtig": false,
@@ -1069,8 +1069,8 @@
     "title": "Schoenveterdoosje",
     "subtitle": "Veterdoosje",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0920%20LR.jpg?itok=5WwmItv7",
-    "description": "Schoenveterdoosje",
-    "materials": ["PlasticPapier en Karton"],
+    "description": "Doosje of kunststof verpakking met schoenveters",
+    "materials": ["Plastic", "Papier en Karton"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -1089,7 +1089,7 @@
     "subtitle": "Kledinghanger, Hanger",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0927%201193%20LR.jpg?itok=m6HuQRn8",
     "description": "Kleerhangers verkocht met een kledingstuk. Zie ook: Kleerhanger los",
-    "materials": ["PlasticHoutOverige metalen"],
+    "materials": ["Plastic", "Hout", "Overige metalen"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -1126,7 +1126,7 @@
     "title": "Plakbandroller met plakband",
     "subtitle": "PLakbandhouder",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0025%20LR.jpg?itok=njtlurDC",
-    "description": "Plakbandroller met plakband",
+    "description": "Plakbandroller verkocht met plakband",
     "materials": ["Plastic"],
     "tableInfo": {
       "verpakking": true,
@@ -1146,7 +1146,7 @@
     "subtitle": "Kledinghanger, Hanger",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0799%20LR.jpg?itok=I7JJx2lm",
     "description": "Kleerhangers apart verkocht (zonder kledingstuk). Zie ook: Kleerhanger bij kledingstuk",
-    "materials": ["PlasticHoutOverige metalen"],
+    "materials": ["Plastic", "Hout", "Overige metalen"],
     "tableInfo": {
       "verpakking": false,
       "bijdrageplichtig": false,
@@ -1165,7 +1165,7 @@
     "subtitle": "Eenmalig bestek",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0903%20LR.jpg?itok=sRKjST_E",
     "description": "Bestek dat je maar één keer gebruikt en daarna weggooit. Zie ook: Roerstaaf",
-    "materials": ["PlasticPapier en KartonHout"],
+    "materials": ["Plastic", "Papier en Karton", "Hout"],
     "tableInfo": {
       "verpakking": false,
       "bijdrageplichtig": false,
@@ -1183,7 +1183,7 @@
     "title": "Rijstbuidel",
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0837%20LR.jpg?itok=eWE3o7NG",
-    "description": "Rijstbuidel",
+    "description": "Plastic folie om de rijst te verpakken",
     "materials": ["Plastic"],
     "tableInfo": {
       "verpakking": true,
@@ -1202,8 +1202,8 @@
     "title": "Horlogedoos",
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0430%20LR.jpg?itok=t1TzXXPc",
-    "description": "Horlogedoos",
-    "materials": ["PlasticPapier en Karton"],
+    "description": "Doosje met horloge.",
+    "materials": ["Plastic", "Papier en Karton"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -1222,7 +1222,7 @@
     "subtitle": "Gereedschapskist, Gereedschapskoffer",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0711%20LR.jpg?itok=CYdU_3qN",
     "description": "Gereedschapsdoos met bijvoorbeeld boormachine. Zie ook: Doosje met bitjes en Schroevendoosje",
-    "materials": ["PlasticOverige metalen"],
+    "materials": ["Plastic", "Overige metalen"],
     "tableInfo": {
       "verpakking": false,
       "bijdrageplichtig": false,
@@ -1240,7 +1240,7 @@
     "title": "Toilettasje gevuld",
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0721%20LR.jpg?itok=ppOezYSW",
-    "description": "Toilettasje gevuld",
+    "description": "Toilettasje in de winkel gevuld met producten",
     "materials": ["Plastic"],
     "tableInfo": {
       "verpakking": true,
@@ -1259,7 +1259,7 @@
     "title": "Octabin",
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-09/_S0A0927%20oktobin%20LR.jpg?itok=7NZ4cOmc",
-    "description": "Octabin",
+    "description": "Octabin vanaf 1m3 (achthoekige doos)",
     "materials": ["Papier en Karton"],
     "tableInfo": {
       "verpakking": true,
@@ -1279,7 +1279,7 @@
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-09/_S0A0927%20tussenplaat%20LR.jpg?itok=m4Ac3Khd",
     "description": "Tussenplaat voor een pallet. Moet hetzelfde formaat hebben als de pallet om als niet bijdrageplichtig te worden aangemerkt. Niet kleiner, niet groter.",
-    "materials": ["PlasticPapier en KartonHout"],
+    "materials": ["Plastic", "Papier en Karton", "Hout"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": false,
@@ -1297,7 +1297,7 @@
     "title": "Emmer (vanaf 20 liter)",
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-09/_S0A0927emmer%20LR.jpg?itok=XWXvR6j4",
-    "description": "Emmer (vanaf 20 liter)",
+    "description": "Emmers met deksel met een inhoud vanaf 20 liter",
     "materials": ["Plastic"],
     "tableInfo": {
       "verpakking": true,
@@ -1411,7 +1411,7 @@
     "title": "Plantensubstraat",
     "subtitle": "Groeimedium, Substraat, Potgrond, Compostzak",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/Schermafbeelding-2016-12-09-om-15.15.48.png?itok=LFFuy7dI",
-    "description": "Plantensubstraat",
+    "description": "Zak gevuld met substraat voor planten bedoeld en geschikt om planten in te plaatsen",
     "materials": ["Plastic"],
     "tableInfo": {
       "verpakking": false,
@@ -1469,7 +1469,7 @@
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0046%20LR.jpg?itok=3-yXtqv2",
     "description": "Mascaraborstel die deel uitmaakt van de dop van een mascarahouder. Zie ook: Make-up kwast en Lippenstifthouder",
-    "materials": ["PlasticOverige metalen"],
+    "materials": ["Plastic", "Overige metalen"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -1487,7 +1487,7 @@
     "title": "Bananendoos",
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0927%20bananendoos%20LR.jpg?itok=rwr7zq9x",
-    "description": "Bananendoos",
+    "description": "Doos van stevig karton voor het transport van bananen. De bananendoos heeft een opening aan de onder- en bovenkant, die afgeschermd wordt met een stuk dun karton.",
     "materials": ["Papier en Karton"],
     "tableInfo": {
       "verpakking": true,
@@ -1507,7 +1507,7 @@
     "subtitle": "Gastank",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0927%20gasfles%20LR.jpg?itok=Bh0aeDy_",
     "description": "Gasflessen met een inhoud vanaf 20 liter. Zie ook: NNavulbare stalen gasfles en Campinggas",
-    "materials": ["PlasticOverige metalen"],
+    "materials": ["Plastic", "Overige metalen"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": false,
@@ -1525,8 +1525,8 @@
     "title": "Garenklosje",
     "subtitle": "Klosje, Spoel",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A9371%20LR.jpg?itok=sPBGFJZX",
-    "description": "Garenklosje",
-    "materials": ["PlasticHoutOverige metalen"],
+    "description": "Een spoel, waarop het garen gewikkeld is.",
+    "materials": ["Plastic", "Hout", "Overige metalen"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -1545,7 +1545,7 @@
     "subtitle": "Lucifers",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A9390%20LR.jpg?itok=CFLP0K7Y",
     "description": "Zie ook: Aansteker",
-    "materials": ["Papier en KartonHout"],
+    "materials": ["Papier en Karton", "Hout"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -1563,8 +1563,8 @@
     "title": "Intermediate Bulk Container (IBC)",
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0927%20IBC%20LR.jpg?itok=4xhbPfiP",
-    "description": "Intermediate Bulk Container (IBC)",
-    "materials": ["PlasticOverige metalen"],
+    "description": "IBC (Intermediate Bulk Container) voor opslag en transport van vloeistoffen.",
+    "materials": ["Plastic", "Overige metalen"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": false,
@@ -1583,7 +1583,7 @@
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0927%20fles%20voor%20injectievloeistof%202%20LR.jpg?itok=YN6ABjHm",
     "description": "Glazen flessen voor injectievloeistof. Zie ook: Injectiespuit",
-    "materials": ["GlasOverige metalen"],
+    "materials": ["Glas", "Overige metalen"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -1602,7 +1602,7 @@
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/luchtverfrisser_S0A9309%20LR.jpg?itok=qhwYEHMy",
     "description": "Luchtverfrisser in spuitbus of wegwerphouder. Zie ook: Spuitmond spuitbus",
-    "materials": ["PlasticOverige metalen"],
+    "materials": ["Plastic", "Overige metalen"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -1640,7 +1640,7 @@
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0927%20wijn%20transportdoos%20LR.jpg?itok=q2ny1QsD",
     "description": "Wijndoos die meerdere keren gebruikt kan worden voor het verpakken van wijn. Let op deze kwalificeert dan voor de categorie meermaligheid. Zie ook: Houten wijnkist",
-    "materials": ["PlasticPapier en KartonHout"],
+    "materials": ["Plastic", "Papier en Karton", "Hout"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -1658,8 +1658,8 @@
     "title": "Pallet",
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0927%20pallet%20LR.jpg?itok=-4FKpaWV",
-    "description": "Pallet",
-    "materials": ["PlasticPapier en KartonHout"],
+    "description": "Pallet om goederen te vervoeren",
+    "materials": ["Plastic", "Papier en Karton", "Hout"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": false,
@@ -1677,7 +1677,7 @@
     "title": "Tray",
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0927%20tray%203%20LR.jpg?itok=ch1ObUuX",
-    "description": "Tray",
+    "description": "Een tray zonder duidelijke zelfstandige draagfunctie.",
     "materials": ["Papier en Karton"],
     "tableInfo": {
       "verpakking": true,
@@ -1715,8 +1715,8 @@
     "title": "Display (als omdoos)",
     "subtitle": "Verkooprekje",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A1422%20LR.jpg?itok=HNZ8IrA_",
-    "description": "Display (als omdoos)",
-    "materials": ["PlasticPapier en KartonOverige metalen"],
+    "description": "Display die als omdoos wordt geleverd met producten.",
+    "materials": ["Plastic", "Papier en Karton", "Overige metalen"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -1734,8 +1734,8 @@
     "title": "Petrischaal",
     "subtitle": "Kweekschaal, Kweekbodem",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A1458%20LR.jpg?itok=eRfgx1uq",
-    "description": "Petrischaal",
-    "materials": ["PlasticGlas"],
+    "description": "Petrischaaltje met inhoud",
+    "materials": ["Plastic", "Glas"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -1773,7 +1773,7 @@
     "subtitle": "Plantenpot, Sierpot",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A1979%20LR.jpg?itok=2OCU49Jk",
     "description": "Bloempot (binnenplanten) die voor de hele levensduur van de plant is bedoeld. Zie ook: Bloempot voor buitenplant",
-    "materials": ["PlasticOverige materiaalsoorten"],
+    "materials": ["Plastic", "Overige materiaalsoorten"],
     "tableInfo": {
       "verpakking": false,
       "bijdrageplichtig": false,
@@ -1791,8 +1791,8 @@
     "title": "Pleister liners",
     "subtitle": "Pleister backings, Pleister velletjes",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A1967%20extra%20LR.jpg?itok=35ZM1rNT",
-    "description": "Pleister liners",
-    "materials": ["PlasticPapier en Karton"],
+    "description": "Zowel de kleefvelletjes, als het zakje om de pleisters, als het doosje zijn verpakkingen. De pleister zelf is géén verpakking.",
+    "materials": ["Plastic", "Papier en Karton"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -1810,8 +1810,13 @@
     "title": "Spellendoos",
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0750%20LR.jpg?itok=YDuzrX2G",
-    "description": "Spellendoos",
-    "materials": ["PlasticPapier en KartonAluminiumOverige metalen"],
+    "description": "Een doos om gezelschapsspel",
+    "materials": [
+      "Plastic",
+      "Papier en Karton",
+      "Aluminium",
+      "Overige metalen"
+    ],
     "tableInfo": {
       "verpakking": false,
       "bijdrageplichtig": false,
@@ -1848,8 +1853,8 @@
     "title": "Worstvel",
     "subtitle": "Vel van worst",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A1708%20LR.jpg?itok=0huX6-l-",
-    "description": "Worstvel",
-    "materials": ["PlasticOverige materiaalsoorten"],
+    "description": "Het vel dat om een worst heen zit. Als het vel eetbaar is, is het geen verpakking. Als het vel van plastic is en je het dus niet op eet, is het een verpakking.",
+    "materials": ["Plastic", "Overige materiaalsoorten"],
     "tableInfo": {
       "verpakking": false,
       "bijdrageplichtig": false,
@@ -1887,7 +1892,7 @@
     "subtitle": "Brillenkoker",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0988%20LR.jpg?itok=ETTlPYmh",
     "description": "Doosje apart geleverd of gekocht bij een bril (opbergfunctie). Zie ook: Brillendoos met bril",
-    "materials": ["PlasticPapier en Karton"],
+    "materials": ["Plastic", "Papier en Karton"],
     "tableInfo": {
       "verpakking": false,
       "bijdrageplichtig": false,
@@ -1905,7 +1910,7 @@
     "title": "Beschermkapje scheermes",
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/beschermkapje%20scheermesje_S0A9350%20LR.jpg?itok=3WXZqaKt",
-    "description": "Beschermkapje scheermes",
+    "description": "Schermkapje scheermesjes",
     "materials": ["Plastic"],
     "tableInfo": {
       "verpakking": true,
@@ -1943,7 +1948,7 @@
     "title": "Nietjes in een verpakking",
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0755%20ingezoemd%20LR_0.jpg?itok=9SokwvGE",
-    "description": "Nietjes in een verpakking",
+    "description": "Nietjes onderdeel van een verpakking",
     "materials": ["Overige metalen"],
     "tableInfo": {
       "verpakking": true,
@@ -1963,7 +1968,7 @@
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0776%20LR.jpg?itok=VS6BEPT-",
     "description": "Map voor briefpapier",
-    "materials": ["PlasticPapier en Karton"],
+    "materials": ["Plastic", "Papier en Karton"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -1982,7 +1987,7 @@
     "subtitle": "Capsules, Cups",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0793%20LR.jpg?itok=q-4_lw5d",
     "description": "Capsules voor dranksystemen die samen met het gebruikte koffieproduct worden weggegooid. Tot en met 11 augustus 2026 valt een koffiecapsule niet onder de definitie van verpakking. Vanaf 12 augustus 2026 verandert dit: door de inwerkingtreding van de PPWR wordt een koffiecapsule wel als verpakking beschouwd. Zie ook: Koffiepad",
-    "materials": ["PlasticAluminium"],
+    "materials": ["Plastic", "Aluminium"],
     "tableInfo": {
       "verpakking": false,
       "bijdrageplichtig": false,
@@ -2000,7 +2005,7 @@
     "title": "Verfpalet",
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A1658%20LR.jpg?itok=y1dxiY4b",
-    "description": "Verfpalet",
+    "description": "Verfpalet in verfdoosje (los)",
     "materials": ["Plastic"],
     "tableInfo": {
       "verpakking": false,
@@ -2020,7 +2025,7 @@
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0813%20LR.jpg?itok=8ask0zN9",
     "description": "Roerstaafje om drank in een beker mee te roeren. Zie ook: Wegwerpbestek",
-    "materials": ["PlasticHout"],
+    "materials": ["Plastic", "Hout"],
     "tableInfo": {
       "verpakking": false,
       "bijdrageplichtig": false,
@@ -2038,8 +2043,8 @@
     "title": "Kleefetiketten",
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-09/_S0A0927%20klefetiket%20LR.jpg?itok=1Gwz1hVn",
-    "description": "Kleefetiketten",
-    "materials": ["PlasticPapier en Karton"],
+    "description": "Kleefetiketten die op een ander verpakkingsartikel bevestigd zijn.",
+    "materials": ["Plastic", "Papier en Karton"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -2057,8 +2062,8 @@
     "title": "Glasbok",
     "subtitle": "Transportbok",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-09/_S0A0927glasbox%20LR.jpg?itok=cJyg5nPv",
-    "description": "Glasbok",
-    "materials": ["PlasticPapier en KartonHoutOverige metalen"],
+    "description": "Op een glasbok worden glasplaten opgeslagen en vervoerd. Een glasblok bestaat vaak uit een houten of metalen frame waartegen het glas er schuin op wordt gezet. De onderkant van het glas leunt op een vlak of balkje, die vaak met rubber zijn bekleed.",
+    "materials": ["Plastic", "Papier en Karton", "Hout", "Overige metalen"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": false,
@@ -2153,7 +2158,7 @@
     "subtitle": "Fust",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0927%20vat%20vanaf%2020l%20LR.jpg?itok=04h_8IXl",
     "description": "Vaten met een inhoud vanaf 20 liter. Zie ook: Vat voor thuistap",
-    "materials": ["PlasticOverige metalen"],
+    "materials": ["Plastic", "Overige metalen"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": false,
@@ -2171,7 +2176,7 @@
     "title": "Aanmaakzak",
     "subtitle": "Kolenzak",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0015%20LR.jpg?itok=W7d_lNaY",
-    "description": "Aanmaakzak",
+    "description": "Zak om houtblokken/houtskool die wordt aangestoken en als geheel gaat branden.",
     "materials": ["Papier en Karton"],
     "tableInfo": {
       "verpakking": false,
@@ -2190,8 +2195,8 @@
     "title": "Graflicht",
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A9304%20LR.jpg?itok=mqJHl9Kj",
-    "description": "Graflicht",
-    "materials": ["PlasticGlasOverige metalen"],
+    "description": "Graflichten (recipienten voor kaarsen).",
+    "materials": ["Plastic", "Glas", "Overige metalen"],
     "tableInfo": {
       "verpakking": false,
       "bijdrageplichtig": false,
@@ -2209,8 +2214,8 @@
     "title": "RFID",
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0927%20RFID%20LR.jpg?itok=yXdB6BvL",
-    "description": "RFID",
-    "materials": ["PlasticPapier en Karton"],
+    "description": "Radiofrequentie identificatielabels (RFID)",
+    "materials": ["Plastic", "Papier en Karton"],
     "tableInfo": {
       "verpakking": false,
       "bijdrageplichtig": false,
@@ -2248,7 +2253,7 @@
     "subtitle": "Krat",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0927%20groentebak%20LR.jpg?itok=l8DaFIFd",
     "description": "Krat (kleiner dan 8 liter)",
-    "materials": ["PlasticPapier en KartonHout"],
+    "materials": ["Plastic", "Papier en Karton", "Hout"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -2267,7 +2272,7 @@
     "subtitle": "Inktcartridge, Inktpatroon",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0927%20printr%20stock%202%20LR.jpg?itok=yrF1enJw",
     "description": "Toner- en inktcartridges. Zie ook: Printerpatronen",
-    "materials": ["PlasticOverige metalen"],
+    "materials": ["Plastic", "Overige metalen"],
     "tableInfo": {
       "verpakking": false,
       "bijdrageplichtig": false,
@@ -2285,8 +2290,8 @@
     "title": "Pods",
     "subtitle": "Oplosbare zakken",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A9977%20LR.jpg?itok=HAd7oVIg",
-    "description": "Pods",
-    "materials": ["PlasticPapier en Karton"],
+    "description": "Oplosbare zakken voor (af)wasmiddel",
+    "materials": ["Plastic", "Papier en Karton"],
     "tableInfo": {
       "verpakking": false,
       "bijdrageplichtig": false,
@@ -2304,7 +2309,7 @@
     "title": "Correctieroller",
     "subtitle": "Typex",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/correctieroller_S0A9356%20LR.jpg?itok=aKyP5IcW",
-    "description": "Correctieroller",
+    "description": "Een roller die het mogelijk maakt om correcties aan te brengen in handgeschreven, getypte, gedrukte of gefotokopieerde teksten of tekeningen op papier, karton, of een andere drager",
     "materials": ["Plastic"],
     "tableInfo": {
       "verpakking": false,
@@ -2323,8 +2328,8 @@
     "title": "Deodorantroller",
     "subtitle": "Deoroller",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/Deo_S0A9297%20LR.jpg?itok=fN_puNcx",
-    "description": "Deodorantroller",
-    "materials": ["PlasticGlasOverige metalen"],
+    "description": "Dit is een cosmetisch product dat op de huid aangebracht wordt om zweten tegen te gaan of de geur van zweet te verdoezelen.",
+    "materials": ["Plastic", "Glas", "Overige metalen"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -2381,7 +2386,7 @@
     "subtitle": "Stift",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A9540%20LR.jpg?itok=PdoRwRGd",
     "description": "Diverse kleine, potloodvormige voorwerpen met een harde punt, meestal van metaal. (-Griffel -Griffie -Grift -Pen -Stift -Stilet -Stilus.). Zie ook: Niet-navulbare pen en Markeringsstift",
-    "materials": ["PlasticOverige metalen"],
+    "materials": ["Plastic", "Overige metalen"],
     "tableInfo": {
       "verpakking": false,
       "bijdrageplichtig": false,
@@ -2399,8 +2404,8 @@
     "title": "Inbrenghuls",
     "subtitle": "Applicator",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A9961%20LR.jpg?itok=DjFr4Y-H",
-    "description": "Inbrenghuls",
-    "materials": ["PlasticPapier en Karton"],
+    "description": "Inbrenghuls tampons",
+    "materials": ["Plastic", "Papier en Karton"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -2419,7 +2424,7 @@
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A1615%20LR.jpg?itok=qCRCNkEu",
     "description": "Een doos bedoeld om een ring in te verpakken op het verkooppunt. Zie ook: Sieradendoos en Oorbellendoos",
-    "materials": ["PlasticPapier en Karton"],
+    "materials": ["Plastic", "Papier en Karton"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -2437,7 +2442,7 @@
     "title": "Gebruiksaanwijzing",
     "subtitle": "Handleiding, Instructieboekje",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A1431%20LR.jpg?itok=t6nmGJ0t",
-    "description": "Gebruiksaanwijzing",
+    "description": "een schriftelijke instructie die met een product meegeleverd wordt.",
     "materials": ["Papier en Karton"],
     "tableInfo": {
       "verpakking": false,
@@ -2456,7 +2461,7 @@
     "title": "Houtwol",
     "subtitle": "Houtsnippers, Houtenkrullen",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A1438%20LR.jpg?itok=Xbnj1tp2",
-    "description": "Houtwol",
+    "description": "Houtwol gebruikt ter bescherming van goederen.",
     "materials": ["Hout"],
     "tableInfo": {
       "verpakking": true,
@@ -2475,7 +2480,7 @@
     "title": "Krijtpapier",
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0849%20LR.jpg?itok=55p711y5",
-    "description": "Krijtpapier",
+    "description": "Papier om (biljart)krijtje",
     "materials": ["Papier en Karton"],
     "tableInfo": {
       "verpakking": true,
@@ -2494,8 +2499,8 @@
     "title": "Band/Strap",
     "subtitle": "Riem, Touw, Binder",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0860%20LR.jpg?itok=ve9IYbtv",
-    "description": "Band/Strap",
-    "materials": ["PlasticOverige metalen"],
+    "description": "Straps, banden, riemen, touw om een verpakking",
+    "materials": ["Plastic", "Overige metalen"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -2533,7 +2538,7 @@
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0877%20LR.jpg?itok=wJMlEaSi",
     "description": "Tot en met 11 augustus 2026 valt een theezakje zonder touwtje en label niet onder de definitie van verpakking. Vanaf 12 augustus 2026 verandert dit: door de inwerkingtreding van de PPWR wordt een theezakje zonder touwtje en label wel als verpakking beschouwd. Zie ook Theezakje met touwtje en label",
-    "materials": ["PlasticPapier en Karton"],
+    "materials": ["Plastic", "Papier en Karton"],
     "tableInfo": {
       "verpakking": false,
       "bijdrageplichtig": false,
@@ -2551,8 +2556,13 @@
     "title": "Koker tot 50 cm voor rol folie of papier",
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0927%201184%20LR_0.jpg?itok=fpnJQsGQ",
-    "description": "Koker tot 50 cm voor rol folie of papier",
-    "materials": ["PlasticPapier en KartonHoutOverige materiaalsoorten"],
+    "description": "Rollen, kokers en cylinders waar omheen flexibel materiaal is gewikkeld (bijvoorbeeld kunststoffolie, aluminium, papier)",
+    "materials": [
+      "Plastic",
+      "Papier en Karton",
+      "Hout",
+      "Overige materiaalsoorten"
+    ],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -2570,8 +2580,8 @@
     "title": "Monster parfum",
     "subtitle": "Parfum tester",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0927%20monster%20LR.jpg?itok=s087jj13",
-    "description": "Monster parfum",
-    "materials": ["PlasticGlas"],
+    "description": "Monster (proefverpakking) met parfum",
+    "materials": ["Plastic", "Glas"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -2589,7 +2599,7 @@
     "title": "Infuuszak",
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A1692%20LR.jpg?itok=vQA7jgZX",
-    "description": "Infuuszak",
+    "description": "Een zak gekoppeld aan het infuus met hierin de nodige medicatie en infuusvloeistoffen.",
     "materials": ["Plastic"],
     "tableInfo": {
       "verpakking": true,
@@ -2627,8 +2637,8 @@
     "title": "Oordopdoosje",
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0572%20LR.jpg?itok=xrk-UYHo",
-    "description": "Oordopdoosje",
-    "materials": ["PlasticPapier en Karton"],
+    "description": "Doosje met oordopjes",
+    "materials": ["Plastic", "Papier en Karton"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -2684,8 +2694,8 @@
     "title": "Tube met inhoud",
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0885%20LR.jpg?itok=HA4-_DcX",
-    "description": "Tube met inhoud",
-    "materials": ["PlasticOverige metalen"],
+    "description": "Tubes met inhoud (tandpasta, verf, etc.)",
+    "materials": ["Plastic", "Overige metalen"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -2703,8 +2713,8 @@
     "title": "Bonbondoos",
     "subtitle": "Zeebanket",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A1981%20LR.jpg?itok=wwOdOpZc",
-    "description": "Bonbondoos",
-    "materials": ["PlasticPapier en Karton"],
+    "description": "Een doos waarin bonbons verpakt zijn.",
+    "materials": ["Plastic", "Papier en Karton"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -2722,7 +2732,7 @@
     "title": "Big Bag",
     "subtitle": "Bulkzak, Bigbag",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-09/_S0A0927%20bigbag%20LR.jpg?itok=D-BKRnWM",
-    "description": "Big Bag",
+    "description": "Big Bags met een inhoud vanaf 250 liter.",
     "materials": ["Plastic"],
     "tableInfo": {
       "verpakking": true,
@@ -2741,8 +2751,8 @@
     "title": "Palletbox",
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-09/_S0A0927%20palletbox%20LR.jpg?itok=ql0gCw0K",
-    "description": "Palletbox",
-    "materials": ["PlasticHoutOverige metalen"],
+    "description": "Palletbox om goederen te vervoeren",
+    "materials": ["Plastic", "Hout", "Overige metalen"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": false,
@@ -2760,8 +2770,8 @@
     "title": "Sneeuwketting",
     "subtitle": "Antislipketting",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-09/_S0A0927%20sneeuwkettingen%20LR.jpg?itok=6Y2Zvri6",
-    "description": "Sneeuwketting",
-    "materials": ["PlasticPapier en KartonHout"],
+    "description": "Doos of tas met sneeuwkettingen",
+    "materials": ["Plastic", "Papier en Karton", "Hout"],
     "tableInfo": {
       "verpakking": false,
       "bijdrageplichtig": false,
@@ -2779,7 +2789,7 @@
     "title": "Krimphoezen voor transport",
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-09/_S0A0927krimphoe%20LR.jpg?itok=lbgHdumm",
-    "description": "Krimphoezen voor transport",
+    "description": "Krimphoezen om een pallet stenen",
     "materials": ["Plastic"],
     "tableInfo": {
       "verpakking": true,
@@ -2798,7 +2808,7 @@
     "title": "Plaktape",
     "subtitle": "Verpakkingstape",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-09/_S0A0927plaktape%20LR.jpg?itok=4ecXS50U",
-    "description": "Plaktape",
+    "description": "Plaktapes op verpakkingen",
     "materials": ["Plastic"],
     "tableInfo": {
       "verpakking": true,
@@ -2989,7 +2999,7 @@
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A9998%20LR.jpg?itok=Tn0fx967",
     "description": "Koekjestrommel verkocht met inhoud. Zie ook: Koekjestrommel leeg",
-    "materials": ["PlasticOverige metalen"],
+    "materials": ["Plastic", "Overige metalen"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -3007,8 +3017,8 @@
     "title": "Brandpastakuipje",
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0005%20LR.jpg?itok=CBvXagAL",
-    "description": "Brandpastakuipje",
-    "materials": ["PlasticAluminium"],
+    "description": "Een warmhoud kuipje voor gerechten.",
+    "materials": ["Plastic", "Aluminium"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -3026,8 +3036,8 @@
     "title": "Jerrycan (vanaf 20 liter)",
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0927jerrycan%20LR.jpg?itok=TYAF2kOG",
-    "description": "Jerrycan (vanaf 20 liter)",
-    "materials": ["PlasticPapier en Karton"],
+    "description": "Jerrycan met een inhoud vanaf 20 liter.",
+    "materials": ["Plastic", "Papier en Karton"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": false,
@@ -3045,8 +3055,8 @@
     "title": "Eierdoos",
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A9289%20LR.jpg?itok=aJK71rdY",
-    "description": "Eierdoos",
-    "materials": ["PlasticPapier en Karton"],
+    "description": "Een doos bedoeld om verse eieren te transporteren en in de winkel op de schappen te plaatsen. De doos is zo gevormd dat de eieren tijdens transport niet met elkaar in aanraking kunnen komen.",
+    "materials": ["Plastic", "Papier en Karton"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -3064,7 +3074,7 @@
     "title": "Doos vanaf 1m3 inhoudsmaat",
     "subtitle": "Transportdoos",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0927%20doos%20LR.jpg?itok=OB66YhxB",
-    "description": "Doos vanaf 1m3 inhoudsmaat",
+    "description": "Dozen met een inhoudsmaat vanaf 1m3",
     "materials": ["Papier en Karton"],
     "tableInfo": {
       "verpakking": true,
@@ -3083,8 +3093,8 @@
     "title": "Label",
     "subtitle": "Kaartje, Etiket",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A9547%20LR.jpg?itok=vrsefK6X",
-    "description": "Label",
-    "materials": ["PlasticPapier en Karton"],
+    "description": "Labels die aan het product hangen of eraan bevestigd zijn",
+    "materials": ["Plastic", "Papier en Karton"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -3102,7 +3112,7 @@
     "title": "Champignonbakje",
     "subtitle": "Champignondoosje",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0468%20LR.jpg?itok=hkVnExg8",
-    "description": "Champignonbakje",
+    "description": "Een kunststof bakje om diverse groente in te bewaren zoals champignons.",
     "materials": ["Plastic"],
     "tableInfo": {
       "verpakking": true,
@@ -3121,8 +3131,8 @@
     "title": "Mosterdglas",
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0582%20LR.jpg?itok=V1rF7TLK",
-    "description": "Mosterdglas",
-    "materials": ["PlasticGlasOverige metalen"],
+    "description": "Een drinkglas om broodbeleg of saus in te verpakken",
+    "materials": ["Plastic", "Glas", "Overige metalen"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -3141,7 +3151,7 @@
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0484%20LR.jpg?itok=mfrwuNm-",
     "description": "De rol en het doosje zijn verpakkingen. De folie is pas een verpakking als er iets in verpakt wordt. Zie ook Aluminiumfolie (met inhoud)",
-    "materials": ["Papier en KartonAluminium"],
+    "materials": ["Papier en Karton", "Aluminium"],
     "tableInfo": {
       "verpakking": false,
       "bijdrageplichtig": false,
@@ -3161,7 +3171,11 @@
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0520%20LR.jpg?itok=muMVJ6l9",
     "description": "Geleverd in doosje met daarin flesje en losse stokjes. Zie ook: Geurolieflesje",
     "materials": [
-      "PlasticGlasPapier en KartonAluminiumOverige materiaalsoorten"
+      "Plastic",
+      "Glas",
+      "Papier en Karton",
+      "Aluminium",
+      "Overige materiaalsoorten"
     ],
     "tableInfo": {
       "verpakking": true,
@@ -3181,7 +3195,7 @@
     "subtitle": "Geurflesje",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0513%20LR.jpg?itok=8jXl31vV",
     "description": "Een fles om geurolie in te bewaren. Zie ook: Geurstokjes",
-    "materials": ["PlasticGlas"],
+    "materials": ["Plastic", "Glas"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -3199,7 +3213,7 @@
     "title": "Lenzendoosje",
     "subtitle": "Lensdoosje",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0563%20LR.jpg?itok=gopsPOoo",
-    "description": "Lenzendoosje",
+    "description": "Lenzendoosje/kokertje geleverd zonder lenzen",
     "materials": ["Plastic"],
     "tableInfo": {
       "verpakking": false,
@@ -3218,7 +3232,7 @@
     "title": "Noppenfolie om een product",
     "subtitle": "Bubbeltjes plastic, Bubbeltjes folie",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0578%20LR.jpg?itok=l9RZ9S7u",
-    "description": "Noppenfolie om een product",
+    "description": "Noppenfolie om een product. Let op andere folien staan op de lijst verkooppuntverpakkingen",
     "materials": ["Plastic"],
     "tableInfo": {
       "verpakking": true,
@@ -3237,8 +3251,8 @@
     "title": "Kledinghoes (stomerij)",
     "subtitle": "Stomerijhoes",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0927%20zak%20LR.jpg?itok=7Zc1herB",
-    "description": "Kledinghoes (stomerij)",
-    "materials": ["PlasticHoutOverige metalen"],
+    "description": "Verpakking indien ontworpen en bedoeld om op het verkooppunt te worden gevuld zoals Kunststof folie ter bescherming van gereinigde kleding in wasserijen",
+    "materials": ["Plastic", "Hout", "Overige metalen"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -3256,7 +3270,7 @@
     "title": "Bellenblaassetje",
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/bellenblaas_S0A9301%20LR.jpg?itok=6g7a5kUY",
-    "description": "Bellenblaassetje",
+    "description": "Speelgoed om bellen te maken door te blazen in een pijpje met zeepsop.",
     "materials": ["Plastic"],
     "tableInfo": {
       "verpakking": true,
@@ -3275,7 +3289,7 @@
     "title": "Fotorolletje",
     "subtitle": "Camerarolletje",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/fotorolletje_S0A9368%20LR.jpg?itok=GhOZ0e2o",
-    "description": "Fotorolletje",
+    "description": "Film of fotorolletje",
     "materials": ["Plastic"],
     "tableInfo": {
       "verpakking": false,
@@ -3294,7 +3308,7 @@
     "title": "Doosje nietjes",
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/nietjes_S0A9359%20LR.jpg?itok=PGXmLscw",
-    "description": "Doosje nietjes",
+    "description": "Doosje met nieten voor gebruik in een nietmachine",
     "materials": ["Papier en Karton"],
     "tableInfo": {
       "verpakking": true,
@@ -3313,8 +3327,8 @@
     "title": "Rolmaat",
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A1626%20LR.jpg?itok=ZCTQR49C",
-    "description": "Rolmaat",
-    "materials": ["PlasticOverige metalen"],
+    "description": "meetgereedschap dat geschikt is voor het meten van zowel buitenwerkse als binnenwerkse maten",
+    "materials": ["Plastic", "Overige metalen"],
     "tableInfo": {
       "verpakking": false,
       "bijdrageplichtig": false,
@@ -3333,7 +3347,7 @@
     "subtitle": "Pepermolen, Zoutmolen",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0927pepermolen%20LR.jpg?itok=hO7z6xsR",
     "description": "Mechanische molen (geintegreerd in een navulbaar recipient bijvoorbeeld navulbare pepermolen). Zie ook: Mechanische molen niet navulbaar",
-    "materials": ["PlasticGlasOverige metalen"],
+    "materials": ["Plastic", "Glas", "Overige metalen"],
     "tableInfo": {
       "verpakking": false,
       "bijdrageplichtig": false,
@@ -3389,7 +3403,7 @@
     "title": "Lijmstift",
     "subtitle": "Pritt stift, Plakstift",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0545%20LR.jpg?itok=cqsqdC2R",
-    "description": "Lijmstift",
+    "description": "een stift voor het aanelkaar lijmen van bijvoorbeeld papier of (dun) karton.",
     "materials": ["Plastic"],
     "tableInfo": {
       "verpakking": true,
@@ -3408,8 +3422,8 @@
     "title": "Verzendzakjes voor catalogi en tijdschriften",
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A1636%20LR.jpg?itok=7uSeaKjW",
-    "description": "Verzendzakjes voor catalogi en tijdschriften ",
-    "materials": ["PlasticPapier en Karton"],
+    "description": "Verzendzakjes voor catalogi en tijdschriften (met catalogus of tijdschrift erin)",
+    "materials": ["Plastic", "Papier en Karton"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -3427,7 +3441,7 @@
     "title": "Tandpastadoos",
     "subtitle": "Doosje van Tandpasta",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A1652%20LR.jpg?itok=iOpJqptg",
-    "description": "Tandpastadoos",
+    "description": "Het doosje dat om een tandpastatube zit als je deze koopt.",
     "materials": ["Papier en Karton"],
     "tableInfo": {
       "verpakking": true,
@@ -3446,8 +3460,8 @@
     "title": "Doos voor computerspel",
     "subtitle": "Doos voor dvd, Doos voor film, CD doosje",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A1675%20LR.jpg?itok=1pPwLNPT",
-    "description": "Doos voor computerspel",
-    "materials": ["PlasticPapier en Karton"],
+    "description": "Doosje om een cd, computerspel et cetera in op te bergen",
+    "materials": ["Plastic", "Papier en Karton"],
     "tableInfo": {
       "verpakking": false,
       "bijdrageplichtig": false,
@@ -3466,7 +3480,7 @@
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A1602%20LR.jpg?itok=9kU06Rvp",
     "description": "Doosje met oorbellen. Zie ook: Ringendoos en Sieradendoos",
-    "materials": ["PlasticPapier en Karton"],
+    "materials": ["Plastic", "Papier en Karton"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -3485,7 +3499,7 @@
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0871%20LR.jpg?itok=UhGmt-0M",
     "description": "Touwtje, label en envelopje zijn verpakking. Tot en met 11 augustus 2026 valt een theezakje zelf niet onder de definitie van verpakking. Vanaf 12 augustus 2026 verandert dit: door de inwerkingtreding van de PPWR wordt ook het theezakje als verpakking beschouwd. Zie ook Theezakje",
-    "materials": ["PlasticPapier en Karton"],
+    "materials": ["Plastic", "Papier en Karton"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -3523,7 +3537,7 @@
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/spuitmondje%20LR.jpg?itok=mtJRD3zj",
     "description": "Spuitmechanisme op een aerosolbus. Zie ook: Luchtverfrisser",
-    "materials": ["PlasticOverige metalen"],
+    "materials": ["Plastic", "Overige metalen"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -3560,8 +3574,8 @@
     "title": "Dekbed tas",
     "subtitle": "Dekbed hoes",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A1421%20LR_0.jpg?itok=2iOk0Xy9",
-    "description": "Dekbed tas",
-    "materials": ["PlasticPapier en KartonOverige materiaalsoorten"],
+    "description": "Een tas om een dekbed in te bewaren",
+    "materials": ["Plastic", "Papier en Karton", "Overige materiaalsoorten"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -3579,8 +3593,8 @@
     "title": "Doosje voor fotolensfilter",
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0744%20LR.jpg?itok=ZutCEBg2",
-    "description": "Doosje voor fotolensfilter",
-    "materials": ["PlasticPapier en Karton"],
+    "description": "Doosje om fotolensfilter in te bewaren",
+    "materials": ["Plastic", "Papier en Karton"],
     "tableInfo": {
       "verpakking": false,
       "bijdrageplichtig": false,
@@ -3598,8 +3612,8 @@
     "title": "Platenhoes",
     "subtitle": "LP hoes, Platencover",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-07/_S0A0765%20LR.jpg?itok=tvCdGLc1",
-    "description": "Platenhoes",
-    "materials": ["PlasticPapier en Karton"],
+    "description": "Beschermende envelopachtige houders voor grammofoonplaten, meestal van zwaar papier of karton, waarop vaak afbeeldingen en informatie met betrekking tot de plaat staat afgedrukt.",
+    "materials": ["Plastic", "Papier en Karton"],
     "tableInfo": {
       "verpakking": false,
       "bijdrageplichtig": false,
@@ -3616,9 +3630,9 @@
     "nid": 252,
     "title": "Hoeklatten",
     "subtitle": "Beschermlat, Hoeksteun",
-    "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-09/_S0A0927%20hoeklatten%20LR.jpg?itok=hQJ7wX8L",
-    "description": "Hoeklatten",
-    "materials": ["PlasticPapier en KartonHout"],
+    "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-09/_S0A0927 hoeklatten LR.jpg?itok=hQJ7wX8L",
+    "description": "Hoeklatten om de kratten.",
+    "materials": ["Plastic", "Papier en Karton", "Hout"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": true,
@@ -3636,8 +3650,8 @@
     "title": "Opzetrand",
     "subtitle": "",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-09/_S0A0927%20opzetrand%20LR.jpg?itok=bBTuwzax",
-    "description": "Opzetrand",
-    "materials": ["PlasticPapier en KartonHoutOverige metalen"],
+    "description": "Opzetrand van een pallet",
+    "materials": ["Plastic", "Papier en Karton", "Hout", "Overige metalen"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": false,
@@ -3655,8 +3669,8 @@
     "title": "Rolcontainer",
     "subtitle": "Rolkar",
     "imageUrl": "https://www.verpact.nl/sites/default/files/styles/cropped_medium_3_2/public/2026-09/_S0A0927%20postkar%20LR.jpg?itok=iA7Bw_ur",
-    "description": "Rolcontainer",
-    "materials": ["PlasticOverige metalen"],
+    "description": "Een verrijdbare kooi waarin men goederen kan opslaan en vervoeren. De zijpanelen van de kooi kunnen meestal eenvoudig worden opengeklapt of verwijderd, zodat men de goederen er gemakkelijk in kan doen of eruit kan halen",
+    "materials": ["Plastic", "Overige metalen"],
     "tableInfo": {
       "verpakking": true,
       "bijdrageplichtig": false,

@@ -26,7 +26,7 @@ async function fetchCatalog() {
     .filter((i) => i.url);
 
   console.log(
-    `Found ${rawItems.length} products. Launching browser with networkidle to scrape precise data...`,
+    `Found ${rawItems.length} products. Launching browser with networkidle to scrape accurate 'Toelichting' description...`,
   );
 
   const browser = await chromium.launch({
@@ -42,7 +42,7 @@ async function fetchCatalog() {
     try {
       await page.goto(fullUrl, { waitUntil: "networkidle", timeout: 20000 });
 
-      const scraped = await page.evaluate(() => {
+      const scraped = await page.evaluate((currentUrl) => {
         const titleEl = document.querySelector("h1");
 
         const subEl = document.querySelector(".NodeProduct__alternative_names");
@@ -53,34 +53,79 @@ async function fetchCatalog() {
         const imgEl = document.querySelector(
           "img[src*='/sites/default/files/']",
         );
+        let imgUrl = imgEl ? imgEl.src : "";
+        if (currentUrl.includes("hoeklatten")) {
+          imgUrl = decodeURIComponent(imgUrl);
+        }
+
         const bodyEl = document.querySelector("main") || document.body;
 
-        // Get description paragraphs
-        const ps = Array.from(
-          bodyEl.querySelectorAll(
-            "p, li, .NodeBasicPage__body p, .NodeProduct__body p",
-          ),
-        )
-          .map((el) => el.innerText || el.textContent || "")
-          .map((t) => t.trim())
-          .filter(
-            (t) => t.length > 0 && t !== (titleEl ? titleEl.innerText : ""),
-          );
+        // Try to find description under "Toelichting" header or paragraphs
+        let descText = "";
+        const headings = Array.from(
+          bodyEl.querySelectorAll("h2, h3, h4, .section-title"),
+        );
+        const toelichtingHeading = headings.find(
+          (h) => h.textContent?.trim().toLowerCase() === "toelichting",
+        );
+        if (toelichtingHeading) {
+          let next = toelichtingHeading.nextElementSibling;
+          while (next && !["H1", "H2", "H3", "H4"].includes(next.tagName)) {
+            descText += " " + (next.innerText || next.textContent || "");
+            next = next.nextElementSibling;
+          }
+        }
 
-        const uniquePs = Array.from(new Set(ps));
-        const descText = uniquePs.join(" ");
+        if (!descText.trim()) {
+          const ps = Array.from(
+            bodyEl.querySelectorAll(
+              "p, li, .NodeBasicPage__body p, .NodeProduct__body p",
+            ),
+          )
+            .map((el) => el.innerText || el.textContent || "")
+            .map((t) => t.trim())
+            .filter(
+              (t) =>
+                t.length > 0 &&
+                t !== (titleEl ? titleEl.innerText : "") &&
+                t !== subtitleText,
+            );
+          const uniquePs = Array.from(new Set(ps));
+          descText = uniquePs.join(" ");
+        }
 
-        const materialEls = Array.from(
+        const materialNodes = Array.from(
           bodyEl.querySelectorAll(
-            ".material, .material-tag, [class*='material'], [class*='materiaalsoort'], .NodeProduct__material, .tag",
+            ".NodeProduct__material a, .material a, [class*='material'] a, .tag a, .NodeProduct__material, .material, [class*='materiaalsoort']",
           ),
         )
           .map((el) => el.textContent?.trim())
           .filter(Boolean);
 
-        const materials = Array.from(new Set(materialEls));
+        let materials = Array.from(new Set(materialNodes));
         if (materials.length === 0) {
-          materials.push("Diversen");
+          const pageText = bodyEl.innerText || "";
+          const found = [];
+          if (
+            pageText.toLowerCase().includes("plastic") ||
+            pageText.toLowerCase().includes("kunststof")
+          )
+            found.push("Plastic");
+          if (
+            pageText.toLowerCase().includes("papier") ||
+            pageText.toLowerCase().includes("karton")
+          )
+            found.push("Papier en Karton");
+          if (pageText.toLowerCase().includes("glas")) found.push("Glas");
+          if (pageText.toLowerCase().includes("hout")) found.push("Hout");
+          if (
+            pageText.toLowerCase().includes("metaal") ||
+            pageText.toLowerCase().includes("aluminium") ||
+            pageText.toLowerCase().includes("staal") ||
+            pageText.toLowerCase().includes("blik")
+          )
+            found.push("Metaal");
+          materials = found.length > 0 ? found : ["Diversen"];
         }
 
         const info = {
@@ -128,12 +173,12 @@ async function fetchCatalog() {
         return {
           title: titleEl ? titleEl.innerText.trim() : "",
           subtitle: subtitleText.trim(),
-          imageUrl: imgEl ? imgEl.src : "",
+          imageUrl: imgUrl,
           description: descText.trim().replace(/\s+/g, " "),
           materials,
           tableInfo: info,
         };
-      });
+      }, fullUrl);
 
       let cleanDesc = (scraped.description || item.title).replace(
         /\.([A-Z])/g,
