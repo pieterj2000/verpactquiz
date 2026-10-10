@@ -17,7 +17,7 @@ let currentQuestionIndex = 0;
 let score = 0;
 let quizQuestions: any[] = [];
 let answered = false;
-let currentQuizMode = "mix"; // 'mix', 'packaging', 'material', 'exoot', 'bijdrage', 'trivia', 'logistiek'
+let currentQuizMode = "mix"; // 'mix', 'packaging', 'material', 'exoot', 'bijdrage', 'logistiek'
 
 const app = document.querySelector<HTMLDivElement>("#app")!;
 
@@ -76,7 +76,7 @@ function renderWelcomeReady() {
           <button class="btn btn-secondary quiz-mode-btn" data-mode="material" style="padding: 1rem;">🧪 Raad het materiaal</button>
           <button class="btn btn-secondary quiz-mode-btn" data-mode="exoot" style="padding: 1rem;">🔍 Exoten-jacht (Buitenbeentjes)</button>
           <button class="btn btn-secondary quiz-mode-btn" data-mode="bijdrage" style="padding: 1rem;">💶 Bijdrageplichtig of niet?</button>
-          <button class="btn btn-secondary quiz-mode-btn" data-mode="trivia" style="padding: 1rem;">❓ Wie ben ik? (Trivia)</button>
+          <button class="btn btn-secondary quiz-mode-btn" data-mode="logistiek" style="padding: 1rem;">🚛 Logistiek of consument?</button>
         </div>
 
         <button id="start-btn" class="btn" style="font-size: 1.1rem; padding: 1rem 2rem; width: 100%;">Start Gekozen Quiz</button>
@@ -108,7 +108,6 @@ function renderWelcomeReady() {
     });
   });
 
-  // Highlight default mix
   const defaultBtn = document.querySelector('[data-mode="mix"]');
   defaultBtn?.classList.remove("btn-secondary");
   defaultBtn?.classList.add("btn-success");
@@ -168,14 +167,7 @@ function startQuiz() {
   quizQuestions = selected.map((item) => {
     let mode = currentQuizMode;
     if (mode === "mix") {
-      const modes = [
-        "packaging",
-        "material",
-        "exoot",
-        "bijdrage",
-        "trivia",
-        "logistiek",
-      ];
+      const modes = ["packaging", "material", "exoot", "bijdrage", "logistiek"];
       mode = modes[Math.floor(Math.random() * modes.length)];
     }
 
@@ -212,7 +204,6 @@ function startQuiz() {
         options,
       };
     } else if (mode === "exoot") {
-      // Find 1 item that is not a packaging or has special properties, plus 3 regular ones
       const isExoot = !item.tableInfo.verpakking || item.tableInfo.exoot;
       const otherRegular = items
         .filter((i) => i.tableInfo.verpakking && !i.tableInfo.exoot)
@@ -238,7 +229,7 @@ function startQuiz() {
           { label: "Nee, niet bijdrageplichtig", value: false },
         ],
       };
-    } else if (mode === "logistiek") {
+    } else {
       return {
         item,
         type: "logistiek",
@@ -248,23 +239,6 @@ function startQuiz() {
           { label: "Ja, logistiek hulpmiddel", value: true },
           { label: "Nee, geen logistiek hulpmiddel", value: false },
         ],
-      };
-    } else {
-      // Trivia: Wie ben ik?
-      const otherItems = items.filter((i) => i.id !== item.id);
-      const wrongOptions = otherItems
-        .sort(() => 0.5 - Math.random())
-        .slice(0, 3)
-        .map((i) => i.title);
-      const options = [item.title, ...wrongOptions]
-        .sort(() => 0.5 - Math.random())
-        .map((o) => ({ label: o, value: o }));
-      return {
-        item,
-        type: "trivia",
-        questionText: `Welk product wordt hier omschreven?<br><br><em>"${item.description}"</em>`,
-        correctAnswer: item.title,
-        options,
       };
     }
   });
