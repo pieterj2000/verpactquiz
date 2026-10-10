@@ -3,8 +3,6 @@
 ## Writing files
 Before writing a file, verify that you have not already written it. Do not repeat the exact content back to the user, unless explicitely asked for, and even then, consider using `cat` from the command line.
 
-
-
 ## Project
 
 This is a simple static website.
@@ -23,7 +21,7 @@ other frontend frameworks unless the user explicitly asks for one.
 Prefer simple browser APIs and ordinary HTML/CSS.
 
 ## Version control
-The project uses `git` as version control. Commit frequently.
+The project uses `git` as version control. Commit frequently, more often than when a task is finished. Consider committing whenever you make significant changes to one or more files that are unlikely to change soon.
 
 ## Project structure
 
@@ -94,6 +92,10 @@ Before considering a task complete, run:
 
     npm run check
 
+and
+
+    npm test
+
 All checks must pass.
 
 The check includes:
@@ -103,11 +105,11 @@ The check includes:
 - Stylelint
 - TypeScript
 - Vite production build
-- Playwright
 
-If a check fails, fix the problem and run the check again.
+The Playwright test is not included, but is included in `npm test`, so that should be run separately.
 
-Do not simply report that a check failed.
+If a check or test fails, fix the problem and run it again.
+Do not simply report that a check or test failed.
 
 
 ### Fixing validation
@@ -130,5 +132,6 @@ A task is complete only when:
 
 1. The requested functionality is implemented.
 2. `npm run check` passes.
+2. `npm test` passes.
 3. Relevant browser behavior has been tested.
 4. No unnecessary dependencies or frameworks were introduced.
