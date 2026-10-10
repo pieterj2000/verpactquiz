@@ -178,7 +178,7 @@ function renderQuestion() {
       <p>Test je kennis van de Verpakkingscatalogus</p>
     </header>
     <main>
-      <div class="card quiz-container">
+      <div class="card quiz-container" style="max-width: 1150px; margin: 0 auto;">
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem; font-size: 0.9rem; font-weight: 600; color: var(--text-muted);">
           <span>Product ${currentQuestionIndex + 1} van ${quizQuestions.length}</span>
           <span>${Math.round(progress)}% voltooid</span>
@@ -187,53 +187,60 @@ function renderQuestion() {
           <div class="progress-fill" style="width: ${progress}%"></div>
         </div>
 
-        <!-- Naam en subtitel boven de afbeelding -->
-        <div style="margin-bottom: 1rem; text-align: center;">
-          <h2 style="color: var(--primary-dark); margin-bottom: 0.25rem; font-size: 1.6rem;">${item.title}</h2>
-          ${item.subtitle ? `<p style="font-style: italic; color: var(--text-muted); font-size: 1rem;">${item.subtitle}</p>` : ""}
-        </div>
-
-        <!-- Afbeelding over de volledige breedte zonder padding of randje -->
-        ${
-          imgSrc
-            ? `
-          <div style="margin-bottom: 1.5rem; width: 100%; background: #f8fafc; border-radius: 8px; border: 1px solid #cbd5e1; padding: 0; text-align: center; overflow: hidden;">
-            <img src="${imgSrc}" alt="${item.title}" style="width: 100%; height: auto; object-fit: contain; display: block; border-radius: 7px;" />
-          </div>
-        `
-            : ""
-        }
-
-        <!-- Omschrijving en materialen onder de afbeelding -->
-        <div style="margin-bottom: 1.5rem; background: #f8fafc; padding: 1rem; border-radius: 8px; border: 1px solid #e2e8f0;">
-          <p style="font-size: 1rem; margin-bottom: 0.75rem; line-height: 1.5;">${item.description}</p>
-          <p style="font-size: 0.9rem; color: var(--text-muted);"><strong>Materialen:</strong> ${item.materials.join(", ")}</p>
-        </div>
-
-        <h3 style="font-size: 1.1rem; margin-bottom: 1rem; border-bottom: 2px solid #e2e8f0; padding-bottom: 0.5rem;">Geef aan welke 7 tabel-eigenschappen van toepassing zijn:</h3>
-
-        <div style="display: flex; flex-direction: column; gap: 0.75rem; margin-bottom: 1.5rem;">
-          ${tableProperties
-            .map(
-              (prop) => `
-            <div style="display: flex; justify-content: space-between; align-items: center; background: #f8fafc; padding: 0.75rem 1rem; border-radius: 8px; border: 1px solid #e2e8f0;">
-              <span style="font-weight: 600; font-size: 0.95rem;">${prop.label}</span>
-              <div style="display: flex; gap: 0.5rem;">
-                <button class="btn btn-secondary guess-btn ${userGuesses[prop.key] === true ? "btn-success" : ""}" data-prop="${prop.key}" data-val="true" style="padding: 0.4rem 1rem; font-size: 0.9rem;">Ja</button>
-                <button class="btn btn-secondary guess-btn ${userGuesses[prop.key] === false ? "btn-danger" : ""}" data-prop="${prop.key}" data-val="false" style="padding: 0.4rem 1rem; font-size: 0.9rem;">Nee</button>
-              </div>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); gap: 2rem; align-items: start; margin-top: 1.5rem;">
+          
+          <!-- LINKER KOLOM: Product informatie (naam, afbeelding, omschrijving, materialen) -->
+          <div style="display: flex; flex-direction: column; gap: 1rem;">
+            <div style="text-align: left;">
+              <h2 style="color: var(--primary-dark); margin-bottom: 0.25rem; font-size: 1.6rem;">${item.title}</h2>
+              ${item.subtitle ? `<p style="font-style: italic; color: var(--text-muted); font-size: 1rem;">${item.subtitle}</p>` : ""}
             </div>
-          `,
-            )
-            .join("")}
-        </div>
 
-        <div id="feedback-area"></div>
+            ${
+              imgSrc
+                ? `
+              <div style="width: 100%; background: #f8fafc; border-radius: 8px; border: 1px solid #cbd5e1; padding: 0; text-align: center; overflow: hidden;">
+                <img src="${imgSrc}" alt="${item.title}" style="width: 100%; height: auto; object-fit: contain; display: block; border-radius: 7px;" />
+              </div>
+            `
+                : ""
+            }
 
-        <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem;">
-          <span style="font-size: 0.9rem; color: var(--text-muted);">Score tot nu toe: ${totalScore}</span>
-          <button id="submit-btn" class="btn" style="padding: 0.75rem 2rem;">Controleer antwoorden</button>
-          <button id="next-btn" class="btn" style="display: none; padding: 0.75rem 2rem;">Volgend product</button>
+            <div style="background: #f8fafc; padding: 1rem; border-radius: 8px; border: 1px solid #e2e8f0;">
+              <p style="font-size: 1rem; margin-bottom: 0.75rem; line-height: 1.5;">${item.description}</p>
+              <p style="font-size: 0.9rem; color: var(--text-muted);"><strong>Materialen:</strong> ${item.materials.join(", ")}</p>
+            </div>
+          </div>
+
+          <!-- RECHTER KOLOM: Vragen / 7 tabel-eigenschappen -->
+          <div style="display: flex; flex-direction: column;">
+            <h3 style="font-size: 1.1rem; margin-bottom: 1rem; border-bottom: 2px solid #e2e8f0; padding-bottom: 0.5rem;">Geef aan welke 7 tabel-eigenschappen van toepassing zijn:</h3>
+
+            <div style="display: flex; flex-direction: column; gap: 0.75rem; margin-bottom: 1.5rem;">
+              ${tableProperties
+                .map(
+                  (prop) => `
+                <div style="display: flex; justify-content: space-between; align-items: center; background: #f8fafc; padding: 0.75rem 1rem; border-radius: 8px; border: 1px solid #e2e8f0;">
+                  <span style="font-weight: 600; font-size: 0.95rem;">${prop.label}</span>
+                  <div style="display: flex; gap: 0.5rem;">
+                    <button class="btn btn-secondary guess-btn ${userGuesses[prop.key] === true ? "btn-success" : ""}" data-prop="${prop.key}" data-val="true" style="padding: 0.4rem 1rem; font-size: 0.9rem;">Ja</button>
+                    <button class="btn btn-secondary guess-btn ${userGuesses[prop.key] === false ? "btn-danger" : ""}" data-prop="${prop.key}" data-val="false" style="padding: 0.4rem 1rem; font-size: 0.9rem;">Nee</button>
+                  </div>
+                </div>
+              `,
+                )
+                .join("")}
+            </div>
+
+            <div id="feedback-area"></div>
+
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem;">
+              <span style="font-size: 0.9rem; color: var(--text-muted);">Score tot nu toe: ${totalScore}</span>
+              <button id="submit-btn" class="btn" style="padding: 0.75rem 2rem;">Controleer antwoorden</button>
+              <button id="next-btn" class="btn" style="display: none; padding: 0.75rem 2rem;">Volgend product</button>
+            </div>
+          </div>
+
         </div>
       </div>
     </main>
