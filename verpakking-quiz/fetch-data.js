@@ -2,6 +2,18 @@ import fs from "fs";
 import path from "path";
 import { chromium } from "playwright";
 
+async function downloadImage(url, destPath) {
+  try {
+    const res = await fetch(url);
+    if (!res.ok) return false;
+    const buffer = Buffer.from(await res.arrayBuffer());
+    fs.writeFileSync(destPath, buffer);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
 async function fetchCatalog() {
   console.log("Fetching product URLs from Elasticsearch API...");
   const url =
@@ -26,13 +38,18 @@ async function fetchCatalog() {
     .filter((i) => i.url);
 
   console.log(
-    `Found ${rawItems.length} products. Launching browser with networkidle to scrape pure materials from .NodeProduct__materials a.NodeProduct__type...`,
+    `Found ${rawItems.length} products. Launching browser to scrape details and download images locally (adding localImageUrl)...`,
   );
 
   const browser = await chromium.launch({
     args: ["--no-sandbox", "--disable-setuid-sandbox"],
   });
   const page = await browser.newPage();
+
+  const imgDir = path.resolve("public/images");
+  if (!fs.existsSync(imgDir)) {
+    fs.mkdirSync(imgDir, { recursive: true });
+  }
 
   const catalogItems = [];
 
@@ -160,12 +177,27 @@ async function fetchCatalog() {
         ". $1",
       );
 
+      let localImageUrl = "";
+      if (scraped.imageUrl) {
+        const extMatch = scraped.imageUrl.match(
+          /\.(jpg|jpeg|png|webp|svg)(\?.*)?$/i,
+        );
+        const ext = extMatch ? extMatch[1] : "jpg";
+        const filename = `${item.id.replace(/[:\/]/g, "_")}.${ext}`;
+        const destPath = path.join(imgDir, filename);
+        const success = await downloadImage(scraped.imageUrl, destPath);
+        if (success) {
+          localImageUrl = `/images/${filename}`;
+        }
+      }
+
       catalogItems.push({
         id: item.id,
         nid: item.nid,
         title: scraped.title || item.title,
         subtitle: scraped.subtitle || "",
-        imageUrl: scraped.imageUrl || "",
+        imageUrl: scraped.imageUrl,
+        localImageUrl: localImageUrl,
         description: cleanDesc,
         materials: scraped.materials,
         tableInfo: scraped.tableInfo,
@@ -173,7 +205,9 @@ async function fetchCatalog() {
       });
 
       if ((i + 1) % 20 === 0) {
-        console.log(`Scraped ${i + 1} / ${rawItems.length} items...`);
+        console.log(
+          `Scraped and downloaded ${i + 1} / ${rawItems.length} items...`,
+        );
       }
 
       await new Promise((r) => setTimeout(r, 300));
@@ -185,6 +219,7 @@ async function fetchCatalog() {
         title: item.title,
         subtitle: "",
         imageUrl: "",
+        localImageUrl: "",
         description: item.title,
         materials: [],
         tableInfo: {
@@ -204,7 +239,6 @@ async function fetchCatalog() {
 
   await browser.close();
 
-  // Filter out items that do not have access (e.g. "Je hebt geen toegang tot deze pagina.")
   const validItems = catalogItems.filter(
     (item) => item.title && !item.title.toLowerCase().includes("geen toegang"),
   );
@@ -222,7 +256,7 @@ async function fetchCatalog() {
     JSON.stringify(validItems, null, 2),
   );
   console.log(
-    `Successfully scraped and saved ${validItems.length} valid items to public/verpakkingen.json`,
+    `Successfully saved ${validItems.length} valid items with imageUrl and localImageUrl to public/verpakkingen.json`,
   );
 }
 

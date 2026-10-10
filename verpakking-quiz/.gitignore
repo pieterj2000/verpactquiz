@@ -12,6 +12,7 @@ test-results
 dist
 dist-ssr
 *.local
+public/images/
 
 # Editor directories and files
 .vscode/*
