@@ -93,7 +93,6 @@ async function fetchCatalog() {
           descText = uniquePs.join(" ");
         }
 
-        // Purely scrape materials from .NodeProduct__materials a.NodeProduct__type
         const materialNodes = Array.from(
           bodyEl.querySelectorAll(
             ".NodeProduct__materials a.NodeProduct__type, .NodeProduct__materials .NodeProduct__type",
@@ -205,16 +204,25 @@ async function fetchCatalog() {
 
   await browser.close();
 
+  // Filter out items that do not have access (e.g. "Je hebt geen toegang tot deze pagina.")
+  const validItems = catalogItems.filter(
+    (item) => item.title && !item.title.toLowerCase().includes("geen toegang"),
+  );
+
+  console.log(
+    `Filtered out ${catalogItems.length - validItems.length} inaccessible items.`,
+  );
+
   const outDir = path.resolve("public");
   if (!fs.existsSync(outDir)) {
     fs.mkdirSync(outDir, { recursive: true });
   }
   fs.writeFileSync(
     path.join(outDir, "verpakkingen.json"),
-    JSON.stringify(catalogItems, null, 2),
+    JSON.stringify(validItems, null, 2),
   );
   console.log(
-    `Successfully scraped and saved ${catalogItems.length} items with pure .NodeProduct__materials to public/verpakkingen.json`,
+    `Successfully scraped and saved ${validItems.length} valid items to public/verpakkingen.json`,
   );
 }
 
