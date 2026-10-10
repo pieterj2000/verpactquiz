@@ -134,7 +134,7 @@ function renderCatalogList(filter: string) {
     .map(
       (item) => `
     <div class="catalog-item" style="display: flex; gap: 1rem; align-items: center;">
-      ${item.localImageUrl || item.imageUrl ? `<img src="${item.localImageUrl || item.imageUrl}" alt="${item.title}" style="width: 80px; height: 60px; object-fit: cover; border-radius: 6px; border: 1px solid #cbd5e1;" />` : ""}
+      ${item.localImageUrl || item.imageUrl ? `<img src="${item.localImageUrl || item.imageUrl}" alt="${item.title}" style="width: 80px; height: 60px; object-fit: contain; background: #f8fafc; border-radius: 6px; border: 1px solid #cbd5e1;" />` : ""}
       <div style="flex: 1;">
         <h4>${item.title}</h4>
         ${item.subtitle ? `<p style="font-style: italic; color: var(--primary-dark);">${item.subtitle}</p>` : ""}
@@ -189,12 +189,12 @@ function renderQuestion() {
           ${item.subtitle ? `<p style="font-style: italic; color: var(--text-muted); font-size: 1rem;">${item.subtitle}</p>` : ""}
         </div>
 
-        <!-- Afbeelding over de hele breedte van het parent-element -->
+        <!-- Afbeelding over de hele breedte in z'n geheel weergegeven (object-fit: contain) -->
         ${
           imgSrc
             ? `
-          <div style="margin-bottom: 1.5rem; width: 100%;">
-            <img src="${imgSrc}" alt="${item.title}" style="width: 100%; max-height: 280px; object-fit: cover; border-radius: 8px; border: 1px solid #cbd5e1;" />
+          <div style="margin-bottom: 1.5rem; width: 100%; background: #f8fafc; border-radius: 8px; border: 1px solid #cbd5e1; padding: 0.5rem; text-align: center;">
+            <img src="${imgSrc}" alt="${item.title}" style="width: 100%; max-height: 320px; object-fit: contain; border-radius: 4px;" />
           </div>
         `
             : ""
