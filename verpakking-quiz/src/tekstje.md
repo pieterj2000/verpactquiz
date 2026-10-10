@@ -4,8 +4,8 @@ Terwijl [_Big Verpakking_](verpact.nl) ons dagelijks overspoelt met dozen, folie
 
 De ["Verpact Verpakkingscatalogus"](https://www.verpact.nl/nl/verpakkingencatalogus), ofwel **het Verpakkingsdecreet van De Gevestigde Verpakkings-Orde**, is een bron van leugens die ze [jou willen opleggen](https://www.verpact.nl/nl/jouw-verpakkingen)! ZIJ bepalen [de taal](https://begrippenlijst.verpact.nl/nl/) die WIJ dienen te gebruiken. ZIJ indoctrineren ons zodat ZIJ profiteren!
 
-## Doe de quiz. Ontdek het dogma die het volk blind dient te volgen. 
+**Doe de quiz. Ontdek het dogma die het volk blind dient te volgen.**
 
-**🚨 DENK ZELF NA. DOE JE EIGEN ONDERZOEK. LAAT JE NIET ver-PAKKEN. 🚨**
+🚨 DENK ZELF NA. DOE JE EIGEN ONDERZOEK. LAAT JE NIET ver-PAKKEN. 🚨
 
 _Big Verpakking kijkt mee. 📦👀_

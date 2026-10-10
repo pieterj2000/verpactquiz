@@ -1,11 +1,23 @@
 import { defineConfig } from "vite";
+import fs from "fs";
+import path from "path";
 
-// Custom Vite plugin to compile markdown files at build time (server-side)
-function markdownPlugin() {
+function markdownVirtualPlugin() {
+  const virtualModuleId = "virtual:tekst-html";
+  const resolvedVirtualModuleId = "\0" + virtualModuleId;
+
   return {
-    name: "markdown-compile-plugin",
-    transform(code, id) {
-      if (id.endsWith(".md")) {
+    name: "markdown-virtual-plugin",
+    resolveId(id) {
+      if (id === virtualModuleId) {
+        return resolvedVirtualModuleId;
+      }
+    },
+    load(id) {
+      if (id === resolvedVirtualModuleId) {
+        const mdPath = path.resolve(import.meta.dirname, "src/tekstje.md");
+        const code = fs.readFileSync(mdPath, "utf-8");
+
         const lines = code.split("\n");
         let html = "";
         let inParagraph = false;
@@ -49,15 +61,12 @@ function markdownPlugin() {
           html += "</p>";
         }
 
-        return {
-          code: `export default ${JSON.stringify(html)};`,
-          map: null,
-        };
+        return `export default ${JSON.stringify(html)};`;
       }
     },
   };
 }
 
 export default defineConfig({
-  plugins: [markdownPlugin()],
+  plugins: [markdownVirtualPlugin()],
 });

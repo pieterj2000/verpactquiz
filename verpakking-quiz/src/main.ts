@@ -1,5 +1,6 @@
 import "./style.css";
-import tekstHtml from "./tekstje.md";
+// @ts-expect-error virtual module
+import tekstHtml from "virtual:tekst-html";
 
 interface CatalogItem {
   id: string;
@@ -84,7 +85,7 @@ function renderWelcomeReady() {
         <button id="start-btn" class="btn" style="font-size: 1.1rem; padding: 1rem 2rem; width: 100%;">Start de Quiz</button>
       </div>
 
-      <!-- Tekstvak met inhoud uit tekstje.md gecompileerd tijdens build-time (server-side) door Vite plugin -->
+      <!-- Tekstvak met inhoud uit tekstje.md gecompileerd tijdens build-time (server-side) via virtual module -->
       <div class="card" style="text-align: left; background: #f8fafc; border-left: 5px solid var(--primary-color);">
         ${tekstHtml}
       </div>
