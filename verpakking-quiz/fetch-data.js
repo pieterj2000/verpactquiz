@@ -26,7 +26,7 @@ async function fetchCatalog() {
     .filter((i) => i.url);
 
   console.log(
-    `Found ${rawItems.length} products. Launching browser with networkidle to scrape accurate 'Toelichting' description...`,
+    `Found ${rawItems.length} products. Launching browser with networkidle to scrape pure materials from .NodeProduct__materials a.NodeProduct__type...`,
   );
 
   const browser = await chromium.launch({
@@ -60,7 +60,6 @@ async function fetchCatalog() {
 
         const bodyEl = document.querySelector("main") || document.body;
 
-        // Try to find description under "Toelichting" header or paragraphs
         let descText = "";
         const headings = Array.from(
           bodyEl.querySelectorAll("h2, h3, h4, .section-title"),
@@ -94,39 +93,16 @@ async function fetchCatalog() {
           descText = uniquePs.join(" ");
         }
 
+        // Purely scrape materials from .NodeProduct__materials a.NodeProduct__type
         const materialNodes = Array.from(
           bodyEl.querySelectorAll(
-            ".NodeProduct__material a, .material a, [class*='material'] a, .tag a, .NodeProduct__material, .material, [class*='materiaalsoort']",
+            ".NodeProduct__materials a.NodeProduct__type, .NodeProduct__materials .NodeProduct__type",
           ),
         )
           .map((el) => el.textContent?.trim())
           .filter(Boolean);
 
-        let materials = Array.from(new Set(materialNodes));
-        if (materials.length === 0) {
-          const pageText = bodyEl.innerText || "";
-          const found = [];
-          if (
-            pageText.toLowerCase().includes("plastic") ||
-            pageText.toLowerCase().includes("kunststof")
-          )
-            found.push("Plastic");
-          if (
-            pageText.toLowerCase().includes("papier") ||
-            pageText.toLowerCase().includes("karton")
-          )
-            found.push("Papier en Karton");
-          if (pageText.toLowerCase().includes("glas")) found.push("Glas");
-          if (pageText.toLowerCase().includes("hout")) found.push("Hout");
-          if (
-            pageText.toLowerCase().includes("metaal") ||
-            pageText.toLowerCase().includes("aluminium") ||
-            pageText.toLowerCase().includes("staal") ||
-            pageText.toLowerCase().includes("blik")
-          )
-            found.push("Metaal");
-          materials = found.length > 0 ? found : ["Diversen"];
-        }
+        const materials = Array.from(new Set(materialNodes));
 
         const info = {
           verpakking: false,
@@ -211,7 +187,7 @@ async function fetchCatalog() {
         subtitle: "",
         imageUrl: "",
         description: item.title,
-        materials: ["Diversen"],
+        materials: [],
         tableInfo: {
           verpakking: false,
           bijdrageplichtig: false,
@@ -238,7 +214,7 @@ async function fetchCatalog() {
     JSON.stringify(catalogItems, null, 2),
   );
   console.log(
-    `Successfully scraped and saved ${catalogItems.length} items to public/verpakkingen.json`,
+    `Successfully scraped and saved ${catalogItems.length} items with pure .NodeProduct__materials to public/verpakkingen.json`,
   );
 }
 
