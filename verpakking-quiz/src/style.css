@@ -310,6 +310,10 @@ footer a:hover {
   font-weight: 700 !important;
 }
 
+.catalog-btn::after {
+  content: "↗";
+}
+
 @keyframes correct-bounce {
   0% {
     transform: scale(1);
