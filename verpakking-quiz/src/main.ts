@@ -58,7 +58,7 @@ function renderWelcomeLoading() {
   app.innerHTML = `
     <header style="cursor: pointer;" id="header-home">
       <h1>${logoSvg}Verpakkings-Quiz</h1>
-      <p>Ontdek alles over verpakkingen met de officiële Verpact Verpakkingencatalogus!</p>
+      <p>ONTDEK DE WAARHEID, BREEK HET VERPAKKINGSCARTEL</p>
     </header>
     <main>
       <div class="card" style="text-align: center;">
@@ -73,7 +73,7 @@ function renderWelcomeReady() {
   app.innerHTML = `
     <header style="cursor: pointer;" id="header-home">
       <h1>${logoSvg}Verpakkings-Quiz</h1>
-      <p>Ontdek alles over verpakkingen met de officiële Verpact Verpakkingencatalogus!</p>
+      <p>ONTDEK DE WAARHEID, BREEK HET VERPAKKINGSCARTEL</p>
     </header>
     <main style="max-width: 900px; width: 100%; margin: 2rem auto; padding: 0 1rem;">
       <div class="card" style="text-align: center; margin-bottom: 2rem;">
@@ -86,7 +86,7 @@ function renderWelcomeReady() {
       </div>
 
       <!-- Tekstvak met inhoud uit tekstje.md gecompileerd tijdens build-time (server-side) via virtual module -->
-      <div class="card" style="text-align: left; background: #f8fafc; border-left: 5px solid var(--primary-color);">
+      <div class="card" style="text-align: left; background: #f8fafc;">
         ${tekstHtml}
       </div>
     </main>
@@ -124,7 +124,7 @@ function renderQuestion() {
   app.innerHTML = `
     <header style="cursor: pointer;" id="header-home">
       <h1>${logoSvg}Verpakkings-Quiz</h1>
-      <p>Test je kennis van de Verpakkingscatalogus</p>
+      <p>ONTDEK DE WAARHEID, BREEK HET VERPAKKINGSCARTEL</p>
     </header>
     <main style="max-width: 1250px; width: 100%; margin: 2rem auto; padding: 0 1rem;">
       <div class="card quiz-container" style="max-width: 100%;">
@@ -261,6 +261,7 @@ function checkAnswers(item: CatalogItem) {
           })
           .join("")}
       </div>
+      ${item.url ? `<div style="margin-top: 0.75rem;"><a href="${item.url}" target="_blank" rel="noopener noreferrer" style="color: var(--primary-dark); text-decoration: underline; font-weight: 600;">Bekijk dit product in de officiële Verpact Verpakkingscatalogus ↗</a></div>` : ""}
     </div>
   `;
 
@@ -285,7 +286,7 @@ function renderResults() {
   app.innerHTML = `
     <header style="cursor: pointer;" id="header-home">
       <h1>${logoSvg}Quiz Voltooid!</h1>
-      <p>Je eindresultaat</p>
+      <p>ONTDEK DE WAARHEID, BREEK HET VERPAKKINGSCARTEL</p>
     </header>
     <main>
       <div class="card" style="text-align: center;">

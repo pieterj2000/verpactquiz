@@ -2,6 +2,24 @@ import { defineConfig } from "vite";
 import fs from "fs";
 import path from "path";
 
+function formatInline(text: string): string {
+  return (
+    text
+      // Links: [text](url) -> <a href="url" target="_blank" rel="noopener noreferrer">text</a>
+      .replace(
+        /\[([^\]]+)\]\(([^)]+)\)/g,
+        '<a href="$2" target="_blank" rel="noopener noreferrer" style="color: var(--primary-color); text-decoration: underline;">$1</a>',
+      )
+      // Bold: **text** -> <strong>text</strong>
+      .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")
+      // Italic: _text_ -> <em>text</em>
+      .replace(/_(.*?)_/g, "<em>$1</em>")
+      // Italic: *text* -> <em>text</em>
+      .replace(/\*(.*?)\*/g, "<em>$1</em>")
+  );
+}
+
+// Virtual module plugin to compile tekstje.md at build time (server-side)
 function markdownVirtualPlugin() {
   const virtualModuleId = "virtual:tekst-html";
   const resolvedVirtualModuleId = "\0" + virtualModuleId;
@@ -37,13 +55,15 @@ function markdownVirtualPlugin() {
               html += "</p>";
               inParagraph = false;
             }
-            html += `<h3 style="margin-bottom: 1rem; color: var(--primary-dark);">${line.replace("# ", "")}</h3>`;
+            const formattedHeader = formatInline(line.replace("# ", ""));
+            html += `<h3 style="margin-bottom: 1rem; color: var(--primary-dark);">${formattedHeader}</h3>`;
           } else if (line.startsWith("## ")) {
             if (inParagraph) {
               html += "</p>";
               inParagraph = false;
             }
-            html += `<h4>${line.replace("## ", "")}</h4>`;
+            const formattedHeader = formatInline(line.replace("## ", ""));
+            html += `<h4>${formattedHeader}</h4>`;
           } else {
             if (!inParagraph) {
               html += '<p style="margin-bottom: 1rem; line-height: 1.6;">';
@@ -51,10 +71,7 @@ function markdownVirtualPlugin() {
             } else {
               html += "<br>";
             }
-            const formatted = line
-              .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")
-              .replace(/_(.*?)_/g, "<em>$1</em>");
-            html += formatted;
+            html += formatInline(line);
           }
         }
         if (inParagraph) {
