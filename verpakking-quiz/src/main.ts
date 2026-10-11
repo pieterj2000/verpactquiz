@@ -207,7 +207,7 @@ function renderQuestion() {
             <div id="feedback-area"></div>
 
             <div style="display: flex; justify-content: flex-end; align-items: center; gap: 0.75rem; margin-top: 0.75rem; flex-wrap: wrap;">
-              <a href="${item.url}" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="display: ${userGuesses["verpakking"] !== undefined ? "inline-flex" : "none"}; padding: 0.75rem 1.25rem; font-size: 0.9rem; text-decoration: none;">Bekijk in catalogus ↗</a>
+              <a id="catalog-link" href="${item.url}" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="display: ${userGuesses["verpakking"] !== undefined ? "inline-flex" : "none"}; padding: 0.75rem 1.25rem; font-size: 0.9rem; text-decoration: none;">Bekijk in catalogus ↗</a>
               <button id="show-answers-btn" class="btn btn-secondary" style="display: ${userGuesses["verpakking"] !== undefined ? "inline-flex" : "none"}; padding: 0.75rem 1.25rem; font-size: 0.9rem;">Toon antwoorden</button>
               <button id="next-btn" class="btn" style="display: ${userGuesses["verpakking"] !== undefined ? "inline-flex" : "none"}; padding: 0.75rem 2rem;">Volgend product</button>
             </div>
@@ -261,8 +261,16 @@ function renderQuestion() {
           "#other-properties-container",
         ) as HTMLElement;
         const nextBtn = document.querySelector("#next-btn") as HTMLElement;
+        const showAnswersBtn = document.querySelector(
+          "#show-answers-btn",
+        ) as HTMLElement;
+        const catalogLink = document.querySelector(
+          "#catalog-link",
+        ) as HTMLElement;
         if (otherContainer) otherContainer.style.display = "flex";
         if (nextBtn) nextBtn.style.display = "inline-flex";
+        if (showAnswersBtn) showAnswersBtn.style.display = "inline-flex";
+        if (catalogLink) catalogLink.style.display = "inline-flex";
       } else {
         const row = document.querySelector(`#prop-row-${prop}`) as HTMLElement;
         if (row) {
