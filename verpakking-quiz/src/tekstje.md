@@ -2,7 +2,7 @@
 
 Terwijl [_Big Verpakking_](verpact.nl) ons dagelijks overspoelt met dozen, folies, potjes en andere mysterieuze constructies, stelt bijna niemand de écht belangrijke vragen. Wat is een verpakking nu eigenlijk? [Wie](https://www.verpact.nl/nl/wij-zijn-verpact) bepaalt wat eronder valt? En waarom zou je dat zomaar aannemen van de [gevestigde](https://www.verpact.nl/nl/wij-zijn-verpact#40) [verpakkingsorde](https://www.verpact.nl/nl/wij-zijn-verpact#570)?
 
-De ["Verpact Verpakkingscatalogus"](https://www.verpact.nl/nl/verpakkingencatalogus), ofwel **het Verpakkingsdecreet van De Verpakkingsmaffia**, is een bron van leugens die ze [jou willen opleggen](https://www.verpact.nl/nl/jouw-verpakkingen)! ZIJ bepalen [de taal](https://begrippenlijst.verpact.nl/nl/) die WIJ dienen te gebruiken. ZIJ indoctrineren ons zodat ZIJ profiteren!
+De ["Verpact Verpakkingscatalogus"](https://www.verpact.nl/nl/verpakkingencatalogus), ofwel **het Verpakkingsdecreet van De Verpakkingsmaffia**, is een bron van leugens die ze [jou willen opleggen](https://www.verpact.nl/nl/jouw-verpakkingen)! _ZIJ_ bepalen [de taal](https://begrippenlijst.verpact.nl/nl/) die _WIJ_ moeten gebruiken. _ZIJ_ indoctrineren ons zodat _ZIJ_ profiteren!
 
 **Doe de quiz. Ontdek het dogma die het volk blind dient te volgen.**
 
