@@ -207,7 +207,7 @@ function renderQuestion() {
             <div id="feedback-area"></div>
 
             <div style="display: flex; justify-content: flex-end; align-items: center; gap: 0.5rem; margin-top: 0.75rem; flex-wrap: wrap;">
-              <button id="catalog-btn" class="btn btn-secondary" style="display: ${userGuesses["verpakking"] !== undefined ? "inline-flex" : "none"}; padding: 0.6rem 0.9rem;">Catalogus<span style="font-size: 0.85em; margin-left: 0.15rem; display: inline-block; line-height: 1;">↗</span></button>
+              <button id="catalog-btn" class="btn btn-secondary" style="display: ${userGuesses["verpakking"] !== undefined ? "inline-flex" : "none"}; padding: 0.6rem 0.9rem;">Catalogus<span style="font-size: 0.85em; display: inline-block; line-height: 1;">↗</span></button>
               <button id="show-answers-btn" class="btn btn-secondary" style="display: ${userGuesses["verpakking"] !== undefined ? "inline-flex" : "none"}; padding: 0.6rem 0.9rem;">Antwoorden</button>
               <button id="next-btn" class="btn" style="display: ${userGuesses["verpakking"] !== undefined ? "inline-flex" : "none"}; padding: 0.6rem 1.25rem;">Volgende</button>
             </div>
@@ -298,6 +298,9 @@ function renderQuestion() {
 
   document.querySelector("#show-answers-btn")?.addEventListener("click", () => {
     tableProperties.slice(1).forEach((prop) => {
+      if (userGuesses[prop.key] !== undefined) {
+        return;
+      }
       const correctVal = item.tableInfo[prop.key] === true;
       userGuesses[prop.key] = correctVal;
 
