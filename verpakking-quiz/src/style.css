@@ -289,3 +289,16 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
+.tekst-card {
+  text-align: justify;
+}
+
+.tekst-card p {
+  margin-bottom: 1.5rem;
+  line-height: 1.7;
+}
+
+.tekst-card p:last-child {
+  margin-bottom: 0;
+}
