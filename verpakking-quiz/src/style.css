@@ -314,10 +314,7 @@ footer a:hover {
   display: inline-flex !important;
   align-items: center !important;
   gap: 0 !important;
-  height: 2.375rem;
-  box-sizing: border-box;
-  overflow: hidden;
-  padding: 0 0.9rem !important;
+  padding: 0.6rem 0.9rem !important;
 }
 
 .catalog-btn::after {
