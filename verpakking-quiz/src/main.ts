@@ -1,6 +1,6 @@
 import "./style.css";
-// @ts-expect-error virtual module
-import tekstHtml from "virtual:tekst-html";
+// @ts-expect-error markdown module
+import { html as tekstHtml } from "./tekstje.md";
 
 interface CatalogItem {
   id: string;
