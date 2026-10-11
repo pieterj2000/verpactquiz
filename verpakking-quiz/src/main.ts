@@ -262,6 +262,7 @@ function renderQuestion() {
           box.style.border = isCorrect
             ? "2px solid #16a34a"
             : "2px solid #dc2626";
+          box.classList.add(isCorrect ? "anim-correct" : "anim-incorrect");
         }
 
         parentRow.querySelectorAll(".guess-btn").forEach((b) => {
