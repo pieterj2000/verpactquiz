@@ -137,9 +137,11 @@ function renderQuestion() {
         </div>
 
         <!-- Product Titel & Subtitel bovenaan -->
-        <div style="margin-bottom: 1.5rem; text-align: left;">
-          <h2 style="color: var(--primary-dark); margin-bottom: 0.25rem; font-size: 1.8rem;">${item.title}</h2>
-          ${item.subtitle ? `<p style="font-style: italic; color: var(--text-muted); font-size: 1.1rem;">${item.subtitle}</p>` : ""}
+        <div style="margin-bottom: 1rem; text-align: left;">
+          <h2 style="color: var(--primary-dark); font-size: 1.4rem; line-height: 1.3;">
+            ${item.title}
+            ${item.subtitle ? `<span style="font-style: italic; color: var(--text-muted); font-size: 0.95rem; font-weight: normal; margin-left: 0.5rem;">(${item.subtitle})</span>` : ""}
+          </h2>
         </div>
 
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem; align-items: start;">
