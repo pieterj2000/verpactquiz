@@ -240,7 +240,7 @@ function renderQuestion() {
         )!;
         feedbackDiv.innerHTML = `
           <div style="font-size: 0.95rem; font-weight: 600; color: ${isCorrect ? "#166534" : "#991b1b"}; margin-top: 0.5rem;">
-            ${isCorrect ? "✅ Correct! Dit is " + (item.tableInfo["verpakking"] ? "wel" : "geen") + " verpakking." : "❌ Helaas, dit is " + (item.tableInfo["verpakking"] ? "wel" : "geen") + " verpakking."}
+            ${isCorrect ? "✅ Correct! Dit 'is' " + (item.tableInfo["verpakking"] ? "wel" : "geen") + " verpakking." : "❌ Helaas, dit 'is' " + (item.tableInfo["verpakking"] ? "wel" : "geen") + " verpakking."}
           </div>
         `;
 
