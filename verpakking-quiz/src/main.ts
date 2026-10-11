@@ -207,9 +207,9 @@ function renderQuestion() {
             <div id="feedback-area"></div>
 
             <div style="display: flex; justify-content: flex-end; align-items: center; gap: 0.75rem; margin-top: 0.75rem; flex-wrap: wrap;">
-              <a id="catalog-link" href="${item.url}" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="display: ${userGuesses["verpakking"] !== undefined ? "inline-flex" : "none"}; align-items: center; padding: 0.75rem 1.25rem; font-size: 1rem; text-decoration: none; font-family: inherit; font-weight: 600;">In catalogus</a>
-              <button id="show-answers-btn" class="btn btn-secondary" style="display: ${userGuesses["verpakking"] !== undefined ? "inline-flex" : "none"}; padding: 0.75rem 1.25rem; font-size: 0.9rem;">Toon antwoorden</button>
-              <button id="next-btn" class="btn" style="display: ${userGuesses["verpakking"] !== undefined ? "inline-flex" : "none"}; padding: 0.75rem 2rem;">Volgend product</button>
+              <button id="catalog-btn" class="btn btn-secondary" style="display: ${userGuesses["verpakking"] !== undefined ? "inline-flex" : "none"};">In catalogus <span style="font-size: 0.85em; margin-left: 0.3rem; display: inline-block; line-height: 1;">↗</span></button>
+              <button id="show-answers-btn" class="btn btn-secondary" style="display: ${userGuesses["verpakking"] !== undefined ? "inline-flex" : "none"};">Toon antwoorden</button>
+              <button id="next-btn" class="btn" style="display: ${userGuesses["verpakking"] !== undefined ? "inline-flex" : "none"};">Volgend product</button>
             </div>
           </div>
 
@@ -264,13 +264,13 @@ function renderQuestion() {
         const showAnswersBtn = document.querySelector(
           "#show-answers-btn",
         ) as HTMLElement;
-        const catalogLink = document.querySelector(
-          "#catalog-link",
+        const catalogBtn = document.querySelector(
+          "#catalog-btn",
         ) as HTMLElement;
         if (otherContainer) otherContainer.style.display = "flex";
         if (nextBtn) nextBtn.style.display = "inline-flex";
         if (showAnswersBtn) showAnswersBtn.style.display = "inline-flex";
-        if (catalogLink) catalogLink.style.display = "inline-flex";
+        if (catalogBtn) catalogBtn.style.display = "inline-flex";
       } else {
         const row = document.querySelector(`#prop-row-${prop}`) as HTMLElement;
         if (row) {
@@ -290,6 +290,10 @@ function renderQuestion() {
         target.classList.add(isCorrect ? "btn-success" : "btn-danger");
       }
     });
+  });
+
+  document.querySelector("#catalog-btn")?.addEventListener("click", () => {
+    window.open(item.url, "_blank", "noopener,noreferrer");
   });
 
   document.querySelector("#show-answers-btn")?.addEventListener("click", () => {
