@@ -164,7 +164,7 @@ function renderQuestion() {
           <!-- RECHTER KOLOM: Vragen -->
           <div style="display: flex; flex-direction: column;">
             <!-- Prominente Verpakking Hoofdvraag -->
-            <div style="background: #f0fdf4; border: 2px solid var(--primary-color); padding: 1.25rem; border-radius: 10px; margin-bottom: 1.5rem; box-shadow: 0 4px 12px rgb(0 0 0 / 8%);">
+            <div id="verpakking-box" style="background: ${userGuesses["verpakking"] !== undefined ? (item.tableInfo["verpakking"] === userGuesses["verpakking"] ? "#f0fdf4" : "#fef2f2") : "#fff"}; border: 2px solid ${userGuesses["verpakking"] !== undefined ? (item.tableInfo["verpakking"] === userGuesses["verpakking"] ? "#16a34a" : "#dc2626") : "#cbd5e1"}; padding: 1.25rem; border-radius: 10px; margin-bottom: 1.5rem; box-shadow: 0 4px 12px rgb(0 0 0 / 8%);">
               <label style="display: block; font-size: 1.25rem; font-weight: 700; color: var(--primary-dark); margin-bottom: 0.75rem;">
                 Is dit product een verpakking? 📦
               </label>
@@ -252,6 +252,14 @@ function renderQuestion() {
             ${isCorrect ? "✅ Correct! Dit is " + (item.tableInfo["verpakking"] ? "wel" : "geen") + " verpakking." : "❌ Helaas, dit is " + (item.tableInfo["verpakking"] ? "wel" : "geen") + " verpakking."}
           </div>
         `;
+
+        const box = document.querySelector("#verpakking-box") as HTMLElement;
+        if (box) {
+          box.style.background = isCorrect ? "#f0fdf4" : "#fef2f2";
+          box.style.border = isCorrect
+            ? "2px solid #16a34a"
+            : "2px solid #dc2626";
+        }
 
         parentRow.querySelectorAll(".guess-btn").forEach((b) => {
           (b as HTMLButtonElement).disabled = true;
