@@ -192,11 +192,11 @@ function renderQuestion() {
                 .slice(1)
                 .map(
                   (prop) => `
-                <div style="display: flex; justify-content: space-between; align-items: center; background: #f8fafc; padding: 0.75rem 1rem; border-radius: 8px; border: 1px solid #e2e8f0;">
+                <div id="prop-row-${prop.key}" style="display: flex; justify-content: space-between; align-items: center; background: #f8fafc; padding: 0.75rem 1rem; border-radius: 8px; border: 1px solid #e2e8f0;">
                   <span style="font-weight: 600; font-size: 0.95rem;">${prop.label}</span>
                   <div style="display: flex; gap: 0.5rem;">
-                    <button class="btn btn-secondary guess-btn ${userGuesses[prop.key] === true ? "btn-success" : ""}" data-prop="${prop.key}" data-val="true" style="padding: 0.4rem 1rem; font-size: 0.9rem;">Ja</button>
-                    <button class="btn btn-secondary guess-btn ${userGuesses[prop.key] === false ? "btn-danger" : ""}" data-prop="${prop.key}" data-val="false" style="padding: 0.4rem 1rem; font-size: 0.9rem;">Nee</button>
+                    <button class="btn btn-secondary guess-btn" data-prop="${prop.key}" data-val="true" style="padding: 0.4rem 1rem; font-size: 0.9rem;">Ja</button>
+                    <button class="btn btn-secondary guess-btn" data-prop="${prop.key}" data-val="false" style="padding: 0.4rem 1rem; font-size: 0.9rem;">Nee</button>
                   </div>
                 </div>
               `,
@@ -262,6 +262,15 @@ function renderQuestion() {
         const nextBtn = document.querySelector("#next-btn") as HTMLElement;
         if (otherContainer) otherContainer.style.display = "flex";
         if (nextBtn) nextBtn.style.display = "inline-flex";
+      } else {
+        const row = document.querySelector(`#prop-row-${prop}`) as HTMLElement;
+        if (row) {
+          row.style.background = isCorrect ? "#f0fdf4" : "#fef2f2";
+          row.style.border = isCorrect
+            ? "2px solid #16a34a"
+            : "2px solid #dc2626";
+          row.classList.add(isCorrect ? "anim-correct" : "anim-incorrect");
+        }
       }
 
       if (val) {
