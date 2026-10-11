@@ -348,13 +348,13 @@ function renderQuestion() {
 function renderResults() {
   const primaryPct = Math.round((primaryCorrect / quizQuestions.length) * 100);
   let feedbackText =
-    "Geweldig! Jij bent een absolute Verpact Catalogus Expert!";
+    "Je bent ontwaakt. Jij weet precies wat Big Verpakking jou probeert op te leggen, en ziet daar zo doorheen.";
   if (primaryPct < 50) {
     feedbackText =
-      "Dat kan beter! Tijd om de catalogus nog eens door te nemen.";
+      "Jij denkt duidelijk nooit na over hoe spullen worden verpakt, precies zoals Big Verpakking dat wil.... WORD WAKKER!";
   } else if (primaryPct < 80) {
     feedbackText =
-      "Knap gedaan! Je hebt de meeste productkenmerken goed ingeschat.";
+      "Jij bent duidelijk begonnen met nadenken en vragen stellen. Je zit op het pad der verlichting, ga zo door.";
   }
 
   app.innerHTML = `
