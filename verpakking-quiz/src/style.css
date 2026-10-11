@@ -310,6 +310,11 @@ footer a:hover {
   font-weight: 700 !important;
 }
 
+.catalog-btn {
+  display: inline-block !important;
+  gap: 0 !important;
+}
+
 .catalog-btn::after {
   content: "↗";
 }
