@@ -141,7 +141,7 @@ function renderQuestion() {
           </h2>
         </div>
 
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem; align-items: start;">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(480px, 1fr)); gap: 2rem; align-items: start;">
           
           <!-- LINKER KOLOM: Afbeelding, omschrijving, materialen -->
           <div style="display: flex; flex-direction: column; gap: 1rem;">
