@@ -17,7 +17,9 @@ interface CatalogItem {
 
 let items: CatalogItem[] = [];
 let currentQuestionIndex = 0;
-let totalScore = 0;
+let primaryCorrect = 0;
+let bonusCorrect = 0;
+let bonusIncorrect = 0;
 let quizQuestions: CatalogItem[] = [];
 let userGuesses: Record<string, boolean> = {};
 
@@ -96,9 +98,11 @@ function renderWelcomeReady() {
 
 function startQuiz() {
   const shuffled = [...items].sort(() => 0.5 - Math.random());
-  quizQuestions = shuffled.slice(0, 10);
+  quizQuestions = shuffled.slice(0, 15);
   currentQuestionIndex = 0;
-  totalScore = 0;
+  primaryCorrect = 0;
+  bonusCorrect = 0;
+  bonusIncorrect = 0;
   renderQuestion();
 }
 
@@ -322,27 +326,36 @@ function renderQuestion() {
   });
 
   document.querySelector("#next-btn")?.addEventListener("click", () => {
-    let roundScore = 0;
-    tableProperties.forEach((p) => {
-      if (userGuesses[p.key] === (item.tableInfo[p.key] === true)) {
-        roundScore++;
+    if (userGuesses["verpakking"] === (item.tableInfo["verpakking"] === true)) {
+      primaryCorrect++;
+    }
+
+    tableProperties.slice(1).forEach((p) => {
+      if (userGuesses[p.key] !== undefined) {
+        if (userGuesses[p.key] === (item.tableInfo[p.key] === true)) {
+          bonusCorrect++;
+        } else {
+          bonusIncorrect++;
+        }
+      } else {
+        bonusIncorrect++;
       }
     });
-    totalScore += roundScore;
+
     currentQuestionIndex++;
     renderQuestion();
   });
 }
 
 function renderResults() {
-  const maxPossible = quizQuestions.length * 7;
-  const percentage = Math.round((totalScore / maxPossible) * 100);
+  const totalBonus = quizQuestions.length * 6;
+  const primaryPct = Math.round((primaryCorrect / quizQuestions.length) * 100);
   let feedbackText =
     "Geweldig! Jij bent een absolute Verpact Catalogus Expert!";
-  if (percentage < 50) {
+  if (primaryPct < 50) {
     feedbackText =
       "Dat kan beter! Tijd om de catalogus nog eens door te nemen.";
-  } else if (percentage < 80) {
+  } else if (primaryPct < 80) {
     feedbackText =
       "Knap gedaan! Je hebt de meeste productkenmerken goed ingeschat.";
   }
@@ -354,8 +367,23 @@ function renderResults() {
     </header>
     <main>
       <div class="card" style="text-align: center;">
-        <h2 style="font-size: 2.5rem; color: var(--primary-color); margin-bottom: 0.5rem;">${totalScore} / ${maxPossible}</h2>
-        <p style="font-size: 1.2rem; font-weight: 600; margin-bottom: 1rem;">Juiste kenmerken: ${percentage}%</p>
+        <h2 style="font-size: 2rem; color: var(--primary-color); margin-bottom: 1rem;">Quiz Resultaten</h2>
+        
+        <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 1.5rem; margin-bottom: 2rem; text-align: left; max-width: 480px; margin-left: auto; margin-right: auto; display: flex; flex-direction: column; gap: 0.75rem;">
+          <div style="display: flex; justify-content: space-between; font-size: 1.05rem;">
+            <span>📦 Hoofdvraag (Verpakking):</span>
+            <strong>${primaryCorrect} / ${quizQuestions.length} goed</strong>
+          </div>
+          <div style="display: flex; justify-content: space-between; font-size: 1.05rem;">
+            <span>✅ Bonusvragen goed:</span>
+            <strong style="color: #166534;">${bonusCorrect} / ${totalBonus}</strong>
+          </div>
+          <div style="display: flex; justify-content: space-between; font-size: 1.05rem;">
+            <span>❌ Bonusvragen slecht:</span>
+            <strong style="color: #991b1b;">${bonusIncorrect} / ${totalBonus}</strong>
+          </div>
+        </div>
+
         <p style="margin-bottom: 2rem; color: var(--text-muted);">${feedbackText}</p>
         
         <div style="display: flex; gap: 1rem; justify-content: center;">
