@@ -192,7 +192,7 @@ function renderQuestion() {
                 .slice(1)
                 .map(
                   (prop) => `
-                <div id="prop-row-${prop.key}" style="display: flex; justify-content: space-between; align-items: center; background: #f8fafc; padding: 0.75rem 1rem; border-radius: 8px; border: 1px solid #e2e8f0;">
+                <div id="prop-row-${prop.key}" style="display: flex; justify-content: space-between; align-items: center; background: #f8fafc; padding: 0.75rem 1rem; border-radius: 8px; border: 2px solid #e2e8f0;">
                   <span style="font-weight: 600; font-size: 0.95rem;">${prop.label}</span>
                   <div style="display: flex; gap: 0.5rem;">
                     <button class="btn btn-secondary guess-btn" data-prop="${prop.key}" data-val="true" style="padding: 0.4rem 1rem; font-size: 0.9rem;">Ja</button>
