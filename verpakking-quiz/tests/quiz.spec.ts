@@ -11,6 +11,9 @@ test.describe("Verpakkings-Quiz", () => {
     // Check product title appears
     await expect(page.locator("h2")).toBeVisible();
 
+    // Click Verpakking question "Ja"
+    await page.click('[data-prop="verpakking"][data-val="true"]');
+
     // Click submit answers
     await page.click("#submit-btn");
 

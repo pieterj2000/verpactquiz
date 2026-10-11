@@ -114,7 +114,7 @@ function renderQuestion() {
 
   const item = quizQuestions[currentQuestionIndex];
   userGuesses = {};
-  tableProperties.forEach((p) => {
+  tableProperties.slice(1).forEach((p) => {
     userGuesses[p.key] = false;
   });
 
@@ -161,12 +161,26 @@ function renderQuestion() {
             </div>
           </div>
 
-          <!-- RECHTER KOLOM: Vragen / 7 tabel-eigenschappen -->
+          <!-- RECHTER KOLOM: Vragen -->
           <div style="display: flex; flex-direction: column;">
-            <h3 style="font-size: 1.1rem; margin-bottom: 1rem; border-bottom: 2px solid #e2e8f0; padding-bottom: 0.5rem;">Geef aan welke 7 tabel-eigenschappen van toepassing zijn:</h3>
+            <h3 style="font-size: 1.1rem; margin-bottom: 1rem; border-bottom: 2px solid #e2e8f0; padding-bottom: 0.5rem;">Beoordeel dit product</h3>
 
-            <div style="display: flex; flex-direction: column; gap: 0.75rem; margin-bottom: 1.5rem;">
+            <!-- Prominente Verpakking Hoofdvraag -->
+            <div style="background: #f0fdf4; border: 2px solid var(--primary-color); padding: 1.25rem; border-radius: 10px; margin-bottom: 1.5rem; box-shadow: 0 4px 12px rgb(0 0 0 / 8%);">
+              <label style="display: block; font-size: 1.25rem; font-weight: 700; color: var(--primary-dark); margin-bottom: 0.75rem;">
+                Is dit product een verpakking? 📦
+              </label>
+              <div style="display: flex; gap: 1rem;">
+                <button class="btn guess-btn ${userGuesses["verpakking"] === true ? "btn-success" : "btn-secondary"}" data-prop="verpakking" data-val="true" style="flex: 1; padding: 0.75rem; font-size: 1.1rem;">Ja</button>
+                <button class="btn guess-btn ${userGuesses["verpakking"] === false ? "btn-danger" : "btn-secondary"}" data-prop="verpakking" data-val="false" style="flex: 1; padding: 0.75rem; font-size: 1.1rem;">Nee</button>
+              </div>
+            </div>
+
+            <!-- Overige 6 eigenschappen (pas zichtbaar na beantwoorden hoofdvraag) -->
+            <div id="other-properties-container" style="display: ${userGuesses["verpakking"] !== undefined ? "flex" : "none"}; flex-direction: column; gap: 0.75rem; margin-bottom: 1.5rem;">
+              <h3 style="font-size: 1.05rem; margin-bottom: 0.5rem; color: var(--text-color);">Overige 6 tabel-eigenschappen:</h3>
               ${tableProperties
+                .slice(1)
                 .map(
                   (prop) => `
                 <div style="display: flex; justify-content: space-between; align-items: center; background: #f8fafc; padding: 0.75rem 1rem; border-radius: 8px; border: 1px solid #e2e8f0;">
@@ -185,7 +199,7 @@ function renderQuestion() {
 
             <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem;">
               <span style="font-size: 0.9rem; color: var(--text-muted);">Score tot nu toe: ${totalScore}</span>
-              <button id="submit-btn" class="btn" style="padding: 0.75rem 2rem;">Controleer antwoorden</button>
+              <button id="submit-btn" class="btn" style="display: ${userGuesses["verpakking"] !== undefined ? "inline-flex" : "none"}; padding: 0.75rem 2rem;">Controleer antwoorden</button>
               <button id="next-btn" class="btn" style="display: none; padding: 0.75rem 2rem;">Volgend product</button>
             </div>
           </div>
@@ -217,6 +231,15 @@ function renderQuestion() {
       } else {
         target.classList.remove("btn-secondary");
         target.classList.add("btn-danger");
+      }
+
+      if (prop === "verpakking") {
+        const otherContainer = document.querySelector(
+          "#other-properties-container",
+        ) as HTMLElement;
+        const submitBtn = document.querySelector("#submit-btn") as HTMLElement;
+        if (otherContainer) otherContainer.style.display = "flex";
+        if (submitBtn) submitBtn.style.display = "inline-flex";
       }
     });
   });
