@@ -141,7 +141,7 @@ function renderQuestion() {
           </h2>
         </div>
 
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(480px, 1fr)); gap: 2rem; align-items: start;">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(390px, 1fr)); gap: 2rem; align-items: start;">
           
           <!-- LINKER KOLOM: Afbeelding, omschrijving, materialen -->
           <div style="display: flex; flex-direction: column; gap: 1rem;">
@@ -207,7 +207,7 @@ function renderQuestion() {
             <div id="feedback-area"></div>
 
             <div style="display: flex; justify-content: flex-end; align-items: center; gap: 0.5rem; margin-top: 0.75rem; flex-wrap: wrap;">
-              <button id="catalog-btn" class="btn btn-secondary catalog-btn" style="display: ${userGuesses["verpakking"] !== undefined ? "inline-block" : "none"}; padding: 0.6rem 0.9rem;">Catalogus</button>
+              <button id="catalog-btn" class="btn btn-secondary catalog-btn" style="display: ${userGuesses["verpakking"] !== undefined ? "inline-flex" : "none"};">Catalogus</button>
               <button id="show-answers-btn" class="btn btn-secondary" style="display: ${userGuesses["verpakking"] !== undefined ? "inline-flex" : "none"}; padding: 0.6rem 0.9rem;">Antwoorden</button>
               <button id="next-btn" class="btn" style="display: ${userGuesses["verpakking"] !== undefined ? "inline-flex" : "none"}; padding: 0.6rem 1.25rem;">Volgende</button>
             </div>
