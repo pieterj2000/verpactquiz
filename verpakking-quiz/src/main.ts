@@ -371,7 +371,7 @@ function renderResults() {
         
         <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 1.5rem; margin-bottom: 2rem; text-align: left; max-width: 480px; margin-left: auto; margin-right: auto; display: flex; flex-direction: column; gap: 0.75rem;">
           <div style="display: flex; justify-content: space-between; font-size: 1.05rem;">
-            <span>📦 Hoofdvraag (Verpakking):</span>
+            <span>📦 Verpakkingen goed:</span>
             <strong>${primaryCorrect} / ${quizQuestions.length} goed</strong>
           </div>
           <div style="display: flex; justify-content: space-between; font-size: 1.05rem;">
@@ -379,7 +379,7 @@ function renderResults() {
             <strong style="color: #166534;">${bonusCorrect} / ${totalBonus}</strong>
           </div>
           <div style="display: flex; justify-content: space-between; font-size: 1.05rem;">
-            <span>❌ Bonusvragen slecht:</span>
+            <span>❌ Bonusvragen fout:</span>
             <strong style="color: #991b1b;">${bonusIncorrect} / ${totalBonus}</strong>
           </div>
         </div>
