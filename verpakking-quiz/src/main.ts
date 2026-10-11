@@ -337,8 +337,6 @@ function renderQuestion() {
         } else {
           bonusIncorrect++;
         }
-      } else {
-        bonusIncorrect++;
       }
     });
 
