@@ -186,17 +186,17 @@ function renderQuestion() {
             </div>
 
             <!-- Overige 6 eigenschappen (pas zichtbaar na beantwoorden hoofdvraag) -->
-            <div id="other-properties-container" style="display: ${userGuesses["verpakking"] !== undefined ? "flex" : "none"}; flex-direction: column; gap: 0.75rem; margin-bottom: 1.5rem;">
-              <h3 style="font-size: 1.05rem; margin-bottom: 0.5rem; color: var(--text-color);">Overige 6 tabel-eigenschappen:</h3>
+            <div id="other-properties-container" style="display: ${userGuesses["verpakking"] !== undefined ? "flex" : "none"}; flex-direction: column; gap: 0.4rem; margin-bottom: 1rem;">
+              <h3 style="font-size: 1rem; margin-bottom: 0.35rem; color: var(--text-color);">Bonus: is dit product een...</h3>
               ${tableProperties
                 .slice(1)
                 .map(
                   (prop) => `
-                <div id="prop-row-${prop.key}" style="display: flex; justify-content: space-between; align-items: center; background: #f8fafc; padding: 0.75rem 1rem; border-radius: 8px; border: 2px solid #e2e8f0;">
-                  <span style="font-weight: 600; font-size: 0.95rem;">${prop.label}</span>
-                  <div style="display: flex; gap: 0.5rem;">
-                    <button class="btn btn-secondary guess-btn" data-prop="${prop.key}" data-val="true" style="padding: 0.4rem 1rem; font-size: 0.9rem;">Ja</button>
-                    <button class="btn btn-secondary guess-btn" data-prop="${prop.key}" data-val="false" style="padding: 0.4rem 1rem; font-size: 0.9rem;">Nee</button>
+                <div id="prop-row-${prop.key}" style="display: flex; justify-content: space-between; align-items: center; background: #f8fafc; padding: 0.4rem 0.75rem; border-radius: 6px; border: 2px solid #e2e8f0;">
+                  <span style="font-weight: 600; font-size: 0.9rem;">${prop.label}</span>
+                  <div style="display: flex; gap: 0.4rem;">
+                    <button class="btn btn-secondary guess-btn" data-prop="${prop.key}" data-val="true" style="padding: 0.25rem 0.75rem; font-size: 0.85rem;">Ja</button>
+                    <button class="btn btn-secondary guess-btn" data-prop="${prop.key}" data-val="false" style="padding: 0.25rem 0.75rem; font-size: 0.85rem;">Nee</button>
                   </div>
                 </div>
               `,
@@ -206,8 +206,7 @@ function renderQuestion() {
 
             <div id="feedback-area"></div>
 
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem;">
-              <span style="font-size: 0.9rem; color: var(--text-muted);">Score tot nu toe: ${totalScore}</span>
+            <div style="display: flex; justify-content: flex-end; align-items: center; margin-top: 0.75rem;">
               <button id="next-btn" class="btn" style="display: ${userGuesses["verpakking"] !== undefined ? "inline-flex" : "none"}; padding: 0.75rem 2rem;">Volgend product</button>
             </div>
           </div>
