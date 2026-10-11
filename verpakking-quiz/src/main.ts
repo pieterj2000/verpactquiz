@@ -127,7 +127,7 @@ function renderQuestion() {
       <p>Test je kennis van de Verpakkingscatalogus</p>
     </header>
     <main style="max-width: 1250px; width: 100%; margin: 2rem auto; padding: 0 1rem;">
-      <div class="card quiz-container" style="max-width: 100%;">
+      <div class="card quiz-container" style="max-width: 100%; padding: 1.5rem 2.5rem 2.5rem;">
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem; font-size: 0.9rem; font-weight: 600; color: var(--text-muted);">
           <span>Product ${currentQuestionIndex + 1} van ${quizQuestions.length}</span>
           <span>${Math.round(progress)}% voltooid</span>
@@ -138,9 +138,9 @@ function renderQuestion() {
 
         <!-- Product Titel & Subtitel bovenaan -->
         <div style="margin-bottom: 1rem; text-align: left;">
-          <h2 style="color: var(--primary-dark); font-size: 1.4rem; line-height: 1.3;">
+          <h2 style="color: var(--primary-dark); font-size: 1.8rem; line-height: 1.3;">
             ${item.title}
-            ${item.subtitle ? `<span style="font-style: italic; color: var(--text-muted); font-size: 0.95rem; font-weight: normal; margin-left: 0.5rem;">(${item.subtitle})</span>` : ""}
+            ${item.subtitle ? `<span style="font-style: italic; color: var(--text-muted); font-size: 1.1rem; font-weight: normal; margin-left: 0.5rem;">(${item.subtitle})</span>` : ""}
           </h2>
         </div>
 
