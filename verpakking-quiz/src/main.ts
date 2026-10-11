@@ -348,7 +348,6 @@ function renderQuestion() {
 }
 
 function renderResults() {
-  const totalBonus = quizQuestions.length * 6;
   const primaryPct = Math.round((primaryCorrect / quizQuestions.length) * 100);
   let feedbackText =
     "Geweldig! Jij bent een absolute Verpact Catalogus Expert!";
@@ -367,20 +366,20 @@ function renderResults() {
     </header>
     <main>
       <div class="card" style="text-align: center;">
-        <h2 style="font-size: 2rem; color: var(--primary-color); margin-bottom: 1rem;">Quiz Resultaten</h2>
+        <h2 style="font-size: 2rem; color: var(--primary-color); margin-bottom: 1rem;">Resultaten</h2>
         
         <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 1.5rem; margin-bottom: 2rem; text-align: left; max-width: 480px; margin-left: auto; margin-right: auto; display: flex; flex-direction: column; gap: 0.75rem;">
           <div style="display: flex; justify-content: space-between; font-size: 1.05rem;">
             <span>📦 Verpakkingen goed:</span>
-            <strong>${primaryCorrect} / ${quizQuestions.length} goed</strong>
+            <strong>${primaryCorrect} / ${quizQuestions.length}</strong>
           </div>
           <div style="display: flex; justify-content: space-between; font-size: 1.05rem;">
             <span>✅ Bonusvragen goed:</span>
-            <strong style="color: #166534;">${bonusCorrect} / ${totalBonus}</strong>
+            <strong style="color: #166534;">${bonusCorrect}</strong>
           </div>
           <div style="display: flex; justify-content: space-between; font-size: 1.05rem;">
             <span>❌ Bonusvragen fout:</span>
-            <strong style="color: #991b1b;">${bonusIncorrect} / ${totalBonus}</strong>
+            <strong style="color: #991b1b;">${bonusIncorrect}</strong>
           </div>
         </div>
 
