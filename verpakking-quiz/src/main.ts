@@ -207,7 +207,7 @@ function renderQuestion() {
             <div id="feedback-area"></div>
 
             <div style="display: flex; justify-content: flex-end; align-items: center; gap: 0.75rem; margin-top: 0.75rem; flex-wrap: wrap;">
-              <a id="catalog-link" href="${item.url}" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="display: ${userGuesses["verpakking"] !== undefined ? "inline-flex" : "none"}; padding: 0.75rem 1.25rem; font-size: 0.9rem; text-decoration: none;">Bekijk in catalogus ↗</a>
+              <a id="catalog-link" href="${item.url}" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="display: ${userGuesses["verpakking"] !== undefined ? "inline-flex" : "none"}; align-items: center; padding: 0.75rem 1.25rem; font-size: 0.9rem; text-decoration: none; font-family: inherit; line-height: 1; font-weight: 600;">Bekijk in catalogus <span style="font-size: 0.85em; margin-left: 0.2rem;">↗</span></a>
               <button id="show-answers-btn" class="btn btn-secondary" style="display: ${userGuesses["verpakking"] !== undefined ? "inline-flex" : "none"}; padding: 0.75rem 1.25rem; font-size: 0.9rem;">Toon antwoorden</button>
               <button id="next-btn" class="btn" style="display: ${userGuesses["verpakking"] !== undefined ? "inline-flex" : "none"}; padding: 0.75rem 2rem;">Volgend product</button>
             </div>
