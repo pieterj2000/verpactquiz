@@ -136,15 +136,16 @@ function renderQuestion() {
           <div class="progress-fill" style="width: ${progress}%"></div>
         </div>
 
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem; align-items: start; margin-top: 1.5rem;">
-          
-          <!-- LINKER KOLOM: Product informatie (naam, afbeelding, omschrijving, materialen) -->
-          <div style="display: flex; flex-direction: column; gap: 1rem;">
-            <div style="text-align: left;">
-              <h2 style="color: var(--primary-dark); margin-bottom: 0.25rem; font-size: 1.6rem;">${item.title}</h2>
-              ${item.subtitle ? `<p style="font-style: italic; color: var(--text-muted); font-size: 1rem;">${item.subtitle}</p>` : ""}
-            </div>
+        <!-- Product Titel & Subtitel bovenaan -->
+        <div style="margin-bottom: 1.5rem; text-align: left;">
+          <h2 style="color: var(--primary-dark); margin-bottom: 0.25rem; font-size: 1.8rem;">${item.title}</h2>
+          ${item.subtitle ? `<p style="font-style: italic; color: var(--text-muted); font-size: 1.1rem;">${item.subtitle}</p>` : ""}
+        </div>
 
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem; align-items: start;">
+          
+          <!-- LINKER KOLOM: Afbeelding, omschrijving, materialen -->
+          <div style="display: flex; flex-direction: column; gap: 1rem;">
             ${
               imgSrc
                 ? `
