@@ -17,7 +17,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/stretchfolie"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/stretchfolie"
   },
   {
     "id": "entity:node/292:nl",
@@ -37,7 +37,7 @@
       "verpaktProduct": false,
       "exoot": true
     },
-    "url": "/nl/verpakkingencatalogus/markeringsstift"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/markeringsstift"
   },
   {
     "id": "entity:node/203:nl",
@@ -57,7 +57,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/bandenplakset"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/bandenplakset"
   },
   {
     "id": "entity:node/300:nl",
@@ -77,7 +77,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/naaldendoosje"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/naaldendoosje"
   },
   {
     "id": "entity:node/297:nl",
@@ -97,7 +97,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/mierendoosje"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/mierendoosje"
   },
   {
     "id": "entity:node/262:nl",
@@ -117,7 +117,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/inpakpapier-los"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/inpakpapier-los"
   },
   {
     "id": "entity:node/342:nl",
@@ -137,7 +137,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/sieradendoos"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/sieradendoos"
   },
   {
     "id": "entity:node/347:nl",
@@ -157,7 +157,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/speld"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/speld"
   },
   {
     "id": "entity:node/306:nl",
@@ -177,7 +177,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/oog-neusdruppelaar"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/oog-neusdruppelaar"
   },
   {
     "id": "entity:node/274:nl",
@@ -197,7 +197,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/koelelement"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/koelelement"
   },
   {
     "id": "entity:node/194:nl",
@@ -217,7 +217,7 @@
       "verpaktProduct": false,
       "exoot": true
     },
-    "url": "/nl/verpakkingencatalogus/aansteker"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/aansteker"
   },
   {
     "id": "entity:node/280:nl",
@@ -237,7 +237,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/krat-vanaf-8-liter"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/krat-vanaf-8-liter"
   },
   {
     "id": "entity:node/231:nl",
@@ -257,7 +257,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/doseerdop-fles"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/doseerdop-fles"
   },
   {
     "id": "entity:node/265:nl",
@@ -277,7 +277,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/tie-wrap"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/tie-wrap"
   },
   {
     "id": "entity:node/368:nl",
@@ -297,7 +297,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/waxinecup"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/waxinecup"
   },
   {
     "id": "entity:node/284:nl",
@@ -317,7 +317,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/kunststoffolie-op-rol"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/kunststoffolie-op-rol"
   },
   {
     "id": "entity:node/367:nl",
@@ -337,7 +337,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/vogelvoer"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/vogelvoer"
   },
   {
     "id": "entity:node/350:nl",
@@ -357,7 +357,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/stektray"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/stektray"
   },
   {
     "id": "entity:node/296:nl",
@@ -377,7 +377,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/mechanische-molen-niet-navulbaar"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/mechanische-molen-niet-navulbaar"
   },
   {
     "id": "entity:node/232:nl",
@@ -397,7 +397,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/doseerdop-los"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/doseerdop-los"
   },
   {
     "id": "entity:node/322:nl",
@@ -417,7 +417,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/plastic-folie"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/plastic-folie"
   },
   {
     "id": "entity:node/257:nl",
@@ -437,7 +437,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/ijslepeltje"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/ijslepeltje"
   },
   {
     "id": "entity:node/361:nl",
@@ -457,7 +457,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/verfblik"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/verfblik"
   },
   {
     "id": "entity:node/330:nl",
@@ -477,7 +477,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/rietje"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/rietje"
   },
   {
     "id": "entity:node/359:nl",
@@ -497,7 +497,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/vat-voor-thuistap"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/vat-voor-thuistap"
   },
   {
     "id": "entity:node/196:nl",
@@ -517,7 +517,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/adventskalender"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/adventskalender"
   },
   {
     "id": "entity:node/264:nl",
@@ -537,7 +537,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/kaaskorst"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/kaaskorst"
   },
   {
     "id": "entity:node/235:nl",
@@ -557,7 +557,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/ehbo-doos"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/ehbo-doos"
   },
   {
     "id": "entity:node/288:nl",
@@ -577,7 +577,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/lippenstifthouder"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/lippenstifthouder"
   },
   {
     "id": "entity:node/273:nl",
@@ -597,7 +597,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/koekjestrommel-leeg"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/koekjestrommel-leeg"
   },
   {
     "id": "entity:node/351:nl",
@@ -617,7 +617,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/steriel-barrieresysteem"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/steriel-barrieresysteem"
   },
   {
     "id": "entity:node/199:nl",
@@ -637,7 +637,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/bakvorm-gevuld"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/bakvorm-gevuld"
   },
   {
     "id": "entity:node/352:nl",
@@ -657,7 +657,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/sticker-op-fruit"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/sticker-op-fruit"
   },
   {
     "id": "entity:node/213:nl",
@@ -677,7 +677,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/brillendoos-met-bril"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/brillendoos-met-bril"
   },
   {
     "id": "entity:node/218:nl",
@@ -697,7 +697,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/cd-spindel-met-cd"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/cd-spindel-met-cd"
   },
   {
     "id": "entity:node/207:nl",
@@ -717,7 +717,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/blister"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/blister"
   },
   {
     "id": "entity:node/310:nl",
@@ -737,7 +737,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/opvulmateriaal"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/opvulmateriaal"
   },
   {
     "id": "entity:node/376:nl",
@@ -757,7 +757,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/big-shopper"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/big-shopper"
   },
   {
     "id": "entity:node/315:nl",
@@ -777,7 +777,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/papieren-zak"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/papieren-zak"
   },
   {
     "id": "entity:node/318:nl",
@@ -797,7 +797,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/pizzadoos"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/pizzadoos"
   },
   {
     "id": "entity:node/208:nl",
@@ -817,7 +817,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/bloempot-voor-buitenplant"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/bloempot-voor-buitenplant"
   },
   {
     "id": "entity:node/302:nl",
@@ -837,7 +837,7 @@
       "verpaktProduct": false,
       "exoot": true
     },
-    "url": "/nl/verpakkingencatalogus/niet-navulbare-pen"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/niet-navulbare-pen"
   },
   {
     "id": "entity:node/260:nl",
@@ -857,7 +857,7 @@
       "verpaktProduct": false,
       "exoot": true
     },
-    "url": "/nl/verpakkingencatalogus/injectiespuit"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/injectiespuit"
   },
   {
     "id": "entity:node/338:nl",
@@ -877,7 +877,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/schoenveterdoosje"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/schoenveterdoosje"
   },
   {
     "id": "entity:node/269:nl",
@@ -897,7 +897,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/kleerhanger-bij-kledingstuk"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/kleerhanger-bij-kledingstuk"
   },
   {
     "id": "entity:node/354:nl",
@@ -917,7 +917,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/tandflosdoosje"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/tandflosdoosje"
   },
   {
     "id": "entity:node/319:nl",
@@ -937,7 +937,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/plakbandroller-met-plakband"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/plakbandroller-met-plakband"
   },
   {
     "id": "entity:node/270:nl",
@@ -957,7 +957,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/kleerhanger-los"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/kleerhanger-los"
   },
   {
     "id": "entity:node/369:nl",
@@ -977,7 +977,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/wegwerpbestek"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/wegwerpbestek"
   },
   {
     "id": "entity:node/331:nl",
@@ -997,7 +997,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/rijstbuidel"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/rijstbuidel"
   },
   {
     "id": "entity:node/253:nl",
@@ -1017,7 +1017,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/horlogedoos"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/horlogedoos"
   },
   {
     "id": "entity:node/247:nl",
@@ -1037,7 +1037,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/gereedschapsdoos"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/gereedschapsdoos"
   },
   {
     "id": "entity:node/356:nl",
@@ -1057,7 +1057,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/toilettasje-gevuld"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/toilettasje-gevuld"
   },
   {
     "id": "entity:node/305:nl",
@@ -1077,7 +1077,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/octabin"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/octabin"
   },
   {
     "id": "entity:node/358:nl",
@@ -1097,7 +1097,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/tussenplaat"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/tussenplaat"
   },
   {
     "id": "entity:node/237:nl",
@@ -1117,7 +1117,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/emmer-vanaf-20-liter"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/emmer-vanaf-20-liter"
   },
   {
     "id": "entity:node/321:nl",
@@ -1137,7 +1137,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/plantensubstraat"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/plantensubstraat"
   },
   {
     "id": "entity:node/275:nl",
@@ -1157,7 +1157,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/koffiepad"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/koffiepad"
   },
   {
     "id": "entity:node/293:nl",
@@ -1177,7 +1177,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/mascaraborstel-aan-dop"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/mascaraborstel-aan-dop"
   },
   {
     "id": "entity:node/201:nl",
@@ -1197,7 +1197,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/bananendoos"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/bananendoos"
   },
   {
     "id": "entity:node/245:nl",
@@ -1217,7 +1217,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/gasfles-vanaf-20-liter"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/gasfles-vanaf-20-liter"
   },
   {
     "id": "entity:node/244:nl",
@@ -1237,7 +1237,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/garenklosje"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/garenklosje"
   },
   {
     "id": "entity:node/290:nl",
@@ -1257,7 +1257,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/luciferdoosje"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/luciferdoosje"
   },
   {
     "id": "entity:node/256:nl",
@@ -1277,7 +1277,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/intermediate-bulk-container-ibc"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/intermediate-bulk-container-ibc"
   },
   {
     "id": "entity:node/241:nl",
@@ -1297,7 +1297,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/fles-voor-injectievloeistof"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/fles-voor-injectievloeistof"
   },
   {
     "id": "entity:node/289:nl",
@@ -1317,7 +1317,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/luchtverfrisser"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/luchtverfrisser"
   },
   {
     "id": "entity:node/217:nl",
@@ -1337,7 +1337,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/cd-spindel-leeg"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/cd-spindel-leeg"
   },
   {
     "id": "entity:node/371:nl",
@@ -1357,7 +1357,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/wijndoos"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/wijndoos"
   },
   {
     "id": "entity:node/312:nl",
@@ -1377,7 +1377,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/pallet"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/pallet"
   },
   {
     "id": "entity:node/377:nl",
@@ -1397,7 +1397,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/tray"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/tray"
   },
   {
     "id": "entity:node/197:nl",
@@ -1417,7 +1417,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/aluminiumfolie-met-inhoud"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/aluminiumfolie-met-inhoud"
   },
   {
     "id": "entity:node/222:nl",
@@ -1437,7 +1437,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/display-als-omdoos"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/display-als-omdoos"
   },
   {
     "id": "entity:node/317:nl",
@@ -1457,7 +1457,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/petrischaal"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/petrischaal"
   },
   {
     "id": "entity:node/464085:nl",
@@ -1477,7 +1477,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/kunststoffolie-om-product"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/kunststoffolie-om-product"
   },
   {
     "id": "entity:node/209:nl",
@@ -1497,7 +1497,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/bloempot-voor-binnenplant"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/bloempot-voor-binnenplant"
   },
   {
     "id": "entity:node/464082:nl",
@@ -1517,7 +1517,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/pleister-liners"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/pleister-liners"
   },
   {
     "id": "entity:node/348:nl",
@@ -1542,7 +1542,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/spellendoos"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/spellendoos"
   },
   {
     "id": "entity:node/215:nl",
@@ -1562,7 +1562,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/campinggas"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/campinggas"
   },
   {
     "id": "entity:node/464079:nl",
@@ -1582,7 +1582,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/worstvel"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/worstvel"
   },
   {
     "id": "entity:node/373:nl",
@@ -1602,7 +1602,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/zwangerschapstest"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/zwangerschapstest"
   },
   {
     "id": "entity:node/212:nl",
@@ -1622,7 +1622,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/brillendoos-leeg"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/brillendoos-leeg"
   },
   {
     "id": "entity:node/205:nl",
@@ -1642,7 +1642,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/beschermkapje-scheermes"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/beschermkapje-scheermes"
   },
   {
     "id": "entity:node/230:nl",
@@ -1662,7 +1662,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/doseerdop"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/doseerdop"
   },
   {
     "id": "entity:node/303:nl",
@@ -1682,7 +1682,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/nietjes-een-verpakking"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/nietjes-een-verpakking"
   },
   {
     "id": "entity:node/291:nl",
@@ -1702,7 +1702,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/map-voor-briefpapier"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/map-voor-briefpapier"
   },
   {
     "id": "entity:node/464030:nl",
@@ -1722,7 +1722,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/koffiecapsule"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/koffiecapsule"
   },
   {
     "id": "entity:node/362:nl",
@@ -1742,7 +1742,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/verfpalet"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/verfpalet"
   },
   {
     "id": "entity:node/333:nl",
@@ -1762,7 +1762,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/roerstaaf"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/roerstaaf"
   },
   {
     "id": "entity:node/268:nl",
@@ -1782,7 +1782,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/kleefetiketten"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/kleefetiketten"
   },
   {
     "id": "entity:node/249:nl",
@@ -1802,7 +1802,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/glasbok"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/glasbok"
   },
   {
     "id": "entity:node/360:nl",
@@ -1822,7 +1822,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/vaten-vanaf-20-liter"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/vaten-vanaf-20-liter"
   },
   {
     "id": "entity:node/195:nl",
@@ -1842,7 +1842,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/aanmaakzak"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/aanmaakzak"
   },
   {
     "id": "entity:node/250:nl",
@@ -1862,7 +1862,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/graflicht"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/graflicht"
   },
   {
     "id": "entity:node/329:nl",
@@ -1882,7 +1882,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/rfid"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/rfid"
   },
   {
     "id": "entity:node/254:nl",
@@ -1902,7 +1902,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/houten-wijnkist"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/houten-wijnkist"
   },
   {
     "id": "entity:node/251:nl",
@@ -1922,7 +1922,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/krat-kleiner-dan-8-liter"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/krat-kleiner-dan-8-liter"
   },
   {
     "id": "entity:node/327:nl",
@@ -1942,7 +1942,7 @@
       "verpaktProduct": false,
       "exoot": true
     },
-    "url": "/nl/verpakkingencatalogus/printercartridge"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/printercartridge"
   },
   {
     "id": "entity:node/309:nl",
@@ -1962,7 +1962,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/pods"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/pods"
   },
   {
     "id": "entity:node/220:nl",
@@ -1982,7 +1982,7 @@
       "verpaktProduct": false,
       "exoot": true
     },
-    "url": "/nl/verpakkingencatalogus/correctieroller"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/correctieroller"
   },
   {
     "id": "entity:node/221:nl",
@@ -2002,7 +2002,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/deodorantroller"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/deodorantroller"
   },
   {
     "id": "entity:node/328:nl",
@@ -2022,7 +2022,7 @@
       "verpaktProduct": false,
       "exoot": true
     },
-    "url": "/nl/verpakkingencatalogus/printerpatronen"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/printerpatronen"
   },
   {
     "id": "entity:node/261:nl",
@@ -2042,7 +2042,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/vispapier"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/vispapier"
   },
   {
     "id": "entity:node/340:nl",
@@ -2062,7 +2062,7 @@
       "verpaktProduct": false,
       "exoot": true
     },
-    "url": "/nl/verpakkingencatalogus/schrijfstift"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/schrijfstift"
   },
   {
     "id": "entity:node/258:nl",
@@ -2082,7 +2082,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/inbrenghuls"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/inbrenghuls"
   },
   {
     "id": "entity:node/332:nl",
@@ -2102,7 +2102,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/ringendoos"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/ringendoos"
   },
   {
     "id": "entity:node/246:nl",
@@ -2122,7 +2122,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/gebruiksaanwijzing"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/gebruiksaanwijzing"
   },
   {
     "id": "entity:node/255:nl",
@@ -2142,7 +2142,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/houtwol"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/houtwol"
   },
   {
     "id": "entity:node/281:nl",
@@ -2162,7 +2162,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/krijtpapier"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/krijtpapier"
   },
   {
     "id": "entity:node/202:nl",
@@ -2182,7 +2182,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/bandstrap"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/bandstrap"
   },
   {
     "id": "entity:node/326:nl",
@@ -2202,7 +2202,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/potlodendoosje"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/potlodendoosje"
   },
   {
     "id": "entity:node/355:nl",
@@ -2222,7 +2222,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/theezakje"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/theezakje"
   },
   {
     "id": "entity:node/276:nl",
@@ -2247,7 +2247,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/koker-tot-50-cm-voor-rol-folie-papier"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/koker-tot-50-cm-voor-rol-folie-papier"
   },
   {
     "id": "entity:node/298:nl",
@@ -2267,7 +2267,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/monster-parfum"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/monster-parfum"
   },
   {
     "id": "entity:node/259:nl",
@@ -2287,7 +2287,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/infuuszak"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/infuuszak"
   },
   {
     "id": "entity:node/294:nl",
@@ -2307,7 +2307,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/make-kwast"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/make-kwast"
   },
   {
     "id": "entity:node/308:nl",
@@ -2327,7 +2327,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/oordopdoosje"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/oordopdoosje"
   },
   {
     "id": "entity:node/227:nl",
@@ -2347,7 +2347,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/doosje-met-vishaken"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/doosje-met-vishaken"
   },
   {
     "id": "entity:node/341:nl",
@@ -2367,7 +2367,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/schroevendoosje"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/schroevendoosje"
   },
   {
     "id": "entity:node/357:nl",
@@ -2387,7 +2387,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/tube-met-inhoud"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/tube-met-inhoud"
   },
   {
     "id": "entity:node/210:nl",
@@ -2407,7 +2407,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/bonbondoos"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/bonbondoos"
   },
   {
     "id": "entity:node/206:nl",
@@ -2427,7 +2427,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/big-bag"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/big-bag"
   },
   {
     "id": "entity:node/313:nl",
@@ -2447,7 +2447,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/palletbox"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/palletbox"
   },
   {
     "id": "entity:node/346:nl",
@@ -2467,7 +2467,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/sneeuwketting"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/sneeuwketting"
   },
   {
     "id": "entity:node/283:nl",
@@ -2487,7 +2487,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/krimphoezen-voor-transport"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/krimphoezen-voor-transport"
   },
   {
     "id": "entity:node/320:nl",
@@ -2507,7 +2507,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/plaktape"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/plaktape"
   },
   {
     "id": "entity:node/272:nl",
@@ -2527,7 +2527,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/koekjestrommel-gevuld"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/koekjestrommel-gevuld"
   },
   {
     "id": "entity:node/211:nl",
@@ -2547,7 +2547,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/brandpastakuipje"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/brandpastakuipje"
   },
   {
     "id": "entity:node/263:nl",
@@ -2567,7 +2567,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/jerrycan-vanaf-20-liter"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/jerrycan-vanaf-20-liter"
   },
   {
     "id": "entity:node/236:nl",
@@ -2587,7 +2587,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/eierdoos"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/eierdoos"
   },
   {
     "id": "entity:node/224:nl",
@@ -2607,7 +2607,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/doos-vanaf-1m3-inhoudsmaat"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/doos-vanaf-1m3-inhoudsmaat"
   },
   {
     "id": "entity:node/285:nl",
@@ -2627,7 +2627,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/label"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/label"
   },
   {
     "id": "entity:node/219:nl",
@@ -2647,7 +2647,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/champignonbakje"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/champignonbakje"
   },
   {
     "id": "entity:node/299:nl",
@@ -2667,7 +2667,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/mosterdglas"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/mosterdglas"
   },
   {
     "id": "entity:node/464028:nl",
@@ -2687,7 +2687,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/aluminiumfolie-op-rol"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/aluminiumfolie-op-rol"
   },
   {
     "id": "entity:node/374:nl",
@@ -2713,7 +2713,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/geurstokjes"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/geurstokjes"
   },
   {
     "id": "entity:node/248:nl",
@@ -2733,7 +2733,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/geurolieflesje"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/geurolieflesje"
   },
   {
     "id": "entity:node/286:nl",
@@ -2753,7 +2753,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/lenzendoosje"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/lenzendoosje"
   },
   {
     "id": "entity:node/304:nl",
@@ -2773,7 +2773,7 @@
       "verpaktProduct": true,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/noppenfolie-om-een-product"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/noppenfolie-om-een-product"
   },
   {
     "id": "entity:node/267:nl",
@@ -2793,7 +2793,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/kledinghoes-stomerij"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/kledinghoes-stomerij"
   },
   {
     "id": "entity:node/204:nl",
@@ -2813,7 +2813,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/bellenblaassetje"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/bellenblaassetje"
   },
   {
     "id": "entity:node/243:nl",
@@ -2833,7 +2833,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/fotorolletje"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/fotorolletje"
   },
   {
     "id": "entity:node/228:nl",
@@ -2853,7 +2853,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/doosje-nietjes"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/doosje-nietjes"
   },
   {
     "id": "entity:node/335:nl",
@@ -2873,7 +2873,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/rolmaat"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/rolmaat"
   },
   {
     "id": "entity:node/295:nl",
@@ -2893,7 +2893,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/mechanische-molen-navulbaar"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/mechanische-molen-navulbaar"
   },
   {
     "id": "entity:node/301:nl",
@@ -2913,7 +2913,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/navulbare-stalen-gasfles"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/navulbare-stalen-gasfles"
   },
   {
     "id": "entity:node/287:nl",
@@ -2933,7 +2933,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/lijmstift"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/lijmstift"
   },
   {
     "id": "entity:node/364:nl",
@@ -2953,7 +2953,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/verzendzakjes-voor-catalogi-en-tijdschriften"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/verzendzakjes-voor-catalogi-en-tijdschriften"
   },
   {
     "id": "entity:node/464081:nl",
@@ -2973,7 +2973,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/tandpastadoos"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/tandpastadoos"
   },
   {
     "id": "entity:node/225:nl",
@@ -2993,7 +2993,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/doos-voor-computerspel"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/doos-voor-computerspel"
   },
   {
     "id": "entity:node/307:nl",
@@ -3013,7 +3013,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/oorbellendoos"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/oorbellendoos"
   },
   {
     "id": "entity:node/464008:nl",
@@ -3033,7 +3033,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/theezakje-met-touwtje-en-label"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/theezakje-met-touwtje-en-label"
   },
   {
     "id": "entity:node/226:nl",
@@ -3053,7 +3053,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/doosje-met-bitjes"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/doosje-met-bitjes"
   },
   {
     "id": "entity:node/349:nl",
@@ -3073,7 +3073,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/spuitmond-spuitbus"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/spuitmond-spuitbus"
   },
   {
     "id": "entity:node/200:nl",
@@ -3093,7 +3093,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/bakvorm-leeg"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/bakvorm-leeg"
   },
   {
     "id": "entity:node/375:nl",
@@ -3113,7 +3113,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/dekbed-tas"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/dekbed-tas"
   },
   {
     "id": "entity:node/229:nl",
@@ -3133,7 +3133,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/doosje-voor-fotolensfilter"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/doosje-voor-fotolensfilter"
   },
   {
     "id": "entity:node/323:nl",
@@ -3153,7 +3153,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/platenhoes"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/platenhoes"
   },
   {
     "id": "entity:node/252:nl",
@@ -3173,7 +3173,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/hoeklatten"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/hoeklatten"
   },
   {
     "id": "entity:node/311:nl",
@@ -3193,7 +3193,7 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/opzetrand"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/opzetrand"
   },
   {
     "id": "entity:node/334:nl",
@@ -3213,6 +3213,6 @@
       "verpaktProduct": false,
       "exoot": false
     },
-    "url": "/nl/verpakkingencatalogus/rolcontainer"
+    "url": "https://www.verpact.nl/nl/verpakkingencatalogus/rolcontainer"
   }
 ]

@@ -201,7 +201,7 @@ async function fetchCatalog() {
         description: cleanDesc,
         materials: scraped.materials,
         tableInfo: scraped.tableInfo,
-        url: item.url,
+        url: `https://www.verpact.nl${item.url}`,
       });
 
       if ((i + 1) % 20 === 0) {
@@ -231,7 +231,7 @@ async function fetchCatalog() {
           verpaktProduct: false,
           exoot: false,
         },
-        url: item.url,
+        url: `https://www.verpact.nl${item.url}`,
       });
       await new Promise((r) => setTimeout(r, 300));
     }

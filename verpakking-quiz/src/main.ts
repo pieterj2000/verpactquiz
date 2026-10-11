@@ -207,9 +207,9 @@ function renderQuestion() {
             <div id="feedback-area"></div>
 
             <div style="display: flex; justify-content: flex-end; align-items: center; gap: 0.75rem; margin-top: 0.75rem; flex-wrap: wrap;">
-              <button id="catalog-btn" class="btn btn-secondary" style="display: ${userGuesses["verpakking"] !== undefined ? "inline-flex" : "none"};">In catalogus <span style="font-size: 0.85em; margin-left: 0.3rem; display: inline-block; line-height: 1;">↗</span></button>
-              <button id="show-answers-btn" class="btn btn-secondary" style="display: ${userGuesses["verpakking"] !== undefined ? "inline-flex" : "none"};">Toon antwoorden</button>
-              <button id="next-btn" class="btn" style="display: ${userGuesses["verpakking"] !== undefined ? "inline-flex" : "none"};">Volgend product</button>
+              <button id="catalog-btn" class="btn btn-secondary" style="display: ${userGuesses["verpakking"] !== undefined ? "inline-flex" : "none"};">Catalogus <span style="font-size: 0.85em; margin-left: 0.3rem; display: inline-block; line-height: 1;">↗</span></button>
+              <button id="show-answers-btn" class="btn btn-secondary" style="display: ${userGuesses["verpakking"] !== undefined ? "inline-flex" : "none"};">Antwoorden</button>
+              <button id="next-btn" class="btn" style="display: ${userGuesses["verpakking"] !== undefined ? "inline-flex" : "none"};">Volgende</button>
             </div>
           </div>
 
@@ -305,27 +305,21 @@ function renderQuestion() {
         `#prop-row-${prop.key}`,
       ) as HTMLElement;
       if (row) {
-        row.style.background = "#f0fdf4";
-        row.style.border = "2px solid #16a34a";
+        row.style.background = "#f8fafc";
+        row.style.border = "2px solid #e2e8f0";
         row.querySelectorAll(".guess-btn").forEach((b) => {
           const btnEl = b as HTMLButtonElement;
           btnEl.disabled = true;
           btnEl.classList.remove("btn-success", "btn-danger", "btn-secondary");
           const bVal = btnEl.getAttribute("data-val") === "true";
           if (bVal === correctVal) {
-            btnEl.classList.add("btn-success");
+            btnEl.classList.add("btn-correct-answer");
           } else {
             btnEl.classList.add("btn-secondary");
           }
         });
       }
     });
-    const showAnswersBtn = document.querySelector(
-      "#show-answers-btn",
-    ) as HTMLElement;
-    if (showAnswersBtn) {
-      showAnswersBtn.style.display = "none";
-    }
   });
 
   document.querySelector("#next-btn")?.addEventListener("click", () => {
