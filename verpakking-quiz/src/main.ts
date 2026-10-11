@@ -211,8 +211,7 @@ function renderQuestion() {
 
             <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem;">
               <span style="font-size: 0.9rem; color: var(--text-muted);">Score tot nu toe: ${totalScore}</span>
-              <button id="submit-btn" class="btn" style="display: ${userGuesses["verpakking"] !== undefined ? "inline-flex" : "none"}; padding: 0.75rem 2rem;">Controleer antwoorden</button>
-              <button id="next-btn" class="btn" style="display: none; padding: 0.75rem 2rem;">Volgend product</button>
+              <button id="next-btn" class="btn" style="display: ${userGuesses["verpakking"] !== undefined ? "inline-flex" : "none"}; padding: 0.75rem 2rem;">Volgend product</button>
             </div>
           </div>
 
@@ -233,20 +232,15 @@ function renderQuestion() {
       userGuesses[prop] = val;
 
       const parentRow = target.parentElement!;
+      const isCorrect = item.tableInfo[prop] === val;
+
       parentRow.querySelectorAll(".guess-btn").forEach((b) => {
+        (b as HTMLButtonElement).disabled = true;
         b.classList.remove("btn-success", "btn-danger");
         b.classList.add("btn-secondary");
       });
-      if (val) {
-        target.classList.remove("btn-secondary");
-        target.classList.add("btn-success");
-      } else {
-        target.classList.remove("btn-secondary");
-        target.classList.add("btn-danger");
-      }
 
       if (prop === "verpakking") {
-        const isCorrect = item.tableInfo["verpakking"] === val;
         const feedbackDiv = document.querySelector(
           "#verpakking-immediate-feedback",
         )!;
@@ -265,66 +259,35 @@ function renderQuestion() {
           box.classList.add(isCorrect ? "anim-correct" : "anim-incorrect");
         }
 
-        parentRow.querySelectorAll(".guess-btn").forEach((b) => {
-          (b as HTMLButtonElement).disabled = true;
-        });
-
         const otherContainer = document.querySelector(
           "#other-properties-container",
         ) as HTMLElement;
-        const submitBtn = document.querySelector("#submit-btn") as HTMLElement;
+        const nextBtn = document.querySelector("#next-btn") as HTMLElement;
         if (otherContainer) otherContainer.style.display = "flex";
-        if (submitBtn) submitBtn.style.display = "inline-flex";
+        if (nextBtn) nextBtn.style.display = "inline-flex";
+      }
+
+      if (val) {
+        target.classList.remove("btn-secondary");
+        target.classList.add(isCorrect ? "btn-success" : "btn-danger");
+      } else {
+        target.classList.remove("btn-secondary");
+        target.classList.add(isCorrect ? "btn-success" : "btn-danger");
       }
     });
   });
 
-  document.querySelector("#submit-btn")?.addEventListener("click", () => {
-    checkAnswers(item);
-  });
-
   document.querySelector("#next-btn")?.addEventListener("click", () => {
+    let roundScore = 0;
+    tableProperties.forEach((p) => {
+      if (userGuesses[p.key] === (item.tableInfo[p.key] === true)) {
+        roundScore++;
+      }
+    });
+    totalScore += roundScore;
     currentQuestionIndex++;
     renderQuestion();
   });
-}
-
-function checkAnswers(item: CatalogItem) {
-  let roundScore = 0;
-  tableProperties.forEach((prop) => {
-    const correct = item.tableInfo[prop.key] === true;
-    const guessed = userGuesses[prop.key] === true;
-    if (correct === guessed) {
-      roundScore++;
-    }
-  });
-
-  totalScore += roundScore;
-
-  document.querySelectorAll(".guess-btn").forEach((b) => {
-    (b as HTMLButtonElement).disabled = true;
-  });
-
-  const feedbackArea = document.querySelector("#feedback-area")!;
-  feedbackArea.innerHTML = `
-    <div class="feedback-box ${roundScore === 7 ? "correct-feedback" : "incorrect-feedback"}">
-      <strong>Je had ${roundScore} van de 7 eigenschappen goed!</strong><br>
-      <div style="margin-top: 0.5rem; font-size: 0.85rem;">
-        ${tableProperties
-          .map((p) => {
-            const corr = item.tableInfo[p.key] === true ? "Ja" : "Nee";
-            const guess = userGuesses[p.key] === true ? "Ja" : "Nee";
-            const ok = corr === guess;
-            return `<div>${p.label}: Jouw gok: <strong>${guess}</strong> | Correct: <strong>${corr}</strong> ${ok ? "✅" : "❌"}</div>`;
-          })
-          .join("")}
-      </div>
-    </div>
-  `;
-
-  (document.querySelector("#submit-btn") as HTMLElement).style.display = "none";
-  (document.querySelector("#next-btn") as HTMLElement).style.display =
-    "inline-flex";
 }
 
 function renderResults() {

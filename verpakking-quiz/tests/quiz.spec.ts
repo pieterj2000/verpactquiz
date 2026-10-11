@@ -14,12 +14,6 @@ test.describe("Verpakkings-Quiz", () => {
     // Click Verpakking question "Ja"
     await page.click('[data-prop="verpakking"][data-val="true"]');
 
-    // Click submit answers
-    await page.click("#submit-btn");
-
-    // Check feedback
-    await expect(page.locator(".feedback-box")).toBeVisible();
-
     // Next product
     await page.click("#next-btn");
     await expect(page.locator("h2")).toBeVisible();
