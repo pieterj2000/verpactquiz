@@ -29,6 +29,12 @@ jobs:
       - name: Install dependencies
         run: npm ci
         working-directory: ./verpakking-quiz
+      - name: Install Playwright Browsers
+        run: npx playwright install --with-deps chromium
+        working-directory: ./verpakking-quiz
+      - name: Fetch fresh catalog data
+        run: node fetch-data.js
+        working-directory: ./verpakking-quiz
       - name: Build
         run: npm run build
         working-directory: ./verpakking-quiz
