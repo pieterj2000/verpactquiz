@@ -163,16 +163,25 @@ function renderQuestion() {
 
           <!-- RECHTER KOLOM: Vragen -->
           <div style="display: flex; flex-direction: column;">
-            <h3 style="font-size: 1.1rem; margin-bottom: 1rem; border-bottom: 2px solid #e2e8f0; padding-bottom: 0.5rem;">Beoordeel dit product</h3>
-
             <!-- Prominente Verpakking Hoofdvraag -->
             <div style="background: #f0fdf4; border: 2px solid var(--primary-color); padding: 1.25rem; border-radius: 10px; margin-bottom: 1.5rem; box-shadow: 0 4px 12px rgb(0 0 0 / 8%);">
               <label style="display: block; font-size: 1.25rem; font-weight: 700; color: var(--primary-dark); margin-bottom: 0.75rem;">
                 Is dit product een verpakking? 📦
               </label>
-              <div style="display: flex; gap: 1rem;">
-                <button class="btn guess-btn ${userGuesses["verpakking"] === true ? "btn-success" : "btn-secondary"}" data-prop="verpakking" data-val="true" style="flex: 1; padding: 0.75rem; font-size: 1.1rem;">Ja</button>
-                <button class="btn guess-btn ${userGuesses["verpakking"] === false ? "btn-danger" : "btn-secondary"}" data-prop="verpakking" data-val="false" style="flex: 1; padding: 0.75rem; font-size: 1.1rem;">Nee</button>
+              <div style="display: flex; gap: 1rem; margin-bottom: 0.5rem;">
+                <button class="btn guess-btn ${userGuesses["verpakking"] === true ? "btn-success" : "btn-secondary"}" data-prop="verpakking" data-val="true" style="flex: 1; padding: 0.75rem; font-size: 1.1rem;" ${userGuesses["verpakking"] !== undefined ? "disabled" : ""}>Ja</button>
+                <button class="btn guess-btn ${userGuesses["verpakking"] === false ? "btn-danger" : "btn-secondary"}" data-prop="verpakking" data-val="false" style="flex: 1; padding: 0.75rem; font-size: 1.1rem;" ${userGuesses["verpakking"] !== undefined ? "disabled" : ""}>Nee</button>
+              </div>
+              <div id="verpakking-immediate-feedback">
+                ${
+                  userGuesses["verpakking"] !== undefined
+                    ? `
+                  <div style="font-size: 0.95rem; font-weight: 600; color: ${item.tableInfo["verpakking"] === userGuesses["verpakking"] ? "#166534" : "#991b1b"}; margin-top: 0.5rem;">
+                    ${item.tableInfo["verpakking"] === userGuesses["verpakking"] ? "✅ Correct! Dit is " + (item.tableInfo["verpakking"] ? "wel" : "geen") + " verpakking." : "❌ Helaas, dit is " + (item.tableInfo["verpakking"] ? "wel" : "geen") + " verpakking."}
+                  </div>
+                `
+                    : ""
+                }
               </div>
             </div>
 
@@ -234,6 +243,20 @@ function renderQuestion() {
       }
 
       if (prop === "verpakking") {
+        const isCorrect = item.tableInfo["verpakking"] === val;
+        const feedbackDiv = document.querySelector(
+          "#verpakking-immediate-feedback",
+        )!;
+        feedbackDiv.innerHTML = `
+          <div style="font-size: 0.95rem; font-weight: 600; color: ${isCorrect ? "#166534" : "#991b1b"}; margin-top: 0.5rem;">
+            ${isCorrect ? "✅ Correct! Dit is " + (item.tableInfo["verpakking"] ? "wel" : "geen") + " verpakking." : "❌ Helaas, dit is " + (item.tableInfo["verpakking"] ? "wel" : "geen") + " verpakking."}
+          </div>
+        `;
+
+        parentRow.querySelectorAll(".guess-btn").forEach((b) => {
+          (b as HTMLButtonElement).disabled = true;
+        });
+
         const otherContainer = document.querySelector(
           "#other-properties-container",
         ) as HTMLElement;
