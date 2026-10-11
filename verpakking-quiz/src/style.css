@@ -339,5 +339,5 @@ footer a:hover {
 }
 
 .anim-incorrect {
-  animation: shake 0.4s ease;
+  animation: shake 0.25s ease;
 }
