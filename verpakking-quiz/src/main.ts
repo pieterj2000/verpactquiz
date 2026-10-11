@@ -114,9 +114,6 @@ function renderQuestion() {
 
   const item = quizQuestions[currentQuestionIndex];
   userGuesses = {};
-  tableProperties.slice(1).forEach((p) => {
-    userGuesses[p.key] = false;
-  });
 
   const progress = (currentQuestionIndex / quizQuestions.length) * 100;
   const imgSrc = item.localImageUrl || item.imageUrl;
