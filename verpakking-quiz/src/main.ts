@@ -57,8 +57,8 @@ async function loadData() {
 function renderWelcomeLoading() {
   app.innerHTML = `
     <header style="cursor: pointer;" id="header-home">
-      <h1>${logoSvg}Verpakkings-Quiz</h1>
-      <p>Ontdek alles over verpakkingen met de officiële Verpact Verpakkingencatalogus!</p>
+      <h1>${logoSvg}Verpakkingsquiz</h1>
+      <p>ONTDEK DE WAARHEID, BREEK HET VERPAKKINGSCARTEL</p>
     </header>
     <main>
       <div class="card" style="text-align: center;">
@@ -72,16 +72,12 @@ function renderWelcomeLoading() {
 function renderWelcomeReady() {
   app.innerHTML = `
     <header style="cursor: pointer;" id="header-home">
-      <h1>${logoSvg}Verpakkings-Quiz</h1>
-      <p>Ontdek alles over verpakkingen met de officiële Verpact Verpakkingencatalogus!</p>
+      <h1>${logoSvg}Verpakkingsquiz</h1>
+      <p>ONTDEK DE WAARHEID, BREEK HET VERPAKKINGSCARTEL</p>
     </header>
     <main style="max-width: 900px; width: 100%; margin: 2rem auto; padding: 0 1rem;">
       <div class="card" style="text-align: center; margin-bottom: 2rem;">
-        <h2 style="margin-bottom: 1rem;">Test je kennis van de Verpakkingscatalogus</h2>
-        <p style="margin-bottom: 1.5rem; color: var(--text-muted);">
-          Je krijgt telkens een product te zien met afbeelding, omschrijving en materialen. 
-          Aan jou de taak om voor alle 7 eigenschappen uit de tabel te gokken of ze wel of niet van toepassing zijn.
-        </p>
+        <h2 style="margin-bottom: 1.5rem;">Weet jij wat <em>ZIJ</em> als verpakking tellen?</h2>
         <button id="start-btn" class="btn" style="font-size: 1.1rem; padding: 1rem 2rem; width: 100%;">Start de Quiz</button>
       </div>
 
@@ -120,8 +116,8 @@ function renderQuestion() {
 
   app.innerHTML = `
     <header style="cursor: pointer;" id="header-home">
-      <h1>${logoSvg}Verpakkings-Quiz</h1>
-      <p>Test je kennis van de Verpakkingscatalogus</p>
+      <h1>${logoSvg}Verpakkingsquiz</h1>
+      <p>ONTDEK DE WAARHEID, BREEK HET VERPAKKINGSCARTEL</p>
     </header>
     <main style="max-width: 1250px; width: 100%; margin: 2rem auto; padding: 0 1rem;">
       <div class="card quiz-container" style="max-width: 100%; padding: 1rem 2.5rem 2.5rem;">
@@ -353,8 +349,8 @@ function renderResults() {
 
   app.innerHTML = `
     <header style="cursor: pointer;" id="header-home">
-      <h1>${logoSvg}Quiz Voltooid!</h1>
-      <p>Je eindresultaat</p>
+      <h1>${logoSvg}Verpakkingsquiz</h1>
+      <p>ONTDEK DE WAARHEID, BREEK HET VERPAKKINGSCARTEL</p>
     </header>
     <main>
       <div class="card" style="text-align: center;">
