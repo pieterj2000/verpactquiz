@@ -214,7 +214,7 @@ async function startQuiz() {
 
   const firstItem = quizQuestions[0];
   if (firstItem) {
-    const rawImg = firstItem.localImageUrl || firstItem.imageUrl;
+    const rawImg = firstItem.localImageUrl;
     if (rawImg) {
       const imgSrc = rawImg.startsWith("/")
         ? `${import.meta.env.BASE_URL}${rawImg.slice(1)}`
@@ -250,7 +250,7 @@ function renderQuestion() {
   const zinnen = getZinnen();
 
   const progress = (currentQuestionIndex / quizQuestions.length) * 100;
-  const rawImg = item.localImageUrl || item.imageUrl;
+  const rawImg = item.localImageUrl;
   const imgSrc = rawImg.startsWith("/")
     ? `${import.meta.env.BASE_URL}${rawImg.slice(1)}`
     : rawImg;
