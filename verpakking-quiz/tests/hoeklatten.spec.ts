@@ -26,7 +26,7 @@ test("verify scraped data for hoeklatten", () => {
   expect(item.subtitle).toBe("Beschermlat, Hoeksteun");
   expect(item.materials).toEqual(["Plastic", "Papier en Karton", "Hout"]);
   expect(item.imageUrl).toContain(
-    "/sites/default/files/styles/cropped_medium_3_2/public/2026-09/_S0A0927 hoeklatten LR.jpg",
+    "/sites/default/files/styles/cropped_medium_3_2/public/2026-09/_S0A0927%20hoeklatten%20LR.jpg",
   );
   expect(item.description).toBe("Hoeklatten om de kratten.");
 

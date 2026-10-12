@@ -98,7 +98,6 @@ async function fetchCatalog() {
           "img[src*='/sites/default/files/']",
         );
         let imgUrl = imgEl ? imgEl.src : "";
-        imgUrl = decodeURIComponent(imgUrl);
 
         const bodyEl = document.querySelector("main") || document.body;
 
