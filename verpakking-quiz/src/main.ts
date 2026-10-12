@@ -138,7 +138,7 @@ async function handleStart() {
       await new Promise((r) => setTimeout(r, 50));
     }
   }
-  startQuiz();
+  await startQuiz();
 }
 
 function renderWelcomeLoading() {
@@ -193,9 +193,44 @@ function renderWelcomeReady() {
   setupModeToggle();
 }
 
-function startQuiz() {
+let preloadedImages: HTMLImageElement[] = [];
+
+async function startQuiz() {
   const shuffled = [...items].sort(() => 0.5 - Math.random());
   quizQuestions = shuffled.slice(0, 15);
+  preloadedImages = [];
+
+  quizQuestions.forEach((item) => {
+    const rawImg = item.localImageUrl;
+    if (rawImg) {
+      const imgSrc = rawImg.startsWith("/")
+        ? `${import.meta.env.BASE_URL}${rawImg.slice(1)}`
+        : rawImg;
+      const img = new Image();
+      img.src = imgSrc;
+      preloadedImages.push(img);
+    }
+  });
+
+  const firstItem = quizQuestions[0];
+  if (firstItem) {
+    const rawImg = firstItem.localImageUrl || firstItem.imageUrl;
+    if (rawImg) {
+      const imgSrc = rawImg.startsWith("/")
+        ? `${import.meta.env.BASE_URL}${rawImg.slice(1)}`
+        : rawImg;
+      await Promise.race([
+        new Promise((resolve) => {
+          const img = new Image();
+          img.onload = resolve;
+          img.onerror = resolve;
+          img.src = imgSrc;
+        }),
+        new Promise((resolve) => setTimeout(resolve, 300)),
+      ]);
+    }
+  }
+
   currentQuestionIndex = 0;
   primaryCorrect = 0;
   bonusCorrect = 0;
