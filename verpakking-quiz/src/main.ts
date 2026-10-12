@@ -200,18 +200,6 @@ async function startQuiz() {
   quizQuestions = shuffled.slice(0, 15);
   preloadedImages = [];
 
-  quizQuestions.forEach((item) => {
-    const rawImg = item.localImageUrl;
-    if (rawImg) {
-      const imgSrc = rawImg.startsWith("/")
-        ? `${import.meta.env.BASE_URL}${rawImg.slice(1)}`
-        : rawImg;
-      const img = new Image();
-      img.src = imgSrc;
-      preloadedImages.push(img);
-    }
-  });
-
   const firstItem = quizQuestions[0];
   if (firstItem) {
     const rawImg = firstItem.localImageUrl;
@@ -225,6 +213,7 @@ async function startQuiz() {
           img.onload = resolve;
           img.onerror = resolve;
           img.src = imgSrc;
+          preloadedImages.push(img);
         }),
         new Promise((resolve) => setTimeout(resolve, 300)),
       ]);
@@ -236,6 +225,26 @@ async function startQuiz() {
   bonusCorrect = 0;
   bonusIncorrect = 0;
   renderQuestion();
+
+  // Prefetch the remaining images sequentially in the background
+  (async () => {
+    for (let i = 1; i < quizQuestions.length; i++) {
+      const item = quizQuestions[i];
+      const rawImg = item.localImageUrl || item.imageUrl;
+      if (rawImg) {
+        const imgSrc = rawImg.startsWith("/")
+          ? `${import.meta.env.BASE_URL}${rawImg.slice(1)}`
+          : rawImg;
+        await new Promise((resolve) => {
+          const img = new Image();
+          img.onload = resolve;
+          img.onerror = resolve;
+          img.src = imgSrc;
+          preloadedImages.push(img);
+        });
+      }
+    }
+  })();
 }
 
 function renderQuestion() {
