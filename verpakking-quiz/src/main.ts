@@ -177,7 +177,7 @@ function renderWelcomeReady() {
       </div>
 
       <!-- Tekstvak met inhoud uit tekstje.md gecompileerd tijdens build-time (server-side) via virtual module -->
-      <div class="card tekst-card" style="background: #f8fafc; margin-bottom: 0.5rem;">
+      <div class="card tekst-card" style="background: #f8fafc; margin-bottom: 1.25rem;">
         ${tekstHtml}
       </div>
 
