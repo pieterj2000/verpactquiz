@@ -351,7 +351,7 @@ function renderResults() {
     "Je bent ontwaakt. Jij weet precies wat Big Verpakking jou probeert op te leggen, en ziet daar zo doorheen.";
   if (primaryPct < 50) {
     feedbackText =
-      "Jij denkt duidelijk nooit na over hoe spullen worden verpakt, precies zoals Big Verpakking dat wil.... WORD WAKKER!";
+      "Jij denkt duidelijk nooit na over hoe spullen worden verpakt, precies zoals Big Verpakking dat wilt.... WORD WAKKER!";
   } else if (primaryPct < 80) {
     feedbackText =
       "Jij bent duidelijk begonnen met nadenken en vragen stellen. Je zit op het pad der verlichting, ga zo door.";
