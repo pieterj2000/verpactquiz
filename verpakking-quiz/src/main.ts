@@ -43,7 +43,7 @@ const tableProperties = [
 async function loadData() {
   renderWelcomeLoading();
   try {
-    const res = await fetch("/verpakkingen.json");
+    const res = await fetch(`${import.meta.env.BASE_URL}verpakkingen.json`);
     items = await res.json();
     renderWelcomeReady();
   } catch {
