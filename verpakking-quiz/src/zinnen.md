@@ -25,3 +25,19 @@ Ik zoek verlichting
 # Toggle Button Wappie
 
 Ik leef liever als een schaap
+
+# Correct Feedback Yes
+
+✅ Correct! Dit 'is' wel een verpakking.
+
+# Correct Feedback No
+
+✅ Correct! Dit 'is' geen verpakking.
+
+# Incorrect Feedback Yes
+
+❌ Helaas, dit 'is' wel een verpakking.
+
+# Incorrect Feedback No
+
+❌ Helaas, dit 'is' geen verpakking.

@@ -343,12 +343,21 @@ function renderQuestion() {
       });
 
       if (prop === "verpakking") {
+        const isYes = item.tableInfo["verpakking"] === true;
+        const feedbackMsg = isCorrect
+          ? isYes
+            ? zinnen["Correct Feedback Yes"]
+            : zinnen["Correct Feedback No"]
+          : isYes
+            ? zinnen["Incorrect Feedback Yes"]
+            : zinnen["Incorrect Feedback No"];
+
         const feedbackDiv = document.querySelector(
           "#verpakking-immediate-feedback",
         )!;
         feedbackDiv.innerHTML = `
           <div style="font-size: 0.95rem; font-weight: 600; color: ${isCorrect ? "#166534" : "#991b1b"}; margin-top: 0.5rem;">
-            ${isCorrect ? "✅ Correct! Dit 'is' " + (item.tableInfo["verpakking"] ? "wel" : "geen") + " verpakking." : "❌ Helaas, dit 'is' " + (item.tableInfo["verpakking"] ? "wel" : "geen") + " verpakking."}
+            ${feedbackMsg}
           </div>
         `;
 
