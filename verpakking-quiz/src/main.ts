@@ -30,7 +30,8 @@ let quizQuestions: CatalogItem[] = [];
 let userGuesses: Record<string, boolean> = {};
 let isLoading = true;
 let loadError = false;
-let currentMode: "normal" | "wappie" = "normal";
+let currentMode: "normal" | "wappie" =
+  (localStorage.getItem("quiz_mode") as "normal" | "wappie") || "normal";
 let currentView: "welcome" | "quiz" | "results" = "welcome";
 
 const app = document.querySelector<HTMLDivElement>("#app")!;
@@ -88,10 +89,9 @@ function renderModeToggle() {
 function setupModeToggle() {
   document.querySelector("#mode-toggle-btn")?.addEventListener("click", () => {
     currentMode = currentMode === "normal" ? "wappie" : "normal";
+    localStorage.setItem("quiz_mode", currentMode);
     if (currentView === "welcome") {
       renderWelcomeReady();
-    } else if (currentView === "quiz") {
-      renderQuestion();
     } else if (currentView === "results") {
       renderResults();
     }
@@ -318,7 +318,6 @@ function renderQuestion() {
         </div>
 
       </div>
-      ${renderModeToggle()}
     </main>
   `;
 
@@ -326,7 +325,6 @@ function renderQuestion() {
     renderWelcomeReady();
     loadData();
   });
-  setupModeToggle();
 
   document.querySelectorAll(".guess-btn").forEach((btn) => {
     btn.addEventListener("click", (e) => {
@@ -492,7 +490,6 @@ function renderResults() {
           <button id="home-btn" class="btn btn-secondary">Terug naar start</button>
         </div>
       </div>
-      ${renderModeToggle()}
     </main>
   `;
 
@@ -505,7 +502,6 @@ function renderResults() {
     renderWelcomeReady();
     loadData();
   });
-  setupModeToggle();
 }
 
 renderWelcomeReady();
