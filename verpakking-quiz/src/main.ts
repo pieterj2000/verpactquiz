@@ -143,7 +143,10 @@ function renderQuestion() {
   userGuesses = {};
 
   const progress = (currentQuestionIndex / quizQuestions.length) * 100;
-  const imgSrc = item.localImageUrl || item.imageUrl;
+  const rawImg = item.localImageUrl || item.imageUrl;
+  const imgSrc = rawImg.startsWith("/")
+    ? `${import.meta.env.BASE_URL}${rawImg.slice(1)}`
+    : rawImg;
 
   app.innerHTML = `
     <header style="cursor: pointer;" id="header-home">
