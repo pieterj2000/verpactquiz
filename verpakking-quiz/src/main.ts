@@ -80,8 +80,8 @@ function renderModeToggle() {
       ? zinnen["Toggle Button Normal"]
       : zinnen["Toggle Button Wappie"];
   return `
-    <div style="text-align: center; margin: 2rem 0 1rem; padding: 1rem;">
-      <button id="mode-toggle-btn" class="btn btn-secondary" style="font-size: 0.9rem; padding: 0.6rem 1.2rem;">${btnText}</button>
+    <div style="text-align: center; margin: 1rem 0 0.5rem; padding: 0;">
+      <button id="mode-toggle-btn" class="btn btn-secondary" style="font-size: 0.75rem; padding: 0.3rem 0.6rem; background: transparent; border: 1px solid #cbd5e1; color: var(--text-muted); opacity: 0.8;">${btnText}</button>
     </div>
   `;
 }
