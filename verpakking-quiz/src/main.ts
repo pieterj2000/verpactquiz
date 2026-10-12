@@ -250,8 +250,8 @@ function renderQuestion() {
             ${
               imgSrc
                 ? `
-              <div style="width: 100%; height: 280px; background: #f8fafc; border-radius: 8px; border: 1px solid #cbd5e1; padding: 0; text-align: center; overflow: hidden; display: flex; align-items: center; justify-content: center;">
-                <img src="${imgSrc}" alt="${item.title}" style="max-width: 100%; max-height: 100%; object-fit: contain; display: block; border-radius: 7px;" />
+              <div style="width: 100%; aspect-ratio: 4 / 3; background: #f8fafc; border-radius: 8px; border: 1px solid #cbd5e1; padding: 0; text-align: center; overflow: hidden;">
+                <img src="${imgSrc}" alt="${item.title}" style="width: 100%; height: 100%; object-fit: contain; display: block; border-radius: 7px;" />
               </div>
             `
                 : ""
