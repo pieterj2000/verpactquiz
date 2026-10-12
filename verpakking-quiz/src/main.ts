@@ -176,6 +176,7 @@ function renderWelcomeReady() {
         <button id="start-btn" class="btn" style="font-size: 1.1rem; padding: 1rem 2rem; width: 100%;">Start de Quiz</button>
       </div>
 
+      <!-- Tekstvak met inhoud uit tekstje.md gecompileerd tijdens build-time (server-side) via virtual module -->
       <div class="card tekst-card" style="background: #f8fafc;">
         ${tekstHtml}
       </div>
@@ -234,6 +235,7 @@ function renderQuestion() {
           <div class="progress-fill" style="width: ${progress}%"></div>
         </div>
 
+        <!-- Product Titel & Subtitel bovenaan -->
         <div style="margin-bottom: 0.75rem; text-align: left;">
           <h2 style="color: var(--primary-dark); font-size: 1.8rem; line-height: 1.3;">
             ${item.title}
@@ -243,50 +245,60 @@ function renderQuestion() {
 
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(390px, 1fr)); gap: 2rem; align-items: start;">
           
+          <!-- LINKER KOLOM: Afbeelding, omschrijving, materialen -->
           <div style="display: flex; flex-direction: column; gap: 1rem;">
             ${
               imgSrc
-                ? `<div style="width: 100%; max-height: 380px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; display: flex; align-items: center; justify-content: center; overflow: hidden; padding: 0.5rem;">
-                     <img src="${imgSrc}" alt="${item.title}" style="max-width: 100%; max-height: 360px; object-fit: contain; border-radius: 4px;" />
-                   </div>`
+                ? `
+              <div style="width: 100%; background: #f8fafc; border-radius: 8px; border: 1px solid #cbd5e1; padding: 0; text-align: center; overflow: hidden;">
+                <img src="${imgSrc}" alt="${item.title}" style="width: 100%; height: auto; object-fit: contain; display: block; border-radius: 7px;" />
+              </div>
+            `
                 : ""
             }
 
-            <div style="font-size: 0.95rem; color: var(--text-color); line-height: 1.5; background: #f8fafc; padding: 1rem; border-radius: 8px; border: 1px solid #e2e8f0;">
-              ${item.description || "Geen beschrijving beschikbaar."}
+            <div style="background: #f8fafc; padding: 1rem; border-radius: 8px; border: 1px solid #e2e8f0;">
+              <p style="font-size: 1rem; margin-bottom: 0.75rem; line-height: 1.5;">${item.description}</p>
+              <p style="font-size: 0.9rem; color: var(--text-muted);"><strong>Materialen:</strong> ${item.materials.join(", ")}</p>
             </div>
-
-            ${
-              item.materials && item.materials.length > 0
-                ? `<div style="display: flex; flex-wrap: wrap; gap: 0.4rem;">
-                     ${item.materials.map((m) => `<span style="background: #e2e8f0; color: var(--text-color); font-size: 0.8rem; padding: 0.2rem 0.6rem; border-radius: 4px; font-weight: 500;">${m}</span>`).join("")}
-                   </div>`
-                : ""
-            }
           </div>
 
-          <div style="display: flex; flex-direction: column; gap: 1rem;">
-            
-            <div id="verpakking-box" style="background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 8px; padding: 1.25rem; transition: all 0.3s ease;">
-              <h3 style="margin-bottom: 0.75rem; font-size: 1.1rem; color: var(--primary-dark);">Is dit een verpakking?</h3>
-              <div style="display: flex; gap: 1rem;">
-                <button class="btn guess-primary-btn" data-prop="verpakking" data-val="true" style="flex: 1; background: #ffffff; color: var(--text-color); border: 2px solid #cbd5e1;">Ja</button>
-                <button class="btn guess-primary-btn" data-prop="verpakking" data-val="false" style="flex: 1; background: #ffffff; color: var(--text-color); border: 2px solid #cbd5e1;">Nee</button>
+          <!-- RECHTER KOLOM: Vragen -->
+          <div style="display: flex; flex-direction: column;">
+            <!-- Prominente Verpakking Hoofdvraag -->
+            <div id="verpakking-box" style="background: ${userGuesses["verpakking"] !== undefined ? (item.tableInfo["verpakking"] === userGuesses["verpakking"] ? "#f0fdf4" : "#fef2f2") : "#fff"}; border: 2px solid ${userGuesses["verpakking"] !== undefined ? (item.tableInfo["verpakking"] === userGuesses["verpakking"] ? "#16a34a" : "#dc2626") : "#cbd5e1"}; padding: 1.25rem; border-radius: 10px; margin-bottom: 1.5rem; box-shadow: 0 4px 12px rgb(0 0 0 / 8%);">
+              <label style="display: block; font-size: 1.25rem; font-weight: 700; color: var(--primary-dark); margin-bottom: 0.75rem;">
+                Is dit product een verpakking? 📦
+              </label>
+              <div style="display: flex; gap: 1rem; margin-bottom: 0.5rem;">
+                <button class="btn guess-btn ${userGuesses["verpakking"] === true ? "btn-success" : "btn-secondary"}" data-prop="verpakking" data-val="true" style="flex: 1; padding: 0.75rem; font-size: 1.1rem;" ${userGuesses["verpakking"] !== undefined ? "disabled" : ""}>Ja</button>
+                <button class="btn guess-btn ${userGuesses["verpakking"] === false ? "btn-danger" : "btn-secondary"}" data-prop="verpakking" data-val="false" style="flex: 1; padding: 0.75rem; font-size: 1.1rem;" ${userGuesses["verpakking"] !== undefined ? "disabled" : ""}>Nee</button>
               </div>
-              <div id="verpakking-immediate-feedback"></div>
+              <div id="verpakking-immediate-feedback">
+                ${
+                  userGuesses["verpakking"] !== undefined
+                    ? `
+                  <div style="font-size: 0.95rem; font-weight: 600; color: ${item.tableInfo["verpakking"] === userGuesses["verpakking"] ? "#166534" : "#991b1b"}; margin-top: 0.5rem;">
+                    ${item.tableInfo["verpakking"] === userGuesses["verpakking"] ? "✅ Correct! Dit 'is' " + (item.tableInfo["verpakking"] ? "wel" : "geen") + " verpakking." : "❌ Helaas, dit 'is' " + (item.tableInfo["verpakking"] ? "wel" : "geen") + " verpakking."}
+                  </div>
+                `
+                    : ""
+                }
+              </div>
             </div>
 
-            <div id="other-properties-container" style="opacity: 0.4; pointer-events: none; transition: opacity 0.3s ease; display: flex; flex-direction: column; gap: 0.75rem;">
-              <h4 style="font-size: 1rem; color: var(--text-muted); margin-bottom: -0.25rem;">Overige eigenschappen (optioneel):</h4>
+            <!-- Overige 6 eigenschappen (pas zichtbaar na beantwoorden hoofdvraag) -->
+            <div id="other-properties-container" style="display: ${userGuesses["verpakking"] !== undefined ? "flex" : "none"}; flex-direction: column; gap: 0.35rem; margin-bottom: 0.75rem;">
+              <h3 style="font-size: 0.95rem; margin-top: 0.1rem; margin-bottom: 0.25rem; color: var(--text-color);">Bonus: is dit product een...</h3>
               ${tableProperties
                 .slice(1)
                 .map(
-                  (p) => `
-                <div id="prop-row-${p.key}" style="background: #f8fafc; border: 2px solid transparent; border-radius: 8px; padding: 0.75rem 1rem; display: flex; justify-content: space-between; align-items: center; transition: all 0.2s ease;">
-                  <span style="font-size: 0.95rem; font-weight: 500; color: var(--text-color);">${p.label}</span>
-                  <div style="display: flex; gap: 0.5rem;">
-                    <button class="btn guess-btn" data-prop="${p.key}" data-val="true" style="padding: 0.3rem 0.8rem; font-size: 0.85rem; background: #ffffff; color: var(--text-color); border: 2px solid #cbd5e1;">Ja</button>
-                    <button class="btn guess-btn" data-prop="${p.key}" data-val="false" style="padding: 0.3rem 0.8rem; font-size: 0.85rem; background: #ffffff; color: var(--text-color); border: 2px solid #cbd5e1;">Nee</button>
+                  (prop) => `
+                <div id="prop-row-${prop.key}" style="display: flex; justify-content: space-between; align-items: center; background: #f8fafc; padding: 0.3rem 0.6rem; border-radius: 6px; border: 2px solid #e2e8f0;">
+                  <span style="font-weight: 600; font-size: 0.85rem;">${prop.label}</span>
+                  <div style="display: flex; gap: 0.3rem;">
+                    <button class="btn btn-secondary guess-btn" data-prop="${prop.key}" data-val="true" style="padding: 0.2rem 0.6rem; font-size: 0.8rem;">Ja</button>
+                    <button class="btn btn-secondary guess-btn" data-prop="${prop.key}" data-val="false" style="padding: 0.2rem 0.6rem; font-size: 0.8rem;">Nee</button>
                   </div>
                 </div>
               `,
@@ -294,12 +306,13 @@ function renderQuestion() {
                 .join("")}
             </div>
 
-            <div style="display: flex; gap: 0.75rem; margin-top: 0.5rem; flex-wrap: wrap;">
-              <button id="catalog-btn" class="btn catalog-btn" style="display: none; align-items: center; justify-content: center; gap: 0; background: #ffffff; color: var(--text-color); border: 2px solid #cbd5e1;">Catalogus</button>
-              <button id="show-answers-btn" class="btn btn-secondary" style="display: none; align-items: center; justify-content: center;">Antwoorden</button>
-              <button id="next-btn" class="btn" style="display: none; flex: 1; align-items: center; justify-content: center;">Volgend product</button>
-            </div>
+            <div id="feedback-area"></div>
 
+            <div style="display: flex; justify-content: flex-end; align-items: center; gap: 0.5rem; margin-top: 0.75rem; flex-wrap: wrap;">
+              <button id="catalog-btn" class="btn btn-secondary catalog-btn" style="display: ${userGuesses["verpakking"] !== undefined ? "inline-flex" : "none"};">Catalogus</button>
+              <button id="show-answers-btn" class="btn btn-secondary" style="display: ${userGuesses["verpakking"] !== undefined ? "inline-flex" : "none"}; padding: 0.6rem 0.9rem;">Antwoorden</button>
+              <button id="next-btn" class="btn" style="display: ${userGuesses["verpakking"] !== undefined ? "inline-flex" : "none"}; padding: 0.6rem 1.25rem;">Volgende</button>
+            </div>
           </div>
 
         </div>
@@ -315,98 +328,73 @@ function renderQuestion() {
   });
   setupModeToggle();
 
-  document.querySelectorAll(".guess-primary-btn").forEach((btn) => {
-    btn.addEventListener("click", (e) => {
-      const target = e.currentTarget as HTMLButtonElement;
-      const val = target.getAttribute("data-val") === "true";
-      const correctVal = item.tableInfo["verpakking"] === true;
-      const isCorrect = val === correctVal;
-
-      userGuesses["verpakking"] = val;
-
-      document.querySelectorAll(".guess-primary-btn").forEach((b) => {
-        const bEl = b as HTMLButtonElement;
-        bEl.disabled = true;
-        bEl.classList.remove("btn-success", "btn-danger", "btn-secondary");
-        const bVal = bEl.getAttribute("data-val") === "true";
-        if (bVal === correctVal) {
-          bEl.classList.add("btn-correct-answer");
-        } else if (bEl === target) {
-          bEl.classList.add(isCorrect ? "btn-success" : "btn-danger");
-        } else {
-          bEl.classList.add("btn-secondary");
-        }
-      });
-
-      const feedbackDiv = document.querySelector(
-        "#verpakking-immediate-feedback",
-      )!;
-      feedbackDiv.innerHTML = `
-        <div style="font-size: 0.95rem; font-weight: 600; color: ${isCorrect ? "#166534" : "#991b1b"}; margin-top: 0.5rem;">
-          ${isCorrect ? "✅ Correct! Dit 'is' " + (item.tableInfo["verpakking"] ? "wel" : "geen") + " verpakking." : "❌ Helaas, dit 'is' " + (item.tableInfo["verpakking"] ? "wel" : "geen") + " verpakking."}
-        </div>
-      `;
-
-      const box = document.querySelector("#verpakking-box") as HTMLElement;
-      if (box) {
-        box.style.background = isCorrect ? "#f0fdf4" : "#fef2f2";
-        box.style.border = isCorrect
-          ? "2px solid #16a34a"
-          : "2px solid #dc2626";
-        box.classList.add(isCorrect ? "anim-correct" : "anim-incorrect");
-      }
-
-      const otherContainer = document.querySelector(
-        "#other-properties-container",
-      ) as HTMLElement;
-      const nextBtn = document.querySelector("#next-btn") as HTMLElement;
-      const showAnswersBtn = document.querySelector(
-        "#show-answers-btn",
-      ) as HTMLElement;
-      const catalogBtn = document.querySelector("#catalog-btn") as HTMLElement;
-
-      if (otherContainer) {
-        otherContainer.style.opacity = "1";
-        otherContainer.style.pointerEvents = "auto";
-      }
-      if (nextBtn) nextBtn.style.display = "inline-flex";
-      if (showAnswersBtn) showAnswersBtn.style.display = "inline-flex";
-      if (catalogBtn) catalogBtn.style.display = "inline-flex";
-    });
-  });
-
   document.querySelectorAll(".guess-btn").forEach((btn) => {
     btn.addEventListener("click", (e) => {
-      const target = e.currentTarget as HTMLButtonElement;
+      const target = e.currentTarget as HTMLElement;
       const prop = target.getAttribute("data-prop")!;
       const val = target.getAttribute("data-val") === "true";
-      const correctVal = item.tableInfo[prop] === true;
-      const isCorrect = val === correctVal;
-
       userGuesses[prop] = val;
 
-      const row = document.querySelector(`#prop-row-${prop}`) as HTMLElement;
-      if (row) {
-        row.style.background = isCorrect ? "#f0fdf4" : "#fef2f2";
-        row.style.border = isCorrect
-          ? "2px solid #16a34a"
-          : "2px solid #dc2626";
+      const parentRow = target.parentElement!;
+      const isCorrect = item.tableInfo[prop] === val;
+
+      parentRow.querySelectorAll(".guess-btn").forEach((b) => {
+        (b as HTMLButtonElement).disabled = true;
+        b.classList.remove("btn-success", "btn-danger");
+        b.classList.add("btn-secondary");
+      });
+
+      if (prop === "verpakking") {
+        const feedbackDiv = document.querySelector(
+          "#verpakking-immediate-feedback",
+        )!;
+        feedbackDiv.innerHTML = `
+          <div style="font-size: 0.95rem; font-weight: 600; color: ${isCorrect ? "#166534" : "#991b1b"}; margin-top: 0.5rem;">
+            ${isCorrect ? "✅ Correct! Dit 'is' " + (item.tableInfo["verpakking"] ? "wel" : "geen") + " verpakking." : "❌ Helaas, dit 'is' " + (item.tableInfo["verpakking"] ? "wel" : "geen") + " verpakking."}
+          </div>
+        `;
+
+        const box = document.querySelector("#verpakking-box") as HTMLElement;
+        if (box) {
+          box.style.background = isCorrect ? "#f0fdf4" : "#fef2f2";
+          box.style.border = isCorrect
+            ? "2px solid #16a34a"
+            : "2px solid #dc2626";
+          box.classList.add(isCorrect ? "anim-correct" : "anim-incorrect");
+        }
+
+        const otherContainer = document.querySelector(
+          "#other-properties-container",
+        ) as HTMLElement;
+        const nextBtn = document.querySelector("#next-btn") as HTMLElement;
+        const showAnswersBtn = document.querySelector(
+          "#show-answers-btn",
+        ) as HTMLElement;
+        const catalogBtn = document.querySelector(
+          "#catalog-btn",
+        ) as HTMLElement;
+        if (otherContainer) otherContainer.style.display = "flex";
+        if (nextBtn) nextBtn.style.display = "inline-flex";
+        if (showAnswersBtn) showAnswersBtn.style.display = "inline-flex";
+        if (catalogBtn) catalogBtn.style.display = "inline-flex";
+      } else {
+        const row = document.querySelector(`#prop-row-${prop}`) as HTMLElement;
+        if (row) {
+          row.style.background = isCorrect ? "#f0fdf4" : "#fef2f2";
+          row.style.border = isCorrect
+            ? "2px solid #16a34a"
+            : "2px solid #dc2626";
+          row.classList.add(isCorrect ? "anim-correct" : "anim-incorrect");
+        }
       }
 
-      const parentGroup = target.parentElement!;
-      parentGroup.querySelectorAll("button").forEach((b) => {
-        const bEl = b as HTMLButtonElement;
-        bEl.disabled = true;
-        bEl.classList.remove("btn-success", "btn-danger", "btn-secondary");
-        const bVal = bEl.getAttribute("data-val") === "true";
-        if (bVal === correctVal) {
-          bEl.classList.add("btn-correct-answer");
-        } else if (bEl === target) {
-          bEl.classList.add(isCorrect ? "btn-success" : "btn-danger");
-        } else {
-          bEl.classList.add("btn-secondary");
-        }
-      });
+      if (val) {
+        target.classList.remove("btn-secondary");
+        target.classList.add(isCorrect ? "btn-success" : "btn-danger");
+      } else {
+        target.classList.remove("btn-secondary");
+        target.classList.add(isCorrect ? "btn-success" : "btn-danger");
+      }
     });
   });
 
@@ -429,14 +417,13 @@ function renderQuestion() {
         row.style.background = "#f8fafc";
         row.style.border = "2px solid #e2e8f0";
         row.querySelectorAll(".guess-btn").forEach((b) => {
-          const btnEl = b as HTMLButtonElement;
-          btnEl.disabled = true;
-          btnEl.classList.remove("btn-success", "btn-danger", "btn-secondary");
-          const bVal = btnEl.getAttribute("data-val") === "true";
+          (b as HTMLButtonElement).disabled = true;
+          b.classList.remove("btn-success", "btn-danger");
+          const bVal = b.getAttribute("data-val") === "true";
           if (bVal === correctVal) {
-            btnEl.classList.add("btn-correct-answer");
+            b.classList.add("btn-correct-answer");
           } else {
-            btnEl.classList.add("btn-secondary");
+            b.classList.add("btn-secondary");
           }
         });
       }
