@@ -230,7 +230,7 @@ async function startQuiz() {
   (async () => {
     for (let i = 1; i < quizQuestions.length; i++) {
       const item = quizQuestions[i];
-      const rawImg = item.localImageUrl || item.imageUrl;
+      const rawImg = item.localImageUrl;
       if (rawImg) {
         const imgSrc = rawImg.startsWith("/")
           ? `${import.meta.env.BASE_URL}${rawImg.slice(1)}`
