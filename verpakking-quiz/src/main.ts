@@ -22,6 +22,8 @@ let bonusCorrect = 0;
 let bonusIncorrect = 0;
 let quizQuestions: CatalogItem[] = [];
 let userGuesses: Record<string, boolean> = {};
+let isLoading = true;
+let loadError = false;
 
 const app = document.querySelector<HTMLDivElement>("#app")!;
 
@@ -41,19 +43,43 @@ const tableProperties = [
 ];
 
 async function loadData() {
-  renderWelcomeLoading();
   try {
     const res = await fetch(`${import.meta.env.BASE_URL}verpakkingen.json`);
     items = await res.json();
-    renderWelcomeReady();
+    isLoading = false;
   } catch {
-    app.innerHTML = `
-      <div class="card">
-        <h2>Fout bij het laden</h2>
-        <p>Kon de verpakkingscatalogus niet laden. Zorg ervoor dat <code>verpakkingen.json</code> aanwezig is.</p>
-      </div>
-    `;
+    loadError = true;
+    isLoading = false;
   }
+}
+
+async function handleStart() {
+  if (loadError) {
+    app.innerHTML = `
+      <header style="cursor: pointer;" id="header-home">
+        <h1>${logoSvg}Verpakkingsquiz</h1>
+        <p>ONTDEK DE WAARHEID, BREEK HET VERPAKKINGSCARTEL</p>
+      </header>
+      <main>
+        <div class="card">
+          <h2>Fout bij het laden</h2>
+          <p>Kon de verpakkingscatalogus niet laden. Zorg ervoor dat <code>verpakkingen.json</code> aanwezig is.</p>
+        </div>
+      </main>
+    `;
+    document.querySelector("#header-home")?.addEventListener("click", () => {
+      renderWelcomeReady();
+      loadData();
+    });
+    return;
+  }
+  if (isLoading) {
+    renderWelcomeLoading();
+    while (isLoading) {
+      await new Promise((r) => setTimeout(r, 50));
+    }
+  }
+  startQuiz();
 }
 
 function renderWelcomeLoading() {
@@ -90,10 +116,11 @@ function renderWelcomeReady() {
     </main>
   `;
 
-  document
-    .querySelector("#header-home")
-    ?.addEventListener("click", renderWelcomeReady);
-  document.querySelector("#start-btn")?.addEventListener("click", startQuiz);
+  document.querySelector("#header-home")?.addEventListener("click", () => {
+    renderWelcomeReady();
+    loadData();
+  });
+  document.querySelector("#start-btn")?.addEventListener("click", handleStart);
 }
 
 function startQuiz() {
@@ -400,4 +427,5 @@ function renderResults() {
     ?.addEventListener("click", renderWelcomeReady);
 }
 
+renderWelcomeReady();
 loadData();
