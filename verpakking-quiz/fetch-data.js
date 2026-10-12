@@ -57,7 +57,34 @@ async function fetchCatalog() {
     const item = rawItems[i];
     const fullUrl = `https://www.verpact.nl${item.url}`;
     try {
-      await page.goto(fullUrl, { waitUntil: "networkidle", timeout: 20000 });
+      await page.goto(fullUrl, {
+        waitUntil: "domcontentloaded",
+        timeout: 20000,
+      });
+      await page.waitForSelector("h1", { timeout: 10000 });
+
+      const h1Text = await page
+        .locator("h1")
+        .textContent()
+        .catch(() => "");
+      if (
+        h1Text &&
+        (h1Text.includes("geen toegang") ||
+          h1Text.includes("403") ||
+          h1Text.includes("Niet gevonden"))
+      ) {
+        console.log(`Skipping restricted or missing page: ${fullUrl}`);
+        continue;
+      }
+
+      await page
+        .waitForSelector("img[src*='/sites/default/files/']", {
+          timeout: 5000,
+        })
+        .catch(() => {});
+      await page
+        .waitForSelector(".NodeProduct__information__item", { timeout: 5000 })
+        .catch(() => {});
 
       const scraped = await page.evaluate((currentUrl) => {
         const titleEl = document.querySelector("h1");
@@ -71,9 +98,7 @@ async function fetchCatalog() {
           "img[src*='/sites/default/files/']",
         );
         let imgUrl = imgEl ? imgEl.src : "";
-        if (currentUrl.includes("hoeklatten")) {
-          imgUrl = decodeURIComponent(imgUrl);
-        }
+        imgUrl = decodeURIComponent(imgUrl);
 
         const bodyEl = document.querySelector("main") || document.body;
 
@@ -133,6 +158,20 @@ async function fetchCatalog() {
         const infoRows = bodyEl.querySelectorAll(
           ".NodeProduct__information__item",
         );
+
+        if (!titleEl || !titleEl.innerText.trim()) {
+          throw new Error("Missing product title (h1)");
+        }
+        if (!imgEl || !imgEl.src) {
+          throw new Error("Missing product image");
+        }
+        if (materials.length === 0) {
+          throw new Error("Missing product materials");
+        }
+        if (infoRows.length === 0) {
+          throw new Error("Missing product information rows");
+        }
+
         infoRows.forEach((row) => {
           const divs = row.querySelectorAll("div");
           if (divs.length >= 2) {
@@ -172,29 +211,66 @@ async function fetchCatalog() {
         };
       }, fullUrl);
 
-      let cleanDesc = (scraped.description || item.title).replace(
-        /\.([A-Z])/g,
-        ". $1",
-      );
+      let cleanDesc = scraped.description.replace(/\.([A-Z])/g, ". $1");
+
+      if (!item.id) {
+        throw new Error(`Missing product id for ${fullUrl}`);
+      }
+      if (item.nid === undefined || item.nid === null) {
+        throw new Error(`Missing product nid for ${fullUrl}`);
+      }
+      if (!scraped.title) {
+        throw new Error(`Missing scraped title for ${fullUrl}`);
+      }
+      if (!scraped.imageUrl) {
+        throw new Error(`Missing scraped imageUrl for ${fullUrl}`);
+      }
 
       let localImageUrl = "";
-      if (scraped.imageUrl) {
-        const extMatch = scraped.imageUrl.match(
-          /\.(jpg|jpeg|png|webp|svg)(\?.*)?$/i,
-        );
-        const ext = extMatch ? extMatch[1] : "jpg";
-        const filename = `${item.id.replace(/[:\/]/g, "_")}.${ext}`;
-        const destPath = path.join(imgDir, filename);
-        const success = await downloadImage(scraped.imageUrl, destPath);
-        if (success) {
-          localImageUrl = `/images/${filename}`;
+      const extMatch = scraped.imageUrl.match(
+        /\.(jpg|jpeg|png|webp|svg)(\?.*)?$/i,
+      );
+      const ext = extMatch ? extMatch[1] : "jpg";
+      const filename = `${item.id.replace(/[:\/]/g, "_")}.${ext}`;
+      const destPath = path.join(imgDir, filename);
+      const success = await downloadImage(scraped.imageUrl, destPath);
+      if (!success) {
+        throw new Error(`Failed to download local image for ${fullUrl}`);
+      }
+      localImageUrl = `/images/${filename}`;
+
+      if (!Array.isArray(scraped.materials) || scraped.materials.length === 0) {
+        throw new Error(`Missing materials for ${fullUrl}`);
+      }
+      if (!scraped.tableInfo || typeof scraped.tableInfo !== "object") {
+        throw new Error(`Missing tableInfo for ${fullUrl}`);
+      }
+
+      const requiredTableKeys = [
+        "verpakking",
+        "bijdrageplichtig",
+        "verkooppuntverpakking",
+        "potetieleMeermaligeVerpakking",
+        "logistiekHulpmiddel",
+        "verpaktProduct",
+        "exoot",
+      ];
+      for (const k of requiredTableKeys) {
+        if (typeof scraped.tableInfo[k] !== "boolean") {
+          throw new Error(
+            `Missing or invalid tableInfo property '${k}' for ${fullUrl}`,
+          );
         }
+      }
+
+      if (!item.url) {
+        throw new Error(`Missing url for ${fullUrl}`);
       }
 
       catalogItems.push({
         id: item.id,
         nid: item.nid,
-        title: scraped.title || item.title,
+        title: scraped.title,
         subtitle: scraped.subtitle || "",
         imageUrl: scraped.imageUrl,
         localImageUrl: localImageUrl,
@@ -212,28 +288,8 @@ async function fetchCatalog() {
 
       await new Promise((r) => setTimeout(r, 300));
     } catch (err) {
-      console.log(`Failed to scrape ${fullUrl}:`, err.message);
-      catalogItems.push({
-        id: item.id,
-        nid: item.nid,
-        title: item.title,
-        subtitle: "",
-        imageUrl: "",
-        localImageUrl: "",
-        description: item.title,
-        materials: [],
-        tableInfo: {
-          verpakking: false,
-          bijdrageplichtig: false,
-          verkooppuntverpakking: false,
-          potetieleMeermaligeVerpakking: false,
-          logistiekHulpmiddel: false,
-          verpaktProduct: false,
-          exoot: false,
-        },
-        url: `https://www.verpact.nl${item.url}`,
-      });
-      await new Promise((r) => setTimeout(r, 300));
+      console.error(`Failed to scrape ${fullUrl}:`, err.message);
+      throw err;
     }
   }
 
