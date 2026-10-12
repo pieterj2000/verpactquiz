@@ -415,7 +415,6 @@ function renderQuestion() {
         return;
       }
       const correctVal = item.tableInfo[prop.key] === true;
-      userGuesses[prop.key] = correctVal;
 
       const row = document.querySelector(
         `#prop-row-${prop.key}`,
