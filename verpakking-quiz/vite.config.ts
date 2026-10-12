@@ -13,16 +13,16 @@ export default defineConfig({
       includePublic: true,
       logStats: true,
       png: {
-        quality: 80,
+        quality: 100,
       },
       jpeg: {
-        quality: 80,
+        quality: 100,
       },
       jpg: {
-        quality: 80,
+        quality: 100,
       },
       webp: {
-        quality: 80,
+        quality: 100,
       },
     }),
   ],
