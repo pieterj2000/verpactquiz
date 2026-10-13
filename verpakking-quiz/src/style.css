@@ -123,6 +123,16 @@ main {
   background: #15803d;
 }
 
+.quiz-container {
+  padding: 1rem 2.5rem 2.5rem;
+}
+
+@media (width <= 600px) {
+  .quiz-container {
+    padding: 1rem 1.25rem 1.5rem;
+  }
+}
+
 .quiz-container h2 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
