@@ -66,6 +66,12 @@ main {
   margin-bottom: 2rem;
 }
 
+@media (width <= 600px) {
+  .card {
+    padding: 1.25rem;
+  }
+}
+
 .btn {
   background: var(--primary-color);
   color: #fff;

@@ -270,7 +270,7 @@ function renderQuestion() {
       <p>${zinnen["Subtitle"]}</p>
     </header>
     <main style="max-width: 1250px; width: 100%; margin: 2rem auto; padding: 0 1rem;">
-      <div class="card quiz-container" style="max-width: 100%; padding: 1rem 2.5rem 2.5rem;">
+      <div class="card quiz-container" style="max-width: 100%;">
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.4rem; font-size: 0.9rem; font-weight: 600; color: var(--text-muted);">
           <span>Product ${currentQuestionIndex + 1} van ${quizQuestions.length}</span>
           <span>${Math.round(progress)}% voltooid</span>
@@ -287,7 +287,7 @@ function renderQuestion() {
           </h2>
         </div>
 
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(390px, 1fr)); gap: 2rem; align-items: start;">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 390px), 1fr)); gap: 2rem; align-items: start;">
           
           <!-- LINKER KOLOM: Afbeelding, omschrijving, materialen -->
           <div style="display: flex; flex-direction: column; gap: 1rem;">
